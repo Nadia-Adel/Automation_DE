@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <!-- 
+  build no. 10.2.0 (2898303) build No. that the scripts run for the first time
+   <test name="new login scenarios CYCC stubs ">
+   
+    
+   * Pre-req
+         -change the stubs to be automation-cycc before running
+         -comment other suites to run the current suite 
+         -build number is :don't change the installed build
+   
+   
+    <classes>
+      <class name="newLoginScenarios.CYCCScenarios_Stubs.TC034_Stubs_CYCC_FailDataRequestAndStartSessionWith401"/>
+      <class name="newLoginScenarios.CYCCScenarios_Stubs.TC035_CYCC_FaildIndexResponseWithErrorCode404Or500Or510"/>
+      <class name="newLoginScenarios.CYCCScenarios_Stubs.TC033_Stubs_CYCC_FailStartSessionWith500And510And504"/>
+      <class name="newLoginScenarios.CYCCScenarios_Stubs.TC039_CYCC_FaildSubscriberDetailsResponseWithErrorCode404Or500Or510"/>
+      <class name="newLoginScenarios.CYCCScenarios_Stubs.TC056_FailSubscriberDotDoRequest401_CYCC"/>
+      <class name="newLoginScenarios.CYCCScenarios_Stubs.TC040_CYCC_FaildSubscriberDetailsResponseWithErrorCode401"/>
+      <class name="newLoginScenarios.CYCCScenarios_Stubs.TC036_Stubs_CYCC_FailIndexAndStartSessionWith401Or402Or403"/>
+    </classes>
+  </test> 
+  -->
+  
+  <test name="new login scenarios DSL stubs">
+   <!-- 
+   * Pre-req
+         -change the stubs to be automation-test before running
+         -comment other suites to run the current suite 
+         -build number is :don't change the installed build
+   -->
+    <classes>
+      
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC006_Stubs_DSL_PermissionScreen_FailFCIDENTWith401"/> 
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC032_Stubs_DSL_FailHashingWith401"/>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC005_Stubs_DSL_PermissionScreen_FailFCIDENTWith500And510And504And404"/> 
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC030_Stubs_DSL_FailDataRequestWith401"/>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC028_Stubs_DSL_FailStartSessionWith403And402And401"/>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC031_Stubs_DSL_FailHashingResponseWith500And510And504"/>
+      
+      <!-- <class name="newLoginScenarios.DSLScenarios_Stubs.TC053_FailBilledUsageRequest401_DSL"/>  -->
+      
+      
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC027_Stubs_DSL_FailStartSessionWith500And510And504"/>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC029_Stubs_DSL_FailDataRequestWith500And504And510And404"/> 
+      
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- 
+  <test name="new login postpaid scenarios stubs ">
+  
+  
+   * Pre-req
+         -change the stubs to be automation-test before running
+         -comment other suites to run the current suite 
+         -build number is :don't change the installed build
+   
+    <classes>
+      <class name="newLoginScenarios.PostPaidScenarios_Stubs.TC039_Postpaid_FaildSubscriberDetailsResponseWithErrorCode404Or500Or510"/>
+      <class name="newLoginScenarios.PostPaidScenarios_Stubs.TC001_Postpaid_PermissionsScreen_ErrorHandling_FailFCAPIGET"/>
+      <class name="newLoginScenarios.PostPaidScenarios_Stubs.TC036_Stubs_Postpaid_FailIndexAndStartSessionWith401Or402Or403"/>
+      <class name="newLoginScenarios.PostPaidScenarios_Stubs.TC033_Stubs_Postpaid_FailStartSessionWith500And510And504"/>
+      <class name="newLoginScenarios.PostPaidScenarios_Stubs.TC054_FailSubscriberDetailsRequest401_Postpaid"/>
+      <class name="newLoginScenarios.PostPaidScenarios_Stubs.TC002_Postpaid_PermissionsScreen_ErrorHandling_FailFCAPIGET_401"/>
+      <class name="newLoginScenarios.PostPaidScenarios_Stubs.TC040_Postpaid_FaildSubscriberDetailsResponseWithErrorCode401"/>
+      <class name="newLoginScenarios.PostPaidScenarios_Stubs.TC034_Stubs_Postpaid_FailDataRequestAndStartSessionWith401"/>
+      <class name="newLoginScenarios.PostPaidScenarios_Stubs.TC035_Postpaid_FaildIndexResponseWithErrorCode404Or500Or510"/>
+    </classes>
+  </test> 
+
+   -->
+  
+   <!-- 
+   there is no UCM stubs to 
+   please create it 
+ with the name automation-ucm 
+   -->
+   <!--  
+   <test name="new login scenarios ucm stubs">
+    <classes>
+      <class name="newLoginScenarios.UCMScenarios_Stubs.TC033_Stubs_UCM_FailStartSessionWith510"/>
+      <class name="newLoginScenarios.UCMScenarios_Stubs.TC035_UCM_FaildIndexResponseWithErrorCode404Or500Or511"/>
+      <class name="newLoginScenarios.UCMScenarios_Stubs.TC038_UCM_FaildTariffPlanGetResponseWithErrorCode401"/>
+      <class name="newLoginScenarios.UCMScenarios_Stubs.TC055_FailSubscriberDetailsRequest401_UCM"/>
+      <class name="newLoginScenarios.UCMScenarios_Stubs.TC039_UCM_FaildSubscriberDetailsResponseWithErrorCode404Or500Or510"/>
+      <class name="newLoginScenarios.UCMScenarios_Stubs.TC037_UCM_FaildTariffPlanGetResponseWithErrorCode404Or500Or510"/>
+      <class name="newLoginScenarios.UCMScenarios_Stubs.TC040_UCM_FaildSubscriberDetailsResponseWithErrorCode401"/>
+      <class name="newLoginScenarios.UCMScenarios_Stubs.TC036_Stubs_UCM_FailIndexAndStartSessionWith401Or402Or403"/>
+      <class name="newLoginScenarios.UCMScenarios_Stubs.TC034_Stubs_UCM_FailDataRequestAndStartSessionWith401"/>
+    </classes>
+  </test>
+   -->
+   
+</suite> <!-- Suite --> 

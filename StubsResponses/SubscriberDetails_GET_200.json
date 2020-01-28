@@ -1,0 +1,199 @@
+var mintCookie = req.cookies['mint-sso-token'];
+
+var user = _.find(state.users, {
+    'mintSessionId': mintCookie,
+});
+
+if (user === undefined) {
+    res.status(200);
+    return res.json({
+        "faultMessage": {
+            "code": "NIL00V201",
+            "text": "A Validation error occurred in Service Usage - Unbilled Usage Object",
+            "detailedText": null,
+            "severity": "E",
+            "type": "ValidationError",
+            "original": {
+                "VAL00001": {
+                    "text": "Invalid subscription-id, it does not match the valid MSISDN format",
+                    "key": "subscription-id"
+                },
+                "VAL00006": {
+                    "text": "Invalid market-code, only MMC market or MMO market allowed",
+                    "key": "market-code"
+                }
+            }
+        }
+    });
+} else if (user.loginState === 'no') {
+    return res.send(200, 'user logged out');
+} else {
+
+
+    var indexArray;
+    for (var i = 0; i < state.msisdnsArray.length; i++) {
+        if (user.mintSessionId === state.msisdnsArray[i]) {
+            indexArray = i;
+        }
+    }
+
+    res.type('application/json');
+    // return res.send(401, 'user logged out');
+    res.status(200);
+
+    switch (indexArray) {
+        case 0:
+            // need migration + bigbang
+            return res.json({
+                "subscriptionVBO": {
+                    "accountId": "103681111",
+                    "type": "mobile",
+                    "subscriptions": [{
+                        "details": {
+                            "msisdn": user.msisdn,
+                            "marketCode": "MMC",
+                            "subType": "TN"
+                        },
+                        "services": {
+                            "authorisationServicesList": [
+                                "Cloud",
+                                "canDoEJM",
+                                "EJM"
+                            ],
+                            "socList": [
+                                "VF_RCROW",
+                                "VFGROUP",
+                                "RED_CLD_1",
+                                "REDPLDATV",
+                                "NO_LIMEU",
+                                "MOBTVPROM",
+                                "JOYN_OPEN",
+                                "DSGMEMBER",
+                                "DEEZMARK",
+                                "MAILBOX",
+                                "BBREDPLUS",
+                                "MULTISIM2",
+                                "LBBCHAT",
+                                "canDoEJM",
+                                "MRKBEGSAP",
+                                "APPVOLCRE",
+                                "DEEZMARK"
+                            ],
+                            "hasHappyFamilySoc": false,
+                            "hasCloudSoc": true,
+                            "hasWalletSoc": false,
+                            "hasAddressBook": false,
+                            "hasZuhauseProduct": false,
+                            "hasSSNConsumerSoc": false,
+                            "hasSSNEnterpriseSoc": false,
+                            "isSharingGroupOwner": false,
+                            "isSharingGroupMember": false,
+                            "hasUltraCard": false
+                        }
+                    }]
+                }
+            });
+            break;
+
+        case 1:
+            // migrated + bigbang
+            return res.json({
+                "subscriptionVBO": {
+                    "accountId": "103681111",
+                    "type": "mobile",
+                    "subscriptions": [{
+                        "details": {
+                            "msisdn": user.msisdn,
+                            "marketCode": "MMC",
+                            "subType": "TN"
+                        },
+                        "services": {
+                            "authorisationServicesList": [
+                                "Cloud",
+                                "canDoEJM",
+                                "EJM"
+                            ],
+                            "socList": [
+                                "VF_RCROW",
+                                "VFGROUP",
+                                "RED_CLD_1",
+                                "REDPLDATV",
+                                "NO_LIMEU",
+                                "MOBTVPROM",
+                                "JOYN_OPEN",
+                                "DSGMEMBER",
+                                "DEEZMARK",
+                                "MAILBOX",
+                                "BBREDPLUS",
+                                "MULTISIM2",
+                                "REDQOS1",
+                                "PYPCHAT",
+                                "CCSMARK",
+                                "APPVOLCRE"
+                            ],
+                            "hasHappyFamilySoc": false,
+                            "hasCloudSoc": true,
+                            "hasWalletSoc": false,
+                            "hasAddressBook": false,
+                            "hasZuhauseProduct": false,
+                            "hasSSNConsumerSoc": false,
+                            "hasSSNEnterpriseSoc": false,
+                            "isSharingGroupOwner": false,
+                            "isSharingGroupMember": false,
+                            "hasUltraCard": false
+                        }
+                    }]
+                }
+            });
+            break;
+
+        case 2:
+            return res.json({
+                "subscriptionVBO": {
+                    "accountId": "103681111",
+                    "type": "mobile",
+                    "subscriptions": [{
+                        "details": {
+                            "msisdn": user.msisdn,
+                            "marketCode": "MMC",
+                            "subType": "TN"
+                        },
+                        "services": {
+                            "authorisationServicesList": [
+                                "BigBang",
+                                "Cloud",
+                                "canDoEJM",
+                                "EJM"
+                            ],
+                            "socList": [
+                                "VF_RCROW",
+                                "VFGROUP",
+                                "RED_CLD_1",
+                                "REDPLDATV",
+                                "NO_LIMEU",
+                                "MOBTVPROM",
+                                "JOYN_OPEN",
+                                "DSGMEMBER",
+                                "DEEZMARK",
+                                "MAILBOX",
+                                "BBREDPLUS",
+                                "REDQOS1",
+                                "CCSMARK"
+                            ],
+                            "hasHappyFamilySoc": false,
+                            "hasCloudSoc": true,
+                            "hasWalletSoc": false,
+                            "hasAddressBook": false,
+                            "hasZuhauseProduct": false,
+                            "hasSSNConsumerSoc": false,
+                            "hasSSNEnterpriseSoc": false,
+                            "isSharingGroupOwner": false,
+                            "isSharingGroupMember": false,
+                            "hasUltraCard": false
+                        }
+                    }]
+                }
+            });
+            break;
+    }
+}

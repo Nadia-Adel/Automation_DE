@@ -1,0 +1,27 @@
+// Check the request, make sure it is a compatible type
+if (!req.is('application/json')) {
+    return res.send(200, 'Invalid content type, expected application/json');
+}
+
+// Set the type of response, sets the content type.
+res.type('application/json');
+
+// Set the status code of the response.
+res.status(500);
+
+// Send the response body.
+res.json({
+    "hashedIds": [{
+            "hash": "ef4d71960af139c2b7a917353b72e242ad46d7c961e3f5bbafe0bdfceead2641",
+            "type": "mobile"
+        }, {
+            "id": "432051461",
+            "hash": "ebb259cf99144a6728d8853054d053521a17a8d155d7805c3d018b8540c92c3c",
+            "type": "cable"
+        }, {
+            "id": "001946673441",
+            "hash": "dcfabac2780757a25c951e9718ae12c3e5f4e88740dc2f813ff6aa9b36d452fa",
+            "type": "fixednet"
+        }]
+        
+});

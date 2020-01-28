@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Push Notification Suite]">
+  <test name="DSL Push Notification">
+    <classes>
+      <class name="pushNotificationTescasesDSL.TC011_pushNotification_BillNewMappingDeeplink_DSL"/>
+      <class name="pushNotificationTescasesDSL.TC008_pushNotification_BillDeeplink_DSL"/>
+      <class name="pushNotificationTescasesDSL.TC014_pushNotification_TariffNewMapping_DSL_Postpaid"/>
+      <class name="pushNotificationTescasesDSL.TC001_pushNotification_Home_DSL"/>
+      <class name="pushNotificationTescasesDSL.TC013_pushNotification_MeinTariffNewMapping_DSL_Postpaid"/>
+      <class name="pushNotificationTescasesDSL.TC002_pushNotification_Tariff_DSL"/>
+      <class name="pushNotificationTescasesDSL.TC004_pushNotification_shopFinder_DSL"/>
+      <class name="pushNotificationTescasesDSL.TC005_pushNotification_FAQ_DSL"/>
+      <class name="pushNotificationTescasesDSL.TC007_pushNotification_InvalidForumsDeeplink_DSL"/>
+      <class name="pushNotificationTescasesDSL.TC009_pushNotification_DataDeeplink_DSL"/>
+      <class name="pushNotificationTescasesDSL.TC003_pushNotification_SpeedTest_DSL"/>
+      <class name="pushNotificationTescasesDSL.TC012_pushNotification_DataNewMappingDeeplink_DSL_Postpaid"/>
+      <class name="pushNotificationTescasesDSL.TC010_pushNotification_OrderDeeplink_DSL"/>
+    </classes>
+  </test> <!-- DSL Push Notification -->
+  <test name="DSL Push Notification(failed)">
+    <classes>
+      <class name="pushNotificationTescasesDSL.TC014_pushNotification_TariffNewMapping_DSL_Postpaid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC014_pushNotification_TariffNewMapping_DSL_Postpaid -->
+      <class name="pushNotificationTescasesDSL.TC010_pushNotification_OrderDeeplink_DSL">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC010_pushNotification_OrderDeeplink_DSL -->
+      <class name="pushNotificationTescasesDSL.TC008_pushNotification_BillDeeplink_DSL">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC008_pushNotification_BillDeeplink_DSL -->
+      <class name="pushNotificationTescasesDSL.TC009_pushNotification_DataDeeplink_DSL">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC009_pushNotification_DataDeeplink_DSL -->
+      <class name="pushNotificationTescasesDSL.TC007_pushNotification_InvalidForumsDeeplink_DSL">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC007_pushNotification_InvalidForumsDeeplink_DSL -->
+      <class name="pushNotificationTescasesDSL.TC012_pushNotification_DataNewMappingDeeplink_DSL_Postpaid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC012_pushNotification_DataNewMappingDeeplink_DSL_Postpaid -->
+      <class name="pushNotificationTescasesDSL.TC013_pushNotification_MeinTariffNewMapping_DSL_Postpaid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC013_pushNotification_MeinTariffNewMapping_DSL_Postpaid -->
+      <class name="pushNotificationTescasesDSL.TC003_pushNotification_SpeedTest_DSL">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC003_pushNotification_SpeedTest_DSL -->
+      <class name="pushNotificationTescasesDSL.TC004_pushNotification_shopFinder_DSL">
+        <methods>
+          <include name="Step7_ValidateTheShopfinderPage_AfterKillingTheApp"/>
+          <include name="Step5_ValidateTheShopfinderPage_Backround"/>
+          <include name="tearDown"/>
+          <include name="Step3_ValidateTheShopfinderPage_FrontGround"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC004_pushNotification_shopFinder_DSL -->
+      <class name="pushNotificationTescasesDSL.TC001_pushNotification_Home_DSL">
+        <methods>
+          <include name="Step6_HandlePushNotificationFromFrontgound_AfterKillingTheApp"/>
+          <include name="tearDown"/>
+          <include name="Step2_HandlePushNotificationFromFrontgound"/>
+          <include name="Step1_dslLogin"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC001_pushNotification_Home_DSL -->
+      <class name="pushNotificationTescasesDSL.TC005_pushNotification_FAQ_DSL">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC005_pushNotification_FAQ_DSL -->
+      <class name="pushNotificationTescasesDSL.TC011_pushNotification_BillNewMappingDeeplink_DSL">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC011_pushNotification_BillNewMappingDeeplink_DSL -->
+      <class name="pushNotificationTescasesDSL.TC002_pushNotification_Tariff_DSL">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTescasesDSL.TC002_pushNotification_Tariff_DSL -->
+    </classes>
+  </test> <!-- DSL Push Notification(failed) -->
+</suite> <!-- Failed suite [Push Notification Suite] -->

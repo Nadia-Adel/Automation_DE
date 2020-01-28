@@ -1,0 +1,47 @@
+// Check the request, make sure it is a compatible type
+if (!req.is('application/json')) {
+    return res.send(400, 'Invalid content type, expected application/json');
+}
+
+// Set the type of response, sets the content type.
+res.type('application/json');
+
+// Set the status code of the response.
+res.status(404);
+
+// Send the response body.
+res.json({
+    "userAccountVBO": {
+        "authLevel": "WEB",
+        "onlineUser": {
+            "mintUserID": 16618844,
+            "onlineUserID": 90625761,
+            "userName": "account.dev",
+            "title": "Herr",
+            "firstName": "Stefan",
+            "lastName": "Lambert",
+            "lastLoginDate": "2020-01-05T00:00:00+01:00",
+            "primaryEmail": "ysf.ysr@gmail.com",
+            "emailValidationStatus": "c",
+            "isFirstLogin": false,
+            "permissionFlag": true
+        },
+        "activeContractFixednet": {
+            "id": 46673441
+        },
+
+        "fixednet": [{
+            "mboId": 46673441,
+            "mboName": "DSL-Testkunde0WebFactory",
+            "partyRoleId": 86998250,
+            "acn": "001946673441",
+            "uoi": "10010005572049",
+            "subType": "DSL",
+            "role": "SubscriptionAdmin",
+            "access": "DSLSubaccountSubscription",
+            "status": "effective",
+            "registrationDate": "2018-04-11",
+            "isActiveContract": true
+        }]
+    }
+});

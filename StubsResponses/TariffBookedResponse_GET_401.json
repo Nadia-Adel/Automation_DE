@@ -1,0 +1,155 @@
+var index = -1;
+var msisdn = req.params.msisdn;
+for (var i = 0; i < state.msisdnsArray.length; i++) {
+    if (msisdn == state.msisdnsArray[i]) {
+        index = i;
+    }
+}
+
+if (index == -1) {
+    return res.send(401, 'user not defined');
+} else {
+    res.type('application/json');
+    res.status(401);
+
+    switch (index) {
+        case 0: //Matrix User
+
+            return res.json({
+                "subscriptionVBO": [{
+                    "subscriptions": [{
+                        "details": {
+                            "msisdn": msisdn,
+                            "marketCode": "MMO",
+                            "status": "A"
+                        },
+                        "contractDetails": {
+                            "startDate": "2016-11-04",
+                            "endDate": "2019-04-10"
+                        },
+                        "customerProduct": {
+                            "tariffDetails": {
+                                "name": "CallYa Flex11111",
+                                "code": "1322959947",
+                                "offerInstCode": "1010002030",
+                                "description": "CallYa Flex saraaa",
+                                "type": "tarif type",
+                                "recurringOffer": true,
+                                "trialOffer": false,
+                                "cycleValue": "28",
+                                "cycleUnit": "day",
+                                "status": "active",
+                                "price": "0.00",
+                                "unitOfMeasure": "EUR",
+                                "primaryOfferId": "11023456",
+                                "vlux": {
+                                    "long_description": "This would be the Long description of the tariff behind 1322959947 This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947This would be the Long description of the tariff behind 1322959947",
+                                    "short_description": "A short descr of 1322959947",
+                                    "kias_code": "DKRB5LN60",
+                                    "codeType": "UCMTARIFF",
+                                    "infoURL": "https://www.vodafone.de/the/path/to/the/tariff/info/page",
+                                    "name": "CallYa Flex2221234567891012345678910"
+                                },
+                                "characteristicsValue": [{
+                                    "code": "90000000002083",
+                                    "type": "Voice",
+                                    "value": "100",
+                                    "unitOfMeasure": "Minuten",
+                                    "vlux": {
+                                        "kias_code": "90000000002083",
+                                        "short_description": "Some short description for 90000000002083",
+                                        "Long_desccription": "some longer description for 90000000002083",
+                                        "name": "The name of 90000000002083",
+                                        "codeType": "UCMINCLEXTRA",
+                                        "infoURL": "https://www.vodafone.de/the/URL/for/this/included/extra",
+                                        "unitOfMeasure": "Minuten",
+                                        "infoIcon": "https://www.vodafone.de/the/URL/of/where/the/icon/is/located"
+                                    }
+                                }, {
+                                    "code": "90000000002084",
+                                    "type": "SMS",
+                                    "value": "100",
+                                    "unitOfMeasure": "One",
+                                    "vlux": {
+                                        "kias_code": "90000000002084",
+                                        "short_description": "Some short description for 90000000002084",
+                                        "Long_desccription": "some longer description for 90000000002084",
+                                        "name": "The name of 90000000002084",
+                                        "codeType": "UCMINCLEXTRA",
+                                        "infoURL": "https://www.vodafone.de/the/URL/for/this/included/extra",
+                                        "unitOfMeasure": "SMS",
+                                        "infoIcon": "https://www.vodafone.de/the/URL/of/where/the/icon/is/located"
+                                    }
+                                }]
+                            },
+                            "futureTariff": {
+                                "name": "CallYa Flex sarass",
+                                "code": "1322959947",
+                                "offerInstCode": "1010002030",
+                                "description": "CallYa Flex",
+                                "type": "",
+                                "recurringOffer": true,
+                                "trialOffer": false,
+                                "cycleValue": "28",
+                                "cycleUnit": "day",
+                                "status": "active",
+                                "price": "0.00",
+                                "unitOfMeasure": "EUR",
+                                "primaryOfferId": "11023456",
+                                "vlux": {
+                                    "long_description": "This would be the Long description of the tariff behind 1322959947",
+                                    "short_description": "A short descr of 1322959947",
+                                    "kias_code": 1322959947,
+                                    "codeType": "UCMTARIFF",
+                                    "infoURL": "https://www.vodafone.de/the/path/to/the/tariff/info/page",
+                                    "name": "CallYa Flex4441234567891012345678910"
+                                },
+                                "characteristicsValue": [{
+                                    "code": "90000000002083",
+                                    "type": "Voice",
+                                    "value": "100",
+                                    "unitOfMeasure": "Minuten",
+                                    "vlux": {
+                                        "kias_code": "90000000002083",
+                                        "short_description": "Some short description for 90000000002083",
+                                        "Long_desccription": "some longer description for 90000000002083",
+                                        "name": "The name of 90000000002083",
+                                        "codeType": "UCMINCLEXTRA",
+                                        "infoURL": "https://www.vodafone.de/the/URL/for/this/included/extra",
+                                        "unitOfMeasure": "Minuten",
+                                        "infoIcon": "https://www.vodafone.de/the/URL/of/where/the/icon/is/located"
+                                    }
+                                }, {
+                                    "code": "90000000002084",
+                                    "type": "SMS",
+                                    "value": "100",
+                                    "unitOfMeasure": "One",
+                                    "vlux": {
+                                        "kias_code": "90000000002084",
+                                        "short_description": "Some short description for 90000000002084",
+                                        "Long_desccription": "some longer description for 90000000002084",
+                                        "name": "The name of 90000000002084",
+                                        "codeType": "UCMINCLEXTRA",
+                                        "infoURL": "https://www.vodafone.de/the/URL/for/this/included/extra",
+                                        "unitOfMeasure": "SMS",
+                                        "infoIcon": "https://www.vodafone.de/the/URL/of/where/the/icon/is/located"
+                                    }
+                                }]
+                            }
+                        }
+                    }]
+                }]
+            });
+            break;
+
+        case 1: //DIY User
+            return res.send(400, 'legacy user is not supported in this flow');
+            break;
+        case 2: //Legacy User
+            return res.send(400, 'legacy user is not supported in this flow');
+            break;
+        case 3: //Postpaid User
+            return res.send(400, 'postpaid user is not supported in this flow');
+            break;
+    }
+}

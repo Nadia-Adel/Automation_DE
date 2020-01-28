@@ -1,0 +1,177 @@
+//get session id from cookie in order to identify user.
+var mintCookie = req.cookies['mint-sso-token'];
+
+var user = _.find(state.users, {
+    'mintSessionId': mintCookie,
+});
+
+if (user === undefined) {
+    return res.send(401, 'user not defined');
+} else if (user.loginState === 'no') {
+    return res.send(401, 'user logged out');
+} else {
+
+
+    var indexArray;
+    for (var i = 0; i < state.msisdnsArray.length; i++) {
+        if (user.mintSessionId === state.msisdnsArray[i]) {
+            indexArray = i;
+        }
+    }
+
+    res.type('application/json');
+    res.status(401);
+
+    switch (indexArray) {
+
+        case 0:
+
+            return res.json(200, {
+                "version": "6",
+                "givenName": "Franz",
+                "surName": "Richter",
+                "ban": 111102108,
+                "msisdn": user.msisdn,
+                "marketCode": "MMC",
+                "hasOnlineBill": true,
+                "hasJLPromoSoc": false,
+                "customerPasswordNeeded": false,
+                "vfplan": "RB5SN6000",
+                // "vfplan": "YOU2MH30", /// yolo vfplan
+                "accounttype": "I",
+                "vfagreementref": "0",
+                "vfmmodatagroupid": "0",
+                "vfmmodatagroupname": "My Family",
+                "dataGroupOwnerMsisdn": "",
+                "msisdnsInDataGroup": "",
+                "hasPersonalAgent": false,
+                "ldapSocs": [
+                    "SNSUB",
+                    "PPECONT01",
+                    "JOYN_OPEN",
+                    "YOU2DATS",
+                    "VF_DASRP",
+                    "PYPSOCIAL",
+                    "MBOXANSP",
+                    "ELIGMULTI",
+                    "DASROW1D",
+                    "LTE225",
+                    "CCSMARK20",
+                    "VFGROUP",
+                    "SO_BARASB",
+                    "PASSFUP",
+                    "VOLTE",
+                    "RFLYEUUS3",
+                    "YO2FLASMS",
+                    "APPVOLCRE",
+                    "MRKBEGSAP"
+                ]
+            });
+
+            // res.send(200);
+
+            // return res.json({
+            //     "version": "2",
+            //     "error": true,
+            //     "errorCode": "423",
+            //     "errorText": " Sie haben diese Tarifoption bereits gebucht."
+
+            // });
+
+
+            break;
+
+
+
+        case 1:
+
+            return res.json(200, {
+                "version": "6",
+                "givenName": ".",
+                "surName": "DO",
+                "ban": 106012735,
+                "msisdn": user.msisdn,
+                "marketCode": "MMC",
+                "hasOnlineBill": true,
+                "hasJLPromoSoc": false,
+                "customerPasswordNeeded": true,
+                "vfplan": "RB5SN60",
+                "accounttype": "CYCC",
+                "vfagreementref": "400222",
+                "vfmmodatagroupid": "0",
+                "vfmmodatagroupname": "My Family",
+                "dataGroupOwnerMsisdn": "",
+                "msisdnsInDataGroup": "",
+                "hasPersonalAgent": false,
+                "ldapSocs": [
+                    "RBDS",
+                    "NO_LIMEU",
+                    "24MCR15EU",
+                    "VF_WDATA",
+                    "MAILBOX",
+                    "LTEDEF",
+                    "RETDEP03",
+                    "BUSDATAUP"
+                ]
+            });
+            break;
+        case 2:
+            return res.json(200, {
+                "version": "6",
+                "givenName": "sara",
+                "surName": "bardo 2",
+                "ban": 106012735,
+                "msisdn": user.msisdn,
+                "marketCode": "MMO",
+                "hasOnlineBill": true,
+                "hasJLPromoSoc": false,
+                "customerPasswordNeeded": true,
+                "vfplan": "RBMN60",
+                "accounttype": "UCM",
+                "vfagreementref": "400222",
+                "vfmmodatagroupid": "0",
+                "vfmmodatagroupname": "My Family",
+                "dataGroupOwnerMsisdn": user.msisdn,
+                "msisdnsInDataGroup": "",
+                "hasPersonalAgent": false,
+                "ldapSocs": [
+                    "RBM", "NO_LIMEU", "VF_WDATA", "YMRRVSOS", "VF_BUSROB", "MBOXANSP", "MAILBOX", "LTEDEF", "MOBTVPROM"
+                ]
+            });
+            break;
+        case 1:
+
+            return res.json(200, {
+                "version": "6",
+                "givenName": ".",
+                "surName": "DO",
+                "ban": 106012735,
+                "msisdn": user.msisdn,
+                "marketCode": "MMC",
+                "hasOnlineBill": true,
+                "hasJLPromoSoc": false,
+                "customerPasswordNeeded": true,
+                "vfplan": "RB5SN60",
+                "accounttype": "fixednet",
+                "vfagreementref": "400222",
+                "vfmmodatagroupid": "0",
+                "vfmmodatagroupname": "My Family",
+                "dataGroupOwnerMsisdn": "",
+                "msisdnsInDataGroup": "",
+                "hasPersonalAgent": false,
+                "ldapSocs": [
+                    "RBDS",
+                    "NO_LIMEU",
+                    "24MCR15EU",
+                    "VF_WDATA",
+                    "MAILBOX",
+                    "LTEDEF",
+                    "RETDEP03",
+                    "BUSDATAUP"
+                ]
+            });
+
+
+    }
+
+}

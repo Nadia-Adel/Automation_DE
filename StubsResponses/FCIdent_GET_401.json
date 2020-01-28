@@ -1,0 +1,16 @@
+// Check the request, make sure it is a compatible type
+if (!req.is('application/json')) {
+    return res.send(400, 'Invalid content type, expected application/json');
+}
+res.header("Set-Cookie", "umdid=4RzitWHbMrcviZ4+Q4kurA==;Max-Age=7776000; Expires=Sat, 03 Feb 2018 11:39:49 GMT; Path=/; secure");
+
+// Set the type of response, sets the content type.
+res.type('application/json');
+
+// Set the status code of the response.
+res.status(401);
+
+// Send the response body.
+res.json({
+
+});

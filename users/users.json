@@ -1,0 +1,43 @@
+{
+	"UCMPrepaidUser": {
+		"username": "015224016655",
+		"password": "vodafone15",
+		"userUDID": "bea7cb9b-c53b-4cb8-95c0-22976afddbb2"
+	},
+	"PostpaidUser": {
+		"username": "015256439574",
+		"password": "automation14",
+		"userUDID": "57fb6917-cb94-4207-a312-df26293616e6"
+	},
+	"DSLUser": {
+		"username": "DSL-Testkunde2WebFactory",
+		"password": "DSLTestkunde2WebFactory",
+		"userUDID": "8c1e1d7e-dcd2-4fae-ace4-1a62c7810678"
+	},
+		"DSLUser1": {
+		"username": "DSL-Testkunde1 WebFactory",
+		"password": "DSLTestkunde1WebFactory",
+		"userUDID": "8c1e1d7e-dcd2-4fae-ace4-1a62c7810678"
+	},
+	"PostpaidUser_Stubs": {
+		"username": "01624112222",
+		"password": "test",
+		"userUDID": "57fb6917-cb94-4207-a312-df26293616e6"
+	},
+	"CYCCUser_Stubs": {
+		"username": "01624114444",
+		"password": "test",
+		"userUDID": "57fb6917-cb94-4207-a312-df26293616e6"
+	},
+	"UCMUser_Stubs": {
+		"username": "01624112222",
+		"password": "test",
+		"userUDID": "57fb6917-cb94-4207-a312-df26293616e6"
+	},
+	"DSLUser_Stubs": {
+		"username": "DSL-Testkunde0WebFactory",
+		"password": "DSLTestkunde0WebFactory",
+		"userUDID": "601bba71-5671-497c-ba1d-9e202877cc6e"
+	}
+	
+}

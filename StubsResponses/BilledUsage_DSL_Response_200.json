@@ -1,0 +1,70 @@
+// Check the request, make sure it is a compatible type
+if (!req.is('application/json')) {
+    return res.send(400, 'Invalid content type, expected application/json');
+}
+
+// Set the type of response, sets the content type.
+res.type('application/json');
+
+// Set the status code of the response.
+res.status(200);
+
+// Send the response body.
+res.json({
+    "invoiceVBO": [{
+        "details": {
+            "accountId": "000024001504",
+            "type": "fixednet",
+            "balanceAmount": "133.20",
+            "unitOfMeasure": "EUR"
+        },
+        "channels": {
+            "onlineBillSent": true
+        },
+        "payments": {
+            "payment": [{
+                "billNumber": "1234578689767543",
+                "billCycle": {
+                    "startDate": "2015-01-01",
+                    "endDate": "2015-02-01",
+                    "billDate": "2015-01-01"
+                },
+                "due": {
+                    "amount": "50",
+                    "unitOfMeasure": "EUR",
+                    "date": "2015-01-01"
+                },
+                "artifact": {
+                    "onlineBillAvailable": true,
+                    "id": "23423423423433434",
+                    "type": "Invoice",
+                    "format": "PDF",
+                    "description": "Invoice Document",
+                    "source": "SAP",
+                    "creationTime": "2015-01-16T19:07:10.432+01:00"
+                }
+            }, {
+                "billNumber": "1234578689767544",
+                "billCycle": {
+                    "startDate": "2014-12-01",
+                    "endDate": "2015-01-01",
+                    "billDate": "2014-12-01"
+                },
+                "due": {
+                    "amount": "49.99",
+                    "unitOfMeasure": "EUR",
+                    "date": "2014-12-14"
+                },
+                "artifact": {
+                    "onlineBillAvailable": true,
+                    "id": "2342342342343343434",
+                    "type": "Invoice",
+                    "format": "PDF",
+                    "description": "Invoice Document",
+                    "source": "SAP",
+                    "creationTime": "2014-12-01T19:07:10.432+01:00"
+                }
+            }]
+        }
+    }]
+});

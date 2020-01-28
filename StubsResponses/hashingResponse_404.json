@@ -1,0 +1,16 @@
+// Check the request, make sure it is a compatible type
+if (!req.is('application/json')) {
+    return res.send(400, 'Invalid content type, expected application/json');
+}
+
+// Set the type of response, sets the content type.
+res.type('application/json');
+
+// Set the status code of the response.
+res.status(404);
+
+// Send the response body.
+res.json({
+    "input": "001944206561",
+    "hash": "ebb259cf99144a6728d8853054d053521a17a8d155d7805c3d018b8540c92c3c"
+});

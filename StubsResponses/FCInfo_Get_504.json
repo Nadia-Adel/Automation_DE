@@ -1,0 +1,30 @@
+// Set the type of response, sets the content type.
+res.type('application/json');
+res.header("Set-Cookie", "smc=4RzitWHbMrcviZ4+Q4kurA==;Max-Age=7776000; Expires=Sat, 03 Feb 2018 11:39:49 GMT; Path=/; secure");
+// Set the status code of the response.
+res.status(504);
+// res.json({
+//     "status": "cookie"
+res.json({
+
+    "umid": "601bba71-5671-497c-ba1d-9e202877cc6e",
+    "state": 1,
+    "permissions": {
+        "LI-OM": false,
+        "LI-NBA": false,
+        "LI-OPT": false
+    },
+
+    "notificationStatus": {
+        "LI-NBA": false,
+        "LI-OM": false,
+        "LI-OPT": false
+    },
+    "attributes": {
+        "Test_Prio_Campcode_2": "Test_Prio_Cellcode_2",
+        "Test_Prio_Campcode_3": "Test_Prio_Cellcode_3",
+        "EBU_0213": "01_WEB_I_XX0000_XX_E",
+        "Test_Prio_Campcode_1": "Test_Prio_Cellcode_1"
+    }
+
+});

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="new login scenarios DSL stubs">
+    <classes>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC006_Stubs_DSL_PermissionScreen_FailFCIDENTWith401"/>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC031_Stubs_DSL_FailHashingResponseWith500And510And504"/>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC032_Stubs_DSL_FailHashingWith401"/>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC005_Stubs_DSL_PermissionScreen_FailFCIDENTWith500And510And504And404"/>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC030_Stubs_DSL_FailDataRequestWith401"/>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC028_Stubs_DSL_FailStartSessionWith403And402And401"/>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC027_Stubs_DSL_FailStartSessionWith500And510And504"/>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC029_Stubs_DSL_FailDataRequestWith500And504And510And404"/>
+    </classes>
+  </test> <!-- new login scenarios DSL stubs -->
+  <test name="new login scenarios DSL stubs(failed)">
+    <classes>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC032_Stubs_DSL_FailHashingWith401">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- newLoginScenarios.DSLScenarios_Stubs.TC032_Stubs_DSL_FailHashingWith401 -->
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC027_Stubs_DSL_FailStartSessionWith500And510And504">
+        <methods>
+          <include name="Step12_SetStartSessionWith200AndValidateGDBR"/>
+          <include name="tearDown"/>
+          <include name="Step10_FailStartSessionWithErrorCode510"/>
+          <include name="Step8_SetStartSessionWith200AndValidateGDBR"/>
+          <include name="Step11_ValidteBlockingScreen"/>
+          <include name="Step9_LaunchTheAppAndOpenDSLTab"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- newLoginScenarios.DSLScenarios_Stubs.TC027_Stubs_DSL_FailStartSessionWith500And510And504 -->
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC005_Stubs_DSL_PermissionScreen_FailFCIDENTWith500And510And504And404">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- newLoginScenarios.DSLScenarios_Stubs.TC005_Stubs_DSL_PermissionScreen_FailFCIDENTWith500And510And504And404 -->
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC029_Stubs_DSL_FailDataRequestWith500And504And510And404">
+        <methods>
+          <include name="Step11_ValidteBlockingScreen"/>
+          <include name="Step15_ValidteBlockingScreen"/>
+          <include name="Step13_LaunchTheAppAndOpenDSLTab"/>
+          <include name="tearDown"/>
+          <include name="Step16_SetUserDataWith200AndValidateGDBR"/>
+          <include name="Step10_FailUserDataWithErrorCode510"/>
+          <include name="baseTest"/>
+          <include name="Step12_SetUserDataWith200AndValidateGDBR"/>
+          <include name="Step14_FailUserDataWithErrorCode404"/>
+        </methods>
+      </class> <!-- newLoginScenarios.DSLScenarios_Stubs.TC029_Stubs_DSL_FailDataRequestWith500And504And510And404 -->
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC031_Stubs_DSL_FailHashingResponseWith500And510And504">
+        <methods>
+          <include name="Step14_FailHashingResponseWithErrorCode404"/>
+          <include name="Step7_ValidteBlockingScreen"/>
+          <include name="tearDown"/>
+          <include name="Step15_ValidteBlockingScreen"/>
+          <include name="Step10_FailHashingResponseWithErrorCode510"/>
+          <include name="Step13_LaunchTheAppAndOpenDSLTab"/>
+          <include name="Step6_FailHashingResponseWithErrorCode504"/>
+          <include name="Step11_ValidteBlockingScreen"/>
+          <include name="Step9_LaunchTheAppAndOpenDSLTab"/>
+          <include name="Step16_SetHashingResponseWith200AndValidateGDBR"/>
+          <include name="Step12_SetHashingResponseWith200AndValidateGDBR"/>
+          <include name="baseTest"/>
+          <include name="Step8_SetHashingResponseWith200AndValidateGDBR"/>
+        </methods>
+      </class> <!-- newLoginScenarios.DSLScenarios_Stubs.TC031_Stubs_DSL_FailHashingResponseWith500And510And504 -->
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC006_Stubs_DSL_PermissionScreen_FailFCIDENTWith401">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- newLoginScenarios.DSLScenarios_Stubs.TC006_Stubs_DSL_PermissionScreen_FailFCIDENTWith401 -->
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC030_Stubs_DSL_FailDataRequestWith401">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- newLoginScenarios.DSLScenarios_Stubs.TC030_Stubs_DSL_FailDataRequestWith401 -->
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC028_Stubs_DSL_FailStartSessionWith403And402And401">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- newLoginScenarios.DSLScenarios_Stubs.TC028_Stubs_DSL_FailStartSessionWith403And402And401 -->
+    </classes>
+  </test> <!-- new login scenarios DSL stubs(failed) -->
+</suite> <!-- Failed suite [Suite] -->
