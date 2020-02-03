@@ -1,0 +1,45 @@
+// Check the request, make sure it is a compatible type
+if (!req.is('application/json')) {
+    return res.send(400, 'Invalid content type, expected application/json');
+}
+
+// Set the type of response, sets the content type.
+res.type('application/json');
+
+// Set the status code of the response.
+res.status(200);
+
+// Send the response body.
+res.json({
+    "userAccountVBO": {
+        "authLevel": "WEB",
+        "onlineUser": {
+            "mintUserID": 16618844,
+            "onlineUserID": 90625761,
+            "userName": "account.dev",
+            "title": "Herr",
+            "firstName": "Stefan",
+            "lastName": "Lambert",
+            "lastLoginDate": "2020-01-05T00:00:00+01:00",
+            "primaryEmail": "ysf.ysr@gmail.com",
+            "emailValidationStatus": "c",
+            "isFirstLogin": false,
+            "permissionFlag": true
+        },
+        "activeContractFixednet": {
+            "id": 46673441
+        },
+        "cable": [{
+            "id": "432051461",
+            "isActiveContract": true,
+            "isDefaultContract": false,
+            "hasCableMail": false,
+            "subscription": [{
+                "id": "432051461",
+                "activatedDate": "1970-01-01",
+                "type": "TV",
+                "displayName": "Kabel TV"
+            }]
+        }]
+    }
+});

@@ -3,7 +3,33 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="servicesAndAPIs.Info_Post"/>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC005_Stubs_DSL_PermissionScreen_FailFCIDENTWith500And510And504And404"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="newLoginScenarios.DSLScenarios_Stubs.TC005_Stubs_DSL_PermissionScreen_FailFCIDENTWith500And510And504And404">
+        <methods>
+          <include name="Step3_ValidteBlockingScreen"/>
+          <include name="Step16_SetFCIDENTWith200AndValidateGDBR"/>
+          <include name="Step1_dslLogin"/>
+          <include name="Step9_LaunchTheAppAndOpenDSLTab"/>
+          <include name="Step15_ValidteBlockingScreen"/>
+          <include name="Step13_LaunchTheAppAndOpenDSLTab"/>
+          <include name="Step4_SetFCIDENTWith200AndValidateGDBR"/>
+          <include name="Step11_ValidteBlockingScreen"/>
+          <include name="Step8_SetFCIDENTWith200AndValidateGDBR"/>
+          <include name="Step2_FailFCIDENTWithErrorCode500"/>
+          <include name="Step12_SetFCIDENTWith200AndValidateGDBR"/>
+          <include name="Step5_LaunchTheAppAndOpenDSLTab"/>
+          <include name="Step14_FailFCIDENTWithErrorCode510"/>
+          <include name="Step10_FailFCIDENTWithErrorCode510"/>
+          <include name="Step6_FailFCIDENTWithErrorCode504"/>
+          <include name="Step7_ValidteBlockingScreen"/>
+          <include name="baseTest"/>
+          <include name="Step1_LaunchTheAppAndOpenDSLTab"/>
+        </methods>
+      </class> <!-- newLoginScenarios.DSLScenarios_Stubs.TC005_Stubs_DSL_PermissionScreen_FailFCIDENTWith500And510And504And404 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

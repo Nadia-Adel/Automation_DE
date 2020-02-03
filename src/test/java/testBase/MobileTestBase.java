@@ -9,6 +9,7 @@ import org.json.simple.parser.ParseException;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import externalDataFilesHandeller.CapabilitiesFileReader;
 import externalDataFilesHandeller.ConfigurationFileHandeller;
@@ -60,7 +61,7 @@ public class MobileTestBase {
 	}
 
 
-	//@Test
+	@Test
 	public void Step1_dslLogin() throws IOException, ParseException {
 
 		System.out.println("Step 1, user is logging in ......");
@@ -110,6 +111,6 @@ public class MobileTestBase {
 		Mobile_CommonActions_Set.killApp();
 	}
 
-
-
+////Users/medhatali/eclipse-workspace/MobileFramework/cms/cms
+	//Users/medhatali/Documents/MobileFramework/cms/cms
 }
