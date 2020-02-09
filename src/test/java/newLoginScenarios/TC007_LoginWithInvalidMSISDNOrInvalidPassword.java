@@ -21,6 +21,6 @@ public class TC007_LoginWithInvalidMSISDNOrInvalidPassword extends MobileTestBas
 		loginPageObject.validateNewLoginInvalidCredentials_Mobile("010022345631", "test1234");
 		
 		// enter correct credentials and complete login flow 
-		loginPageObject.mobileLogin_WithOnboarding(GetUserFromJson.getUsername("PostpaidUser"), GetUserFromJson.getpassword("PostpaidUser"));
+		loginPageObject.mobileLogin(GetUserFromJson.getUsername("PostpaidUser"), GetUserFromJson.getpassword("PostpaidUser"));
 	}
 }

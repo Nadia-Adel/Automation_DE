@@ -10,7 +10,7 @@ import externalDataFilesHandeller.UrbanAirshipAPIConfigHandeller;
 import externalDataFilesHandeller.UrbanAirshipAPI_NotificationBody_Handeller;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
-import ios_pages.PushedNotificationPagesValidator_Mobile;
+import ios_pages.DeeplinkPagesValidator_Mobile;
 import mobileUtilities.Mobile_CommonActions_Set;
 import testBase.GlobalDriver;
 import testBase.MobileTestBase;
@@ -37,7 +37,7 @@ public class TC29_FullScenarios_CheckPushNotificationInOnboardingScreen_Mobile e
 		notifcationMessage =UrbanAirshipAPI_NotificationBody_Handeller.getRequiredMessage("FAQ_DEEPLINK_NotificationMessage");
 
 		homePageObject = new HomePage(GlobalDriver.appium);
-		homePageObject.handlePushNotificationFromForntground(userUDID,platformName,deepLink,notifcationMessage);
+		homePageObject.handlePushNotificationFromForground(userUDID,platformName,deepLink,notifcationMessage);
 		
 		loginPageObject = new LoginPage(GlobalDriver.appium);
 		Mobile_CommonActions_Set.Click(loginPageObject.acceptGDBR);
@@ -50,8 +50,8 @@ public class TC29_FullScenarios_CheckPushNotificationInOnboardingScreen_Mobile e
 
 		System.out.println("Step 3, Validate FAQ Deeplink Action  ......");
 
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
-		pagesValidatorObject.validateFAQPage();
+		pagesValidatorObject_mobile = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject_mobile.validateFAQPage();
 		
 		
 		homePageObject = new HomePage(GlobalDriver.appium);

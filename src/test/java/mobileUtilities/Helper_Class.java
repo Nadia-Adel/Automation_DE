@@ -17,9 +17,7 @@ public class Helper_Class {
 		Mobile_CommonActions_Set.setExplicitWait(pageSubtitle, 30);
 
 		new MenuItemsPage(GlobalDriver.appium).clickBackBtn(); 
-		Mobile_CommonActions_Set.setExplicitWait( new MenuItemsPage(GlobalDriver.appium).switchToDSLBtn, 30);
-		
-		
+		Mobile_CommonActions_Set.setExplicitWait( new MenuItemsPage(GlobalDriver.appium).switchToDSLBtn, 30);	
 	}
 	
 	public static void validateDeeplinkAction_dsl(WebElement pageTitle, WebElement pageSubtitle) {
@@ -34,7 +32,6 @@ public class Helper_Class {
 		
 		
 	}
-	
 	
 	public static By toByVal(WebElement we) {
 		

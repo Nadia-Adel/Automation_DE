@@ -44,6 +44,16 @@
 		"username": "DSL-Testkunde0WebFactory",
 		"password": "1234",
 		"userUDID": "601bba71-5671-497c-ba1d-9e202877cc6e"
-	}
+	},
 	
+    "PostpaidUSer_Enojymore": {
+		"username": "01624114840",
+		"password": "testing14",
+		"userUDID": ""
+	},
+    "PostpaidUSer_NoEnojymore": {
+		"username": "01624116791",
+		"password": "testing14",
+		"userUDID": ""
+	}
 }

@@ -11,7 +11,7 @@ import externalDataFilesHandeller.UrbanAirshipAPIConfigHandeller;
 import externalDataFilesHandeller.UrbanAirshipAPI_NotificationBody_Handeller;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
-import ios_pages.PushedNotificationPagesValidator_DSL;
+import ios_pages.DeeplinkPagesValidator_DSL;
 import mobileUtilities.Mobile_CommonActions_Set;
 import testBase.GlobalDriver;
 import testBase.MobileTestBase;
@@ -19,7 +19,7 @@ import testBase.MobileTestBase;
 public class TC030_pushNotification_PermissionScreen_SpeedTest_DSL extends MobileTestBase {
 	
 	HomePage homepage = null;
-	PushedNotificationPagesValidator_DSL pagesValidatorObject = null;
+	DeeplinkPagesValidator_DSL pagesValidatorObject = null;
 	
 	
 	@Test(priority = 1)
@@ -45,7 +45,7 @@ public class TC030_pushNotification_PermissionScreen_SpeedTest_DSL extends Mobil
 		notifcationMessage = UrbanAirshipAPI_NotificationBody_Handeller.getRequiredMessage("Speedtest_DEEPLINK_NotificationMessage");
 
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromForntground(userUDID,platformName,deepLink,notifcationMessage);	
+		homepage.handlePushNotificationFromForground(userUDID,platformName,deepLink,notifcationMessage);	
 		Mobile_CommonActions_Set.waitPrsenceOfElement(By.id("Hallo,"), 5);
 		
 
@@ -56,7 +56,7 @@ public class TC030_pushNotification_PermissionScreen_SpeedTest_DSL extends Mobil
 
 		System.out.println("Step 3, validate speedtest page ......");
 
-		pagesValidatorObject = new PushedNotificationPagesValidator_DSL(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_DSL(GlobalDriver.appium);
 		
 		Mobile_CommonActions_Set.scrollDownTo(loginPageObject.acceptGDBR, 2000 , "native-ios");
 		System.out.println("permissionn weiter");
@@ -102,7 +102,7 @@ public class TC030_pushNotification_PermissionScreen_SpeedTest_DSL extends Mobil
 
 		System.out.println("Step 7, validate FAQ page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_DSL(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_DSL(GlobalDriver.appium);
 		
 		Mobile_CommonActions_Set.scrollDownTo(loginPageObject.acceptGDBR, 5000 , "native-ios");
 		Mobile_CommonActions_Set.Click(loginPageObject.acceptGDBR);

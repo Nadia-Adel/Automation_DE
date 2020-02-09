@@ -16,7 +16,7 @@ public class TC005_Stubs_Cable_PermissionScreen_FailFCIDENTWith500And510And504An
 
 
 	@Test(priority = 1)
-	public void Step1_LaunchTheAppAndOpenDSLTab() throws IOException, ParseException {
+	public void Step1_LaunchTheAppAndOpenCableTab() throws IOException, ParseException {
 
 		System.out.println("Step1");
 		loginPageObject = new LoginPage(GlobalDriver.appium);
@@ -24,7 +24,7 @@ public class TC005_Stubs_Cable_PermissionScreen_FailFCIDENTWith500And510And504An
 	}
 	
 	@Test(priority = 2)
-	public void Step2_SetUserDataWith200() throws InterruptedException, IOException {
+	public void Step2_SetUserDataToBeCableUser() throws InterruptedException, IOException {
 
 		System.out.println("Step2");
 		resFilePath=SandboxConfigReader.getProberty("userData_Cable_Response_200_path");
@@ -74,7 +74,7 @@ public class TC005_Stubs_Cable_PermissionScreen_FailFCIDENTWith500And510And504An
 	}
 
 	@Test(priority = 6)
-	public void Step6_LaunchTheAppAndOpenDSLTab() throws IOException, ParseException {
+	public void Step6_LaunchTheAppAndOpenCableTab() throws IOException, ParseException {
 		System.out.println("Step6");
 		loginPageObject = new LoginPage(GlobalDriver.appium);
 		loginPageObject.EnterUserCredentials_DSL(GetUserFromJson.getUsername("CableUser_Stubs"), GetUserFromJson.getpassword("CableUser_Stubs"));
@@ -97,7 +97,9 @@ public class TC005_Stubs_Cable_PermissionScreen_FailFCIDENTWith500And510And504An
 
 	@Test(priority = 8)
 	public void Step8_ValidteBlockingScreen() {
+		
 		System.out.println("Step8");
+		
 		loginPageObject= new LoginPage(GlobalDriver.appium);
 		loginPageObject.validateLoginBlockingScreen();
 	}
@@ -118,7 +120,7 @@ public class TC005_Stubs_Cable_PermissionScreen_FailFCIDENTWith500And510And504An
 
 
 	@Test(priority = 10)
-	public void Step10_LaunchTheAppAndOpenDSLTab() throws IOException, ParseException {
+	public void Step10_LaunchTheAppAndOpenCableTab() throws IOException, ParseException {
 		System.out.println("Step10");
 		loginPageObject = new LoginPage(GlobalDriver.appium);
 		loginPageObject.EnterUserCredentials_DSL(GetUserFromJson.getUsername("CableUser_Stubs"), GetUserFromJson.getpassword("CableUser_Stubs"));
@@ -163,7 +165,7 @@ public class TC005_Stubs_Cable_PermissionScreen_FailFCIDENTWith500And510And504An
 	}
 	
 	@Test(priority = 14)
-	public void Step14_LaunchTheAppAndOpenDSLTab() throws IOException, ParseException {
+	public void Step14_LaunchTheAppAndOpenCableTab() throws IOException, ParseException {
 		System.out.println("Step14");
 		loginPageObject = new LoginPage(GlobalDriver.appium);
 		loginPageObject.EnterUserCredentials_DSL(GetUserFromJson.getUsername("CableUser_Stubs"), GetUserFromJson.getpassword("CableUser_Stubs"));

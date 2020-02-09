@@ -15,18 +15,31 @@ import testBase.MobileTestBase;
 public class TC030_Stubs_DSL_FailDataRequestWith401 extends MobileTestBase {
 
 	@Test(priority = 1)
-	public void Step1_LaunchTheAppAndOpenDSLTab() throws IOException, ParseException {
+	public void Step1_SetUserDataToBeDSLUser() throws InterruptedException, IOException {
 
 		System.out.println("Step1");
+		resFilePath=SandboxConfigReader.getProberty("userData_FixedNet_Response_200_path");
+		apiURL=SandboxConfigReader.getProberty("UserDataResponse_URL");
+		stubsName=SandboxConfigReader.getProberty("automationStubs_Cable");
+		
+		textAreaXPath = "/html/body/div[2]/div[2]/div/div[4]/div/div[1]/div/div/div[2]/div/div[42]/div[2]/form/div/div[2]/div[2]/textarea";
+		setStatusCode(resFilePath, apiURL, stubsName,textAreaXPath);
+		
+	}
+	
+	@Test(priority = 2)
+	public void Step2_LaunchTheAppAndOpenDSLTab() throws IOException, ParseException {
+
+		System.out.println("Step2");
 		loginPageObject = new LoginPage(GlobalDriver.appium);
 		loginPageObject.EnterUserCredentials_DSL(GetUserFromJson.getUsername("DSLUser_Stubs"), GetUserFromJson.getpassword("DSLUser_Stubs"));
 
 	}
 
-	@Test(priority = 2)
-	public void Step2_userDataResponseWithErrorCode401() throws InterruptedException, IOException {
+	@Test(priority = 3)
+	public void Step3_userDataResponseWithErrorCode401() throws InterruptedException, IOException {
 
-		System.out.println("Step2");
+		System.out.println("Step3");
 
 		resFilePath=SandboxConfigReader.getProberty("userData_FixedNet_Response_401_path");
 		apiURL=SandboxConfigReader.getProberty("UserDataResponse_URL");
@@ -39,15 +52,16 @@ public class TC030_Stubs_DSL_FailDataRequestWith401 extends MobileTestBase {
 
 	}
 
-	@Test(priority = 3)
-	public void Step3_ValidteBlockingScreen() {
-		System.out.println("Step3");
+	@Test(priority = 4)
+	public void Step4_ValidteBlockingScreen() {
+		System.out.println("Step4");
 		loginPageObject= new LoginPage(GlobalDriver.appium);
 		loginPageObject.validateLoginErrorPopup_error401_402_403();
 	}
 
-	@Test(priority = 4)
-	public void Step4_SetUserDataResponseWith200AndValidateGDBR() throws InterruptedException, IOException, ParseException {
+	@Test(priority = 5)
+	public void Step5_SetUserDataResponseWith200AndValidateGDBR() throws InterruptedException, IOException, ParseException {
+		System.out.println("Step5");
 		resFilePath=SandboxConfigReader.getProberty("userData_FixedNet_Response_200_path");
 		apiURL=SandboxConfigReader.getProberty("UserDataResponse_URL");
 		stubsName=SandboxConfigReader.getProberty("automationStubs_Cable");

@@ -25,7 +25,7 @@ public class TC01 extends MobileTestBase {
 
 		homePageObject.switchFromDSLToMobile();
 
-		loginPageObject.mobileLogin_WithOnboarding(GetUserFromJson.getUsername("PostpaidUser"), GetUserFromJson.getpassword("PostpaidUser"));
+		loginPageObject.mobileLogin(GetUserFromJson.getUsername("PostpaidUser"), GetUserFromJson.getpassword("PostpaidUser"));
 		homePageObject.mobileLogout();
 
 	}

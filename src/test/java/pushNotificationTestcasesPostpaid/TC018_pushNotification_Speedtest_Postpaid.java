@@ -11,7 +11,7 @@ import externalDataFilesHandeller.UrbanAirshipAPI_NotificationBody_Handeller;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
 import ios_pages.MenuItemsPage;
-import ios_pages.PushedNotificationPagesValidator_Mobile;
+import ios_pages.DeeplinkPagesValidator_Mobile;
 import testBase.GlobalDriver;
 import testBase.MobileTestBase;
 
@@ -24,11 +24,11 @@ public class TC018_pushNotification_Speedtest_Postpaid extends MobileTestBase {
 		System.out.println("Step 1, user is logging in ......");
 
 		LoginPage lgn = new LoginPage(GlobalDriver.appium);
-		lgn.mobileLogin_WithoutOnboarding(GetUserFromJson.getUsername("PostpaidUser"),GetUserFromJson.getpassword("PostpaidUser"));	
+		lgn.mobileLogin(GetUserFromJson.getUsername("PostpaidUser"),GetUserFromJson.getpassword("PostpaidUser"));	
 
-		menuObject = new MenuItemsPage(GlobalDriver.appium);
-		menuObject.clickMenuIcon();
-		menuObject.clickSettingsMenuItem();
+		//menuObject = new MenuItemsPage(GlobalDriver.appium);
+		//menuObject.clickMenuIcon();
+		//menuObject.clickSettingsMenuItem();
 	}
 
 	@Test(priority = 2)
@@ -42,7 +42,7 @@ public class TC018_pushNotification_Speedtest_Postpaid extends MobileTestBase {
 		notifcationMessage =UrbanAirshipAPI_NotificationBody_Handeller.getRequiredMessage("Speedtest_DEEPLINK_NotificationMessage");
 
 		homePageObject = new HomePage(GlobalDriver.appium);
-		homePageObject.handlePushNotificationFromForntground(userUDID,platformName,deepLink,notifcationMessage);	
+		homePageObject.handlePushNotificationFromForground(userUDID,platformName,deepLink,notifcationMessage);	
 
 	}
 
@@ -52,8 +52,8 @@ public class TC018_pushNotification_Speedtest_Postpaid extends MobileTestBase {
 		
 		System.out.println("Step 3, Validate Speedtest Deeplink Action  ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
-		pagesValidatorObject.validateSpeedtestDeeplinkAction();
+		pagesValidatorObject_mobile = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject_mobile.validateSpeedtestDeeplinkAction();
 	}
 
 	@Test(priority = 4)
@@ -71,8 +71,8 @@ public class TC018_pushNotification_Speedtest_Postpaid extends MobileTestBase {
 
 		System.out.println("Step 5, validate Speedtest Deeplink Action ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
-		pagesValidatorObject.validateSpeedtestDeeplinkAction();
+		pagesValidatorObject_mobile = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject_mobile.validateSpeedtestDeeplinkAction();
 		}
 
 	@Test(priority = 6)
@@ -81,7 +81,7 @@ public class TC018_pushNotification_Speedtest_Postpaid extends MobileTestBase {
 		System.out.println("Step 6, handle pushed notification after killing the app ......");
 		
 		homePageObject = new HomePage(GlobalDriver.appium);
-		homePageObject.handlePushNotificationFromBackground(userUDID,platformName,deepLink,notifcationMessage);
+		homePageObject.handlePushNotificationAfterKillingTheApp(userUDID,platformName,deepLink,notifcationMessage);
 	}
 		
 	@Test(priority = 7)
@@ -89,8 +89,8 @@ public class TC018_pushNotification_Speedtest_Postpaid extends MobileTestBase {
 		
 		System.out.println("Step 7, validate Speedtest Deeplink Action......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
-		pagesValidatorObject.validateSpeedtestDeeplinkAction();
+		pagesValidatorObject_mobile = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject_mobile.validateSpeedtestDeeplinkAction();
 	
 	}
 	

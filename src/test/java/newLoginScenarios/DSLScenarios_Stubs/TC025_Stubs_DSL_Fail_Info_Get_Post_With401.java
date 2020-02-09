@@ -15,23 +15,39 @@ import testBase.MobileTestBase;
 
 public class TC025_Stubs_DSL_Fail_Info_Get_Post_With401 extends MobileTestBase {
 
+	
 	@Test(priority = 1)
-	public void Step1_LaunchTheAppAndLoginWithDSLUser() throws IOException, ParseException, InterruptedException {
+	public void Step1_SetUserDataToBeDSLUser() throws InterruptedException, IOException {
 
 		System.out.println("Step1");
+		resFilePath=SandboxConfigReader.getProberty("userData_FixedNet_Response_200_path");
+		apiURL=SandboxConfigReader.getProberty("UserDataResponse_URL");
+		stubsName=SandboxConfigReader.getProberty("automationStubs_Cable");
+		
+		textAreaXPath = "/html/body/div[2]/div[2]/div/div[4]/div/div[1]/div/div/div[2]/div/div[42]/div[2]/form/div/div[2]/div[2]/textarea";
+		setStatusCode(resFilePath, apiURL, stubsName,textAreaXPath);
+		
+	}
+	
+	@Test(priority = 2)
+	public void Step2_LaunchTheAppAndLoginWithDSLUser() throws IOException, ParseException, InterruptedException {
+
+		System.out.println("Step2");
 		loginPageObject = new LoginPage(GlobalDriver.appium);
 		loginPageObject.EnterUserCredentials_DSL(GetUserFromJson.getUsername("DSLUser_Stubs"), GetUserFromJson.getpassword("DSLUser_Stubs"));
 		Mobile_CommonActions_Set.Click(loginPageObject.dslLoginBtn);
 		
 	}
+	
 
-	@Test(priority = 2)
-	public void Step2_FailFcInfoGetWithErrorCode401() throws InterruptedException, IOException {
+	@Test(priority = 3)
+	public void Step3_FailFcInfoGetWithErrorCode401() throws InterruptedException, IOException {
 		
-		System.out.println("Step2");
+		System.out.println("Step3");
 		resFilePath=SandboxConfigReader.getProberty("FCInfo_Get_401_path");
 		apiURL=SandboxConfigReader.getProberty("FCInfo_Get_URL");
 		stubsName=SandboxConfigReader.getProberty("automationStubs_Cable");
+		
 		textAreaXPath="/html/body/div[2]/div[2]/div/div[4]/div/div[1]/div/div/div[2]/div/div[87]/div[2]/form/div/div[2]/div[2]/textarea";
 		setStatusCode(resFilePath, apiURL, stubsName,textAreaXPath);
 		
@@ -39,9 +55,9 @@ public class TC025_Stubs_DSL_Fail_Info_Get_Post_With401 extends MobileTestBase {
 
 	}
 
-	@Test(priority = 3)
-	public void Step3_ValidteBlockingScreen() throws MalformedURLException {
-		System.out.println("Step3");
+	@Test(priority = 4)
+	public void Step4_ValidteBlockingScreen() throws MalformedURLException {
+		System.out.println("Step4");
 		//GlobalDriver.appium.launchApp();
 		GlobalDriver.appium.activateApp("com.tsse.meinvodafone");
 		//MobileTestBase LaunchApp= new MobileTestBase();
@@ -50,13 +66,14 @@ public class TC025_Stubs_DSL_Fail_Info_Get_Post_With401 extends MobileTestBase {
 		loginPageObject.validateLoginBlockingScreen();
 	}
 
-	@Test(priority = 4)
-	public void Step4_SetFCInfoGetWith200AndValidateGDBR() throws InterruptedException, IOException {
+	@Test(priority = 5)
+	public void Step5_SetFCInfoGetWith200AndValidateGDBR() throws InterruptedException, IOException {
 
-		System.out.println("Step4");
+		System.out.println("Step5");
 		resFilePath=SandboxConfigReader.getProberty("FCInfo_Get_200_path");
 		apiURL=SandboxConfigReader.getProberty("FCInfo_Get_URL");
 		stubsName=SandboxConfigReader.getProberty("automationStubs_Cable");
+		
 		textAreaXPath="/html/body/div[2]/div[2]/div/div[4]/div/div[1]/div/div/div[2]/div/div[87]/div[2]/form/div/div[2]/div[2]/textarea";
 		setStatusCode(resFilePath, apiURL, stubsName,textAreaXPath);
 		
@@ -64,13 +81,14 @@ public class TC025_Stubs_DSL_Fail_Info_Get_Post_With401 extends MobileTestBase {
 		loginPageObject.scrollGDBRAfterBlockingScreen();
 	}
 	
-	@Test(priority = 5)
-	public void Step5_FailFcInfoPostWithErrorCode401() throws InterruptedException, IOException {
+	@Test(priority = 6)
+	public void Step6_FailFcInfoPostWithErrorCode401() throws InterruptedException, IOException {
 		
-		System.out.println("Step5");
+		System.out.println("Step6");
 		resFilePath=SandboxConfigReader.getProberty("FCInfo_Post_401_path");
 		apiURL=SandboxConfigReader.getProberty("FCInfo_Post_URL");
 		stubsName=SandboxConfigReader.getProberty("automationStubs_Cable");
+		
 		textAreaXPath="/html/body/div[2]/div[2]/div/div[4]/div/div[1]/div/div/div[2]/div/div[88]/div[2]/form/div/div[2]/div[2]/textarea";
 		setStatusCodeMulltipleURLs(resFilePath, apiURL, stubsName,textAreaXPath);
 		
@@ -79,20 +97,21 @@ public class TC025_Stubs_DSL_Fail_Info_Get_Post_With401 extends MobileTestBase {
 
 	}
 	
-	@Test(priority = 6)
-	public void Step6_ValidteBlockingScreen() throws MalformedURLException {
+	@Test(priority = 7)
+	public void Step7_ValidteBlockingScreen() throws MalformedURLException {
 		
-		System.out.println("Step6");
+		System.out.println("Step7");
 		loginPageObject.validateLoginBlockingScreen();
 	}
 	
-	@Test(priority = 7)
-	public void Step7_SetFCInfoGetWith200AndValidateGDBR() throws InterruptedException, IOException {
+	@Test(priority = 8)
+	public void Step8_SetFCInfoPostWith200AndValidateGDBR() throws InterruptedException, IOException {
 
-		System.out.println("Step7");
+		System.out.println("Step8");
 		resFilePath=SandboxConfigReader.getProberty("FCInfo_Post_200_path");
 		apiURL=SandboxConfigReader.getProberty("FCInfo_Post_URL");
 		stubsName=SandboxConfigReader.getProberty("automationStubs_Cable");
+		
 		textAreaXPath="/html/body/div[2]/div[2]/div/div[4]/div/div[1]/div/div/div[2]/div/div[88]/div[2]/form/div/div[2]/div[2]/textarea";
 		setStatusCodeMulltipleURLs(resFilePath, apiURL, stubsName,textAreaXPath);
 		

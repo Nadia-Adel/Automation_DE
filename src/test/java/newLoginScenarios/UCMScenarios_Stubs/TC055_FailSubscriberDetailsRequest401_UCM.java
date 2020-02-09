@@ -18,7 +18,7 @@ public class TC055_FailSubscriberDetailsRequest401_UCM  extends MobileTestBase{
 	@Test(priority = 1)
 	public void Step1_dslLogin() throws IOException, ParseException {
 		loginPageObject = new LoginPage(GlobalDriver.appium);
-		loginPageObject.dslLogin_WithOnBoarding(GetUserFromJson.getUsername("UCMUser_Stubs"), GetUserFromJson.getpassword("UCMUser_Stubs"));	
+		loginPageObject.dslLogin(GetUserFromJson.getUsername("UCMUser_Stubs"), GetUserFromJson.getpassword("UCMUser_Stubs"));	
 	}
 	@Test(priority = 2)
 	public void Step2_FailSubscriberDetailsResponseWith401() throws IOException, ParseException, InterruptedException {

@@ -10,14 +10,14 @@ import externalDataFilesHandeller.UrbanAirshipAPIConfigHandeller;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
 import ios_pages.MenuItemsPage;
-import ios_pages.PushedNotificationPagesValidator_Mobile;
+import ios_pages.DeeplinkPagesValidator_Mobile;
 import testBase.GlobalDriver;
 import testBase.MobileTestBase;
 
 public class TC001_pushNotification_Forums_Postpaid extends MobileTestBase {
 	
 	HomePage homepage = null;
-	PushedNotificationPagesValidator_Mobile pagesValidatorObject = null;
+	DeeplinkPagesValidator_Mobile pagesValidatorObject = null;
 	
 	
 	@Test(priority = 1)
@@ -26,7 +26,7 @@ public class TC001_pushNotification_Forums_Postpaid extends MobileTestBase {
 		System.out.println("Step 1, user is logging in ......");
 		
 	    LoginPage lgn = new LoginPage(GlobalDriver.appium);
-	    lgn.mobileLogin_WithoutOnboarding(GetUserFromJson.getUsername("PostpaidUser"),GetUserFromJson.getpassword("PostpaidUser"));	
+	    lgn.mobileLogin(GetUserFromJson.getUsername("PostpaidUser"),GetUserFromJson.getpassword("PostpaidUser"));	
 		
 		MenuItemsPage menuObject = new MenuItemsPage(GlobalDriver.appium);
 		menuObject.clickMenuIcon();
@@ -47,7 +47,7 @@ public class TC001_pushNotification_Forums_Postpaid extends MobileTestBase {
 		
 		
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromForntground(userUDID, platformName ,deepLink, notifcationMessage);
+		homepage.handlePushNotificationFromForground(userUDID, platformName ,deepLink, notifcationMessage);
 
 	}
 
@@ -56,7 +56,7 @@ public class TC001_pushNotification_Forums_Postpaid extends MobileTestBase {
 
 		System.out.println("Step 3, validate forums page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateForumsPage();
 	}
 
@@ -65,7 +65,7 @@ public class TC001_pushNotification_Forums_Postpaid extends MobileTestBase {
 	
 		System.out.println("Step 4, handle pushed notification from the background ......");
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromForntground(userUDID, platformName ,deepLink, notifcationMessage);	
+		homepage.handlePushNotificationFromBackground(userUDID, platformName ,deepLink, notifcationMessage);	
 	}
 
 	@Test(priority = 5)
@@ -73,7 +73,7 @@ public class TC001_pushNotification_Forums_Postpaid extends MobileTestBase {
 
 		System.out.println("Step 5, validate forums page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateForumsPage();
 	}
 
@@ -84,13 +84,13 @@ public class TC001_pushNotification_Forums_Postpaid extends MobileTestBase {
 		System.out.println("Step 6, handle pushed notification after killing the app ......");
 		
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromForntground(userUDID, platformName ,deepLink, notifcationMessage);
+		homepage.handlePushNotificationAfterKillingTheApp(userUDID, platformName ,deepLink, notifcationMessage);
 	}
 
 	@Test(priority = 7)
 	public void Step7_ValidateTheForumsPage_AfterKillingTheApp() {
 		System.out.println("Step 7, validate forums page ......");
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateForumsPage();
 	
 	}

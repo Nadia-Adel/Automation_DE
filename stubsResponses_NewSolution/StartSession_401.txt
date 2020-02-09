@@ -1,0 +1,116 @@
+Sandbox.define('/mint/session/start', 'ALL', function(req, res){
+    var authMethod = req.body ? req.body.authMethod ? req.body.authMethod : "BAN" : "BAN";
+    var requestMsisdn = req.body ? req.body.username ? req.body.username : "491624112222" : "491624112222";
+    var credential = req.body ? req.body.credential ? req.body.credential : "sd" : "sd";
+    var clientType = req.body ? req.body.clientType ? req.body.clientType : "protal" : "portal";
+    //initial users of stubbs please logout with number before removing it from array.
+    var msisdnsArray = ['491624112222', '491624113333', '491624114444', 'DSL-Testkunde0WebFactory'];
+    state.msisdnsArray = msisdnsArray;
+    var users = state.users || [];
+    var isUserExist = true;
+    if (authMethod === "MSISDN") {
+        for (var i = 0; i < msisdnsArray.length; i++) {
+            if (requestMsisdn === msisdnsArray[i]) {
+                res.type('application/json');
+                res.status(401);
+                // Set user log in time.
+                res.header("Set-Cookie", "mint-sso-token=" + requestMsisdn + ";" + "path=/");
+                var user = _.find(state.users, {
+                    'mintSessionId': requestMsisdn
+                });
+                if (!user) {
+                    isUserExist = false;
+                }
+                user = _.merge(user, {
+                    'msisdn': requestMsisdn,
+                    'loginTime': new Date(),
+                    'loginState': 'yes',
+                    'mintSessionId': requestMsisdn
+                });
+                // to check if user exists
+                var oldUser = _.find(state.users, {
+                    'mintSessionId': requestMsisdn
+                });
+                if (!isUserExist) {
+                    state.users.push(user);
+                }
+                // Send the response body.
+                return res.json({
+                    "userId": 157,
+                    "msisdn": requestMsisdn,
+                    "authLevel": "MSISDN"
+                });
+                break;
+            }
+        }
+    } else if (clientType === "Portal") {
+    
+        for (var i = 0; i < msisdnsArray.length; i++) {
+            if (requestMsisdn === msisdnsArray[i]) {
+                res.type('application/json');
+                res.status(200);
+                // Set user log in time.
+                res.header("Set-Cookie", "mint-sso-token=" + requestMsisdn + ";" + "path=/");
+                res.header("Set-Cookie", "mint-session-id=" + requestMsisdn + ";" + "path=/")
+                var user = _.find(state.users, {
+                    'mintSessionId': requestMsisdn
+                });
+                if (!user) {
+                    isUserExist = false;
+                }
+                user = _.merge(user, {
+                    'msisdn': requestMsisdn,
+                    'loginTime': new Date(),
+                    'loginState': 'yes',
+                    'mintSessionId': requestMsisdn
+                });
+                // to check if user exists
+                var oldUser = _.find(state.users, {
+                    'mintSessionId': requestMsisdn
+                });
+                if (!isUserExist) {
+                    state.users.push(user);
+                }
+                // Send the response body.
+                res.header("Set-Cookie", "iPlanetDirectoryPro=" + 1111 + ";" + "path=/");
+                return res.json({
+                    "userId": 9465170,
+                    "authLevel": "WEB"
+                });
+                break;
+            }
+        }
+        res.type('application/json');
+        res.status(200);
+        return res.json({
+            "userId": 9465170,
+            "authLevel": "WEB"
+        });
+    
+    } else {
+        if (req.body) {
+    
+            //customer password case BAN
+            res.type('application/json');
+            res.status(200);
+            var dd = {
+                "userId": 157,
+                "msisdn": requestMsisdn,
+                "authLevel": "BAN"
+            };
+            return res.json(dd);
+    
+        } else {
+            // renew session request
+            res.type('application/json');
+            res.status(200);
+            var dd = {
+                "userId": 157
+            };
+            res.header("Set-Cookie", "mint-sso-token=" + requestMsisdn + ";" + "path=/");
+            return res.json(dd);
+    
+        }
+    }
+    //return res.send(401, 'invalid login');
+})

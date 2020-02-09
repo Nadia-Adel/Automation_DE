@@ -11,14 +11,14 @@ import externalDataFilesHandeller.UrbanAirshipAPI_NotificationBody_Handeller;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
 import ios_pages.MenuItemsPage;
-import ios_pages.PushedNotificationPagesValidator_Mobile;
+import ios_pages.DeeplinkPagesValidator_Mobile;
 import testBase.GlobalDriver;
 import testBase.MobileTestBase;
 
 public class TC011_pushNotification_Home_Postpaid extends MobileTestBase {
 	
 	HomePage homepage = null;
-	PushedNotificationPagesValidator_Mobile pagesValidatorObject = null;
+	DeeplinkPagesValidator_Mobile pagesValidatorObject = null;
 	
 	@Test(priority = 1)
 	public void Step1_mobileLogin() throws IOException, ParseException {
@@ -26,11 +26,11 @@ public class TC011_pushNotification_Home_Postpaid extends MobileTestBase {
 		System.out.println("Step 1, user is logging in ......");
 		
 	    LoginPage lgn = new LoginPage(GlobalDriver.appium);
-	    lgn.mobileLogin_WithoutOnboarding(GetUserFromJson.getUsername("PostpaidUser"),GetUserFromJson.getpassword("PostpaidUser"));	
+	    lgn.mobileLogin(GetUserFromJson.getUsername("PostpaidUser"),GetUserFromJson.getpassword("PostpaidUser"));	
 		
-		MenuItemsPage menuObject = new MenuItemsPage(GlobalDriver.appium);
-		menuObject.clickMenuIcon();
-		menuObject.clickSettingsMenuItem();
+		//MenuItemsPage menuObject = new MenuItemsPage(GlobalDriver.appium);
+		//menuObject.clickMenuIcon();
+		//menuObject.clickSettingsMenuItem();
 	}
 	
 	@Test(priority = 2)
@@ -43,7 +43,7 @@ public class TC011_pushNotification_Home_Postpaid extends MobileTestBase {
 		System.out.println("Step 2, handle pushed notification from the app ......");
 		
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromForntground(userUDID,platformName,deepLink,notifcationMessage);	
+		homepage.handlePushNotificationFromForground(userUDID,platformName,deepLink,notifcationMessage);	
 
 	}
 
@@ -52,7 +52,7 @@ public class TC011_pushNotification_Home_Postpaid extends MobileTestBase {
 		
 		System.out.println("Step 3, Validate Home Page  ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateHomePage();
 	}
 
@@ -71,7 +71,7 @@ public class TC011_pushNotification_Home_Postpaid extends MobileTestBase {
 
 		System.out.println("Step 5, validate Home Page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateHomePage();
 	}
 
@@ -82,7 +82,7 @@ public class TC011_pushNotification_Home_Postpaid extends MobileTestBase {
 		System.out.println("Step 6, handle pushed notification after killing the app ......");
 		
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromBackground(userUDID,platformName,deepLink,notifcationMessage);
+		homepage.handlePushNotificationAfterKillingTheApp(userUDID,platformName,deepLink,notifcationMessage);
 	}
 	
 	@Test(priority = 7)
@@ -90,7 +90,7 @@ public class TC011_pushNotification_Home_Postpaid extends MobileTestBase {
 		
 		System.out.println("Step 7, validate Home Page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateHomePage();
 	
 	}

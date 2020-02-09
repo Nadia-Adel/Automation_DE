@@ -18,7 +18,7 @@ public class TC056_FailSubscriberDotDoRequest401_CYCC  extends MobileTestBase{
 	@Test(priority = 1)
 	public void Step1_dslLogin() throws IOException, ParseException {
 		loginPageObject = new LoginPage(GlobalDriver.appium);
-		loginPageObject.dslLogin_WithOnBoarding(GetUserFromJson.getUsername("CYCCUser_Stubs"), GetUserFromJson.getpassword("CYCCUser_Stubs"));	
+		loginPageObject.dslLogin(GetUserFromJson.getUsername("CYCCUser_Stubs"), GetUserFromJson.getpassword("CYCCUser_Stubs"));	
 	}
 	@Test(priority = 2)
 	public void Step2_FailResponseWith401() throws IOException, ParseException, InterruptedException {

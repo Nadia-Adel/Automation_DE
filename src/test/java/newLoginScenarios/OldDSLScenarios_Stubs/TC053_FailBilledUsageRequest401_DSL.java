@@ -18,7 +18,7 @@ public class TC053_FailBilledUsageRequest401_DSL  extends MobileTestBase{
 	@Test(priority = 1)
 	public void Step1_dslLogin() throws IOException, ParseException {
 		loginPageObject = new LoginPage(GlobalDriver.appium);
-		loginPageObject.dslLogin_WithOnBoarding(GetUserFromJson.getUsername("DSLUser"), GetUserFromJson.getpassword("DSLUser"));	
+		loginPageObject.dslLogin(GetUserFromJson.getUsername("DSLUser"), GetUserFromJson.getpassword("DSLUser"));	
 	}
 	
 	/*@Test(priority = 1)

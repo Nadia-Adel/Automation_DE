@@ -11,14 +11,14 @@ import externalDataFilesHandeller.UrbanAirshipAPI_NotificationBody_Handeller;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
 import ios_pages.MenuItemsPage;
-import ios_pages.PushedNotificationPagesValidator_Mobile;
+import ios_pages.DeeplinkPagesValidator_Mobile;
 import testBase.GlobalDriver;
 import testBase.MobileTestBase;
 
 public class TC006_pushNotification_Tariff_Prepaid extends MobileTestBase {
 	
 	HomePage homepage = null;
-	PushedNotificationPagesValidator_Mobile pagesValidatorObject = null;
+	DeeplinkPagesValidator_Mobile pagesValidatorObject = null;
   
 	@Test(priority = 1)
 	public void Step1_mobileLogin() throws IOException, ParseException {
@@ -26,11 +26,11 @@ public class TC006_pushNotification_Tariff_Prepaid extends MobileTestBase {
 		System.out.println("Step 1, user is logging in ......");
 		
 	    LoginPage lgn = new LoginPage(GlobalDriver.appium);
-	    lgn.mobileLogin_WithoutOnboarding(GetUserFromJson.getUsername("UCMPrepaidUser"),GetUserFromJson.getpassword("UCMPrepaidUser"));	
+	    lgn.mobileLogin(GetUserFromJson.getUsername("UCMPrepaidUser"),GetUserFromJson.getpassword("UCMPrepaidUser"));	
 		
-		MenuItemsPage menuObject = new MenuItemsPage(GlobalDriver.appium);
-		menuObject.clickMenuIcon();
-		menuObject.clickSettingsMenuItem();
+		//MenuItemsPage menuObject = new MenuItemsPage(GlobalDriver.appium);
+		//menuObject.clickMenuIcon();
+		//menuObject.clickSettingsMenuItem();
 	}
 
 	
@@ -44,7 +44,7 @@ public class TC006_pushNotification_Tariff_Prepaid extends MobileTestBase {
 		notifcationMessage = UrbanAirshipAPI_NotificationBody_Handeller.getRequiredMessage("TARIFF_DEEPLINK_NotificationMessage");
 
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromForntground(userUDID,platformName,deepLink,notifcationMessage);	
+		homepage.handlePushNotificationFromForground(userUDID,platformName,deepLink,notifcationMessage);	
 
 	}
 
@@ -53,7 +53,7 @@ public class TC006_pushNotification_Tariff_Prepaid extends MobileTestBase {
 		
 		System.out.println("Step 3, validate Tariff page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateTariffPage();
 	}
 
@@ -72,7 +72,7 @@ public class TC006_pushNotification_Tariff_Prepaid extends MobileTestBase {
 
 		System.out.println("Step 5, validate Tariff page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateTariffPage();
 	}
 
@@ -83,7 +83,7 @@ public class TC006_pushNotification_Tariff_Prepaid extends MobileTestBase {
 		System.out.println("Step 6, handle pushed notification after killing the app ......");
 		
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromBackground(userUDID,platformName,deepLink,notifcationMessage);
+		homepage.handlePushNotificationAfterKillingTheApp(userUDID,platformName,deepLink,notifcationMessage);
 	}
 	
 	@Test(priority = 7)
@@ -91,7 +91,7 @@ public class TC006_pushNotification_Tariff_Prepaid extends MobileTestBase {
 		
 		System.out.println("Step 7, validate Tariff page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateTariffPage();
 	
 	}

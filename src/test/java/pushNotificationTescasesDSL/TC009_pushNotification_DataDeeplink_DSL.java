@@ -11,14 +11,14 @@ import externalDataFilesHandeller.UrbanAirshipAPI_NotificationBody_Handeller;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
 import ios_pages.MenuItemsPage;
-import ios_pages.PushedNotificationPagesValidator_DSL;
+import ios_pages.DeeplinkPagesValidator_DSL;
 import testBase.GlobalDriver;
 import testBase.MobileTestBase;
 
 public class TC009_pushNotification_DataDeeplink_DSL extends MobileTestBase {
 	
 	HomePage homepage = null;
-	PushedNotificationPagesValidator_DSL pagesValidatorObject = null;
+	DeeplinkPagesValidator_DSL pagesValidatorObject = null;
 	
 	@Test(priority = 1)
 	public void Step1_dslLogin() throws IOException, ParseException {
@@ -45,7 +45,7 @@ public class TC009_pushNotification_DataDeeplink_DSL extends MobileTestBase {
 		notifcationMessage = UrbanAirshipAPI_NotificationBody_Handeller.getRequiredMessage("Data_DEEPLINK_NotificationMessage");
 
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromForntground(userUDID,platformName,deepLink,notifcationMessage);	
+		homepage.handlePushNotificationFromForground(userUDID,platformName,deepLink,notifcationMessage);	
 
 	}
 	
@@ -54,7 +54,7 @@ public class TC009_pushNotification_DataDeeplink_DSL extends MobileTestBase {
 		
 		System.out.println("Step 3, Validate  Meine Daten Page  ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_DSL(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_DSL(GlobalDriver.appium);
 		pagesValidatorObject.validateMeineDatenDeeplinkAction();
 	}
 
@@ -73,7 +73,7 @@ public class TC009_pushNotification_DataDeeplink_DSL extends MobileTestBase {
 
 		System.out.println("Step 5, validate Meine Date Page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_DSL(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_DSL(GlobalDriver.appium);
 		pagesValidatorObject.validateMeineDatenDeeplinkAction();
 	}
 
@@ -84,7 +84,7 @@ public class TC009_pushNotification_DataDeeplink_DSL extends MobileTestBase {
 		System.out.println("Step 6, handle pushed notification after killing the app ......");
 		
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromBackground(userUDID,platformName,deepLink,notifcationMessage);
+		homepage.handlePushNotificationAfterKillingTheApp(userUDID,platformName,deepLink,notifcationMessage);
 	}
 	
 	@Test(priority = 7)
@@ -92,7 +92,7 @@ public class TC009_pushNotification_DataDeeplink_DSL extends MobileTestBase {
 		
 		System.out.println("Step 7, validate Meine Daten Page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_DSL(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_DSL(GlobalDriver.appium);
 		pagesValidatorObject.validateMeineDatenDeeplinkAction();
 		
 	}

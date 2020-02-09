@@ -8,6 +8,7 @@ import java.sql.Timestamp;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
 
+import externalDataFilesHandeller.GetUserFromJson;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -22,12 +23,12 @@ public class TariffPlan_Get {//extends restAssuredConfiguration{
 		return timeStampInMilliSeconds;
 	}
 
-StartSession_post_Mobile startSeesion;	
 	@Test
-	public void validatetariffPlan() throws IOException, ParseException{
-		startSeesion = new StartSession_post_Mobile();
-		startSeesion.startSession();
-		System.out.println(" Evidence " + startSeesion.mintSSOToken);
+	public JsonPath validatetariffPlan(String msisdn) throws IOException, ParseException{
+		//startSeesion = new StartSession_post_Mobile();
+		//startSeesion.startSession();
+	//	System.out.println(" Evidence " + startSeesion.mintSSOToken);
+		
 		
 		RestAssured.baseURI = "https://www.vodafone.de";
 		long TSInMilliSeconds = getTimeStamp();
@@ -38,17 +39,18 @@ StartSession_post_Mobile startSeesion;
 				header("Referer","https://www.vodafone.de/api").
 				header("x-vf-api",TSInMilliSeconds).
 				queryParam("market-code", "MMC").
-				cookie("mint",startSeesion.mintSession).
-				cookie("mint-session-id",startSeesion.mintSessionId).
-				cookie("mint-sso-token",startSeesion.mintSSOToken).
+				cookie("mint",StartSession_post_Mobile.mintSession).
+				cookie("mint-session-id",StartSession_post_Mobile.mintSessionId).
+				cookie("mint-sso-token",StartSession_post_Mobile.mintSSOToken).
 				when()
-				.get("/api/enterprise-resources/core/bss/sub-nil/mobile/subscriptions/491624113644/tariff-plan")
+				.get("/api/enterprise-resources/core/bss/sub-nil/mobile/subscriptions/"+msisdn+"/tariff-plan")
 				.then().statusCode(200).log().all().contentType(ContentType.JSON).extract().response();
 
 		String res2 = res.asString();
 
 		JsonPath js = new JsonPath(res2);
 
-		//System.out.println("Required Token is : " + js.get("subscriptionVBO[0].accountId"));
+		return js ;
+	
 	}
 }

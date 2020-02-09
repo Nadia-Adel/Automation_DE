@@ -11,7 +11,7 @@ import externalDataFilesHandeller.UrbanAirshipAPI_NotificationBody_Handeller;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
 import ios_pages.MenuItemsPage;
-import ios_pages.PushedNotificationPagesValidator_Mobile;
+import ios_pages.DeeplinkPagesValidator_Mobile;
 import testBase.GlobalDriver;
 import testBase.MobileTestBase;
 
@@ -19,7 +19,7 @@ public class TC019_pushNotification_RechargeNewMapping_Prepaid extends MobileTes
 
 
 	HomePage homepage = null;
-	PushedNotificationPagesValidator_Mobile pagesValidatorObject= null;
+	DeeplinkPagesValidator_Mobile pagesValidatorObject= null;
 
 	@Test(priority = 1)
 	public void Step1_mobileLogin() throws IOException, ParseException {
@@ -27,11 +27,11 @@ public class TC019_pushNotification_RechargeNewMapping_Prepaid extends MobileTes
 		System.out.println("Step 1, user is logging in ......");
 
 		LoginPage lgn = new LoginPage(GlobalDriver.appium);
-		lgn.mobileLogin_WithoutOnboarding(GetUserFromJson.getUsername("UCMPrepaidUser"),GetUserFromJson.getpassword("UCMPrepaidUser"));	
+		lgn.mobileLogin(GetUserFromJson.getUsername("UCMPrepaidUser"),GetUserFromJson.getpassword("UCMPrepaidUser"));	
 
-		MenuItemsPage menuObject = new MenuItemsPage(GlobalDriver.appium);
-		menuObject.clickMenuIcon();
-		menuObject.clickSettingsMenuItem();
+	//	MenuItemsPage menuObject = new MenuItemsPage(GlobalDriver.appium);
+	//	menuObject.clickMenuIcon();
+//		menuObject.clickSettingsMenuItem();
 	}
 
 	@Test(priority = 2)
@@ -44,7 +44,7 @@ public class TC019_pushNotification_RechargeNewMapping_Prepaid extends MobileTes
 		notifcationMessage = UrbanAirshipAPI_NotificationBody_Handeller.getRequiredMessage("Recharge_NewMapping_DEEPLINK_NotificationMessage");
 
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromForntground(userUDID,platformName,deepLink,notifcationMessage);	
+		homepage.handlePushNotificationFromForground(userUDID,platformName,deepLink,notifcationMessage);	
 
 	}
 
@@ -54,7 +54,7 @@ public class TC019_pushNotification_RechargeNewMapping_Prepaid extends MobileTes
 
 		System.out.println("Step 3, validate recharge page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateRechargePage();
 	}
 
@@ -63,7 +63,7 @@ public class TC019_pushNotification_RechargeNewMapping_Prepaid extends MobileTes
 	
 		System.out.println("Step 4, handle pushed notification from the background ......");
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromForntground(userUDID,platformName,deepLink,notifcationMessage);
+		homepage.handlePushNotificationFromBackground(userUDID,platformName,deepLink,notifcationMessage);
 		
 	}
 
@@ -72,7 +72,7 @@ public class TC019_pushNotification_RechargeNewMapping_Prepaid extends MobileTes
 
 		System.out.println("Step 5, validate recharge page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateRechargePage();
 	}
 
@@ -83,14 +83,14 @@ public class TC019_pushNotification_RechargeNewMapping_Prepaid extends MobileTes
 		System.out.println("Step 6, handle pushed notification after killing the app ......");
 		
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromForntground(userUDID,platformName,deepLink,notifcationMessage);
+		homepage.handlePushNotificationAfterKillingTheApp(userUDID,platformName,deepLink,notifcationMessage);
 
 	}
 
 	@Test(priority = 7)
 	public void Step7_ValidateTheRechargePage_Backround() {
 		System.out.println("Step 7, validate recharge page ......");
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateRechargePage();
 	}
 

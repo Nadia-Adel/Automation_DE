@@ -11,14 +11,14 @@ import externalDataFilesHandeller.UrbanAirshipAPI_NotificationBody_Handeller;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
 import ios_pages.MenuItemsPage;
-import ios_pages.PushedNotificationPagesValidator_Mobile;
+import ios_pages.DeeplinkPagesValidator_Mobile;
 import testBase.GlobalDriver;
 import testBase.MobileTestBase;
 
 public class TC003_pushNotification_Transfer_Postpaid extends MobileTestBase{
 
 	HomePage homepage = null;
-	PushedNotificationPagesValidator_Mobile pagesValidatorObject = null;
+	DeeplinkPagesValidator_Mobile pagesValidatorObject = null;
 	
 	@Test(priority = 1)
 	public void Step1_mobileLogin() throws IOException, ParseException {
@@ -26,7 +26,7 @@ public class TC003_pushNotification_Transfer_Postpaid extends MobileTestBase{
 		System.out.println("Step 1, user is logging in ......");
 		
 	    LoginPage lgn = new LoginPage(GlobalDriver.appium);
-	    lgn.mobileLogin_WithoutOnboarding(GetUserFromJson.getUsername("PostpaidUser"),GetUserFromJson.getpassword("PostpaidUser"));	
+	    lgn.mobileLogin(GetUserFromJson.getUsername("PostpaidUser"),GetUserFromJson.getpassword("PostpaidUser"));	
 		
 		MenuItemsPage menuObject = new MenuItemsPage(GlobalDriver.appium);
 		menuObject.clickMenuIcon();
@@ -45,7 +45,7 @@ public class TC003_pushNotification_Transfer_Postpaid extends MobileTestBase{
 		System.out.println("Step 2, handle pushed notification from the app ......");
 		
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromForntground(userUDID, platformName ,deepLink, notifcationMessage);
+		homepage.handlePushNotificationFromForground(userUDID, platformName ,deepLink, notifcationMessage);
 	}
 
 	@Test(priority = 3)
@@ -53,7 +53,7 @@ public class TC003_pushNotification_Transfer_Postpaid extends MobileTestBase{
 
 		System.out.println("Step 3, validate transfer page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateTransferPage();
 	}
 
@@ -70,7 +70,7 @@ public class TC003_pushNotification_Transfer_Postpaid extends MobileTestBase{
 
 		System.out.println("Step 5, validate transfer page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateTransferPage();
 	}
 
@@ -87,7 +87,7 @@ public class TC003_pushNotification_Transfer_Postpaid extends MobileTestBase{
 	@Test(priority = 7)
 	public void Step7_ValidateTheTransferPage_AfterKillingTheApp() {
 		System.out.println("Step 7, validate transfer page ......");
-		pagesValidatorObject = new PushedNotificationPagesValidator_Mobile(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_Mobile(GlobalDriver.appium);
 		pagesValidatorObject.validateTransferPage();
 	
 	}

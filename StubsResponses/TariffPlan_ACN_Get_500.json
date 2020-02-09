@@ -1,0 +1,92 @@
+// Check the request, make sure it is a compatible type
+if (!req.is('application/json')) {
+    return res.send(400, 'Invalid content type, expected application/json');
+}
+
+// Set the type of response, sets the content type.
+res.type('application/json');
+
+// Set the status code of the response.
+res.status(500);
+
+// Send the response body.
+res.json({
+    "subscriptionVBO": [{
+        "accountId": "001916347292",
+        "type": "fixednet",
+        "subscriptions": [{
+            "customerProduct": {
+                "tariffDetails": {
+                    "name": "Vodafone All-Inclusive-Paket",
+                    "code": "n-042Aj54MAq05DH",
+                    "description": "Vodafone All-Inclusive-Paket",
+                    "type": "",
+                    "price": null,
+                    "unitOfMeasure": "EUR",
+                    "relatedSubscriptions": [{
+                        "serialNumber": "0000000036039477",
+                        "contractNumber": "000129412492",
+                        "name": "Arcor - ISDN",
+                        "code": "V0002",
+                        "description": "Arcor - ISDN",
+                        "type": "telefon flat",
+                        "status": "Activated",
+                        "portfolioPostfix": "05/09",
+                        "startDate": "2014-06-21",
+                        "endDate": "2019-06-20",
+                        "duration": "24 MONTH",
+                        "cancelPeriod": "3 MONTH",
+                        "isAutomaticallyExtended": true,
+                        "autoExtensionDate": "2019-03-20",
+                        "cancelable": true,
+                        "isCompleteTermination": true,
+                        "orderType": "BRCA001_terminateISDN",
+                        "phoneNumbers": [
+                            "0201 47976507",
+                            "0201 47976506",
+                            "0201 47976505"
+                        ]
+                    }, {
+                        "serialNumber": "0000000036470228",
+                        "contractNumber": "000129843392",
+                        "name": "Arcor - Online",
+                        "code": "I1100",
+                        "description": "Arcor - Online",
+                        "type": "flat",
+                        "status": "Activated",
+                        "portfolioPostfix": "05/09",
+                        "startDate": "2014-06-21",
+                        "endDate": "2019-06-20",
+                        "duration": "24 MONTH",
+                        "cancelPeriod": "3 MONTH",
+                        "isAutomaticallyExtended": true,
+                        "autoExtensionDate": "2019-03-20",
+                        "cancelable": true,
+                        "isCompleteTermination": true,
+                        "orderType": "BRCA001_terminateISDN"
+                    }, {
+                        "serialNumber": "0000000061653662",
+                        "contractNumber": "000154339427",
+                        "name": "Arcor - Sicherheitspaket",
+                        "code": "I1410",
+                        "description": "Arcor - Sicherheitspaket",
+                        "type": "Software",
+                        "status": "Activated",
+                        "portfolioPostfix": "08/10",
+                        "activationKey": "C4QL-5MR3-HBVD-VX7R-1Y3L",
+                        "startDate": "2014-06-21",
+                        "endDate": "2019-01-20",
+                        "duration": "12 MONTH",
+                        "cancelPeriod": "1 MONTH",
+                        "isAutomaticallyExtended": true,
+                        "autoExtensionDate": "2018-12-20",
+                        "cancelable": true,
+                        "isCompleteTermination": false,
+                        "orderType": "BRCA034_terminateSecurityPackage",
+                        "orderLink": "ksc?aaw_orderItemTypeRef=BRCA034_terminateSecurityPackage&aaw_productSubscriptionID=0000000061653662"
+                    }]
+                }
+            }
+        }]
+    }]
+});

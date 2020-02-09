@@ -22,14 +22,15 @@ public class SubscribtionsDSL_Get {//extends restAssuredConfiguration{
 		return timeStampInMilliSeconds;
 	}
 
-StartSession_post_Mobile startSeesion;	
+StartSession_post_Mobile startSeesion;
+
 	@Test
 	public void validatetariffPlan() throws IOException, ParseException{
 		
-		startSeesion = new StartSession_post_Mobile();
-		startSeesion.startSession();
+		//startSeesion = new StartSession_post_Mobile();
+		//startSeesion.startSession();
 		
-		System.out.println(" Evidence " + startSeesion.mintSSOToken);
+		//System.out.println(" Evidence " + startSeesion.mintSSOToken);
 		
 		RestAssured.baseURI = "https://www.vodafone.de";
 		long TSInMilliSeconds = getTimeStamp();
@@ -40,9 +41,9 @@ StartSession_post_Mobile startSeesion;
 				header("Referer","https://www.vodafone.de/api").
 				header("x-vf-api",TSInMilliSeconds).
 				queryParam("market-code", "MMC").
-				cookie("mint",startSeesion.mintSession).
-				cookie("mint-session-id",startSeesion.mintSessionId).
-				cookie("mint-sso-token",startSeesion.mintSSOToken).
+				cookie("mint",StartSession_post_DSL.mintSession).
+				cookie("mint-session-id",StartSession_post_DSL.mintSessionId).
+				cookie("mint-sso-token",StartSession_post_DSL.mintSSOToken).
 				when()
 				.get("/api/enterprise-resources/core/bss/sub-nil/mobile/subscriptions/491624113644/tariff-plan")
 			    .then().statusCode(200).log().all().contentType(ContentType.JSON).extract().response();

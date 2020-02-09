@@ -1,0 +1,34 @@
+Sandbox.define('/api/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{accountId}/bank/details', 'PUT', function(req, res){\r\n" + 
+    		"    var mintCookie = req.cookies['mint-sso-token'];\r\n" + 
+    		"    console.log('user unbilled ', mintCookie);\r\n" + 
+    		"    var user = _.find(state.users, {\r\n" + 
+    		"        'mintSessionId': mintCookie,\r\n" + 
+    		"    });\r\n" + 
+    		"    \r\n" + 
+    		"    res.type('application/json');\r\n" + 
+    		"    \r\n" + 
+    		"    // Set the status code of the response.\r\n" + 
+    		"    res.status(200);\r\n" + 
+    		"    res.json({\r\n" + 
+    		"        \"customerPartyVBO\": [{\r\n" + 
+    		"            \"type\": \"mobile\",\r\n" + 
+    		"            \"details\": {\r\n" + 
+    		"                \"accountId\": \"106375182\",\r\n" + 
+    		"                \"marketCode\": \"MMC\"\r\n" + 
+    		"            },\r\n" + 
+    		"            \"paymentMethod\": {\r\n" + 
+    		"                \"bank\": {\r\n" + 
+    		"                    \"accountNumber\": \"0250800000\",\r\n" + 
+    		"                    \"accountOwnerName\": \"Andreas Laukenmann\",\r\n" + 
+    		"                    \"bankCode\": \"30070010\",\r\n" + 
+    		"                    \"bankName\": \"Deutsche Bank Düsseldorf\",\r\n" + 
+    		"                    \"iban\": \"DE86300700100002508000\",\r\n" + 
+    		"                    \"bic\": \"DEUTDEDDXXX\"\r\n" + 
+    		"                },\r\n" + 
+    		"                \"preferences\": {\r\n" + 
+    		"                    \"modeOfPayment\": \"DD\"\r\n" + 
+    		"                }\r\n" + 
+    		"            }\r\n" + 
+    		"        }]\r\n" + 
+    		"    })\r\n" + 
+    		"})
