@@ -6,12 +6,9 @@ import java.io.IOException;
 import java.sql.Timestamp;
 
 import org.json.simple.parser.ParseException;
-import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.http.Cookies;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 //import io.restassured.http.ContentType;
@@ -23,18 +20,17 @@ public class FCIdent_Get {//extends restAssuredConfiguration{
 		return timeStampInMilliSeconds;
 	}
 
-	StartSession_post_DSL startSeesion;	
-	Hashing_DSL_Get  hashingDSL;
-	String umdid,responseAsString;
-	Cookies cookie;
+	// startSeesion;	
+	Hashing_DSL_Get  hashngDSL;
+	static String  umdid,responseAsString;
+	static Cookies cookie;
 
 	//@Test
-	public void validateFCIdent() throws IOException, ParseException{
-		startSeesion = new StartSession_post_DSL();
-		startSeesion.startSession();
+	public static void validateFCIdent(String username , String password) throws IOException, ParseException{
+		//startSeesion = new StartSession_post_DSL();
+		StartSession_post_DSL.startSession( username, password);
 
-		hashingDSL = new Hashing_DSL_Get();
-
+		
 		RestAssured.baseURI = "https://fc.vodafone.de";
 		long TSInMilliSeconds = getTimeStamp();
 		System.out.println(TSInMilliSeconds);
@@ -48,10 +44,10 @@ public class FCIdent_Get {//extends restAssuredConfiguration{
 				header("Platform","ios").
 				//header("accept","application/JSON").
 				queryParam("s2s", "2").
-				queryParam("acn", hashingDSL.getACN()).
-				cookie("mint",startSeesion.mintSession).
-				cookie("mint-session-id",startSeesion.mintSessionId).
-				cookie("mint-sso-token",startSeesion.iPlanetDirectoryProToken).log().all().
+				queryParam("acn", Hashing_DSL_Get.getACN(username,password)).
+				cookie("mint",StartSession_post_DSL.mintSession).
+				cookie("mint-session-id",StartSession_post_DSL.mintSessionId).
+				cookie("mint-sso-token",StartSession_post_DSL.iPlanetDirectoryProToken).log().all().
 				when().
 				get("/op/meinvf-apps-ident/ident").
 				then().
@@ -66,8 +62,8 @@ public class FCIdent_Get {//extends restAssuredConfiguration{
 		System.out.println("A5eeeeeraaaaan COOOOKIESSSSSS "+ cookie.getValue("umdid"));
 	}
 
-	public String getUmdid() throws IOException, ParseException {
-		validateFCIdent();
+	public static String getUmdid(String username, String password) throws IOException, ParseException {
+		validateFCIdent(username,password);
 		umdid = cookie.getValue("umdid");
 		return umdid; 
 	}

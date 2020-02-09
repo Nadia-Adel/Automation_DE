@@ -12,14 +12,14 @@ import externalDataFilesHandeller.UrbanAirshipAPI_NotificationBody_Handeller;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
 import ios_pages.MenuItemsPage;
-import ios_pages.PushedNotificationPagesValidator_DSL;
+import ios_pages.DeeplinkPagesValidator_DSL;
 import testBase.GlobalDriver;
 import testBase.MobileTestBase;
 
 public class TC006_pushNotification_Forums_DSL extends MobileTestBase {
 	
 	HomePage homepage = null;
-	PushedNotificationPagesValidator_DSL pagesValidatorObject = null;
+	DeeplinkPagesValidator_DSL pagesValidatorObject = null;
   
 	String userUDID = GetUserFromJson.getUserUDID("DSLUser");
 	String platformName = UrbanAirshipAPIConfigHandeller.getPlatformName_IOS();
@@ -50,7 +50,7 @@ public class TC006_pushNotification_Forums_DSL extends MobileTestBase {
 		notifcationMessage = UrbanAirshipAPI_NotificationBody_Handeller.getRequiredMessage("Forums_DEEPLINK_NotificationMessage");
 
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromForntground(userUDID,platformName,deepLink,notifcationMessage);	
+		homepage.handlePushNotificationFromForground(userUDID,platformName,deepLink,notifcationMessage);	
 
 	}
 
@@ -59,7 +59,7 @@ public class TC006_pushNotification_Forums_DSL extends MobileTestBase {
 		
 		System.out.println("Step 3, validate Forums page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_DSL(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_DSL(GlobalDriver.appium);
 		pagesValidatorObject.validateForumsPage(); 
 	}
 
@@ -74,11 +74,11 @@ public class TC006_pushNotification_Forums_DSL extends MobileTestBase {
 	}
 
 	@Test(priority = 5)
-	public void Step5_ValidateTheForumsDeeplinkAction_Backround() {
+	public void Step5_ValidateTheForumsDeeplinkAction_Background() {
 
 		System.out.println("Step 5, validate Forums page ......");
 		Reporter.log("Step 5, validate Forums page ......");
-		pagesValidatorObject = new PushedNotificationPagesValidator_DSL(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_DSL(GlobalDriver.appium);
 		pagesValidatorObject.validateForumsPage();
 	}
 
@@ -89,7 +89,7 @@ public class TC006_pushNotification_Forums_DSL extends MobileTestBase {
 		System.out.println("Step 6, handle pushed notification after killing the app ......");
 		
 		homepage = new HomePage(GlobalDriver.appium);
-		homepage.handlePushNotificationFromBackground(userUDID,platformName,deepLink,notifcationMessage);
+		homepage.handlePushNotificationAfterKillingTheApp(userUDID,platformName,deepLink,notifcationMessage);
 	}
 	
 	@Test(priority = 7)
@@ -98,7 +98,7 @@ public class TC006_pushNotification_Forums_DSL extends MobileTestBase {
 		System.out.println("Step 7, validate FAQ page ......");
 		Reporter.log("Step 7, validate Forums page ......");
 		
-		pagesValidatorObject = new PushedNotificationPagesValidator_DSL(GlobalDriver.appium);
+		pagesValidatorObject = new DeeplinkPagesValidator_DSL(GlobalDriver.appium);
 		pagesValidatorObject.validateForumsPage();
 	
 	}

@@ -8,6 +8,7 @@ import java.sql.Timestamp;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
 
+import externalDataFilesHandeller.GetUserFromJson;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -20,16 +21,17 @@ public class Hashing_DSL_Get {//extends restAssuredConfiguration{
 		return timeStampInMilliSeconds;
 	}
 
-	StartSession_post_DSL startSeesion;	
+	//StartSession_post_DSL startSeesion;	
 
-	String acnValue =null;
-	String responseAsString;
+	static String acnValue =null;
+	static String responseAsString;
 //	@Test
-	public void validateHashingService() throws IOException, ParseException{
-		startSeesion = new StartSession_post_DSL();
-		startSeesion.startSession();
-		System.out.println(" Evidence " + startSeesion.iPlanetDirectoryProToken);
-
+	public static JsonPath validateHashingService(String username, String password) throws IOException, ParseException{
+	//	startSeesion = new StartSession_post_DSL();
+		//System.out.println(" Evidence " + startSeesion.iPlanetDirectoryProToken);
+		
+		StartSession_post_DSL.startSession(username, password);
+		
 		RestAssured.baseURI = "https://www.vodafone.de";
 		long TSInMilliSeconds = getTimeStamp();
 		System.out.println(TSInMilliSeconds);
@@ -37,33 +39,37 @@ public class Hashing_DSL_Get {//extends restAssuredConfiguration{
 				header("Content-Type","application/JSON").
 				header("Referer","https://www.vodafone.de/api").
 				header("x-vf-api",TSInMilliSeconds).
-				cookie("mint",startSeesion.mintSession).
-				cookie("mint-session-id",startSeesion.mintSessionId).
-				cookie("mint-sso-token",startSeesion.iPlanetDirectoryProToken).
-				cookie("MDDKeks",startSeesion.MDDKeksToken).
-				cookie("authHint",startSeesion.authHintToken).
-				cookie("amlbcookie",startSeesion.amlbcookieToken).
+				cookie("mint",StartSession_post_DSL.mintSession).
+				cookie("mint-session-id",StartSession_post_DSL.mintSessionId).
+				cookie("mint-sso-token",StartSession_post_DSL.iPlanetDirectoryProToken).
+				cookie("MDDKeks",StartSession_post_DSL.MDDKeksToken).
+				cookie("authHint",StartSession_post_DSL.authHintToken).
+				cookie("amlbcookie",StartSession_post_DSL.amlbcookieToken).
 				when()
 				.get("/meinvodafone/services/api/hashing")
 				.then().statusCode(200).log().all().contentType(ContentType.JSON).extract().response();
 
 		responseAsString = res.asString();
+		
+		JsonPath js = new JsonPath(responseAsString);
+		return js;
 
 
 	}
 
 
-	public String getACN() throws IOException, ParseException {
-
-		validateHashingService();
-		JsonPath js = new JsonPath(responseAsString);
+	public static String getACN( String username, String password ) throws IOException, ParseException {
+		username = GetUserFromJson.getUsername("DSLUser");
+		password = GetUserFromJson.getpassword("DSLUser");
+		
+		JsonPath js = validateHashingService(username,password);
 		return js.get("hashedIds[0].hash");
 	}
 
 	@Test
 	public  void  runAPI() throws IOException, ParseException {
 		
-		System.out.println("acn"+ getACN());
+		System.out.println("acn"+ getACN(GetUserFromJson.getUsername("DSLUser"),GetUserFromJson.getpassword("DSLUser")));
 	}
 
 

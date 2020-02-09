@@ -38,6 +38,7 @@ public class LoginPage {
 
 	//@iOSXCUITFindBy(id = "MeinDSL")
 	@iOSXCUITFindBy(id = "Internet & Festnetz")
+	//@iOSXCUITFindBy(id = "dsl_cable_tv")
 	public WebElement meinDSLTab;
 
 	@iOSXCUITFindBy(id = "manual_login_btn")
@@ -153,7 +154,7 @@ public class LoginPage {
 	}
 	
 	
-	public void mobileLogin_WithOnboarding(String username, String password) {
+	public void mobileLogin(String username, String password) {
 
 		Mobile_CommonActions_Set.setExplicitWait(internetPasswordLogin, 60);
 		Mobile_CommonActions_Set.Click(internetPasswordLogin);
@@ -167,31 +168,19 @@ public class LoginPage {
 
 		try {
 			Thread.sleep(3000);
+			Mobile_CommonActions_Set.scrollDownTo(acceptGDBR, 10000, "native-ios");
+
+			Mobile_CommonActions_Set.Click(acceptGDBR);
+
+			Mobile_CommonActions_Set.setExplicitWait(collectionView, 20);
+
+		
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			Mobile_CommonActions_Set.setExplicitWait(collectionView, 20);
 		}
-
-		Mobile_CommonActions_Set.scrollDownTo(acceptGDBR, 10000, "native-ios");
-
-		Mobile_CommonActions_Set.Click(acceptGDBR);
-
-		Mobile_CommonActions_Set.setExplicitWait(collectionView, 20);
-
-	}
-
-	public void mobileLogin_WithoutOnboarding(String username, String password) {
-
-		Mobile_CommonActions_Set.setExplicitWait(internetPasswordLogin, 60);
-		Mobile_CommonActions_Set.Click(internetPasswordLogin);
-
-		Mobile_CommonActions_Set.setExplicitWait(usernameTxtField, 30);
-		Mobile_CommonActions_Set.enterText(usernameTxtField, username);
-
-		Mobile_CommonActions_Set.enterText(passwordTxtField, password);
-
-		Mobile_CommonActions_Set.Click(mobileLoginBtn);
-
+		
 	}
 
 	public void dslLogin(String username, String password) {
@@ -206,7 +195,19 @@ public class LoginPage {
 
 		Mobile_CommonActions_Set.Click(dslLoginBtn);
 
-		Mobile_CommonActions_Set.setExplicitWait(collectionView, 20);
+		try {
+			Thread.sleep(3000);
+
+			Mobile_CommonActions_Set.scrollDownTo(acceptGDBR, 10000, "native-ios");
+
+			Mobile_CommonActions_Set.Click(acceptGDBR);
+			Mobile_CommonActions_Set.setExplicitWait(collectionView, 20);
+
+		} catch (InterruptedException e) {
+			Mobile_CommonActions_Set.setExplicitWait(collectionView, 20);
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 	
@@ -225,32 +226,6 @@ public class LoginPage {
 
 	}
 	
-	public void dslLogin_WithOnBoarding(String username, String password) {
-
-		Mobile_CommonActions_Set.setExplicitWait(meinDSLTab, 60);
-		Mobile_CommonActions_Set.Click(meinDSLTab);
-
-		Mobile_CommonActions_Set.setExplicitWait(usernameTxtField, 30);
-		Mobile_CommonActions_Set.enterText(usernameTxtField, username);
-
-		Mobile_CommonActions_Set.enterText(passwordTxtField, password);
-
-		Mobile_CommonActions_Set.Click(dslLoginBtn);
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		Mobile_CommonActions_Set.scrollDownTo(acceptGDBR, 10000, "native-ios");
-		Mobile_CommonActions_Set.Click(acceptGDBR);
-		
-		Mobile_CommonActions_Set.setExplicitWait(collectionView, 20);
-
-	}
-
-
 	public void EnterUserCredentials_Mobile(String username, String anyPassword)
 
 	{
@@ -272,6 +247,7 @@ public class LoginPage {
 
 		Mobile_CommonActions_Set.setExplicitWait(meinDSLTab, 60);
 		Mobile_CommonActions_Set.Click(meinDSLTab);
+		System.out.println("newInspection");
 
 		Mobile_CommonActions_Set.setExplicitWait(usernameTxtField, 30);
 		Mobile_CommonActions_Set.enterText(usernameTxtField, username);

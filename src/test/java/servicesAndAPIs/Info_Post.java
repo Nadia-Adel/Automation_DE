@@ -8,6 +8,7 @@ import java.sql.Timestamp;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
 
+import externalDataFilesHandeller.GetUserFromJson;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -23,13 +24,13 @@ public class Info_Post {//extends restAssuredConfiguration{
 	}
 
 StartSession_post_DSL startSeesion;	
-FCIdent_Get fcIdentGet;
-	@Test
-	public void validatetariffPlan() throws IOException, ParseException{
-		startSeesion = new StartSession_post_DSL();
-		startSeesion.startSession();
+
+	//@Test
+	public static void validateInfo_Post(String username , String password) throws IOException, ParseException{
+		//startSeesion = new StartSession_post_DSL();
+		StartSession_post_DSL.startSession(username,password);
 		
-		fcIdentGet = new FCIdent_Get();
+		//fcIdentGet = new FCIdent_Get();
 		
 		RestAssured.baseURI = "https://fc.vodafone.de";
 		long TSInMilliSeconds = getTimeStamp();
@@ -38,26 +39,15 @@ FCIdent_Get fcIdentGet;
 				header("Content-Type","application/JSON").
 				header("Referer","https://www.vodafone.de/api").
 				header("x-vf-api",TSInMilliSeconds).
-				body("{\r\n" + 
-						"	\"permission\": {\r\n" + 
-						"		\"LI-NBA\": false,\r\n" + 
-						"		\"LI-OM\": true,\r\n" + 
-						"		\"LI-OPT\": false\r\n" + 
-						"	},\r\n" + 
-						"	\"notification\": [{\r\n" + 
-						"		\"name\": \"APP\",\r\n" + 
-						"		\"version\": 2,\r\n" + 
-						"		\"permissions\": [\"LI-OPT\", \"LI-OM\", \"LI-NBA\"]\r\n" + 
-						"	}]\r\n" + 
-						"}").
+				body(APIs_Body.returnInfoPostBody()).
 				queryParam("permissions").
 				queryParam("notifications").
 				queryParam("attributes").
 				queryParam("out", "json").
-				queryParam("umdid", fcIdentGet.getUmdid()).
-				cookie("mint",startSeesion.mintSession).
-				cookie("mint-session-id",startSeesion.mintSessionId).
-				cookie("mint-sso-token",startSeesion.mintSSOToken).log().all().
+				queryParam("umdid", FCIdent_Get.getUmdid(username,password)).
+				cookie("mint",StartSession_post_DSL.mintSession).
+				cookie("mint-session-id",StartSession_post_DSL.mintSessionId).
+				cookie("mint-sso-token",StartSession_post_DSL.mintSSOToken).log().all().
 				when().
 				post("/op/vfde-apps/info").
 				then().statusCode(200).log().all().
@@ -72,5 +62,10 @@ FCIdent_Get fcIdentGet;
 		JsonPath js = new JsonPath(res2);
 
 		//System.out.println("Required Token is : " + js.get("subscriptionVBO[0].accountId"));
+	}
+	
+	@Test
+	public void testInfoPost() throws IOException, ParseException {
+		validateInfo_Post(GetUserFromJson.getUsername("DSLUser"), GetUserFromJson.getpassword("DSLUser"));
 	}
 }

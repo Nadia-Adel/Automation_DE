@@ -18,7 +18,7 @@ public class TC02 extends MobileTestBase{
 	public void Case2_SwitchFromUCMToDSL() throws IOException, ParseException {
 		
 		loginPageObject = new LoginPage(GlobalDriver.appium);
-		loginPageObject.mobileLogin_WithoutOnboarding(GetUserFromJson.getUsername("UCMPrepaidUser"), GetUserFromJson.getpassword("UCMPrepaidUser"));
+		loginPageObject.mobileLogin(GetUserFromJson.getUsername("UCMPrepaidUser"), GetUserFromJson.getpassword("UCMPrepaidUser"));
 
 		homePageObject =  new HomePage(GlobalDriver.appium);
 		homePageObject.assertLoggedInUser("0152 56439574");

@@ -1,0 +1,317 @@
+// Check the request, make sure it is a compatible type
+if (!req.is('application/json')) {
+    return res.send(400, 'Invalid content type, expected application/json');
+}
+
+// Set the type of response, sets the content type.
+res.type('application/json');
+
+// Set the status code of the response.
+res.status(401);
+
+// Send the response body.
+res.json({
+    "subscriptionVBO": {
+        "accountId": "001944194562",
+        "type": "fixednet",
+        "provider": "ARCO",
+        "subscriptions": [{
+            "details": {
+                "contractNumber": "1043670049",
+                "status": "active",
+                "technology": "VDSL-L2"
+            },
+            "contractDetails": {
+                "startDate": "2018-03-20",
+                "endDate": "2020-03-20",
+                "lastNotificationDate": "2019-12-20",
+                "signDate": "2018-03-13",
+                "duration": "24"
+            },
+            "customerProduct": {
+                "productSubscription": {
+                    "serialNumber": "4704FQe6cxAuF6ox",
+                    "name": "Red Internet & Phone 50 DSL BasA 10/16",
+                    "code": "PR105",
+                    "specification": "package",
+                    "regioFee": false,
+                    "characteristicValue": [{
+                        "name": "Validity",
+                        "value": "24"
+                    }],
+                    "product": [{
+                            "serialNumber": "0000000079230492",
+                            "name": "Festnetz-Flat_name",
+                            "code": "voice",
+                            "specification": "tariff_voice",
+                            "endDate": "2020-03-22",
+                            "duration": "24",
+                            "price": {
+                                "name": "VP070",
+                                "type": "VI203",
+                                "pricingStructureName": "PK Festnetz-Flat Internet+Phone 50 DSL ",
+                                "productName": "Vodafone-Sprache"
+                            },
+                            "characteristicValue": [{
+                                "name": "localAreaCode",
+                                "value": "02241"
+                            }, {
+                                "name": "connectionType",
+                                "value": "basic"
+                            }, {
+                                "name": "displayModemPin",
+                                "value": "true"
+                            }, {
+                                "name": "requestModemPin",
+                                "value": "true"
+                            }],
+                            "product": [{
+                                "name": "Vodafone-Flat",
+                                "code": "V1200",
+                                "specification": "tariff_addon_voice",
+                                "characteristicValue": [{
+                                    "name": "duration",
+                                    "value": "6"
+                                }, {
+                                    "name": "durationUnit",
+                                    "value": "MONTH"
+                                }, {
+                                    "name": "endDate",
+                                    "value": "2019-08-05"
+                                }]
+                            }, {
+                                "name": "Euro-Flat",
+                                "code": "V1204",
+                                "specification": "tariff_addon_voice",
+                                "characteristicValue": [{
+                                    "name": "duration",
+                                    "value": "6"
+                                }, {
+                                    "name": "durationUnit",
+                                    "value": "MONTH"
+                                }, {
+                                    "name": "endDate",
+                                    "value": "2019-08-05"
+                                }]
+                            }]
+                        }, {
+                            "serialNumber": "0000000079230491",
+                            "name": "Flat_nada",
+                            "code": "internetFlat",
+                            "specification": "tariff_internet",
+                            "endDate": "2020-03-22",
+                            "duration": "24",
+                            "price": {
+                                "name": "IP070",
+                                "type": "I1203",
+                                "pricingStructureName": "PK DSL-Flat Internet+Phone 50 DSL 10/16",
+                                "productName": "Vodafone-Internet"
+                            },
+                            "characteristicValue": [{
+                                "name": "dialInAccountName",
+                                "value": "vb5890538416"
+                            }, {
+                                "name": "maxTechnicalBandwidth",
+                                "value": "880000"
+                            }, {
+                                "name": "lineType",
+                                "value": "CuDa"
+                            }, {
+                                "name": "instantAccessVariant",
+                                "value": "Nein"
+                            }, {
+                                "name": "accessTechnology",
+                                "value": "VDSL-L2"
+                            }, {
+                                "name": "bandwidth",
+                                "value": "V018H"
+                            }, {
+                                "name": "upstreamBandwidth",
+                                "value": "Standard"
+                            }, {
+                                "name": "displayModemPin",
+                                "value": "true"
+                            }, {
+                                "name": "requestModemPin",
+                                "value": "true"
+                            }]
+                        }, {
+                            "serialNumber": "0000000083700318",
+                            "name": "IPTV",
+                            "code": "centerTV",
+                            "specification": "tariff_tvoption",
+                            "endDate": "2021-02-25",
+                            "duration": "24",
+                            "price": {
+                                "name": "TVS01",
+                                "type": "I1305",
+                                "pricingStructureName": "TV IPTV 10/16",
+                                "productName": "Vodafone TV"
+                            },
+                            "characteristicValue": [{
+                                "name": "adultPin",
+                                "value": "false"
+                            }, {
+                                "name": "displayTVPin",
+                                "value": "true"
+                            }, {
+                                "name": "requestTVPin",
+                                "value": "true"
+                            }],
+                            "product": [{
+                                "code": "I1351",
+                                "specification": "tariff_addon_tvoption",
+                                "characteristicValue": [{
+                                    "name": "duration",
+                                    "value": "0"
+                                }, {
+                                    "name": "durationUnit",
+                                    "value": "MONTH"
+                                }]
+                            }, {
+                                "code": "I1354",
+                                "specification": "tariff_addon_tvoption",
+                                "characteristicValue": [{
+                                    "name": "duration",
+                                    "value": "0"
+                                }, {
+                                    "name": "durationUnit",
+                                    "value": "MONTH"
+                                }]
+                            }]
+                        }, {
+                            "serialNumber": "0000000403930102",
+                            "name": "Software",
+                            "code": "security",
+                            "specification": "security_package",
+                            "endDate": "2019-02-19",
+                            "duration": "0",
+                            "price": {
+                                "name": "I1413",
+                                "type": "I1410",
+                                "pricingStructureName": "Sicherheitspaket 02/15",
+                                "productName": "Vodafone Sicherheitspaket"
+                            }
+                        }, {
+                            "serialNumber": "0000000404276370",
+                            "name": "Vodafone TV Center 2000 (Mietgerät)",
+                            "code": "20090138",
+                            "specification": "fn_hardware",
+                            "characteristicValue": [{
+                                "name": "subventionIndicator",
+                                "value": "false"
+                            }, {
+                                "name": "hwCode",
+                                "value": "20090138"
+                            }, {
+                                "name": "type",
+                                "value": "STB"
+                            }, {
+                                "name": "name",
+                                "value": "Vodafone TV Center 2000 (Mietgerät)"
+                            }, {
+                                "name": "rented",
+                                "value": "true"
+                            }]
+                        }, {
+                            "serialNumber": "0000000385107461",
+                            "name": "Vodafone EasyBox 804 (Mietgerät)",
+                            "code": "20090128",
+                            "specification": "fn_hardware",
+                            "characteristicValue": [{
+                                "name": "subventionIndicator",
+                                "value": "false"
+                            }, {
+                                "name": "hwCode",
+                                "value": "20090128"
+                            }, {
+                                "name": "type",
+                                "value": "IAD"
+                            }, {
+                                "name": "name",
+                                "value": "Vodafone EasyBox 804 (Mietgerät)"
+                            }, {
+                                "name": "rented",
+                                "value": "true"
+                            }]
+                        }, {
+                            "serialNumber": "0000000384543702",
+                            "name": "Vodafone EasyBox 804 (Mietgerät)",
+                            "code": "20090128",
+                            "specification": "fn_hardware",
+                            "characteristicValue": [{
+                                "name": "subventionIndicator",
+                                "value": "true"
+                            }, {
+                                "name": "hwCode",
+                                "value": "20090128"
+                            }, {
+                                "name": "type",
+                                "value": "IAD"
+                            }, {
+                                "name": "name",
+                                "value": "Vodafone EasyBox 804 (Mietgerät)"
+                            }, {
+                                "name": "rented",
+                                "value": "true"
+                            }]
+                        }
+
+
+                    ]
+                }
+            },
+            "preferences": {
+                "advertisingIndicator": true,
+                "personalDataEvalIndicator": false,
+                "marketingUsePhoneIndicator": true
+            },
+            "services": {
+                "hasAddressBook": false
+            },
+            "installationSite": {
+                "address": {
+                    "type": "INSTALLATION",
+                    "addressHashCode": "1708725008654846720",
+                    "street": "Sonnenrain",
+                    "streetNumber": "44",
+                    "postCode": "53757",
+                    "city": "Sankt Augustin",
+                    "country": "Deutchland",
+                    "countryCode": "D"
+                },
+                "detachedHouse": {
+                    "details": "EFH, VH, TAE im Keller"
+                },
+                "accessOwner": [{
+                    "individual": {
+                        "firstName": "Raphael",
+                        "familyName": "Winter"
+                    }
+                }],
+                "moveWithPorting": false
+            },
+            "accessNumbers": {
+                "localAreaCode": "022222",
+                "phoneNumbers": [{
+                    "countryCode": "49",
+                    "localAreaCode": "02241",
+                    "subscriberNumber": "301843567899"
+                }],
+                "additionalNumbers": [{
+                    "countryCode": "49",
+                    "localAreaCode": "02222",
+                    "subscriberNumber": "3018435"
+                }, {
+                    "countryCode": "49",
+                    "localAreaCode": "02241",
+                    "subscriberNumber": "3018435"
+                }, {
+                    "countryCode": "49",
+                    "localAreaCode": "02241",
+                    "subscriberNumber": "3018435"
+                }]
+            }
+        }]
+    }
+});

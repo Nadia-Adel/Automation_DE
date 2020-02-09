@@ -37,19 +37,65 @@ public class HomePage {
 
 	@iOSXCUITFindBy(id="bigTileIconView")
 	public WebElement staticTileIcon_icon;
-	
+
 	@iOSXCUITFindBy(id="Start")
 	public WebElement  homeIcon;
 
+	@iOSXCUITFindBy(id = "mediumTileIconView")
+	public WebElement squareTileIcon;
+	
+	//XCUIElementTypeStaticText[@name="mediumTileTitleText"])[1]
+			//[@name ='collectionView']/[2]//*[@name='mediumTileTitleText']
+	
+	@iOSXCUITFindBy(xpath = "(//XCUIElementTypeStaticText[@name='mediumTileTitleText'])[1]")
+	public WebElement squareTileHeadline;
 
+	@iOSXCUITFindBy(xpath = "(//XCUIElementTypeStaticText[@name=\"mediumTileTitleText\"])[2]")
+	public WebElement squareTileSubline;
+	
+	@iOSXCUITFindBy(xpath = "(//XCUIElementTypeStaticText[@name=\"mediumTileNumberText\"])[1]")
+	public WebElement squareTileAmount;
+	
+	@iOSXCUITFindBy(id = "Nochmal versuchen")
+	public WebElement reTryBtn_BlockingScreen;
+
+	@iOSXCUITFindBy(id = "bigTileErrorText")
+	public WebElement wideTileErrorText;
+	
+	@iOSXCUITFindBy(xpath="(//XCUIElementTypeStaticText[@name=\"smallTileTitleText\"])[1]")
+	public WebElement firstSmallTileTitle_txt;
+	
+	@iOSXCUITFindBy(xpath="(//XCUIElementTypeStaticText[@name=\"smallTileSublineText\"])[1]")
+	public WebElement firstSmallTileSubline_txt;
+	
+	@iOSXCUITFindBy(xpath = "(//XCUIElementTypeImage[@name=\"smallTileIconView\"])[1]")
+	public WebElement firstSmallTileIcon_icon;
+	
+	@iOSXCUITFindBy(xpath="(//XCUIElementTypeStaticText[@name=\"smallTileTitleText\"])[2]")
+	public WebElement secondSmallTileTitle_txt;
+
+	@iOSXCUITFindBy(xpath="(//XCUIElementTypeStaticText[@name=\"smallTileSublineText\"])[2]")
+	public WebElement secondSmallTileSubline_txt;
+	
+	@iOSXCUITFindBy(xpath = "(//XCUIElementTypeImage[@name=\"smallTileIconView\"])[2]")
+	public WebElement secondSmallTileIcon_icon;
+	
+	@iOSXCUITFindBy(id="vodafonepassstile_usage_tv")
+	public WebElement vodafonepassstile_usage_tv;
+	
+	@iOSXCUITFindBy(id="vodafonepassstile_title_tv")
+	public WebElement vodafonepassstile_title_tv;
+	
+	@iOSXCUITFindBy(id="vodafonepassstile_more_tv")
+	public WebElement vodafonepassstile_icon_iv;
+	
+	
 	public void assertLoggedInUser(String loggedInUsername) {
 
 		MenuItemsPage menuItemPageObject = new MenuItemsPage(GlobalDriver.appium);
 		menuItemPageObject.clickMenuIcon();
 		WebElement element = GlobalDriver.appium.findElement(By.id(loggedInUsername));
 		assertTrue(element.isDisplayed());
-
-		//assertEquals();
 
 	}
 
@@ -87,6 +133,8 @@ public class HomePage {
 		}
 
 		catch(Exception e) {
+			// to handle any problem with the scrolling to settings element 
+			// if there is a problem will logout from the switch user btn
 
 			Mobile_CommonActions_Set.Click(menuItemPageObject.switchToDSLBtn);
 			Mobile_CommonActions_Set.Click(acceptNotification);
@@ -110,12 +158,12 @@ public class HomePage {
 		Mobile_CommonActions_Set.setExplicitWait(lgn.passwordTxtField,10);
 
 	}
-	
-	
+
+
 	public void stubsLogout() {
 		MenuItemsPage menuItemPageObject = new MenuItemsPage(GlobalDriver.appium);
 		menuItemPageObject.clickMenuIcon();
-		
+
 		LoginPage lgn = new LoginPage(GlobalDriver.appium);
 		Mobile_CommonActions_Set.Click(menuItemPageObject.switchToDSLBtn);
 		Mobile_CommonActions_Set.Click(acceptNotification);
@@ -137,7 +185,7 @@ public class HomePage {
 		Mobile_CommonActions_Set.killApp();
 	}
 
-	public void handlePushNotificationFromForntground(String userUDID , String Platform , String Deeplink,String notifcationMessage) {
+	public void handlePushNotificationFromForground(String userUDID , String Platform , String Deeplink,String notifcationMessage) {
 
 		Mobile_CommonActions_Set.pushNotification(userUDID,Platform, Deeplink,notifcationMessage);
 
@@ -145,7 +193,7 @@ public class HomePage {
 		//assertTrue(CommonActions_Get.getText(notificationBodyTxt).contains(notifcationMessage + " Deep Link"));
 
 		Mobile_CommonActions_Set.Click(acceptNotification);
-		
+
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -200,7 +248,6 @@ public class HomePage {
 
 	}
 
-
 	public void validateStaticWideTile(String title, String subTitle) {
 
 		WebElement element = GlobalDriver.appium.findElement(By.xpath("//*[@label='"+title+"']"));
@@ -209,9 +256,4 @@ public class HomePage {
 		assertEquals(Mobile_CommonActions_Get.getText(staticTileSublineTxt), subTitle);
 		assertTrue(Mobile_CommonActions_Set.checkIfElementISDisplayed(staticTileIcon_icon));
 	}
-
-
-
-
-
 }

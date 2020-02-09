@@ -50,9 +50,19 @@ public class APIs_Body {
 
 	}
 
-
-
-
-
-
+	public static String returnInfoPostBody() {
+		requestBody = "{\r\n" + 
+				"	\"permission\": {\r\n" + 
+				"		\"LI-NBA\": false,\r\n" + 
+				"		\"LI-OM\": true,\r\n" + 
+				"		\"LI-OPT\": false\r\n" + 
+				"	},\r\n" + 
+				"	\"notification\": [{\r\n" + 
+				"		\"name\": \"APP\",\r\n" + 
+				"		\"version\": 2,\r\n" + 
+				"		\"permissions\": [\"LI-OPT\", \"LI-OM\", \"LI-NBA\"]\r\n" + 
+				"	}]\r\n" + 
+				"}";
+		return requestBody;
+	}
 }
