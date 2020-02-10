@@ -1,0 +1,331 @@
+{
+  "deeplinkScreens": [
+    {
+      "screenId": "home",
+      "type": "all",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/home",
+        "https://www.vodafone.de/hilfe/tarife/red-plus.html",
+        "https://www.vodafone.de/meinvodafone/services/teilnehmer/quickcheck",
+        "mvf://home",
+        "mcy://home"
+      ]
+    },
+    {
+      "screenId": "quickcheck",
+      "type": "mobile",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/quickcheck",
+        "https://www.vodafone.de/meinvodafone/services/teilnehmer/quickcheck"
+      ]
+    },
+    {
+      "screenId": "inbox",
+      "type": "mobile",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/inbox",
+        "mvf://inbox",
+        "mcy://inbox"
+      ]
+    },
+    {
+      "screenId": "netzinfo",
+      "type": "all",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/netzinfo",
+        "mvf://netzinfo",
+        "mcy://netzinfo"
+      ]
+    },
+    {
+      "screenId": "faq",
+      "type": "all",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/faq",
+        "https://www.vodafone.de/privat/hilfe.html",
+        "mvf://faq",
+        "mcy://faq"
+      ]
+    },
+    {
+      "screenId": "forum",
+      "type": "all",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/forum",
+        "https://forum.vodafone.de",
+        "mvf://forum",
+        "mcy://forum"
+      ]
+    },
+    {
+      "screenId": "speedtest",
+      "type": "all",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/speedtest",
+        "mvf://speedtest",
+        "mcy://speedtest"
+      ]
+    },
+    {
+      "screenId": "shopfinder",
+      "type": "all",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/shopfinder",
+        "mvf://shopfinder",
+        "mcy://shopfinder"
+      ]
+    },
+    {
+      "screenId": "netzfeedback",
+      "type": "mobile",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/netzfeedback",
+        "mvf://netzfeedback",
+        "mcy://netzfeedback"
+      ]
+    },
+    {
+      "screenId": "netzabdeckung",
+      "type": "mobile",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/netzabdeckung",
+        "mvf://netzabdeckung",
+        "mcy://netzabdeckung"
+      ]
+    },
+    {
+      "screenId": "info",
+      "type": "all",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/info",
+        "mvf://info",
+        "mcy://info"
+      ]
+    },
+    {
+      "screenId": "offer",
+      "type": "mobile",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/offer",
+        "mvf://offer",
+        "mcy://offer"
+      ]
+    },
+    {
+      "screenId": "offerDetails",
+      "type": "mobile",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/offer/details"
+      ]
+    },
+    {
+      "screenId": "transfer_postpaid",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/transfer",
+        "mvf://transfer_postpaid"
+      ]
+    },
+    {
+      "screenId": "data",
+      "type": "mobile",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/services/vertragsdaten",
+        "https://www.vodafone.de/hilfe/vertrag/meine-daten.html",
+        "https://www.vodafone.de/meinvodafone/app/data",
+        "https://www.vodafone.de/meinvodafone/app/data/contact-data",
+        "mvf://data"
+      ]
+    },
+    {
+      "screenId": "data_fixednet",
+      "type": "fixednet",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/services/vertragsdaten",
+        "https://www.vodafone.de/hilfe/vertrag/meine-daten.html",
+        "https://www.vodafone.de/meinvodafone/app/data",
+        "https://www.vodafone.de/meinvodafone/app/data/contact-data",
+        "mvf://data"
+      ]
+    },
+    {
+      "screenId": "roaming",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/roaming",
+        "https://www.vodafone.de/privat/service/fuer-vertragskunden-ausland.html",
+        "mvf://roaming"
+      ]
+    },
+    {
+      "screenId": "roamingRegulation",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/roaming/regulations",
+        "mvf://roaming/regulations"
+      ]
+    },
+    {
+      "screenId": "bill_fixednet",
+      "type": "fixednet",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/overview",
+        "https://www.vodafone.de/meinvodafone/services/ihre-rechnungen",
+        "https://www.vodafone.de/hilfe/rechnung/online-rechnung.html",
+        "mvf://overview"
+      ]
+    },
+    {
+      "screenId": "overview",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/overview",
+        "https://www.vodafone.de/meinvodafone/services/ihre-rechnungen",
+        "https://www.vodafone.de/hilfe/rechnung/online-rechnung.html",
+        "mvf://overview"
+      ]
+    },
+    {
+      "screenId": "archive",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/archive",
+        "mvf://archive"
+      ]
+    },
+    {
+      "screenId": "tariff",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariff",
+        "https://www.vodafone.de/hilfe/vertrag/vertrag-laufzeit.html",
+        "https://www.vodafone.de/hilfe/vertrag/vertragsverlaengerung.html",
+        "https://www.vodafone.de/meinvodafone/services/teilnehmer/mein-tarif"
+      ]
+    },
+    {
+      "screenId": "tariff_fixednet",
+      "type": "fixednet",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariff",
+        "https://www.vodafone.de/hilfe/vertrag/vertrag-laufzeit.html",
+        "https://www.vodafone.de/hilfe/vertrag/vertragsverlaengerung.html",
+        "https://www.vodafone.de/meinvodafone/services/teilnehmer/mein-tarif"
+      ]
+    },
+    {
+      "screenId": "tariffDetails",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariff/details"
+      ]
+    },
+    {
+      "screenId": "tariffoptions",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariffoptions",
+        "mvf://tariffoptions"
+      ]
+    },
+    {
+      "screenId": "tariffoptionsDetails",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariffoption/details"
+      ]
+    },
+    {
+      "screenId": "youngpeople",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/youngpeople",
+        "mvf://youngpeople"
+      ]
+    },
+    {
+      "screenId": "speedGo",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/speedgo",
+        "mvf://speedgo"
+      ]
+    },
+    {
+      "screenId": "vertrag",
+      "type": "pre",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariff",
+        "mcy://tariff"
+      ]
+    },
+    {
+      "screenId": "vertragDetails",
+      "type": "pre",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariff/details"
+      ]
+    },
+    {
+      "screenId": "recharge",
+      "type": "pre",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/recharge",
+        "https://www.vodafone.de/hilfe/prepaid/callya-aufladen.html",
+        "mcy://recharge"
+      ]
+    },
+    {
+      "screenId": "transfer",
+      "type": "pre",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/transfer",
+        "mcy://recharge"
+      ]
+    },
+    {
+      "screenId": "tariff_fixednet",
+      "type": "fixednet",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/services/teilnehmer/mein-tarif",
+        "https://www.vodafone.de/meinvodafone/app/tariff"
+      ]
+    },
+    {
+      "screenId": "orders",
+      "type": "mobile",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/orders"
+      ]
+    },
+    {
+      "screenId": "orders_fixednet",
+      "type": "fixednet",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/orders"
+      ]
+    },
+    {
+      "screenId": "External link",
+      "type": "all",
+      "deeplinkSchemes": [
+        "https://www.google.com",
+        "https://www.google.com"
+      ]
+    },
+    {
+      "screenId": "redplus",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/redplus"
+      ]
+    },
+    {
+      "screenId": "currentcost",
+      "type": "post",
+      "deeplinkSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/currentcost"
+      ]
+    }
+  ]
+}

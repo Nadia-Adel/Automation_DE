@@ -1,0 +1,449 @@
+{
+  "urls": {
+    "baseImageURL": "http://media.vodafone.de/www/images/app/",
+    "onlineShopURL": "https://www.vodafone.de/privat/handys-tablets-tarife/vertragsverlaengerung.html?tarifSKU=%@&propositionPROD=%@&b_id=1653&c_id=app_cic_fq0_A01:fq0_c_ge_sta_meinvf&j_id=AppConPerA01C:NonCpm000:fq0gensta"
+  },
+  "packageIdentifiers": {
+    "quickcheck": [
+      "Highspeed-Volumen national"
+    ],
+    "redPlus": [
+      "Red+"
+    ]
+  },
+  "thresholds": {
+    "dataThreshold": 1024,
+    "highSpeedThreshold": 10,
+    "voteThreshold": 10
+  },
+  "appleWatch": {
+    "showShopfinder": true,
+    "showHighSpeed": true,
+    "showQuickcheck": true
+  },
+  "features": {
+    "xmasMessage": {
+      "enable": true,
+      "startDate": 1475960400,
+      "endDate": 1475960400
+    },
+    "redeemVoucher": {
+      "enable": true,
+      "soc1": "MRKBEGSAP",
+      "soc2": "MRK_GSAP",
+      "waitingTime": 234234
+    },
+    "vfStart": {
+      "showforTypeB": false,
+      "showForTypeS": false,
+      "showForTypeI": true,
+      "showForTypePre": false,
+      "enable": true,
+      "url": "https://www.google.com.eg/?gfe_rd=cr&ei=yUBWWKn9M83v8Ae24ZjIAw"
+    },
+    "redBtn": {
+      "showforTypeB": true,
+      "showForTypeS": true,
+      "showForTypeI": true,
+      "showForTypePre": true,
+      "enable": true
+    },
+    "netperformAbTestingSettings": {
+      "enable": true,
+      "rangeStart": 0,
+      "rangeEnd": 11
+    },
+    "unlimited4GSocCodes": {
+      "prepaidSoc": "SAT4GDEB",
+      "postpaidSoc": "APP4GSAT",
+      "postpaidDescription": "GigaGarantie"
+    },
+    "hero": {
+      "enable": true,
+      "version": 1,
+      "cachingtime": 10,
+      "showNextInterval": 1
+    },
+    "fingerPrint": {
+      "associateRecurrence": 3
+    },
+    "chat": {
+      "genesys": {
+        "agentAvailablitySimulated": "online",
+        "showChatInBillForTablet": true,
+        "showChatInHelpForTablet": true,
+        "topicChatInBillForTablet": "Rechnung",
+        "topicChatInHelpForTablet": "Hilfe_Kontakt",
+        "refreshTimeAgentAvailability": 20
+      },
+      "text": {
+        "chatNetzInfoSubheadline": "Sie haben Fragen rund um Ihren Produkte? Unsere Mitarbeiter sind rund um die Uhr f&uuml;r Sie da.",
+        "chatBillSubheadline": "Sie haben Fragen rund um Ihre Rechnung? Unsere Mitarbeiter sind rund um die Uhr f&uuml;r Sie da.",
+        "chatTarifSubheadline": "Sie haben Fragen rund um Ihren Tarif? Unsere Mitarbeiter sind rund um die Uhr f&uuml;r Sie da.",
+        "chatDisconnectionMessage": "Die Verbindung zum Online-Chat wurde unterbrochen.",
+        "chatClosedText": "Wir sind in K&uuml;rze wieder f&uuml;r Sie da.",
+        "chatClosedSubheadline": "Momentan ist kein Chat m&ouml;glich",
+        "chatNotAvailableText": "Bitte versuchen Sie es sp&auml;ter noch einmal.",
+        "chatNotAvailableSubheadline": "Zurzeit helfen alle Chat-Mitarbeiter anderen Kunden.",
+        "chatWorkingHours": "Unsere Mitarbeiter sind jeden Tag rund um die Uhr f&uuml;r Sie da."
+      }
+    },
+    "personalAgent": {
+      "personalAgentEnabled": true,
+      "showAgentName": true
+    },
+    "nba": {
+      "campCodeArray": [
+        "MCC_1962",
+        "MCC_1960"
+      ],
+      "nbaHotlineNumber": "08008001070",
+      "nbaOnlineShopUrl": "http://www.vodafone.de/mobil/privat/index.html",
+      "focus": "device",
+      "type": "sales",
+      "target": "",
+      "numbersOfDevices": 3
+    },
+    "mailboxAnsage": {
+      "showforTypeB": false,
+      "showForTypeS": false,
+      "showForTypeI": true,
+      "showForTypePre": false,
+      "enable": true,
+      "url": "https://mailboxansagepro.vodafone.de"
+    },
+    "saveAndSecure": {
+      "showforTypeB": false,
+      "showForTypeS": false,
+      "showForTypeI": true,
+      "showForTypePre": false,
+      "enable": true,
+      "url": "https://securenet.vodafone.de"
+    },
+    "vote": {
+      "showforTypeB": true,
+      "showForTypeS": true,
+      "showForTypeI": true,
+      "showForTypePre": true,
+      "enable": true
+    },
+    "smsLogin": {
+      "enable": true
+    },
+    "banner": {
+      "bannerDelay": 3
+    },
+    "background": {
+      "resource": "background-0-.jpg"
+    },
+    "targetCaching": {
+      "enable": true,
+      "version": 2,
+      "interval": 6,
+      "prepaidMboxCount": 20,
+      "postpaidMboxCount": 20
+    },
+    "prepaid": {
+      "bonusDefaultMaxValue": 5,
+      "costDefaultMaxValue": 30,
+      "costSettings": [
+        {
+          "tarifSocs": [
+            "CY_SF25"
+          ],
+          "costMaxValue": 50
+        }
+      ],
+      "offers": {
+        "bookOption": {
+          "listImage": "TailL_pontis-book-0-.jpg",
+          "detailsImage": "mein_callya_BookOption-0-.jpg",
+          "vovImage": "vov_pontis_prepay_bookoption-0-.jpg"
+        },
+        "changeTariff": {
+          "listImage": "TailL_pontis-change-0-.jpg",
+          "detailsImage": "mein_callya_ChangeTariff-0-.jpg",
+          "vovImage": "vov_pontis_prepay_changetariff-0-.jpg"
+        },
+        "topup": {
+          "listImage": "TailL_pontis-offer-0-.jpg",
+          "detailsImage": "mein_callya_Topup-0-.jpg",
+          "vovImage": "vov_pontis_prepay_Topup-0-.jpg"
+        },
+        "informative": {
+          "listImage": "TailL_pontis-info-0-.jpg",
+          "detailsImage": "mein_callya_Informative-0-.jpg",
+          "vovImage": "vov_pontis_prepay_informative-0-.jpg"
+        },
+        "various": {
+          "listImage": "banner_hardware-0-.jpg",
+          "detailsImage": "banner_hardware-0-.jpg",
+          "vovImage": "vov_pontis_prepay_informative-0-.jpg"
+        }
+      },
+      "komfortRegistration": {
+        "enabled": true,
+        "success": "success.do",
+        "failure": "cancel.do"
+      },
+      "campaign": {
+        "enabled": true,
+        "version": 1,
+        "resource": "Detail_VVL_iPhone6s-Red1.5-0-.jpg",
+        "title": "CallYa schickt Dich um die Welt",
+        "subtitle": "Jetzt Prepaid-Guthaben aufladen und mit etwas Gl&uuml;ck eine Weltreise gewinnen.\n\nSofort Gewinne sind garantiert. Jetzt schnell in der App aufladen!"
+      },
+      "toppingsRedeemSuccessMsg": "Die Registrierung f&uuml;r CallYa Toppings war erfolgreich."
+    },
+    "tariff": {
+      "additionalBookableSubheadline": "Erg&auml;nzen Sie jetzt Ihren Tarif",
+      "additionalBookedSubheadline": "Diese Tarifoptionen erg&auml;nzen bereits Ihren Tarif",
+      "additionalCategoryName": "Zusatzoptionen",
+      "entertainmentBookableClickcell": "Entertainment Optionen verwalten",
+      "entertainmentBookableSubheadline": "Entertainment in perfekter Kombination",
+      "entertainmentBookedClickcell": "Entertainment Optionen verwalten",
+      "entertainmentBookedSubheadline": "Pr&uuml;fen Sie hier, welches Paket Sie derzeit nutzen.",
+      "entertainmentCategoryName": "Entertainment-Pakete",
+      "highspeedBookableSubheadline": "Buchen Sie hier einfach zus&auml;tzliche Highspeed-GB f&uuml;r ein noch l&auml;ngeres Surf-Vergn&uuml;gen.",
+      "highspeedBookedSubheadline": "So viele Highspeed-GB haben Sie zus&auml;tzlich pro Monat gebucht:",
+      "highspeedCategoryName": "Highspeed-Volumen",
+      "highspeedTermsSubtext": "Die Option ist monatlich k&uuml;ndbar\\nWir behalten uns vor, die Verbindung nach je 24 Stunden automatisch zu trennen.\\nAm Ende jeder Verbindung, mindestens aber nach 24 Stunden, runden wir auf den n&auml;chsten 100-KB-Block auf.",
+      "highspeedTermsText": "Bei Buchung der Tarifoption erh&ouml;ht sich ihr gesamtes Highspeed-Datenvolumen mit maximal verf&uuml;gbarer Bandbreite bis zu 100 Mbit/s um das ausgew&auml;hlte Volumen.\\nNach Verbrauch des Highspeed-Datenvolumens stehen max. 32 kBit/s zur Verf&uuml;gung.\\n\\nMindestlaufzeit: 1 Monat",
+      "mailboxProductName": "Vodafone MailboxAnsage Pro",
+      "mailboxSubheadline": "Ihr mobiler Anrufbeantworter",
+      "saveAndSecureProductName": "Vodafone Secure Net",
+      "saveAndSecureSectionHeadline": "Ihr Rundum-Schutz im Netz",
+      "saveAndSecureSectionSubheadline": "Secure Net sch&uuml;tzt vor Viren und Angriffen aus dem mobilen Internet",
+      "saveAndSecureSubheadline": "Sicher sorglos surfen",
+      "alsServiceProductName": "Entdecke Vodafone Start",
+      "redTariffText": "Flat telefonieren und SMSen"
+    },
+    "nextphone": {
+      "s2": {
+        "detailSubtitle": "Suchen Sie sich in unseren Shops ein neues Smartphone aus.",
+        "cellText": "Vertragsverl&auml;ngerung",
+        "detailTitle": "W&auml;hlen Sie jetzt Ihr neues Smartphone aus",
+        "buttonTitle": "Shop finden",
+        "detailText": "Das geht ab dem 13. Monat bis sp&auml;testens zum 23. Monat der Vertragslaufzeit. Ihr Vertrag verl&auml;ngert sich dann wieder auf 24 Monate Mindesvertragslaufzeit.\n\nFinden Sie jetzt einn Vodafone-Shop in ihrer N&auml;he. Und sichern Sich Ihr neues Smartphone.",
+        "buttonAction": "onlineshop",
+        "detailImage": "nextphone.jpg"
+      },
+      "s3": {
+        "detailSubtitle": "Gehen Sie dazu in unseren Shop und suchen sich ihr neues Smartphone oder Tablet aus.",
+        "cellText": "Jetzt ein neues Ger&auml;t",
+        "detailTitle": "W&auml;hlen Sie sich schon jetzt Ihr neues Ger&auml;t aus mit Vodafone EarlyBird.",
+        "buttonTitle": "Shop finden",
+        "detailText": "Suchen Sie sich in unseren Shops ein neues Smartphone oder Tablet vor Ende der Mindestlaufzeit mit Zuzahlung f&uuml;r die vorzeitige Vertragsverl&auml;ngerung aus.\n\nIhr neuer Vertrag hat dann eine Mindestlaufzeit von 24 Monaten.\n\nFinden Sie jetzt einen Vodafone-Shop in Ihrer N&auml;he und sichern Sie sich Ihr neues Ger&auml;t.",
+        "buttonAction": "onlineShop",
+        "detailImage": "nextphone.jpg"
+      }
+    },
+    "redPlus": {
+      "hotlineButtonAction": "08006649125",
+      "shopfinderButtonText": "Zum Shopfinder",
+      "onlineshopButtonAction": "https://www.vodafone.de/shop/authentifizierung.html",
+      "onlineshopButtonText": "Zum Online-Shop",
+      "hotlineButtonText": "Bestell-Hotline anrufen",
+      "enablePush": true
+    },
+    "zeroRating": {
+      "postpaid": {
+        "redPlusEnable": true,
+        "timeSpan": 120,
+        "showSuccess": true,
+        "enable": true,
+        "socCode": "APPVOLCRE"
+      },
+      "prepaid": {
+        "enabled": true,
+        "timeSpan": 1440,
+        "resource": "mein-callya-100mb-0-.jpg",
+        "title": "Dein App-Geschenk",
+        "subtitle": "Sch&ouml;n, dass Du die MeinCallYa-App nutzt. Als Dankesch&ouml;n bekommst Du 100 Highspeed - MB kostenlos- f&uuml;r die n&auml;chsten 28 Tage. Nutze die App am besten regelm&auml;&szlig;ig.Denn: Wir beschenken Dich immer wieder neu.",
+        "buttonText": "Jetzt aktivieren",
+        "socCode": "APPVOLDEB"
+      }
+    },
+    "vov": {
+      "prepaid": {
+        "items": [
+          {
+            "id": "Welcome",
+            "order": 0,
+            "priority": 4
+          },
+          {
+            "id": "Survey4G",
+            "order": 1,
+            "priority": 0
+          },
+          {
+            "id": "PAC",
+            "order": 2,
+            "priority": 1
+          },
+          {
+            "id": "Pontis",
+            "order": 3,
+            "priority": 2
+          },
+          {
+            "id": "Target",
+            "order": 4,
+            "priority": 3
+          }
+        ]
+      },
+      "postpaid": {
+        "items": [
+          {
+            "id": "Welcome",
+            "order": 0,
+            "priority": 3
+          },
+          {
+            "id": "Survey4G",
+            "order": 6,
+            "priority": 6
+          },
+          {
+            "id": "Roaming",
+            "order": 2,
+            "priority": 1
+          },
+          {
+            "id": "Target",
+            "order": 3,
+            "priority": 2
+          },
+		  {
+            "id": "YOLO_high",
+            "order": 1,
+            "priority": 2
+          },
+          {
+            "id": "YOLO_low",
+            "order": 5,
+            "priority": 4
+          },
+          {
+            "id": "VVL",
+            "order": 4,
+            "priority": 0
+          },
+          {
+            "id": "Redeem_Voucher",
+            "order": 5,
+            "priority": 5
+          }
+        ]
+      }
+    },
+    "transfer": {
+      "enableTransferCosts": false,
+      "steps": [
+        {
+          "costs": 5
+        },
+        {
+          "costs": 10
+        },
+        {
+          "costs": 20
+        }
+      ]
+    }
+  },
+  "redPlusPushTasks": [
+    {
+      "taskID": 1,
+      "taskTitle": "W&auml;sche",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_1_flat.png"
+    },
+    {
+      "taskID": 2,
+      "taskTitle": "Pflanzen",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_2_flat.png"
+    },
+    {
+      "taskID": 3,
+      "taskTitle": "F&uuml;ttern",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_3_flat.png"
+    },
+    {
+      "taskID": 4,
+      "taskTitle": "Instrument",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_4_flat.png"
+    },
+    {
+      "taskID": 5,
+      "taskTitle": "Gassi",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_5_flat.png"
+    },
+    {
+      "taskID": 6,
+      "taskTitle": "Sp&uuml;lmaschine",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_6_flat.png"
+    },
+    {
+      "taskID": 7,
+      "taskTitle": "Hausaufgaben",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_7_flat.png"
+    },
+    {
+      "taskID": 8,
+      "taskTitle": "Z&auml;hne putzen",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_8_flat.png"
+    },
+    {
+      "taskID": 9,
+      "taskTitle": "Kochen",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_9_flat.png"
+    },
+    {
+      "taskID": 10,
+      "taskTitle": "M&uuml;ll",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_10_flat.png"
+    },
+    {
+      "taskID": 11,
+      "taskTitle": "Einkaufen",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_11_flat.png"
+    },
+    {
+      "taskID": 12,
+      "taskTitle": "Lesen",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_12_flat.png"
+    },
+    {
+      "taskID": 13,
+      "taskTitle": "Staubsaugen",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_13_flat.png"
+    },
+    {
+      "taskID": 14,
+      "taskTitle": "Sport",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_14_flat.png"
+    },
+    {
+      "taskID": 15,
+      "taskTitle": "Bett machen",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_15_flat.png"
+    },
+    {
+      "taskID": 16,
+      "taskTitle": "Malen",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_16_flat.png"
+    },
+    {
+      "taskID": 17,
+      "taskTitle": "Gute Noten",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_17_flat.png"
+    },
+    {
+      "taskID": 18,
+      "taskTitle": "Aufr&auml;umen",
+      "taskImage": "http://media.vodafone.de/www/images/app/dft_18_flat.png"
+    }
+  ]
+}

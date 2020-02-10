@@ -1,0 +1,43 @@
+{
+
+    "cms-guid": "352BB64EC80B4C8CB13B7F70D27CE565",
+
+    "cms-id": 1152,
+
+    "cms-version": 1,
+
+    "simSwapReasons" : {
+
+        "reason1" : {
+           "sim":{
+
+            "cost": 0.62,
+            "cardSize": "TC",
+            "cardType": "080"},
+            
+            "esim":{
+              "cost": 10.5555,
+            "cardSize": "TC",
+            "cardType": "080"
+            }
+},
+      
+      
+      "reason2" : {
+           "sim":{
+
+            "cost": 10.47,
+            "cardSize": "TC",
+            "cardType": "080"}
+            
+           
+},
+ "reason3" : {
+           "sim":{
+
+            "cost": 1000.007,
+            "cardSize": "TC",
+            "cardType": "080"}}
+    }}
+        
+        

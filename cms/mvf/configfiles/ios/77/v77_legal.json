@@ -1,0 +1,580 @@
+{
+  "cms-guid": "814D1BA9AD524DCABFADCCB95C581B5B",
+  "cms-id": 1641,
+  "cms-version": 1,
+  "consentVersion": 1,
+  "texts": [
+    {
+      "textKey": "vf_performance_cookies_on",
+      "textValue": "Surf-Verhalten dürfen wir für Analysezwecke nutzen, um z.B. unsere Web-Seite zu optimieren. Dazu nehmen wir nur pseudonyme Daten, ein Rückschluss auf Dich als Person ist für uns nicht möglich."
+    },
+    {
+      "textKey": "vf_preferences_omniture_send_user_data",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Performance Cookies</font>"
+    },
+    {
+      "textKey": "vf_performance_cookies_off",
+      "textValue": "Dein Surf-Verhalten dürfen wir für Analysezwecke nutzen, um z.B. unsere Web-Seite zu optimieren. Dazu nehmen wir nur pseudonyme Daten, ein Rückschluss auf Dich als Person ist für uns nicht möglich."
+    },
+    {
+      "textKey": "vf_performance_cookies",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">performance switch title</font>"
+    },
+    {
+      "textKey": "vf_online_marketing_cookies_on",
+      "textValue": "auf unserer oder anderen Web-Seiten Werbung, die zu Deinem Surf-Verhalten passt. Grundsätzlich nutzen wir nur pseudonyme Daten, ein Rückschluss auf Dich als Person ist für uns nicht möglich. An unsere Werbepartner geben wir nur anonyme oder pseudonyme Daten weiter."
+    },
+    {
+      "textKey": "vf_online_marketing_cookies_off",
+      "textValue": "Du siehst auf unserer oder anderen Web-Seiten Werbung, die zu Deinem Surf-Verhalten passt. Grundsätzlich nutzen wir nur pseudonyme Daten, ein Rückschluss auf Dich als Person ist für uns nicht möglich. An unsere Werbepartner geben wir nur anonyme oder pseudonyme Daten weiter. "
+    },
+    {
+      "textKey": "vf_online_marketing_cookies",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Online Marketing Cookies</font>"
+    },
+    {
+      "textKey": "vf_angebote_on",
+      "textValue": "wir Dir maßgeschneiderte Angebote und Rabatte im Web und in den Apps machen. Dazu erkennen wir Dich persönlich als Kunden übers Vodafone-Netz oder wenn Du Dich bei uns einloggst. Durch Cookies geht das auch, wenn Du nicht mehr eingeloggt bist oder WLAN nutzt. Erkennen wir Dich auf verschiedenen Geräten, gelten Deine Einstellungen für alle Geräte. Du musst sie nicht auf jedem Gerät einzeln ändern."
+    },
+    {
+      "textKey": "vf_angebote_off",
+      "textValue": "Zurzeit dürfen wir Dir maßgeschneiderte Angebote und Rabatte im Web und in den Apps machen. Dazu erkennen wir Dich persönlich als Kunden übers Vodafone-Netz oder wenn Du Dich bei uns einloggst. Durch Cookies geht das auch, wenn Du nicht mehr eingeloggt bist oder WLAN nutzt. Erkennen wir Dich auf verschiedenen Geräten, gelten Deine Einstellungen für alle Geräte. Du musst sie nicht auf jedem Gerät einzeln ändern."
+    },
+    {
+      "textKey": "vf_angebote",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Persönliche Angebote</font>"
+    },
+    {
+      "textKey": "vf_settings_page_save_button",
+      "textValue": "Weiter"
+    },
+    {
+      "textKey": "vf_data_protection_landing_title",
+      "textValue": "Persönliche Rabatte und Angebote"
+    },
+    {
+      "textKey": "vf_data_protection_landing_subtitle",
+      "textValue": "Du möchtest regelmäßig maßgeschneiderte Angebote im Web und in der App von uns? Dazu erkennen wir Dich persönlich als Kunden übers Vodafone-Netz oder wenn Du Dich bei uns einloggst. Durch Cookies geht das auch, wenn Du nicht mehr eingeloggt bist oder WLAN nutzt.\n\nZusätzlich setzen wir Performance- und Marketing-Cookies, um die Nutzung unserer Web-Seite und unserer Apps leichter zu machen. Und wir können Dir so Werbeinhalte anbieten, die zu Deinen Surf-Verhalten passen. Mit diesen Cookies ist ein Rückschluss auf Dich als Person für uns nicht möglich. Es sei denn, Du hast uns dazu separat Deine Einwilligung gegeben.\n\nUnsere Datenschutz-Erklärung haben wir auf die neue Datenschutz-Grundverordnung angepasst."
+    },
+    {
+      "textKey": "vf_new_wifi_logout_second_description_paragraph",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\">Klicke bei einer bestehenden WLAN-Verbindung unten auf „Neuanmeldung“.<br>Du kannst sich dann mit jeder beliebigen Rufnummer und dem entsprechenden Internet-Passwort neu einloggen.</font>"
+    },
+    {
+      "textKey": "vf_new_wifi_logout_description_paragraph_tablet",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\">Du möchtest Dich ausloggen und die App mit einer anderen Rufnummer nutzen? Dazu brauchst Du nur einen WLAN-Zugriff.</font>"
+    },
+    {
+      "textKey": "vf_new_wifi_logout_description_paragraph_2_tablet",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Klick unten auf „OK“. Dann kannst Du Dich mit jeder beliebigen Rufnummer und dem entsprechenden Internet-Passwort neu einloggen.</font>"
+    },
+    {
+      "textKey": "vf_info_push_StepOneSubtitle",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Rufe die Einstellungen Deines iPhones auf.</font>"
+    },
+    {
+      "textKey": "vf_info_push_StepTwoSubtitle",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Wähle „Mitteilungen”.</font>"
+    },
+    {
+      "textKey": "vf_info_push_StepThreeSubtitle",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Wähle in der Liste „MeinVodafone”.</font>"
+    },
+    {
+      "textKey": "vf_info_push_StepOneSubtitle_Tablet",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Rufe die Einstellungen Deines iPads auf.</font>"
+    },
+    {
+      "textKey": "vf_daten_fur_taten",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Daten für Taten</font>"
+    },
+    {
+      "textKey": "vf_data_for_tasks_sub_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Section Sub Title one row</font>"
+    },
+    {
+      "textKey": "vf_data_for_tasks_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Die Daten für Taten Funktion kannst Du hier an- bzw. abschalten.</font>"
+    },
+    {
+      "textKey": "vf_data_for_tasks_switch_label",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Daten für Taten</font>"
+    },
+    {
+      "textKey": "vf_info_bew_text",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Mein aktueller Text zur Beratungseinwilligung</font>"
+    },
+    {
+      "textKey": "vf_push_subtitle",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Ob neue Rechnung, persönliche Angebote oder Tipps: Du bekommst die Infos direkt auf Dein Smartphone.</font>"
+    },
+    {
+      "textKey": "vf_help_bew_permission_dev_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Sag uns, wie wir Dir Informationen, Angebote und Empfehlungen schicken sollen, die wir auf Dich zugeschnitten haben.</b></font>"
+    },
+    {
+      "textKey": "mvf_customerpassword_store_password_label",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Kundenkennwort speichern</font>"
+    },
+    {
+      "textKey": "vf_info_remove_customer_passowrd_subtitle",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Kundenkennwort speichern – schneller zugreifen</b></font>"
+    },
+    {
+      "textKey": "vf_info_remove_customer_passowrd_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\">Das Kennwort dient dem Schutz Deiner persönlichen Daten. Es ist nur Dir und uns bekannt. Nur mit dem Kennwort kannst Du hier in der App Deine persönlichen Daten wie z. B. Deine Adresse ändern, Optionen buchen oder Infos zu Deiner Rechnung abrufen. Speicherst Du Dein Kundenkennwort, hast Du schnellen Zugriff auf alle Funktionen. Du kannst die Einstellung jederzeit wieder ändern.</font>"
+    },
+    {
+      "textKey": "vf_info_remove_customer_passowrd_button",
+      "textValue": "Nicht mehr speichern"
+    },
+    {
+      "textKey": "mvf_info_remove_finger_print_subtitle",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\"></font>"
+    },
+    {
+      "textKey": "mvf_info_remove_finger_print_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Du kannst dich je nach Gerät mit Face ID oder Deinem Fingerabdruck statt mit dem Kundenkennwort einloggen. Möchtest Du diese Funktion ausschalten und lieber das Kundenkennwort eingeben?</font>"
+    },
+    {
+      "textKey": "mvf_info_remove_finger_print_button",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Nur mit Kundenkennwort einloggen</font>"
+    },
+    {
+      "textKey": "mvf_fingerprint_store_password_label",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Mit Kundenkennwort einloggen</font>"
+    },
+    {
+      "textKey": "vf_info_network_and_service_settings_personal_data_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Wir möchten unsere Produkte, Dienstleistungen und Empfehlungen für Dich noch besser machen. Dazu brauchen wir Deine Hilfe und einige Informationen über Dich und Dein Nutzungsverhalten, wie z.B. personalisierte Informationen zur Netzabdeckung, zur Qualität Deiner Gespräche und Datenverbindungen, sowie zu den von Dir genutzten Apps.\r\n<br><br>\r\nWir bekommen keine Informationen über Deine Gesprächs- oder Nachrichteninhalte. \r\n<br><br>\r\nDeine personalisierten Informationen nutzen wir z.B. um:<br>\r\n• Dir mehr Transparenz über Deinen persönlichen Datenverbrauch zu geben.<br>\r\n• Eventuelle Leistungseinschränkungen bei der Nutzung Deiner Apps oder Deines Smartphones zu entdecken und zu beheben.<br>\r\n• Dir gezielt für Deinen Tarif Produkte & Services zu empfehlen.<br><br></font>"
+    },
+    {
+      "textKey": "vf_info_network_and_service_settings_non_personal_data_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Deine nicht-personalisierten Informationen nutzen wir z.B. um:<br><br>\r\n• Unsere Netzabdeckung und Verbindungsqualität zu verbessern.<br>\r\n• Störungen zu vermeiden und schneller zu beheben.<br><br></font>"
+    },
+    {
+      "textKey": "vf_personal_data_opt_out_confirmation_dialogue_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Möchtest Du wirklich keinen maßgeschneiderten Support mehr? Und auch keine persönlichen Empfehlungen?</font>"
+    },
+    {
+      "textKey": "vf_personal_data_opt_out_confirmation_dialogue_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Mit der Rücknahme Deiner Einwilligung kannst Du dann nicht mehr:<br><br>\r\n• Deine App-Nutzung überprüfen<br>\r\n• Maßgeschneiderten Support bekommen<br>\r\n• Persönliche Empfehlungen bekommen<br><br>\r\nDrücke auf Abbrechen. Dann behältst Du die Einwilligung. Mit OK ziehst Du Deine Einwilligung zurück.<br><br></font>"
+    },
+    {
+      "textKey": "vf_non_personal_data_opt_out_confirmation_dialogue_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Möchtest Du wirklich keine Infos mehr senden?</font>"
+    },
+    {
+      "textKey": "vf_non_personal_data_opt_out_confirmation_dialogue_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Nimmst Du Deine Einwilligung zum Senden von Infos zurück, gilt das auch für’s Senden personalisierter Infos. So bekommen wir leider keine Daten mehr zur Verbesserung unseres Netzes & unserer Services. <br><br>Du kannst leider dann nicht mehr:<br>\r\n• Deine Netzgeschwindigkeit testen<br>\r\n• Deine App-Nutzung überprüfen<br>\r\n• Maßgenschneiderten Support bekommen<br>\r\n• Persönliche Empfehlungen bekommen<br><br>\r\nDrücke auf Abbrechen. Dann behältst Du Deine Einwilligung. Mit OK ziehst Du Deine Einwilligung zurück.<br><br></font>"
+    },
+    {
+      "textKey": "vf_info",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Info</font>"
+    },
+    {
+      "textKey": "info_versioncode",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">MeinVodafone-Version: %1$s</font>"
+    },
+    {
+      "textKey": "vf_info_push_subtitle",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Immer informiert sein.</font>"
+    },
+    {
+      "textKey": "vf_push_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Nachrichten anzeigen</font>"
+    },
+    {
+      "textKey": "vf_new_wifi_logout_description_paragraph",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\">Du möchtest dich ausloggen und die App mit einer anderen Rufnummer nutzen? Dazu brauchst Du nur eine WLAN-Verbindung. Dann klick unten auf „Neuanmeldung“. Du kannst Dich dann mit jeder beliebigen Rufnummer und dem entsprechenden Internet-Passwort neu einloggen.</font>"
+    },
+    {
+      "textKey": "vf_new_wifi_logout_button",
+      "textValue": "Neuanmeldung"
+    },
+    {
+      "textKey": "vf_info_landing_page_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Einstellungen & Infos</font>"
+    },
+    {
+      "textKey": "vf_info_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"6\" color=\"FFFFFF\" align=\"center\">Überblick</font>"
+    },
+    {
+      "textKey": "vf_title_page_info",
+      "textValue": "Einstellungen & Infos"
+    },
+    {
+      "textKey": "vf_info_data_protection_settings_subtitle",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Verwalte hier Deine Einwilligungen und Widersprüche.</font>"
+    },
+    {
+      "textKey": "vf_info_data_protection_analytics_settings",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Nutzungsdaten</font>"
+    },
+    {
+      "textKey": "vf_info_data_protection_network_and_service_settings",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Netz & Service verbessern</font>"
+    },
+    {
+      "textKey": "vf_info_network_and_service_settings_personal_data_descr_subtitle",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Was hast Du davon?</font>"
+    },
+    {
+      "textKey": "vf_info_network_and_service_settings_non_personal_data_descr_subtitle",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Was hast Du davon?</font>"
+    },
+    {
+      "textKey": "vf_info_network_and_service_settings_data_protection_details_button",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Hier gibt‘s Details zur Datenschutz-Erklärung</font>"
+    },
+    {
+      "textKey": "vf_Security_And_Privacy_Title_Label",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Sicherheit & Privatsphäre</font>"
+    },
+    {
+      "textKey": "vf_preferences_omniture_subtitle",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Hilf uns, unsere App noch besser zu machen</b></font>"
+    },
+    {
+      "textKey": "vf_Security_And_Privacy_Description_Label",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Möchtest Du Einstellungen zu PUK/SuperPIN, Datenschutz oder Beratungseinwilligung ändern? Änderungen kannst Du hier vornehmen.</font>"
+    },
+    {
+      "textKey": "vf_Security_And_Privacy_Action_Button_Title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Einstellungen ändern</font>"
+    },
+    {
+      "textKey": "vf_info_network_and_service_settings_personal_data_optin_switch_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Personalisierte Daten senden um Hilfe, Produkte, Services und Empfehlungen auf mich zu zuschneiden</font>"
+    },
+    {
+      "textKey": "vf_info_network_and_service_settings_non_personal_data_optin_switch_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Nicht-personalisierte Daten senden & Netzwerk optimieren</font>"
+    },
+    {
+      "textKey": "vf_help_app_usage_clickcell",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">MeinVodafone-App-Nutzungsdaten</font>"
+    },
+    {
+      "textKey": "vf_info_login_customer_password",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Mit Kundenkennwort einloggen</font>"
+    },
+    {
+      "textKey": "vf_info_imprint",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Impressum</font>"
+    },
+    {
+      "textKey": "vf_info_data_protection_settings",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Opt-in & Opt-out verwalten</font>"
+    },
+    {
+      "textKey": "vf_info_terms_of_use",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Nutzungsbedingungen</font>"
+    },
+    {
+      "textKey": "vf_info_data_protection_information",
+      "textValue": "Datenschutz-Erklärung"
+    },
+    {
+      "textKey": "vf_info_data_protection_information_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\"> Datenschutz-Erklärung</font>"
+    },
+    {
+      "textKey": "vf_info_send_customer_data",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Nutzungsdaten senden</font>"
+    },
+    {
+      "textKey": "vf_info_push",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Meine Push-Nachrichten</font>"
+    },
+    {
+      "textKey": "vf_info_logout",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Logout und Neuanmeldung</font>"
+    },
+    {
+      "textKey": "vf_help_netperform_clickcell",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Netz & Service verbessern</font>"
+    },
+    {
+      "textKey": "vf_help_bew_permission_clickcell",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Beratung & Angebote</font>"
+    },
+    {
+      "textKey": "vf_info_approval_administration",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Zustimmung verwalten</font>"
+    },
+    {
+      "textKey": "vf_info_approval_administration_intro",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Hier siehst Du:</b><br><ul><li>Interessen, die uns als Telekommunikations-Unternehmen per Gesetz zustehen</li><li>Änderungen, die Du in MeinVodafone gemacht oder per Telefon, E-Mail oder Brief angefragt hast</li></ul><br>In der Datenschutz-Erklärung findest Du Infos zu den Begriffen Einwilligung, Widerruf und Widerspruch.<br></font>"
+    },
+    {
+      "textKey": "vf_info_cpm_intro",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Hier bestimmst Du:\nob wir Deine Daten für gezielte Angebote und Beratung nutzen dürfenob und wie wir Dich für Angebote und zur Beratung kontaktieren dürfen\n \nZu den aktuellen Einstellungen kommt es so:\nDu hast uns Deine Beratungseinwilligung gegebenDu hast uns zugesichert, dass wir Dich per SMS, MMS, E-Mail und Post kontaktieren dürfen, und wir haben Deine Zusicherung nach § 95 Absatz 2 Satz 2 des Telekommunikationsgesetzes angewendetDu hast Änderungen vorgenommenen oder angefragt\n\nUnten findest Du Schalter, mit denen Du Deine Einwilligungen geben und widerrufen kannst.\nMehr Infos zu Einwilligung, Widerruf und Widerspruch in der MeinVodafone-App findest Du in der Datenschutz-Erklärung.\n</font>"
+    },
+    {
+      "textKey": "vf_info_cpm_dev_headline",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Sag uns, welche Deiner Daten Vodafone für gezielte Angebote und Beratung verwenden darf.</b></font>"
+    },
+    {
+      "textKey": "vf_info_cpm_popup_headline",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Bist Du Dir sicher?</font>"
+    },
+    {
+      "textKey": "vf_info_cpm_popup_text",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Wenn Du der Nutzung Deiner Bestandsdaten nicht mehr zustimmst, können wir Dir leider keine gezielten Informationen und Angebote mehr schicken.</font>"
+    },
+    {
+      "textKey": "vf_help_bew_permission_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Beratung & Angebote</font>"
+    },
+    {
+      "textKey": "vf_help_bew_permission_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Hier bestimmst Du</b><font color=\"666666\"><ul><li>ob wir Deine Daten für gezielte Angebote und Beratung nutzen dürfen</li><li>ob und wie wir Dich für Angebote und zur Beratung kontaktieren dürfen </li></ul></font></br><b>Zu den aktuellen Einstellungen kommt es so:</b><font color=\"666666\"><ul><li>Du hast uns Deine Beratungseinwilligung gegeben</li><li>&nbsp;Du hast uns zugesichert, dass wir Dich per SMS, MMS, E-Mail und Post kontaktieren dürfen, und wir haben Deine Zusicherung nach § 95 Absatz 2 Satz 2 des Telekommunikationsgesetzes angewendet&nbsp;</li><li>Du hast Änderungen vorgenommenen oder angefragt </li></ul></br>Unten gibt es Schalter, mit denen Du Deine Beratungseinwilligung geben und widerrufen kannst.Du hast das Recht, der Anwendung des § 95 Absatz 2 Satz 2 des Telekommunikationsgesetzes – Kontaktierung zum Zweck der Werbung per SMS, MMS, E-Mail und Post – zu widersprechen.<br>Mit den Schaltern weiter unten kannst Du Dein Widerspruchsrecht nutzen.<br>Mehr Infos zu Einwilligung, Widerruf und Widerspruch in der MeinVodafone-App findest Du in der Datenschutz-Erklärung.</font></font>"
+    },
+    {
+      "textKey": "vf_help_bew_permission_adv_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Sag uns, welche Deiner Daten wir für gezielte Angebote und Beratung verwenden dürfen.</b></font>"
+    },
+    {
+      "textKey": "vf_help_bew_advice_consent_title",
+      "textValue": "Mein aktueller Text zur Beratungseinwilligung"
+    },
+    {
+      "textKey": "vf_help_bew_advice_consent_subtitle",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4 \">mein aktueller Text</font>"
+    },
+    {
+      "textKey": "vf_help_bew_advice_consent__bew1_description1",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Ja, Vodafone darf meine Bestandsdaten zum Zwecke der Beratung, Marktforschung und Werbung für Vodafone-Angebote verarbeiten und nutzen und meine Verkehrsdaten (Zeitpunkt, Dauer und Zielgasse) zur bedarfsgerechten Gestaltung für längstens 6 Monate verwenden.\n \nJa, Vodafone darf mich telefonisch und per SMS/MMS kontaktieren und über Vodafone-Angebote beraten. Ich kann diese Einwilligung jederzeit ganz oder teilweise für die Zukunft widerrufen.\n \nHinweis: Ohne die vorstehende Einwilligung ist Vodafone im Rahmen der gesetzlichen Bestimmungen lediglich berechtigt, Ihnen Werbung für eigene Angebote per Text- oder Bildmitteilung an Ihr Telefon, per E-Mail und per Post an Ihre Anschrift zukommen zu lassen. Sie können der Nutzung Ihrer Telefonnummer und Adressen zu diesem Zwecke jederzeit</font>"
+    },
+    {
+      "textKey": "vf_help_bew_advice_consent__bew1_description2",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Ja, Vodafone darf mich telefonisch und per SMS/MMS kontaktieren und über Vodafone-Angebote beraten. Ich kann diese Einwilligung jederzeit ganz oder teilweise für die Zukunft widerrufen.\n \nHinweis: Ohne die vorstehende Einwilligung ist Vodafone im Rahmen der gesetzlichen Bestimmungen lediglich berechtigt, Ihnen Werbung für eigene Angebote per Text- oder Bildmitteilung an Ihr Telefon, per E-Mail und per Post an Ihre Anschrift zukommen zu lassen. Sie können der Nutzung Ihrer Telefonnummer und Adressen zu diesem Zwecke jederzeit schriftlich oder elektronisch widersprechen und Ihre Einwilligungen in der MeinVodafone App* oder unter www.vodafone.de/MeinVodafone verwalten.</font>"
+    },
+    {
+      "textKey": "vf_help_bew_advice_consent__bew3_description1",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Ja, ich willige ein, dass die Vodafone GmbH* und die Vodafone Kabel Deutschland GmbH* meine Bestandsdaten untereinander austauschen, um mich individuell zu beraten, für ihre Angebote zu werben und Marktforschung zu betreiben.\n \nMeine Bestandsdaten sind Angaben rund um mein Vertragsverhältnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.\n \nJa, ich willige ein, dass meine Nutzungsdaten und meine Verkehrsdaten höchstens 6 Monate verwendet werden, um Telekommunikations- und Telemedien-Dienste bedarfsgerecht und individuell zu gestalten und zu vermarkten sowie Dienste mit Zusatznutzen für mich bereitzustellen.\nMeine Nutzungsdaten sind Informationen über Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren mich oder mein Gerät direkt und sind zum Teil in meinem Gerät gespeichert, z.B. als Cookies.\nMeine Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Geräte oder Anschlüsse sowie deren Standorte.</font>"
+    },
+    {
+      "textKey": "vf_help_bew_advice_consent__bew3_description2",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Ja, ich willige ein, dass Vodafone und Vodafone Kabel Deutschland mich telefonisch, per E-Mail, Messenger, SMS und MMS über Angebote von Vodafone und Vodafone Kabel Deutschland informieren.\n \nIch kann meine Einwilligung jederzeit ganz oder teilweise mit Wirkung für die Zukunft widerrufen.</font>"
+    },
+    {
+      "textKey": "vf_help_bew_advice_consent__bew3_description3",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">* Die Vodafone GmbH, Ferdinand-Braun-Platz 1, 40549 Düsseldorf (Vodafone) und die Vodafone Kabel Deutschland GmbH, Betastraße 6-8, 85774 Unterföhring (Vodafone Kabel Deutschland) sind wirtschaftlich ein Unternehmen und bieten Telekommunikationsdienstleistungen an, die sich ergänzen.</font>"
+    },
+    {
+      "textKey": "vf_help_netperform_security_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Datenschutz-Erklärung<br><br><b><font face=\"VodafoneRg-Regular\" size= \"4\">Informationen, die wir sammeln.</b></font></font>"
+    },
+    {
+      "textKey": "vf_help_netperform_security_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\"> Folgende Informationen nutzen wir, um für Dich noch besser zu werden:</font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item1_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\"> Netzabdeckung, Verbindung & Datennutzung</font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item1_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\"> Wir erfassen wie Du Netzwerk-Verbindungen und -Qualität für Gespräche, Internet- und Daten-Services erlebst. Außerdem, wie häufig Du Internet-Services nutzt und wie viel Daten Du verbrauchst.<br><br> Wir speichern dazu:<br><br><ul><li> Wie lange Du Dein Gerät eingeschaltet hast.</li><li> Wie stark das Signal ist, das Du empfängst.</li><li> Gebiete, wo nur Notrufe möglich sind oder Du kein Netz hast.</li><li>Welche Netze Du nutzen kannst: 2G, 3G oder 4G.</li><li>Wie lang Du telefonierst oder surfst, mit Datum und Uhrzeit.</li><li>Wie der Anruf oder die Verbindung beendet wurde.</li><li>Informationen aus einem stündlichen Verbindungstest zum Internet</li><li>Die Download-, Upload- und die Antwort-Geschwindigkeit.</li><li>Wie lange es dauert, eine Internet-Verbindung aufzubauen.</li><li>Die Verbindungsqualität zum WLAN.</li><li>Die MAC-Adressen der WLAN-HotSpots, die Dein Gerät erkennt.</li><li>Die verbrauchte Datenmenge pro Stunde.</li><li>Die verbrauchte Datenmenge im Standby.</li><li>Den Anteil der Datenmenge im WLAN und im Mobilfunknetz.</li></ul></font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item2_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\"> Nutzung un du von Apps</font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item2_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\">Mit Hilfe der Nutzung von Apps bestimmen wir Apps, die in Deiner Region viel Datenverkehr im Mobilfunknetz erzeugen. Das hilft uns dabei zu erkennen, wo wir unser Netz weiter ausbauen müssen.<br><br>Wir speichern dazu:<br><br><ul><li>Die Apps auf Deinem Smartphone.</li><li>Die Apps, die Du pro Tag nutzt.</li><li>Wie lang Du Deine Apps nutzt.</li><li>Wie viel Datenmengen Du brauchst und wie schnell Deine Apps die Daten übertragen.</li><li>Den Typ und die Qualität des Netzwerks, z.B. für Mobilfunk oder WLAN und die Signalstärke.</li></ul></font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item3_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\"> Geräte-Informationen</font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item3_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\">Wir bewerten die Leistung verschiedener Handys in unserem Mobilfunknetz. Wir möchten so Probleme mit unterschiedlichen Geräten erkennen und die Stabilität der Geräte analysieren und verbessern.<br><br>Wir speichern dazu:<br><br><ul><li>Hersteller und Gerätemodell</li><li>MAC-Adresse</li><li>Version des Betriebssystems</li><li>Firmware-Version</li><li>Geräte-Eigenschaften</li><li>verwendete Sprache</li><li>Batteriezustand</li><li>Speicherverbrauch</li><li>Zeitdauer seit dem letzten Neustart</li></ul></font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item4_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\"> Standort-Daten</font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item4_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\">Mit der Netz-Verfügbarkeit und Deiner Nutzung bestimmen wir die ungefähre Position Deines Handys. Wir bekommen dabei die Informationen, die auch Deine Apps von Deinem Betriebssystem erhalten. So erkennen wir, an welchen Orten wir unser Netz noch verbessern müssen und Du bekommst dadurch gleichzeitig bessere Hilfe bei Netzproblemen.<br><br>Wir speichern dazu:<br><br><ul><li>Die Mobilfunk-Zelle, mit der Dein Gerät verbunden ist.</li><li>Die BSSID des aktiven WLANs.</li><li>Die GPS-Positionsdaten mit Geschwindigkeit und Richtungsinfos bei einem Speed-Test oder falls andere Apps, z.B. eine Navi-App die Daten anfordern.</li></ul></font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item5_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\"> MeinVodafone App: Nutzung & Performance</font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item5_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\">Wir erhalten pseudonymisiert folgende Informationen über Deine Nutzung und über die Leistung der MeinVodafone-App:<br><br><ul><li>Wie oft und wann Du die App genutzt hast.</li><li>Wie Du die App genutzt hast, z.B. so genannte Klick-Wege.</li><li>Welche Version Du nutzt.</li><li>Wann Du das letzte mal ein Update der App geladen hast.</li><li>Die Applikations – ID.</li><li>Hersteller und Modell Deines Geräts.</li></ul></font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item6_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size=\"5\"> Datenübermittlung & Speicherdauer</font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item6_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size=\"4\">Die oben genannten Informationen bekommen wir regelmäßig über die MeinVodafone-App. Es sei denn, Du hast das Senden der Daten ausgeschaltet.<br>Die Daten werden verschlüsselt an uns übertragen.<br>Die Informationen werden erhoben direkt nachdem Du zugestimmt hast. Widersprichst Du dem Senden der Daten, gilt das ab sofort.<br><br>Alle Detail-Informationen speichern wir bis zu 6 Monaten. Danach verwenden wir nur noch kumulierte Monats-Daten.</font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item7_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Nicht erhobene Informationen</font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item7_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Wir bekommen und erheben keine Informationen über:</b><br><br><ul><li>Die Rufnummern, die Du anrufst oder von denen Du angerufen wirst.</li><li>Die Sender oder Empfänger Deiner SMS-Nachrichten, E-Mails oder Internet-Chats.</li><li>Deine Gesprächs- oder Nachrichteninhalte oder Deinen Browser-Verlauf.</li><li>Die Inhalte, die Deine Apps senden, empfangen oder anderweitig konsumieren.</li></ul></font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item8_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\"> Widerspruchsrecht & Gestaltungsmöglichkeiten</font>"
+    },
+    {
+      "textKey": "vf_netperform_security_item8_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\">Du kannst in der MeinVodafone-App unter „Einstellungen & Info“ > „Opt-in / Opt-out verwalten“:<br><br><ul><li>Deine Einwilligungen erteilen</li><li>Deine Einwilligungen widerrufen</li><li>Dein Widerspruchsrecht nutzen</li></ul><br><br>Willst Du dem Senden Deiner pseudonymisierten Daten über die Nutzung der MeinVodafone-App widersprechen?<br>Dann wähl einfach „MeinVodafone-App-Nutzungsdaten“ und stell den Schalter auf Aus.<br><br>Willst Du dem Senden Deiner pseudonymisierten Daten zur Verbesserung unseres Netzes und unserer Services widersprechen?<br>Dann wähl einfach „Netz & Service verbessern“ und stell den Schalter „Nicht-personalisierte Daten senden & Netzwerk optimieren“ auf Aus.<br><br>Willst Du Deine Einwilligung zum Senden Deiner personalisierten Daten zur Verbesserung unseres Netzes und unserer Services widerrufen?<br>Dann wähl einfach „Netz & Service verbessern“ und stell den Schalter „Personalisierte Daten senden & Hilfe, Produkte, Services und Empfehlungen auf mich zuschneiden“ auf Aus.<br><br>Willst Du Deine Einwilligungen zur Nutzung Deiner Daten für gezielte Angebote und Beratung widerrufen?<br>Dann wähl einfach „Beratung & Angebote“ und stell den entsprechenden Schalter auf Aus.<br><br>Willst Du Deine Einwilligung zur Kontaktierung widerrufen oder der Kontaktierung per SMS, MMS, E-Mail, Post nach § 95 Absatz 2 Satz 2 des Telekommunikationsgesetzes widersprechen?<br>Dann wähl einfach „Beratung & Angebote“ und stell den entsprechenden Schalter auf Aus.<br><br>Deine pseudonymisierten Infos werden automatisch so verfremdet, dass Deine Privatsphäre geschützt bleibt.<br><br>Dein Widerruf oder Widerspruch wird gegebenenfalls erst nach ein paar Tagen wirksam.</font>"
+    },
+    {
+      "textKey": "vf_preferences_omniture_description",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"4\">Wir möchten unsere App für Dich immer weiter verbessern. Dazu werten wir dein Nutzungsverhalten aus. Die Daten dienen nur der Statistik und werden verfremdet. Deine Privatsphäre bleibt somit gewahrt.<br>Du möchtest trotzdem Deine Nutzungsdaten nicht übermitteln? Dann schieb den Schalter einfach nach links.</font>"
+    },
+    {
+      "textKey": "vf_info_network_and_service_settings_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Netz & Service verbessern</font>"
+    },
+    {
+      "textKey": "mvf_info_remove_finger_print_title",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Mit Kundenkennwort einloggen</font>"
+    },
+    {
+      "textKey": "vf_info_usage_data",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">MeinVodafone-App-Nutzungsdaten</font>"
+    },
+    {
+      "textKey": "vf_info_omniture",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">MeinVodafone-App-Nutzungsdaten</font>"
+    },
+    {
+      "textKey": "vf_netperform_terms_security_page_footer",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Hier geht's zur allgemeinen Datenschutz-Erklärung von Vodafone: www.vodafone.de/datenschutz</font>"
+    },
+    {
+      "textKey": "vf_headerenrichment_consent_subline",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">MeinVodafone auch ohne Kennworteingabe</font>"
+    },
+    {
+      "textKey": "vf_headerenrichment_consent_info",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Du musst Deine Nutzerdaten nicht bei jedem Start erneut eingeben, sondern wirst über Deine Mobilfunknummer automatisch erkannt und kannst sofort alle Services nutzen.</font>"
+    },
+    {
+      "textKey": "vf_netperform_terms_desc_part1",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">In der App siehst Du Deine wichtigsten Vertragsinformationen. Du hast also die volle Kontrolle über deinen Verbrauch und Deine Daten. Persönlichen Service findest du im Online-Chat - jederzeit und überall. <br> <br> <b>Besseres Netz und besserer Service </b> <br> Wir möchten unsere Produkte, Dienstleistungen und Empfehlungen für Dich noch besser machen. Dazu brauchen wir Deine Hilfe und einige Informationen über Dich und Dein Nutzungsverhalten. <br> <br><b> Welche Informationen bekommen wir? </b> <br> Wir bekommen z.B. regelmäßig personalisierte Informationen zur Netzabdeckung, zur Qualität Deiner Gespräche und Datenverbindungen, sowie zu den von Dir genutzten Apps. <br> <br>Wir bekommen keine Informationen über Deine Gesprächs- oder Nachrichteninhalte. <br></font>"
+    },
+    {
+      "textKey": "vf_netperform_terms_headline",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Schön, dass Du die MeinVodafone-App nutzen möchtest. .</font>"
+    },
+    {
+      "textKey": "vf_netperform_terms_accept_btn",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Ja, ich stimme zu.</font>"
+    },
+    {
+      "textKey": "vf_netperform_terms_reject_btn",
+      "textValue": "<font face=\"VodafoneRg-Regular\" size= \"5\">Nein.</font>"
+    }
+  ],
+  "bewMappingVersions": [
+    {
+      "version": 1,
+      "serviceIds": [
+        {
+          "serviceId": "PDEV",
+          "shortDescriptionDE": "Bestandsdaten",
+          "longDescriptionDE": "<font face=\"VodafoneRg-Regular\" size= \"4\">Deine Bestandsdaten sind Angaben rund um Dein Vertragsverhältnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services. Wenn wir besser verstehen, wie Du unsere Produkte und Services nutzt,<br>können wir Dir Angebote schicken, die besser zu Dir passen.</font>"
+        },
+        {
+          "serviceId": "CDEV",
+          "shortDescriptionDE": "Verkehrsdaten",
+          "longDescriptionDE": "<font face=\"VodafoneRg-Regular\" size= \"4\">Die Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Geräte oder Anschlüsse.<br>Auf Basis der Verkehrsdaten können wir die Leistung unseres Netzes verbessern, Deine Services verbessern und Dir Angebote und Empfehlungen schicken, von denen Du mehr hast.<br>Welche Verkehrsdaten wir direkt von Deinem Smartphone verwenden, verwaltest Du in den Datenschutz-Einstellungen unter „Netz & Service verbessern”.</font>"
+        },
+        {
+          "serviceId": "SMMS",
+          "shortDescriptionDE": "SMS/MMS",
+          "longDescriptionDE": ""
+        },
+        {
+          "serviceId": "SMMS",
+          "shortDescriptionDE": "E-Mail",
+          "longDescriptionDE": ""
+        },
+        {
+          "serviceId": "POST",
+          "shortDescriptionDE": "Post",
+          "longDescriptionDE": ""
+        },
+        {
+          "serviceId": "TOUT",
+          "shortDescriptionDE": "Handy",
+          "longDescriptionDE": ""
+        },
+        {
+          "serviceId": "TWIB",
+          "shortDescriptionDE": "Handy, nur Vertragsverlängerung",
+          "longDescriptionDE": ""
+        }
+      ]
+    },
+    {
+      "version": 3,
+      "serviceId": [
+        {
+          "serviceId": "PDEV",
+          "shortDescriptionDE": "Bestandsdaten",
+          "longDescriptionDE": "<font face=\"VodafoneRg-Regular\" size= \"4\">Deine Bestandsdaten sind Angaben rund um Dein Vertragsverhältnis,<br>z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.<br>Wenn wir besser verstehen, wie Du unsere Produkte und Services nutzt, können wir Dir Angebote schicken, die besser zu Dir passen.</font>"
+        },
+        {
+          "serviceId": "CDEV",
+          "shortDescriptionDE": "Verkehrsdaten",
+          "longDescriptionDE": "<font face=\"VodafoneRg-Regular\" size= \"4\">Die Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Geräte oder Anschlüsse.<br>Auf Basis der Verkehrsdaten können wir die Leistung unseres Netzes verbessern, Deine Services verbessern und Dir Angebote und Empfehlungen schicken, von denen Du mehr hast.<br>Welche Verkehrsdaten wir direkt von Deinem Smartphone verwenden, verwaltest Du in den Datenschutz-Einstellungen unter „Netz & Service verbessern”.</font>"
+        },
+        {
+          "serviceId": "GEO",
+          "shortDescriptionDE": "Standortdaten (zellbasiert)",
+          "longDescriptionDE": "<font face=\"VodafoneRg-Regular\" size= \"4\">Über die Mobilfunk-Zelle, die Du nutzt, können wir ungefähr Deinen Standort bestimmen. So können wir Dir Angebote und Services empfehlen, die an Deinem Standort vielleicht interessant für Dich sind.</font>"
+        },
+        {
+          "serviceId": "WBT",
+          "shortDescriptionDE": "Webtracking auf Vodafone- oder Kooperationspartner-Seiten",
+          "longDescriptionDE": "<font face=\"VodafoneRg-Regular\" size= \"4\">Mit dieser Einwilligung steuerst Du, ob wir Deine Nutzungsdaten verwenden dürfen. Die Nutzungsdaten sind Informationen über Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren Dich oder Dein Gerät direkt und sind zum Teil in Deinem Gerät gespeichert, z.B. als Cookies.</font>"
+        },
+        {
+          "serviceId": "SMMS",
+          "shortDescriptionDE": "SMS/MMS",
+          "longDescriptionDE": ""
+        },
+        {
+          "serviceId": "EMAL",
+          "shortDescriptionDE": "E-Mail",
+          "longDescriptionDE": ""
+        },
+        {
+          "serviceId": "POST",
+          "shortDescriptionDE": "Post",
+          "longDescriptionDE": ""
+        },
+        {
+          "serviceId": "TOUT",
+          "shortDescriptionDE": "Handy",
+          "longDescriptionDE": ""
+        },
+        {
+          "serviceId": "TWIB",
+          "shortDescriptionDE": "Handy, nur Vertragsverlängerung",
+          "longDescriptionDE": ""
+        }
+      ]
+    }
+  ]
+}

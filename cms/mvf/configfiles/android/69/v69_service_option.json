@@ -1,0 +1,193 @@
+{
+  "items": [
+    {
+      "url": "https://www.vodafone.de/hilfe/im-und-ins-ausland.html?forApp=true",
+      "icon": "http://media.vodafone.de/www/images/app/dft_3_flat.png",
+      "label": "Giga&Auml; TV",
+      "subtitle": "Giga TV",
+      "price": 4.00,
+      "actionBtnTitle": "Action Button",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+
+        "showForTypeS": true,
+         "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "enable": true,
+	  "actionBtnTitle": "",
+      "external": false
+    },
+    {
+      "url": "https://www.vodafone.de/hilfe/im-und-ins-ausland.html?forApp=true",
+      "icon": "http://media.vodafone.de/www/images/app/dft_3_flat.png",
+      "label": "Save and Secure 1",
+      "subtitle": "",
+       "price": 0,
+      "actionBtnTitle": "Action title 12",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": ["DPAAMH20"],
+
+        "showForTypeS": true,
+         "vfplanForTypeSWhite": ["RB5MN60"],
+        "vfplanForTypeSBlack": [],
+
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "enable": false,
+	  "actionBtnTitle": "ActionBtn",
+      "external": true
+    },
+    {
+      "url": "https://www.vodafone.de/hilfe/im-und-ins-ausland.html?forApp=true",
+      "icon": "http://media.vodafone.de/www/images/app/dft_3_flat.png",
+      "label": "Save and Secure 2",
+      "price": 0.0,
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+
+        "showForTypeS": true,
+         "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "enable": true,
+	  "actionBtnTitle": "ActionBtn",
+      "external": true
+    },
+  {
+      "url": "https://www.vodafone.de/hilfe/im-und-ins-ausland.html?forApp=true",
+      "icon": "http://media.vodafone.de/www/images/app/dft_3_flat.png",
+      "label": "Save and Secure 3",
+	  "subtitle": "Save and Secure 3 subtitle Save and Secure 4 subtitle Save and Secure 5 subtitle subtitle 1 subtitle 2 subtitle 3 subtitle 4 subtitle 5 subtitle 6 subtitle 7 subtitle 8 subtitle 9 subtitle 10 subtitle 11 subtitle 12 subtitle 13 subtitle 14 subtitle 15 subtitle 16 subtitle 17 subtitle 18 subtitle 19 subtitle 20 subtitle 1 subtitle 2 subtitle 3 subtitle 4 subtitle 5 subtitle 6 subtitle 7 subtitle 8 subtitle 9 subtitle 10 subtitle 11 subtitle 12 subtitle 13 subtitle 14 subtitle 15 subtitle 16 subtitle 17 subtitle 18 subtitle 19 subtitle 20 ",
+      "price": 0.00,
+      "actionBtnTitle": "Action title 4",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+
+        "showForTypeS": true,
+         "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "enable": true,
+	  "actionBtnTitle": "ActionBtn",
+      "external": true
+    },
+	{
+      "url": "https://www.vodafone.de/hilfe/im-und-ins-ausland.html?forApp=true",
+      "icon": "http://media.vodafone.de/www/images/app/dft_3_flat.png",
+      "label": "Save and Secure 3",
+	  "subtitle": "Save and Secure 3 subtitle Save and Secure 4 subtitle Save and Secure 5 subtitle subtitle 1 subtitle 2 subtitle 3 subtitle 4 subtitle 5 subtitle 6 subtitle 7 subtitle 8 subtitle 9 subtitle 10 subtitle 11 subtitle 12 subtitle 13 subtitle 14 subtitle 15 subtitle 16 subtitle 17 subtitle 18 subtitle 19 subtitle 20 subtitle 1 subtitle 2 subtitle 3 subtitle 4 subtitle 5 subtitle 6 subtitle 7 subtitle 8 subtitle 9 subtitle 10 subtitle 11 subtitle 12 subtitle 13 subtitle 14 subtitle 15 subtitle 16 subtitle 17 subtitle 18 subtitle 19 subtitle 20 ",
+      "price": -1,
+      "actionBtnTitle": "Action title 5",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+
+        "showForTypeS": true,
+         "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "enable": true,
+	  "actionBtnTitle": "ActionBtn",
+      "external": true
+    },
+	{
+      "url": "https://www.vodafone.de/hilfe/im-und-ins-ausland.html?forApp=true",
+      "icon": "http://media.vodafone.de/www/images/app/dft_3_flat.png",
+      "label": "Save and Secure 3",
+	  "subtitle": "Save and Secure 3 subtitle Save and Secure 4 subtitle Save and Secure 5 subtitle subtitle 1 subtitle 2 subtitle 3 subtitle 4 subtitle 5 subtitle 6 subtitle 7 subtitle 8 subtitle 9 subtitle 10 subtitle 11 subtitle 12 subtitle 13 subtitle 14 subtitle 15 subtitle 16 subtitle 17 subtitle 18 subtitle 19 subtitle 20 subtitle 1 subtitle 2 subtitle 3 subtitle 4 subtitle 5 subtitle 6 subtitle 7 subtitle 8 subtitle 9 subtitle 10 subtitle 11 subtitle 12 subtitle 13 subtitle 14 subtitle 15 subtitle 16 subtitle 17 subtitle 18 subtitle 19 subtitle 20 ",
+      "price": -10,
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+
+        "showForTypeS": true,
+         "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "enable": true,
+	  "actionBtnTitle": "ActionBtn",
+      "external": true
+    }
+  ]
+}

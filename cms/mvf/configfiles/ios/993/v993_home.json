@@ -1,0 +1,374 @@
+{
+  "components": [
+    {
+      "id": "postpaidConsumption",
+      "template": "PostpaidConsumption",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "DataUsage",
+        "background": "white",
+        "headline": "Consumption",
+        "subline": "Consumption subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.com/app/quickcheck",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "postpaidCurrentCosts",
+      "template": "PostpaidCurrentCosts",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "CurrentCosts",
+        "background": "white",
+        "headline": "Current Costs",
+        "subline": "Current Costs subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.com/app/currentcost",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "postpaidRedPlus",
+      "template": "PostpaidRedPlus",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "RedPlus",
+        "background": "red",
+        "headline": "RedPlus",
+        "subline": "consumption subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.com/app/redplus",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "postpaidVodafonePass",
+      "template": "PostpaidVodafonePass",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "VodafonePass",
+        "background": "red",
+        "headline": "Vodafone Passes",
+        "subline": "Vodafone Passes subline",
+        "action": "deeplink",
+        "url": "www.vodafone.de/meinvodafone/app/tariff",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "tariff",
+      "template": "defaultTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Paper",
+        "background": "white",
+        "headline": "Mein Tariff",
+        "subline": "Mein Tariff subline",
+        "action": "deeplink",
+        "url": "www.vodafone.de/meinvodafone/app/tariff",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "bill_fixednet",
+      "template": "DSLLastBill",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Paper",
+        "background": "White",
+        "headline": "Bill Fixednet",
+        "subline": "DSLDefaulttesing",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/app/overview",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "tariff_fixednet",
+      "template": "DSLLastBill",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Paper",
+        "background": "white",
+        "headline": "Tariff dsl",
+        "subline": "Tariff dsl subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/overview",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "dslLandlineNumber",
+      "template": "DSLLandlineNumber",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Paper",
+        "background": "https://media.wired.com/photos/598e35fb99d76447c4eb1f28/master/pass/phonepicutres-TA.jpg",
+        "headline": "DSL landline",
+        "subline": "DSL landline subline",
+        "action": "deeplink",
+        "url": "https://w.vodafone.de/meinvodafone/app/tariff",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "speedtest",
+      "template": "defaultTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Paper",
+        "background": "white",
+        "headline": "Speedtest",
+        "subline": "Speedtest subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/speedtest",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "prepaidConsumption",
+      "template": "PrepaidConsumption",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "icon": "DataUsage",
+      "background": "white",
+      "headline": "Prepaid Consumption",
+      "subline": "Prepaid Consumption subline",
+      "action": "deeplink",
+      "url": "https://www.vodafone.com/app/quickcheck",
+      "errorText": "there is no data avalialble"
+    },
+    {
+      "id": "prepaidCredit",
+      "template": "PrepaidCredit",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Credit",
+        "headline": "Guthaben",
+        "background": "white",
+        "subline": "Prepaid Consumption subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/recharge",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "tariffoptions",
+      "template": "defaultTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Phone",
+        "headline": "Optionen buchen",
+        "background": "RedPhone",
+        "subline": "Entdecken",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/tariff",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "data",
+      "template": "defaultTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Daten",
+        "headline": "MeinDaten",
+        "background": "white",
+        "subline": "MeinDaten subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/data",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "data_fixednet",
+      "template": "defaultTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Daten",
+        "headline": "MeinDaten DSL",
+        "background": "white",
+        "subline": "MeinDaten DSL subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/data",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "faq",
+      "template": "defaultTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Faq",
+        "headline": "Faq",
+        "background": "white",
+        "subline": "Faq subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/faq",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "shopfinder",
+      "template": "defaultTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Shopfinder",
+        "headline": "Shopfinder",
+        "background": "white",
+        "subline": "shopfinder subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/shopfinder",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "bill",
+      "template": "defaultTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Bill",
+        "headline": "Bill",
+        "background": "white",
+        "subline": "Bill subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/overview",
+        "errorText": "there is no data avalialble"
+      }
+    },
+    {
+      "id": "recharge",
+      "template": "defaultTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "Aufladen",
+        "headline": "Aufladen",
+        "background": "white",
+        "subline": "Aufladen subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/recharge",
+        "errorText": "there is no data avalialble"
+      }
+    }
+  ],
+  "area": {
+    "postpaid": {
+      "tiles": [
+        [
+          "postpaidConsumption",
+          "welcomeMessage"
+        ],
+        [
+          "postpaidCurrentCosts",
+          "data",
+          "faq"
+        ],
+        [
+          "postpaidRedPlus",
+          "postpaidLastBill",
+          "shopfinder"
+        ],
+        [
+          "postpaidVodafonePass",
+          "postpaidMeinTarif"
+        ]
+      ]
+    },
+    "prepaid": {
+      "tiles": [
+        [
+          "prepaidConsumption",
+          "welcomeMessage"
+        ],
+        [
+          "prepaidCredit",
+          "recharge"
+        ],
+        [
+          "prepaidBookOptions",
+          "shopfinder"
+        ],
+        [
+          "prepaidOnlineTopup",
+          "faq"
+        ]
+      ]
+    },
+    "dsl": {
+      "tiles": [
+        [
+          "welcomeMessage",
+          "dslLandlineNumber",
+          "welcomeMessage"
+        ],
+        [
+          "dslLandlineNumber"
+        ],
+        [
+          "welcomeMessage",
+          "dslLandlineNumber",
+          "welcomeMessage"
+        ],
+        [
+          "faq",
+          "speedtest",
+          "shopFinder"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,998 @@
+{
+    "cms-guid": "D3B1D628B1E6405AB7B70648A41A2EC0",
+    "cms-id": 2988,
+    "cms-version": 1,
+    "consentVersion": 6,
+    "texts": [
+        {
+            "textKey" : "vf_push_nachrichten_subtitle",
+            "textValue" : "Einstellungen Push Nachrichten"
+        },
+        {
+            "cms-guid": "B32C251DC65B4A409F16132F6E8AB198",
+            "cms-id": 2955,
+            "cms-version": 3,
+            "textKey" : "vf_netperform_terms_reject_btn",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Nein.</font>"
+        },
+        {
+            "cms-guid": "1F5562A6605248FFADE20E68B1C9199C",
+            "cms-id": 2954,
+            "cms-version": 1,
+            "textKey" : "vf_netperform_terms_accept_btn",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Ja, ich stimme zu.</font>"
+        },
+        {
+            "cms-guid": "40E5601E53DA4C9E8A203C5A61B220FA",
+            "cms-id": 2953,
+            "cms-version": 1,
+            "textKey" : "vf_netperform_terms_headline",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Sch&ouml;n, dass Du die MeinVodafone-App nutzen m&ouml;chtest. .</font>"
+        },
+        {
+            "cms-guid": "3C4AD5D3885E4C7A8C95F2A50DE0A48C",
+            "cms-id": 2952,
+            "cms-version": 2,
+            "textKey" : "vf_netperform_terms_desc_part1",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">In der App siehst Du Deine wichtigsten Vertragsinformationen. Du hast also die volle Kontrolle &uuml;ber deinen Verbrauch und Deine Daten. Pers&ouml;nlichen Service findest du im Online-Chat - jederzeit und &uuml;berall. <br> <br> <b>Besseres Netz und besserer Service </b> <br> Wir m&ouml;chten unsere Produkte, Dienstleistungen und Empfehlungen f&uuml;r Dich noch besser machen. Dazu brauchen wir Deine Hilfe und einige Informationen &uuml;ber Dich und Dein Nutzungsverhalten. <br> <br><b> Welche Informationen bekommen wir? </b> <br> Wir bekommen z.B. regelm&auml;&szlig;ig personalisierte Informationen zur Netzabdeckung, zur Qualit&auml;t Deiner Gespr&auml;che und Datenverbindungen, sowie zu den von Dir genutzten Apps. <br> <br>Wir bekommen keine Informationen &uuml;ber Deine Gespr&auml;chs- oder Nachrichteninhalte. <br></font>"
+        },
+        {
+            "cms-guid": "DA0D37BD36F64FB99DC96875003D1681",
+            "cms-id": 2951,
+            "cms-version": 1,
+            "textKey" : "vf_headerenrichment_consent_info",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Du musst Deine Nutzerdaten nicht bei jedem Start erneut eingeben, sondern wirst &uuml;ber Deine Mobilfunknummer automatisch erkannt und kannst sofort alle Services nutzen.</font>"
+        },
+        {
+            "cms-guid": "AC6145B32DE741AE87E3C5B70FDE9E1C",
+            "cms-id": 2950,
+            "cms-version": 1,
+            "textKey" : "vf_headerenrichment_consent_subline",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">MeinVodafone auch ohne Kennworteingabe</font>"
+        },
+        {
+            "cms-guid": "A8C0558AAC194972BF527A00E688C6B8",
+            "cms-id": 2949,
+            "cms-version": 2,
+            "textKey" : "vf_netperform_terms_security_page_footer",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Hier geht's zur allgemeinen Datenschutz-Erkl&auml;rung von Vodafone: www.vodafone.de/datenschutz</font>"
+        },
+        {
+            "cms-guid": "B5533CD2830A40EAB7C1C2E2A064BB6A",
+            "cms-id": 2948,
+            "cms-version": 1,
+            "textKey" : "vf_info_omniture",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">MeinVodafone-App-Nutzungsdaten</font>"
+        },
+        {
+            "cms-guid": "44063217E18545139819AE375324E8C1",
+            "cms-id": 2947,
+            "cms-version": 1,
+            "textKey" : "vf_info_usage_data",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">MeinVodafone-App-Nutzungsdaten</font>"
+        },
+        {
+            "cms-guid": "19FC43900CB54AA0925AA332672F81C2",
+            "cms-id": 2946,
+            "cms-version": 1,
+            "textKey" : "mvf_info_remove_finger_print_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Mit Kundenkennwort einloggen</font>"
+        },
+        {
+            "cms-guid": "E2273850C65547D5B2FF0146470A9C77",
+            "cms-id": 2945,
+            "cms-version": 1,
+            "textKey" : "vf_info_network_and_service_settings_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Netz & Service verbessern</font>"
+        },
+        {
+            "cms-guid": "1A8F0213D9734C47BF16E32342A51475",
+            "cms-id": 2944,
+            "cms-version": 2,
+            "textKey" : "vf_preferences_omniture_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Wir m&ouml;chten unsere App f&uuml;r Dich immer weiter verbessern. Dazu werten wir dein Nutzungsverhalten aus. Die Daten dienen nur der Statistik und werden verfremdet. Deine Privatsph&auml;re bleibt somit gewahrt.<br>Du m&ouml;chtest trotzdem Deine Nutzungsdaten nicht &uuml;bermitteln? Dann schieb den Schalter einfach nach links.</font>"
+        },
+        {
+            "cms-guid": "BB6676E5911C4EDDAC8FE84A1AF97D9C",
+            "cms-id": 2943,
+            "cms-version": 7,
+            "textKey" : "vf_netperform_security_item8_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Du kannst in der MeinVodafone-App unter &bdquo;Einstellungen & Info&ldquo; > &bdquo;Opt-in / Opt-out verwalten&ldquo;:<br><br><ul><li>Deine Einwilligungen erteilen</li><li>Deine Einwilligungen widerrufen</li><li>Dein Widerspruchsrecht nutzen</li></ul><br><br>Willst Du dem Senden Deiner pseudonymisierten Daten &uuml;ber die Nutzung der MeinVodafone-App widersprechen?<br>Dann w&auml;hl einfach &bdquo;MeinVodafone-App-Nutzungsdaten&ldquo; und stell den Schalter auf Aus.<br><br>Willst Du dem Senden Deiner pseudonymisierten Daten zur Verbesserung unseres Netzes und unserer Services widersprechen?<br>Dann w&auml;hl einfach &bdquo;Netz & Service verbessern&ldquo; und stell den Schalter &bdquo;Nicht-personalisierte Daten senden & Netzwerk optimieren&ldquo; auf Aus.<br><br>Willst Du Deine Einwilligung zum Senden Deiner personalisierten Daten zur Verbesserung unseres Netzes und unserer Services widerrufen?<br>Dann w&auml;hl einfach &bdquo;Netz & Service verbessern&ldquo; und stell den Schalter &bdquo;Personalisierte Daten senden & Hilfe, Produkte, Services und Empfehlungen auf mich zuschneiden&ldquo; auf Aus.<br><br>Willst Du Deine Einwilligungen zur Nutzung Deiner Daten f&uuml;r gezielte Angebote und Beratung widerrufen?<br>Dann w&auml;hl einfach &bdquo;Beratung & Angebote&ldquo; und stell den entsprechenden Schalter auf Aus.<br><br>Willst Du Deine Einwilligung zur Kontaktierung widerrufen oder der Kontaktierung per SMS, MMS, E-Mail, Post nach &sect; 95 Absatz 2 Satz 2 des Telekommunikationsgesetzes widersprechen?<br>Dann w&auml;hl einfach &bdquo;Beratung & Angebote&ldquo; und stell den entsprechenden Schalter auf Aus.<br><br>Deine pseudonymisierten Infos werden automatisch so verfremdet, dass Deine Privatsph&auml;re gesch&uuml;tzt bleibt.<br><br>Dein Widerruf oder Widerspruch wird gegebenenfalls erst nach ein paar Tagen wirksam.</font>"
+        },
+        {
+            "cms-guid": "AB8AC1A7D70A4F9D92CB1446F58ADA4B",
+            "cms-id": 2942,
+            "cms-version": 1,
+            "textKey" : "vf_netperform_security_item8_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\"> Widerspruchsrecht & Gestaltungsm&ouml;glichkeiten</font>"
+        },
+        {
+            "cms-guid": "860F7EA50A96427D84D77B1AB8A6B0B0",
+            "cms-id": 2940,
+            "cms-version": 2,
+            "textKey" : "vf_netperform_security_item7_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Wir bekommen und erheben keine Informationen &uuml;ber:</b><br><br><ul><li>Die Rufnummern, die Du anrufst oder von denen Du angerufen wirst.</li><li>Die Sender oder Empf&auml;nger Deiner SMS-Nachrichten, E-Mails oder Internet-Chats.</li><li>Deine Gespr&auml;chs- oder Nachrichteninhalte oder Deinen Browser-Verlauf.</li><li>Die Inhalte, die Deine Apps senden, empfangen oder anderweitig konsumieren.</li></ul></font>"
+        },
+        {
+            "cms-guid": "EBD598A72B33434681CE33B3E0DDD5D5",
+            "cms-id": 2939,
+            "cms-version": 1,
+            "textKey" : "vf_netperform_security_item7_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Nicht erhobene Informationen</font>"
+        },
+        {
+            "cms-guid": "1A3B047B6C2146C38712BC33456F25C3",
+            "cms-id": 2938,
+            "cms-version": 2,
+            "textKey" : "vf_netperform_security_item6_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size=\"4\">Die oben genannten Informationen bekommen wir regelm&auml;&szlig;ig &uuml;ber die MeinVodafone-App. Es sei denn, Du hast das Senden der Daten ausgeschaltet.<br>Die Daten werden verschl&uuml;sselt an uns &uuml;bertragen.<br>Die Informationen werden erhoben direkt nachdem Du zugestimmt hast. Widersprichst Du dem Senden der Daten, gilt das ab sofort.<br><br>Alle Detail-Informationen speichern wir bis zu 6 Monaten. Danach verwenden wir nur noch kumulierte Monats-Daten.</font>"
+        },
+        {
+            "cms-guid": "035B39ECDE9842D2A4E178FB141ED109",
+            "cms-id": 2937,
+            "cms-version": 1,
+            "textKey" : "vf_netperform_security_item6_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size=\"5\"> Daten&uuml;bermittlung & Speicherdauer</font>"
+        },
+        {
+            "cms-guid": "D280018DC9D34DBCAEE98C14812A5BB8",
+            "cms-id": 2936,
+            "cms-version": 2,
+            "textKey" : "vf_netperform_security_item5_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Wir erhalten pseudonymisiert folgende Informationen &uuml;ber Deine Nutzung und &uuml;ber die Leistung der MeinVodafone-App:<br><br><ul><li>Wie oft und wann Du die App genutzt hast.</li><li>Wie Du die App genutzt hast, z.B. so genannte Klick-Wege.</li><li>Welche Version Du nutzt.</li><li>Wann Du das letzte mal ein Update der App geladen hast.</li><li>Die Applikations - ID.</li><li>Hersteller und Modell Deines Ger&auml;ts.</li></ul></font>"
+        },
+        {
+            "cms-guid": "E6F37356A8FD4BA890959CBAE6D38411",
+            "cms-id": 2935,
+            "cms-version": 1,
+            "textKey" : "vf_netperform_security_item5_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\"> MeinVodafone App: Nutzung & Performance</font>"
+        },
+        {
+            "cms-guid": "824B18303F1F4542931D92F49866B408",
+            "cms-id": 2934,
+            "cms-version": 2,
+            "textKey" : "vf_netperform_security_item4_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Mit der Netz-Verf&uuml;gbarkeit und Deiner Nutzung bestimmen wir die ungef&auml;hre Position Deines Handys. Wir bekommen dabei die Informationen, die auch Deine Apps von Deinem Betriebssystem erhalten. So erkennen wir, an welchen Orten wir unser Netz noch verbessern m&uuml;ssen und Du bekommst dadurch gleichzeitig bessere Hilfe bei Netzproblemen.<br><br>Wir speichern dazu:<br><br><ul><li>Die Mobilfunk-Zelle, mit der Dein Ger&auml;t verbunden ist.</li><li>Die BSSID des aktiven WLANs.</li><li>Die GPS-Positionsdaten mit Geschwindigkeit und Richtungsinfos bei einem Speed-Test oder falls andere Apps, z.B. eine Navi-App die Daten anfordern.</li></ul></font>"
+        },
+        {
+            "cms-guid": "CE1C7B3C07A74118879FD25D0D0A7C2E",
+            "cms-id": 2933,
+            "cms-version": 1,
+            "textKey" : "vf_netperform_security_item4_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\"> Standort-Daten</font>"
+        },
+        {
+            "cms-guid": "3B5897D03FAB44BEA72B2E70A54E004E",
+            "cms-id": 2932,
+            "cms-version": 2,
+            "textKey" : "vf_netperform_security_item3_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Wir bewerten die Leistung verschiedener Handys in unserem Mobilfunknetz. Wir m&ouml;chten so Probleme mit unterschiedlichen Ger&auml;ten erkennen und die Stabilit&auml;t der Ger&auml;te analysieren und verbessern.<br><br>Wir speichern dazu:<br><br><ul><li>Hersteller und Ger&auml;temodell</li><li>MAC-Adresse</li><li>Version des Betriebssystems</li><li>Firmware-Version</li><li>Ger&auml;te-Eigenschaften</li><li>verwendete Sprache</li><li>Batteriezustand</li><li>Speicherverbrauch</li><li>Zeitdauer seit dem letzten Neustart</li></ul></font>"
+        },
+        {
+            "cms-guid": "84F3FBCF39A84549BBF67EB1E911B531",
+            "cms-id": 2931,
+            "cms-version": 1,
+            "textKey" : "vf_netperform_security_item3_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\"> Ger&auml;te-Informationen</font>"
+        },
+        {
+            "cms-guid": "AA0C61761DD04DC1B06B3F04D4ED71D8",
+            "cms-id": 2930,
+            "cms-version": 2,
+            "textKey" : "vf_netperform_security_item2_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Mit Hilfe der Nutzung von Apps bestimmen wir Apps, die in Deiner Region viel Datenverkehr im Mobilfunknetz erzeugen. Das hilft uns dabei zu erkennen, wo wir unser Netz weiter ausbauen m&uuml;ssen.<br><br>Wir speichern dazu:<br><br><ul><li>Die Apps auf Deinem Smartphone.</li><li>Die Apps, die Du pro Tag nutzt.</li><li>Wie lang Du Deine Apps nutzt.</li><li>Wie viel Datenmengen Du brauchst und wie schnell Deine Apps die Daten &uuml;bertragen.</li><li>Den Typ und die Qualit&auml;t des Netzwerks, z.B. f&uuml;r Mobilfunk oder WLAN und die Signalst&auml;rke.</li></ul></font>"
+        },
+        {
+            "cms-guid": "460F07731AA04F59A0245ACCA36DBB06",
+            "cms-id": 2929,
+            "cms-version": 1,
+            "textKey" : "vf_netperform_security_item2_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\"> Nutzung von Apps</font>"
+        },
+        {
+            "cms-guid": "F0F96C0AFC2F492C98F7A6FDD4EC55FE",
+            "cms-id": 2928,
+            "cms-version": 2,
+            "textKey" : "vf_netperform_security_item1_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\"> Wir erfassen wie Du Netzwerk-Verbindungen und -Qualit&auml;t f&uuml;r Gespr&auml;che, Internet- und Daten-Services erlebst. Au&szlig;erdem, wie h&auml;ufig Du Internet-Services nutzt und wie viel Daten Du verbrauchst.<br><br> Wir speichern dazu:<br><br><ul><li> Wie lange Du Dein Ger&auml;t eingeschaltet hast.</li><li> Wie stark das Signal ist, das Du empf&auml;ngst.</li><li> Gebiete, wo nur Notrufe m&ouml;glich sind oder Du kein Netz hast.</li><li>Welche Netze Du nutzen kannst: 2G, 3G oder 4G.</li><li>Wie lang Du telefonierst oder surfst, mit Datum und Uhrzeit.</li><li>Wie der Anruf oder die Verbindung beendet wurde.</li><li>Informationen aus einem st&uuml;ndlichen Verbindungstest zum Internet</li><li>Die Download-, Upload- und die Antwort-Geschwindigkeit.</li><li>Wie lange es dauert, eine Internet-Verbindung aufzubauen.</li><li>Die Verbindungsqualit&auml;t zum WLAN.</li><li>Die MAC-Adressen der WLAN-HotSpots, die Dein Ger&auml;t erkennt.</li><li>Die verbrauchte Datenmenge pro Stunde.</li><li>Die verbrauchte Datenmenge im Standby.</li><li>Den Anteil der Datenmenge im WLAN und im Mobilfunknetz.</li></ul></font>"
+        },
+        {
+            "cms-guid": "7C9C8BEAE3AC4B79B2AC8489B42AC938",
+            "cms-id": 2927,
+            "cms-version": 1,
+            "textKey" : "vf_netperform_security_item1_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\"> Netzabdeckung, Verbindung & Datennutzung</font>"
+        },
+        {
+            "cms-guid": "F3E1104BFC814624931B38EC656C3CB2",
+            "cms-id": 2926,
+            "cms-version": 1,
+            "textKey" : "vf_help_netperform_security_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\"> Folgende Informationen nutzen wir, um f&uuml;r Dich noch besser zu werden:</font>"
+        },
+        {
+            "cms-guid": "955CC1F9C1294840895D4E4D4382C8CF",
+            "cms-id": 2925,
+            "cms-version": 1,
+            "textKey" : "vf_help_netperform_security_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Datenschutz-Erkl&auml;rung<br><br><b><font face=\"VodafoneRg-Regular\" size= \"4\">Informationen, die wir sammeln.</b></font></font>"
+        },
+        {
+            "cms-guid": "C30E52A09637422991F0828DA4BF9AD1",
+            "cms-id": 2924,
+            "cms-version": 2,
+            "textKey" : "vf_help_bew_advice_consent__bew3_description3",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">* Die Vodafone GmbH, Ferdinand-Braun-Platz 1, 40549 D&uuml;sseldorf (Vodafone) und die Vodafone Kabel Deutschland GmbH, Betastra&szlig;e 6-8, 85774 Unterf&ouml;hring (Vodafone Kabel Deutschland) sind wirtschaftlich ein Unternehmen und bieten Telekommunikationsdienstleistungen an, die sich erg&auml;nzen.</font>"
+        },
+        {
+            "cms-guid": "237A687975A242DC88AB7ED55C185D28",
+            "cms-id": 2923,
+            "cms-version": 2,
+            "textKey" : "vf_help_bew_advice_consent__bew3_description2",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Hadeer Ja, ich willige ein, dass Vodafone und Vodafone Kabel Deutschland mich telefonisch, per E-Mail, Messenger, SMS und MMS &uuml;ber Angebote von Vodafone und Vodafone Kabel Deutschland informieren.\n \nIch kann meine Einwilligung jederzeit ganz oder teilweise mit Wirkung f&uuml;r die Zukunft HADEER widerrufen.</font>"
+        },
+        {
+            "cms-guid": "0135B81FAA3C4F999D0DDB32FC817758",
+            "cms-id": 2922,
+            "cms-version": 2,
+            "textKey" : "vf_help_bew_advice_consent__bew3_description1",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Hadeer Ja, ich willige ein, dass die Vodafone GmbH* und die Vodafone Kabel Deutschland GmbH* meine Bestandsdaten untereinander austauschen, um mich individuell zu beraten, f&uuml;r ihre Angebote zu werben und Marktforschung zu betreiben.\n \nMeine Bestandsdaten sind Angaben rund um mein Vertragsverh&auml;ltnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.\n \nJa, ich willige ein, dass meine Nutzungsdaten und meine Verkehrsdaten h&ouml;chstens 6 Monate verwendet werden, um Telekommunikations- und Telemedien-Dienste bedarfsgerecht und individuell zu gestalten und zu vermarkten sowie Dienste mit Zusatznutzen f&uuml;r mich bereitzustellen.\nMeine Nutzungsdaten sind Informationen &uuml;ber Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren mich oder mein Ger&auml;t direkt und sind zum Teil in meinem Ger&auml;t gespeichert, z.B. als Cookies.\nMeine Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Ger&auml;te oder Anschl&uuml;sse sowie deren HADEER Standorte.</font>"
+        },
+        {
+            "cms-guid": "28D3EA4D08804FF8A459A10310A2C436",
+            "cms-id": 2921,
+            "cms-version": 2,
+            "textKey" : "vf_help_bew_advice_consent__bew1_description2",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Ja, Vodafone darf mich telefonisch und per SMS/MMS kontaktieren und &uuml;ber Vodafone-Angebote beraten. Ich kann diese Einwilligung jederzeit ganz oder teilweise f&uuml;r die Zukunft widerrufen.\n \nHinweis: Ohne die vorstehende Einwilligung ist Vodafone im Rahmen der gesetzlichen Bestimmungen lediglich berechtigt, Ihnen Werbung f&uuml;r eigene Angebote per Text- oder Bildmitteilung an Ihr Telefon, per E-Mail und per Post an Ihre Anschrift zukommen zu lassen. Sie k&ouml;nnen der Nutzung Ihrer Telefonnummer und Adressen zu diesem Zwecke jederzeit schriftlich oder elektronisch widersprechen und Ihre Einwilligungen in der MeinVodafone App* oder unter www.vodafone.de/MeinVodafone verwalten.</font>"
+        },
+        {
+            "cms-guid": "BAAEBAC7D85945CC8A88894AB77C8BE3",
+            "cms-id": 2920,
+            "cms-version": 2,
+            "textKey" : "vf_help_bew_advice_consent__bew1_description1",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Ja, Vodafone darf meine Bestandsdaten zum Zwecke der Beratung, Marktforschung und Werbung f&uuml;r Vodafone-Angebote verarbeiten und nutzen und meine Verkehrsdaten (Zeitpunkt, Dauer und Zielgasse) zur bedarfsgerechten Gestaltung f&uuml;r l&auml;ngstens 6 Monate verwenden.\n \nJa, Vodafone darf mich telefonisch und per SMS/MMS kontaktieren und &uuml;ber Vodafone-Angebote beraten. Ich kann diese Einwilligung jederzeit ganz oder teilweise f&uuml;r die Zukunft widerrufen.\n \nHinweis: Ohne die vorstehende Einwilligung ist Vodafone im Rahmen der gesetzlichen Bestimmungen lediglich berechtigt, Ihnen Werbung f&uuml;r eigene Angebote per Text- oder Bildmitteilung an Ihr Telefon, per E-Mail und per Post an Ihre Anschrift zukommen zu lassen. Sie k&ouml;nnen der Nutzung Ihrer Telefonnummer und Adressen zu diesem Zwecke jederzeit</font>"
+        },
+        {
+            "cms-guid": "9DCA36F6D7CC423797E385AA8C3E02B1",
+            "cms-id": 2919,
+            "cms-version": 1,
+            "textKey" : "vf_help_bew_advice_consent_subtitle",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4 \">mein aktueller Text</font>"
+        },
+        {
+            "cms-guid": "EC225D24EDBC40718A9B5FE3FC439FB1",
+            "cms-id": 2918,
+            "cms-version": 1,
+            "textKey" : "vf_help_bew_advice_consent_title",
+            "textValue" : "Mein aktueller Text zur Beratungseinwilligung"
+        },
+        {
+            "cms-guid": "C9EBD49A929445BCBF39CCAD39D49C6B",
+            "cms-id": 2917,
+            "cms-version": 1,
+            "textKey" : "vf_help_bew_permission_adv_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Sag uns, welche Deiner Daten wir f&uuml;r gezielte Angebote und Beratung verwenden d&uuml;rfen.</b></font>"
+        },
+        {
+            "cms-guid": "2A465F46F2A14A7D887BF8F78A47493B",
+            "cms-id": 2916,
+            "cms-version": 2,
+            "textKey" : "vf_help_bew_permission_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Hier bestimmst Du</b><font color=\"666666\"><ul><li>ob wir Deine Daten f&uuml;r gezielte Angebote und Beratung nutzen d&uuml;rfen</li><li>ob und wie wir Dich f&uuml;r Angebote und zur Beratung kontaktieren d&uuml;rfen </li></ul></font></br><b>Zu den aktuellen Einstellungen kommt es so:</b><font color=\"666666\"><ul><li>Du hast uns Deine Beratungseinwilligung gegeben</li><li>&nbsp;Du hast uns zugesichert, dass wir Dich per SMS, MMS, E-Mail und Post kontaktieren d&uuml;rfen, und wir haben Deine Zusicherung nach &sect; 95 Absatz 2 Satz 2 des Telekommunikationsgesetzes angewendet&nbsp;</li><li>Du hast &Auml;nderungen vorgenommenen oder angefragt </li></ul></br>Unten gibt es Schalter, mit denen Du Deine Beratungseinwilligung geben und widerrufen kannst.Du hast das Recht, der Anwendung des &sect; 95 Absatz 2 Satz 2 des Telekommunikationsgesetzes - Kontaktierung zum Zweck der Werbung per SMS, MMS, E-Mail und Post - zu widersprechen.<br>Mit den Schaltern weiter unten kannst Du Dein Widerspruchsrecht nutzen.<br>Mehr Infos zu Einwilligung, Widerruf und Widerspruch in der MeinVodafone-App findest Du in der Datenschutz-Erkl&auml;rung.</font></font>"
+        },
+        {
+            "cms-guid": "CB3211BED2884463ADDB71264ABDAD81",
+            "cms-id": 2915,
+            "cms-version": 1,
+            "textKey" : "vf_help_bew_permission_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Beratung & Angebote</font>"
+        },
+        {
+            "cms-guid": "65D3289A4D634EAC9AE1ED84C797BCE3",
+            "cms-id": 2914,
+            "cms-version": 1,
+            "textKey" : "vf_info_cpm_popup_text",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Wenn Du der Nutzung Deiner Bestandsdaten nicht mehr zustimmst, k&ouml;nnen wir Dir leider keine gezielten Informationen und Angebote mehr schicken.</font>"
+        },
+        {
+            "cms-guid": "4F1D1477E65C44B38A1EB2F2E4C1ADCC",
+            "cms-id": 2913,
+            "cms-version": 1,
+            "textKey" : "vf_info_cpm_popup_headline",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Bist Du Dir sicher?</font>"
+        },
+        {
+            "cms-guid": "EC1D7C1BAF3F41158A067CF02A814631",
+            "cms-id": 2912,
+            "cms-version": 1,
+            "textKey" : "vf_info_cpm_dev_headline",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Sag uns, welche Deiner Daten Vodafone f&uuml;r gezielte Angebote und Beratung verwenden darf.</b></font>"
+        },
+        {
+            "cms-guid": "18AD7076AA7A4F83B0097D6195D44B7D",
+            "cms-id": 2911,
+            "cms-version": 2,
+            "textKey" : "vf_info_cpm_intro",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Hier bestimmst Du:\nob wir Deine Daten f&uuml;r gezielte Angebote und Beratung nutzen d&uuml;rfenob und wie wir Dich f&uuml;r Angebote und zur Beratung kontaktieren d&uuml;rfen\n \nZu den aktuellen Einstellungen kommt es so:\nDu hast uns Deine Beratungseinwilligung gegebenDu hast uns zugesichert, dass wir Dich per SMS, MMS, E-Mail und Post kontaktieren d&uuml;rfen, und wir haben Deine Zusicherung nach &sect; 95 Absatz 2 Satz 2 des Telekommunikationsgesetzes angewendetDu hast &Auml;nderungen vorgenommenen oder angefragt\n\nUnten findest Du Schalter, mit denen Du Deine Einwilligungen geben und widerrufen kannst.\nMehr Infos zu Einwilligung, Widerruf und Widerspruch in der MeinVodafone-App findest Du in der Datenschutz-Erkl&auml;rung.\n</font>"
+        },
+        {
+            "cms-guid": "B1143D75B79140C1B9EF20D14E85F799",
+            "cms-id": 2910,
+            "cms-version": 2,
+            "textKey" : "vf_info_approval_administration_intro",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Hier siehst Du:</b><br><ul><li>Interessen, die uns als Telekommunikations-Unternehmen per Gesetz zustehen</li><li>&Auml;nderungen, die Du in MeinVodafone gemacht oder per Telefon, E-Mail oder Brief angefragt hast</li></ul><br>In der Datenschutz-Erkl&auml;rung findest Du Infos zu den Begriffen Einwilligung, Widerruf und Widerspruch.<br></font>"
+        },
+        {
+            "cms-guid": "27EC3D571B3D46D9922F051D5969C20A",
+            "cms-id": 2909,
+            "cms-version": 1,
+            "textKey" : "vf_info_approval_administration",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Zustimmung verwalten</font>"
+        },
+        {
+            "cms-guid": "3B5EEB2566FB45469889D1E9EF48C8A8",
+            "cms-id": 2908,
+            "cms-version": 1,
+            "textKey" : "vf_help_bew_permission_clickcell",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Beratung & Angebote</font>"
+        },
+        {
+            "cms-guid": "28331ABD590C47CD9B50295CC77EF8E5",
+            "cms-id": 2907,
+            "cms-version": 1,
+            "textKey" : "vf_help_netperform_clickcell",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Netz & Service verbessern</font>"
+        },
+        {
+            "cms-guid": "EE7BF932EEEA45B4BC80ADA235E6CA79",
+            "cms-id": 2906,
+            "cms-version": 1,
+            "textKey" : "vf_info_logout",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Logout und Neuanmeldung</font>"
+        },
+        {
+            "cms-guid": "D51B768296CC4D51A8867EF57E8AE243",
+            "cms-id": 2905,
+            "cms-version": 1,
+            "textKey" : "vf_info_push",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Meine Push-Nachrichten</font>"
+        },
+        {
+            "cms-guid": "462E364076E34170909292EE1A3A18FA",
+            "cms-id": 2904,
+            "cms-version": 1,
+            "textKey" : "vf_info_send_customer_data",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Nutzungsdaten senden</font>"
+        },
+        {
+            "cms-guid": "CADAC6EB76DF4EFFBFAE5E2CF7239BBF",
+            "cms-id": 2903,
+            "cms-version": 1,
+            "textKey" : "vf_info_data_protection_information_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\"> Gihad_Datenschutz-Erkl&auml;rung</font>"
+        },
+        {
+            "cms-guid": "16FAA67CA4CF4AC7AEA210A68D4B85F6",
+            "cms-id": 2902,
+            "cms-version": 1,
+            "textKey" : "vf_info_data_protection_information",
+            "textValue" : "Gihad_Datenschutz-Erkl&auml;rung"
+        },
+        {
+            "cms-guid": "E48575FDBAE54CBB953C8CA6EF78B10A",
+            "cms-id": 2901,
+            "cms-version": 1,
+            "textKey" : "vf_info_terms_of_use",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Nutzungsbedingungen</font>"
+        },
+        {
+            "cms-guid": "315481FC3EAC4F67831320A55F7E8AE9",
+            "cms-id": 2900,
+            "cms-version": 1,
+            "textKey" : "vf_info_data_protection_settings",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Opt-in & Opt-out verwalten</font>"
+        },
+        {
+            "cms-guid": "533331B8B9DC4ADEA9E78AECC2BEC7AE",
+            "cms-id": 2899,
+            "cms-version": 1,
+            "textKey" : "vf_info_imprint",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Impressum</font>"
+        },
+        {
+            "cms-guid": "7FCDE253D9EC4656B55E8CE0260DBE54",
+            "cms-id": 2898,
+            "cms-version": 1,
+            "textKey" : "vf_info_login_customer_password",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Mit Kundenkennwort einloggen</font>"
+        },
+        {
+            "cms-guid": "A9FEBF159F644747B16E88C066F4ADAD",
+            "cms-id": 2897,
+            "cms-version": 1,
+            "textKey" : "vf_help_app_usage_clickcell",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">MeinVodafone-App-Nutzungsdaten</font>"
+        },
+        {
+            "cms-guid": "6B054932B41C4A7AAC17576EE3A88349",
+            "cms-id": 2896,
+            "cms-version": 1,
+            "textKey" : "vf_info_network_and_service_settings_non_personal_data_optin_switch_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Nicht-personalisierte Daten senden & Netzwerk optimieren</font>"
+        },
+        {
+            "cms-guid": "7777CB48ED7F490A8FE2EEB44853A439",
+            "cms-id": 2895,
+            "cms-version": 1,
+            "textKey" : "vf_info_network_and_service_settings_personal_data_optin_switch_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Personalisierte Daten senden um Hilfe, Produkte, Services und Empfehlungen auf mich zu zuschneiden</font>"
+        },
+        {
+            "cms-guid": "2F6336179B3B42CD96E1EFD250B3010D",
+            "cms-id": 2894,
+            "cms-version": 1,
+            "textKey" : "vf_Security_And_Privacy_Action_Button_Title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Einstellungen &auml;ndern</font>"
+        },
+        {
+            "cms-guid": "C62B4D4C8FFE445A86B8CC3016BC2405",
+            "cms-id": 2892,
+            "cms-version": 1,
+            "textKey" : "vf_Security_And_Privacy_Description_Label",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">M&ouml;chtest Du Einstellungen zu PUK/SuperPIN, Datenschutz oder Beratungseinwilligung &auml;ndern? &Auml;nderungen kannst Du hier vornehmen.</font>"
+        },
+        {
+            "cms-guid": "2B67395763F24650B714A9DAA1109004",
+            "cms-id": 2891,
+            "cms-version": 1,
+            "textKey" : "vf_preferences_omniture_subtitle",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Hilf uns, unsere App noch besser zu machen</b></font>"
+        },
+        {
+            "cms-guid": "A7BC8FFEF8924B76A160C68AEDF2ED96",
+            "cms-id": 2890,
+            "cms-version": 1,
+            "textKey" : "vf_Security_And_Privacy_Title_Label",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Sicherheit & Privatsph&auml;re</font>"
+        },
+        {
+            "cms-guid": "76F0AA8CB9A641D69647A6AD349135D4",
+            "cms-id": 2889,
+            "cms-version": 1,
+            "textKey" : "vf_info_network_and_service_settings_data_protection_details_button",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Hier gibt's Details zur Datenschutz-Erkl&auml;rung</font>"
+        },
+        {
+            "cms-guid": "AF5B31095774437BB14216329DFF3194",
+            "cms-id": 2888,
+            "cms-version": 1,
+            "textKey" : "vf_info_network_and_service_settings_non_personal_data_descr_subtitle",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Was hast Du davon?</font>"
+        },
+        {
+            "cms-guid": "E86EF8C5084D4747BE929593B47672ED",
+            "cms-id": 2887,
+            "cms-version": 1,
+            "textKey" : "vf_info_network_and_service_settings_personal_data_descr_subtitle",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Was hast Du davon?</font>"
+        },
+        {
+            "cms-guid": "824DB717E1884C348ECE8F04972A829D",
+            "cms-id": 2886,
+            "cms-version": 1,
+            "textKey" : "vf_info_data_protection_network_and_service_settings",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Netz & Service verbessern</font>"
+        },
+        {
+            "cms-guid": "97637B6DC6924CC19F88E3FC91898231",
+            "cms-id": 2885,
+            "cms-version": 1,
+            "textKey" : "vf_info_data_protection_analytics_settings",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Nutzungsdaten</font>"
+        },
+        {
+            "cms-guid": "F7F8FB2AA3DE4537A6A46A7FECD842BA",
+            "cms-id": 2884,
+            "cms-version": 1,
+            "textKey" : "vf_info_data_protection_settings_subtitle",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Verwalte hier Deine Einwilligungen und Widerspr&uuml;che.</font>"
+        },
+        {
+            "cms-guid": "642C6DF3CD464455ACAC679343B18161",
+            "cms-id": 2883,
+            "cms-version": 1,
+            "textKey" : "vf_title_page_info",
+            "textValue" : "Einstellungen & Infos"
+        },
+        {
+            "cms-guid": "3BF1112CC17C408E92DB08697B9CC88D",
+            "cms-id": 2882,
+            "cms-version": 1,
+            "textKey" : "vf_info_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"6\" color=\"FFFFFF\" align=\"center\">&Uuml;berblick</font>"
+        },
+        {
+            "cms-guid": "4A5FB70B75EA48E5BB0F2AEEAC17AE49",
+            "cms-id": 2881,
+            "cms-version": 1,
+            "textKey" : "vf_info_landing_page_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Einstellungen & Infos</font>"
+        },
+        {
+            "cms-guid": "7F7C522EE2F443B58D10A1ECA856E4DD",
+            "cms-id": 2880,
+            "cms-version": 1,
+            "textKey" : "vf_new_wifi_logout_button",
+            "textValue" : "Neuanmeldung"
+        },
+        {
+            "cms-guid": "8F142A24C5694E53822C36E842CB16C6",
+            "cms-id": 2879,
+            "cms-version": 2,
+            "textKey" : "vf_new_wifi_logout_description_paragraph",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Du m&ouml;chtest dich ausloggen und die App mit einer anderen Rufnummer nutzen? Dazu brauchst Du nur eine WLAN-Verbindung. Dann klick unten auf &bdquo;Neuanmeldung&ldquo;. Du kannst Dich dann mit jeder beliebigen Rufnummer und dem entsprechenden Internet-Passwort neu einloggen.</font>"
+        },
+        {
+            "cms-guid": "129CE79110124956A5D8C3F9D6A8883C",
+            "cms-id": 2878,
+            "cms-version": 1,
+            "textKey" : "vf_push_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Nachrichten anzeigen</font>"
+        },
+        {
+            "cms-guid": "5257CE09291B4697BBD3FFEA0B4B4158",
+            "cms-id": 2877,
+            "cms-version": 1,
+            "textKey" : "vf_info_push_subtitle",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Immer informiert sein.</font>"
+        },
+        {
+            "cms-guid": "233F672FE1F14DF6BE2C99DB00F80B51",
+            "cms-id": 2876,
+            "cms-version": 1,
+            "textKey" : "info_versioncode",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">MeinVodafone-Version: %1$s</font>"
+        },
+        {
+            "cms-guid": "6E19A7C5FBF84ABF9ABC5386C9BC94A9",
+            "cms-id": 2875,
+            "cms-version": 1,
+            "textKey" : "vf_info",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Info</font>"
+        },
+        {
+            "cms-guid": "780720961FA94CD7BB64B35DDE4F197D",
+            "cms-id": 2874,
+            "cms-version": 2,
+            "textKey" : "vf_non_personal_data_opt_out_confirmation_dialogue_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Nimmst Du Deine Einwilligung zum Senden von Infos zur&uuml;ck, gilt das auch f&uuml;r's Senden personalisierter Infos. So bekommen wir leider keine Daten mehr zur Verbesserung unseres Netzes & unserer Services. <br><br>Du kannst leider dann nicht mehr:<br>\r\n. Deine Netzgeschwindigkeit testen<br>\r\n. Deine App-Nutzung &uuml;berpr&uuml;fen<br>\r\n. Ma&szlig;genschneiderten Support bekommen<br>\r\n. Pers&ouml;nliche Empfehlungen bekommen<br><br>\r\nDr&uuml;cke auf Abbrechen. Dann beh&auml;ltst Du Deine Einwilligung. Mit OK ziehst Du Deine Einwilligung zur&uuml;ck.<br><br></font>"
+        },
+        {
+            "cms-guid": "03B6AF0BDD6D435C87E659C025BDB487",
+            "cms-id": 2873,
+            "cms-version": 1,
+            "textKey" : "vf_non_personal_data_opt_out_confirmation_dialogue_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">M&ouml;chtest Du wirklich keine Infos mehr senden?</font>"
+        },
+        {
+            "cms-guid": "875BE75E656B4696AEE0AC29E6963320",
+            "cms-id": 2872,
+            "cms-version": 2,
+            "textKey" : "vf_personal_data_opt_out_confirmation_dialogue_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Mit der R&uuml;cknahme Deiner Einwilligung kannst Du dann nicht mehr:<br><br>\r\n. Deine App-Nutzung &uuml;berpr&uuml;fen<br>\r\n. Ma&szlig;geschneiderten Support bekommen<br>\r\n. Pers&ouml;nliche Empfehlungen bekommen<br><br>\r\nDr&uuml;cke auf Abbrechen. Dann beh&auml;ltst Du die Einwilligung. Mit OK ziehst Du Deine Einwilligung zur&uuml;ck.<br><br></font>"
+        },
+        {
+            "cms-guid": "A18A266236B94D4DB0A06452D6326E08",
+            "cms-id": 2871,
+            "cms-version": 1,
+            "textKey" : "vf_personal_data_opt_out_confirmation_dialogue_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">M&ouml;chtest Du wirklich keinen ma&szlig;geschneiderten Support mehr? Und auch keine pers&ouml;nlichen Empfehlungen?</font>"
+        },
+        {
+            "cms-guid": "53A441CB631F4BEC8ADC72E34DF1E290",
+            "cms-id": 2870,
+            "cms-version": 1,
+            "textKey" : "vf_info_network_and_service_settings_non_personal_data_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Deine nicht-personalisierten Informationen nutzen wir z.B. um:<br><br>\r\n. Unsere Netzabdeckung und Verbindungsqualit&auml;t zu verbessern.<br>\r\n. St&ouml;rungen zu vermeiden und schneller zu beheben.<br><br></font>"
+        },
+        {
+            "cms-guid": "1AF1EF4AC0BC48AF8CECD83B180B6CB0",
+            "cms-id": 2869,
+            "cms-version": 2,
+            "textKey" : "vf_info_network_and_service_settings_personal_data_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Wir m&ouml;chten unsere Produkte, Dienstleistungen und Empfehlungen f&uuml;r Dich noch besser machen. Dazu brauchen wir Deine Hilfe und einige Informationen &uuml;ber Dich und Dein Nutzungsverhalten, wie z.B. personalisierte Informationen zur Netzabdeckung, zur Qualit&auml;t Deiner Gespr&auml;che und Datenverbindungen, sowie zu den von Dir genutzten Apps.\r\n<br><br>\r\nWir bekommen keine Informationen &uuml;ber Deine Gespr&auml;chs- oder Nachrichteninhalte. \r\n<br><br>\r\nDeine personalisierten Informationen nutzen wir z.B. um:<br>\r\n. Dir mehr Transparenz &uuml;ber Deinen pers&ouml;nlichen Datenverbrauch zu geben.<br>\r\n. Eventuelle Leistungseinschr&auml;nkungen bei der Nutzung Deiner Apps oder Deines Smartphones zu entdecken und zu beheben.<br>\r\n. Dir gezielt f&uuml;r Deinen Tarif Produkte & Services zu empfehlen.<br><br></font>"
+        },
+        {
+            "cms-guid": "48D7AFB625E94A69A2AB86D789F21B5D",
+            "cms-id": 2868,
+            "cms-version": 1,
+            "textKey" : "mvf_fingerprint_store_password_label",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Mit Kundenkennwort einloggen</font>"
+        },
+        {
+            "cms-guid": "81D8ADFA9C6C447EAC1556293EF90C82",
+            "cms-id": 2867,
+            "cms-version": 1,
+            "textKey" : "mvf_info_remove_finger_print_button",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Nur mit Kundenkennwort einloggen</font>"
+        },
+        {
+            "cms-guid": "7B01F0FA83BB4066960CF993C18BE048",
+            "cms-id": 2866,
+            "cms-version": 1,
+            "textKey" : "mvf_info_remove_finger_print_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Du kannst dich je nach Ger&auml;t mit Face ID oder Deinem Fingerabdruck statt mit dem Kundenkennwort einloggen. M&ouml;chtest Du diese Funktion ausschalten und lieber das Kundenkennwort eingeben?</font>"
+        },
+        {
+            "cms-guid": "AF7433F1D4F44667BC5FA2CA3E3CC9C6",
+            "cms-id": 2865,
+            "cms-version": 1,
+            "textKey" : "mvf_info_remove_finger_print_subtitle",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\"></font>"
+        },
+        {
+            "cms-guid": "CD612864D44647C582FFE69FC2A6D29C",
+            "cms-id": 2864,
+            "cms-version": 1,
+            "textKey" : "vf_info_remove_customer_passowrd_button",
+            "textValue" : "Nicht mehr speichern"
+        },
+        {
+            "cms-guid": "CE497A2FF3354D68936778A658E3CFFE",
+            "cms-id": 2863,
+            "cms-version": 2,
+            "textKey" : "vf_info_remove_customer_passowrd_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Das Kennwort dient dem Schutz Deiner pers&ouml;nlichen Daten. Es ist nur Dir und uns bekannt. Nur mit dem Kennwort kannst Du hier in der App Deine pers&ouml;nlichen Daten wie z. B. Deine Adresse &auml;ndern, Optionen buchen oder Infos zu Deiner Rechnung abrufen. Speicherst Du Dein Kundenkennwort, hast Du schnellen Zugriff auf alle Funktionen. Du kannst die Einstellung jederzeit wieder &auml;ndern.</font>"
+        },
+        {
+            "cms-guid": "1D91D99DFB97428997A8244F5C7E0F25",
+            "cms-id": 2862,
+            "cms-version": 1,
+            "textKey" : "vf_info_remove_customer_passowrd_subtitle",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Kundenkennwort speichern - schneller zugreifen</b></font>"
+        },
+        {
+            "cms-guid": "097408B3A63F4041B4948843FE836EAD",
+            "cms-id": 2861,
+            "cms-version": 1,
+            "textKey" : "mvf_customerpassword_store_password_label",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Kundenkennwort speichern</font>"
+        },
+        {
+            "cms-guid": "50F7EB421A6E43A785EDD449B194ECF1",
+            "cms-id": 2860,
+            "cms-version": 1,
+            "textKey" : "vf_help_bew_permission_dev_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\"><b>Sag uns, wie wir Dir Informationen, Angebote und Empfehlungen schicken sollen, die wir auf Dich zugeschnitten haben.</b></font>"
+        },
+        {
+            "cms-guid": "19AA348C1FC846CEB29E467F74D8B817",
+            "cms-id": 2859,
+            "cms-version": 1,
+            "textKey" : "vf_push_subtitle",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Ob neue Rechnung, pers&ouml;nliche Angebote oder Tipps: Du bekommst die Infos direkt auf Dein Smartphone.</font>"
+        },
+        {
+            "cms-guid": "6FEE7429A20240F2ABE5DCF8C94DDC58",
+            "cms-id": 2858,
+            "cms-version": 1,
+            "textKey" : "vf_info_bew_text",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Mein aktueller Text zur Beratungseinwilligung</font>"
+        },
+        {
+            "cms-guid": "6BE07CB6E11D4058B740719E350C3BD4",
+            "cms-id": 2857,
+            "cms-version": 1,
+            "textKey" : "vf_data_for_tasks_switch_label",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Daten f&uuml;r Taten</font>"
+        },
+        {
+            "cms-guid": "100412B8BE6A415AB8A12AEB2ACF3C3B",
+            "cms-id": 2856,
+            "cms-version": 1,
+            "textKey" : "vf_data_for_tasks_description",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Die Daten f&uuml;r Taten Funktion kannst Du hier an- bzw. abschalten.</font>"
+        },
+        {
+            "cms-guid": "9331BC981C414D7CB479C6DC065FB418",
+            "cms-id": 2855,
+            "cms-version": 1,
+            "textKey" : "vf_data_for_tasks_sub_title",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Section Sub Title one row</font>"
+        },
+        {
+            "cms-guid": "7D155F4D3DEF41CDAB082006BBD0D698",
+            "cms-id": 2854,
+            "cms-version": 1,
+            "textKey" : "vf_daten_fur_taten",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Daten f&uuml;r Taten</font>"
+        },
+        {
+            "cms-guid": "07E984CA1FC84DD3A5CE0641A4EDA15C",
+            "cms-id": 2853,
+            "cms-version": 1,
+            "textKey" : "vf_info_push_StepOneSubtitle_Tablet",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Rufe die Einstellungen Deines iPads auf.</font>"
+        },
+        {
+            "cms-guid": "00DAD3E189554AD8A4730FE4462BC878",
+            "cms-id": 2852,
+            "cms-version": 1,
+            "textKey" : "vf_info_push_StepThreeSubtitle",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">W&auml;hle in der Liste &bdquo;MeinVodafone&rdquo;.</font>"
+        },
+        {
+            "cms-guid": "691F2BA078C64D74A1BBA11026FC5079",
+            "cms-id": 2851,
+            "cms-version": 1,
+            "textKey" : "vf_info_push_StepTwoSubtitle",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">W&auml;hle &bdquo;Mitteilungen&rdquo;.</font>"
+        },
+        {
+            "cms-guid": "50DAF18D5CE14F13889BCF0F3A5999A8",
+            "cms-id": 2850,
+            "cms-version": 1,
+            "textKey" : "vf_info_push_StepOneSubtitle",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Rufe die Einstellungen Deines iPhones auf.</font>"
+        },
+        {
+            "cms-guid": "512EACFB5A70432CBFF276B0C54E5F12",
+            "cms-id": 2849,
+            "cms-version": 1,
+            "textKey" : "vf_new_wifi_logout_description_paragraph_2_tablet",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Klick unten auf &bdquo;OK&ldquo;. Dann kannst Du Dich mit jeder beliebigen Rufnummer und dem entsprechenden Internet-Passwort neu einloggen.</font>"
+        },
+        {
+            "cms-guid": "DCD5E25D40C04B70809EDCED32756CD3",
+            "cms-id": 2848,
+            "cms-version": 1,
+            "textKey" : "vf_new_wifi_logout_description_paragraph_tablet",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Du m&ouml;chtest Dich ausloggen und die App mit einer anderen Rufnummer nutzen? Dazu brauchst Du nur einen WLAN-Zugriff.</font>"
+        },
+        {
+            "cms-guid": "2F43E9EDF6CC44D8B1D95F7BCB49F5E5",
+            "cms-id": 2847,
+            "cms-version": 1,
+            "textKey" : "vf_new_wifi_logout_second_description_paragraph",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Klicke bei einer bestehenden WLAN-Verbindung unten auf &bdquo;Neuanmeldung&ldquo;.<br>Du kannst sich dann mit jeder beliebigen Rufnummer und dem entsprechenden Internet-Passwort neu einloggen.</font>"
+        },
+        {
+            "cms-guid": "C44235D33AD54B57BBEF8371AFA7DD0B",
+            "cms-id": 2846,
+            "cms-version": 2,
+            "textKey" : "vf_data_protection_landing_subtitle",
+            "textValue" : "Du m&ouml;chtest regelm&auml;&szlig;ig ma&szlig;geschneiderte Angebote im Web und in der App von uns? Dazu erkennen wir Dich pers&ouml;nlich als Kunden &uuml;bers Vodafone-Netz oder wenn Du Dich bei uns einloggst. Durch Cookies geht das auch, wenn Du nicht mehr eingeloggt bist oder WLAN nutzt.\n\nZus&auml;tzlich setzen wir Performance- und Marketing-Cookies, um die Nutzung unserer Web-Seite und unserer Apps leichter zu machen. Und wir k&ouml;nnen Dir so Werbeinhalte anbieten, die zu Deinen Surf-Verhalten passen. Mit diesen Cookies ist ein R&uuml;ckschluss auf Dich als Person f&uuml;r uns nicht m&ouml;glich. Es sei denn, Du hast uns dazu separat Deine Einwilligung gegeben.\n\nUnsere Datenschutz-Erkl&auml;rung haben wir auf die neue Datenschutz-Grundverordnung angepasst."
+        },
+        {
+            "cms-guid": "E3B15CD17EF4489D9087E979216D7AE4",
+            "cms-id": 2845,
+            "cms-version": 1,
+            "textKey" : "vf_data_protection_landing_title",
+            "textValue" : "Pers&ouml;nliche Rabatte und Angebote"
+        },
+        {
+            "cms-guid": "1DA34D4BA5F341D8805132AA8550E3AC",
+            "cms-id": 2844,
+            "cms-version": 1,
+            "textKey" : "vf_settings_page_save_button",
+            "textValue" : "Weiter"
+        },
+        {
+            "cms-guid": "A50295F7ED2E40B7A150A877E4467E69",
+            "cms-id": 2843,
+            "cms-version": 1,
+            "textKey" : "vf_angebote",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Pers&ouml;nliche Angebote</font>"
+        },
+        {
+            "cms-guid": "5E5737CB171240079762DEEFA8AA07AC",
+            "cms-id": 2842,
+            "cms-version": 2,
+            "textKey" : "vf_angebote_off",
+            "textValue" : "Zurzeit d&uuml;rfen wir Dir ma&szlig;geschneiderte Angebote und Rabatte im Web und in den Apps machen. Dazu erkennen wir Dich pers&ouml;nlich als Kunden &uuml;bers Vodafone-Netz oder wenn Du Dich bei uns einloggst. Durch Cookies geht das auch, wenn Du nicht mehr eingeloggt bist oder WLAN nutzt. Erkennen wir Dich auf verschiedenen Ger&auml;ten, gelten Deine Einstellungen f&uuml;r alle Ger&auml;te. Du musst sie nicht auf jedem Ger&auml;t einzeln &auml;ndern."
+        },
+        {
+            "cms-guid": "A742F70ADB38479E958BF0CF8DE8A9CF",
+            "cms-id": 2841,
+            "cms-version": 2,
+            "textKey" : "vf_angebote_on",
+            "textValue" : "wir Dir ma&szlig;geschneiderte Angebote und Rabatte im Web und in den Apps machen. Dazu erkennen wir Dich pers&ouml;nlich als Kunden &uuml;bers Vodafone-Netz oder wenn Du Dich bei uns einloggst. Durch Cookies geht das auch, wenn Du nicht mehr eingeloggt bist oder WLAN nutzt. Erkennen wir Dich auf verschiedenen Ger&auml;ten, gelten Deine Einstellungen f&uuml;r alle Ger&auml;te. Du musst sie nicht auf jedem Ger&auml;t einzeln &auml;ndern."
+        },
+        {
+            "cms-guid": "9EC07082DCFE480785186945682EA35C",
+            "cms-id": 2840,
+            "cms-version": 1,
+            "textKey" : "vf_online_marketing_cookies",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Gihad_Online Marketing Cookies</font>"
+        },
+        {
+            "cms-guid": "A45E5A49017648019BFFDDC638C7FB11",
+            "cms-id": 2839,
+            "cms-version": 2,
+            "textKey" : "vf_online_marketing_cookies_off",
+            "textValue" : "Gihad_Du siehst auf unserer oder anderen Web-Seiten Werbung, die zu Deinem Surf-Verhalten passt. Grunds&auml;tzlich nutzen wir nur pseudonyme Daten, ein R&uuml;ckschluss auf Dich als Person ist f&uuml;r uns nicht m&ouml;glich. An unsere Werbepartner geben wir nur anonyme oder pseudonyme Daten weiter."
+        },
+        {
+            "cms-guid": "B568F831B070478BBD065306CAE225E7",
+            "cms-id": 2838,
+            "cms-version": 2,
+            "textKey" : "vf_online_marketing_cookies_on",
+            "textValue" : "Gihad_auf unserer oder anderen Web-Seiten Werbung, die zu Deinem Surf-Verhalten passt. Grunds&auml;tzlich nutzen wir nur pseudonyme Daten, ein R&uuml;ckschluss auf Dich als Person ist f&uuml;r uns nicht m&ouml;glich. An unsere Werbepartner geben wir nur anonyme oder pseudonyme Daten weiter."
+        },
+        {
+            "cms-guid": "3CB7933804BA425E843D8FDA7EDAC5DE",
+            "cms-id": 2837,
+            "cms-version": 1,
+            "textKey" : "vf_performance_cookies",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">performance switch title</font>"
+        },
+        {
+            "cms-guid": "49A8663487EB4B04B9201B14FF4692B2",
+            "cms-id": 2836,
+            "cms-version": 1,
+            "textKey" : "vf_performance_cookies_off",
+            "textValue" : "Dein Surf-Verhalten d&uuml;rfen wir f&uuml;r Analysezwecke nutzen, um z.B. unsere Web-Seite zu optimieren. Dazu nehmen wir nur pseudonyme Daten, ein R&uuml;ckschluss auf Dich als Person ist f&uuml;r uns nicht m&ouml;glich."
+        },
+        {
+            "cms-guid": "07348BB74DD64BFC85AE080CC26F2689",
+            "cms-id": 2835,
+            "cms-version": 1,
+            "textKey" : "vf_preferences_omniture_send_user_data",
+            "textValue" : "<font face=\"VodafoneRg-Regular\" size= \"5\">Performance Cookies</font>"
+        },
+        {
+            "cms-guid": "2AC2F9FEF33147108E511BB5D0EF9930",
+            "cms-id": 2811,
+            "cms-version": 1,
+            "textKey" : "vf_performance_cookies_on",
+            "textValue" : "font face=\"VodafoneRg-Regular\" size= \"4\">Surf-Verhalten d&uuml;rfen wir f&uuml;r Analysezwecke nutzen, um z.B. unsere Web-Seite zu optimieren. Dazu nehmen wir nur pseudonyme Daten, ein R&uuml;ckschluss auf Dich als Person ist f&uuml;r uns nicht m&ouml;glich.</font>"
+        }
+    ], 
+    "bewMappingVersions": [
+        {
+            "cms-guid": "3AEF3A9672924460AACAC37F399A8492",
+            "cms-id": 2815,
+            "cms-version": 1,
+            "version" : 3,
+            "serviceIds" : [
+        {
+            "cms-guid": "DD11B628E4124B29AE80C34961364651",
+            "cms-id": 2834,
+            "cms-version": 1,
+            "serviceId" : "TWIB",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : ""
+        },
+        {
+            "cms-guid": "0B3A32F84AB64D1EBA6EFCD2F81C3881",
+            "cms-id": 2833,
+            "cms-version": 1,
+            "serviceId" : "TOUT",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : ""
+        },
+        {
+            "cms-guid": "AC76D452B125426193C48554B1DEFD08",
+            "cms-id": 2832,
+            "cms-version": 1,
+            "serviceId" : "POST",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : ""
+        },
+        {
+            "cms-guid": "CE6EF5B391DD4CA9BBF280BE3B77F564",
+            "cms-id": 2830,
+            "cms-version": 1,
+            "serviceId" : "SMMS",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : ""
+        },
+        {
+            "cms-guid": "0415869512F0415FB5E16E6A59CBC8B1",
+            "cms-id": 2831,
+            "cms-version": 1,
+            "serviceId" : "EMAL",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : ""
+        },
+        {
+            "cms-guid": "8EE2002DBA444A399DFEBA24A331CF13",
+            "cms-id": 2829,
+            "cms-version": 2,
+            "serviceId" : "WBT",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Mit dieser Einwilligung steuerst Du, ob wir Deine Nutzungsdaten verwenden d&uuml;rfen. Die Nutzungsdaten sind Informationen &uuml;ber Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren Dich oder Dein Ger&auml;t direkt und sind zum Teil in Deinem Ger&auml;t gespeichert, z.B. als Cookies.</font>"
+        },
+        {
+            "cms-guid": "C968EF586C3E4BF8B14FB3C3A9F76D27",
+            "cms-id": 2828,
+            "cms-version": 1,
+            "serviceId" : "GEO",
+            "shortDescriptionDE" : "Standortdaten (zellbasiert",
+            "longDescriptionDE" : "<font face=\"VodafoneRg-Regular\" size= \"4\">&Uuml;ber die Mobilfunk-Zelle, die Du nutzt, k&ouml;nnen wir ungef&auml;hr Deinen Standort bestimmen. So k&ouml;nnen wir Dir Angebote und Services empfehlen, die an Deinem Standort vielleicht interessant f&uuml;r Dich sind.</font>"
+        },
+        {
+            "cms-guid": "8D5B5BDD2C7E443BB1A8E2C7B0645C33",
+            "cms-id": 2827,
+            "cms-version": 2,
+            "serviceId" : "CDEV",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Die Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Ger&auml;te oder Anschl&uuml;sse.<br>Auf Basis der Verkehrsdaten k&ouml;nnen wir die Leistung unseres Netzes verbessern, Deine Services verbessern und Dir Angebote und Empfehlungen schicken, von denen Du mehr hast.<br>Welche Verkehrsdaten wir direkt von Deinem Smartphone verwenden, verwaltest Du in den Datenschutz-Einstellungen unter &bdquo;Netz & Service verbessern&rdquo;.</font>"
+        },
+        {
+            "cms-guid": "CB55AEA7EFFF475FA0E1756FBF7D8F9C",
+            "cms-id": 2817,
+            "cms-version": 2,
+            "serviceId" : "PDEV",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : " <font face=\"VodafoneRg-Regular\" size= \"4\">Deine Bestandsdaten sind Angaben rund um Dein Vertragsverh&auml;ltnis,<br>z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.<br>Wenn wir besser verstehen, wie Du unsere Produkte und Services"
+        }
+        ]
+    },
+        {
+            "cms-guid": "4F35C76316D04AF597F2A44031AF4C25",
+            "cms-id": 2813,
+            "cms-version": 1,
+            "version" : 1,
+            "serviceIds" : [
+        {
+            "cms-guid": "24A7C4CD365147A4BF522D9EA9601982",
+            "cms-id": 2826,
+            "cms-version": 1,
+            "serviceId" : "TWIB",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : ""
+        },
+        {
+            "cms-guid": "D6357100ACFE4A719E6832FA2FCD7AFE",
+            "cms-id": 2825,
+            "cms-version": 1,
+            "serviceId" : "TOUT",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : ""
+        },
+        {
+            "cms-guid": "7ADF3C6B2B754D14B719AB9509D6F0F8",
+            "cms-id": 2824,
+            "cms-version": 1,
+            "serviceId" : "POST",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : ""
+        },
+        {
+            "cms-guid": "01138DB36C094BFAA6F77219B32AE3BB",
+            "cms-id": 2823,
+            "cms-version": 1,
+            "serviceId" : "EMAL",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : ""
+        },
+        {
+            "cms-guid": "4B94AFCE14964B718237DC1DCB6006EA",
+            "cms-id": 2822,
+            "cms-version": 1,
+            "serviceId" : "SMMS",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : ""
+        },
+        {
+            "cms-guid": "E5808C96112E4BF287FCF210F1DD91B3",
+            "cms-id": 2821,
+            "cms-version": 1,
+            "serviceId" : "CDEV",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Die Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Ger&auml;te oder Anschl&uuml;ss"
+        },
+        {
+            "cms-guid": "8BC4764323644AE69220BD3906296F7E",
+            "cms-id": 2814,
+            "cms-version": 1,
+            "serviceId" : "PDEV",
+            "shortDescriptionDE" : "",
+            "longDescriptionDE" : "<font face=\"VodafoneRg-Regular\" size= \"4\">Deine Bestandsdaten sind Angaben rund um Dein Vertragsverh&auml;ltnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services. Wenn wir besser verstehen, wie Du unsere Produkte und Services nutzt,<"
+        }
+        ]
+    }
+    ] 
+}

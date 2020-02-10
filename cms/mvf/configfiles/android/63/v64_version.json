@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "version": "2.3.1.164",
+      "cms-guid": "6F09117608BE41AE84C40D0478157F72",
+      "cms-id": "599",
+      "id": "abbreviations",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/64/v64_abbreviation.json"
+    },
+    {
+      "id": "config",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/64/v64_config.json",
+      "version": "299"
+    },
+    {
+      "id": "tariff",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/64/v64_tariff.json",
+      "version": "4"
+    },
+    {
+      "id": "tariff_option",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/64/v64_tariffoption.json",
+      "version": "25"
+    },
+    {
+      "id": "help",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/64/v64_help.json",
+      "version": "4"
+    },
+    {
+      "id": "maintenance",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/64/v64_maintenance.json",
+      "version": "120"
+	  },
+    {
+      "id": "menu",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/64/v64_menu.json",
+      "version": "60"
+    },
+    {
+      "id": "roaming",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/64/v64_roaming.json",
+      "version": "38"
+    },
+    {
+      "id": "prepaid_tariff",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/64/v64_tariff_prepaid.json",
+      "version": "45"
+    },
+    {
+      "id": "netz_feedback",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/64/v64_netzfeedback.json",
+      "version": "3.3.1.162"
+    },
+    {
+      "id": "yolo",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/64/v64_yolo.json",
+      "version": "2.3.1.312"
+    }
+  ]
+}

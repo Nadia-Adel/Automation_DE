@@ -1,0 +1,449 @@
+{
+  "cms-guid": "4DC6DFF2305D48AF82F38688BA1DE019",
+  "cms-id": 2687,
+  "cms-version": 1,
+  "phoneNumbers": {},
+  "urls": {
+    "fcApiPostPaid": "https://www.vodafone.de/mint/vfssdublin/prx/fcapi",
+    "fcApiPrePaid": "https://www.vodafone.de/mint/vfssdublin/prx/fcapi",
+    "onlineShopUrl": "https://www.vodafone.de/privat/vertragsverlaengerung/vvl-consumer-smartphones-tarife.html?forApp=true",
+    "baseImageUrl": "https://media.vodafone.de/www/images/app/",
+    "onlineTopupUrl": "https://www.vodafone.de/meinvodafone/account/payment?"
+  },
+  "packageDescriptions": {
+    "flatIdentifier": "Verbrauchte",
+    "unlimited4G": "GigaGarantie",
+    "redPlus": "Red+",
+    "highspeedData": "Highspeed-Volumen national"
+  },
+  "packageSocs": {
+    "postpaid_redeem_voucher_soc2": "MRK_GSAP",
+    "postpaid_redeem_voucher_soc1": "MRKBEGSAP",
+    "postpaid_zeroRatingSoc": "APPVOLCRE",
+    "postpaid_unlimited4GSoc": "APP4GSAT"
+  },
+  "miscIdentifiers": {
+    "vfURLRegEx": "",
+    "socBigBang": "isLBB",
+    "socMigrate": "CCSMARK",
+    "dealerCode": "33333887",
+    "quickCheckFlatIdentifier": "Flat",
+    "prepaidBonusIdentifier": "bonus",
+    "prepaidDataIdentifier": "mb"
+  },
+  "miscIdentifiersList": {
+    "prepaidUsageGroupBlackList": [
+      "bonus"
+    ],
+    "prepaidFlexPlanIdentifiers": [
+      "flex1",
+	  "diy-package",
+      "felx2"
+    ],
+    "prepaid_zeroRatingSocs": [
+      "APPVOLDEB",
+      "CY_SMT10"
+    ],
+    "prepaid_unlimited4GSocs": [
+      "SAT4GDEB"
+    ] ,
+    "webview_cookies": [
+      "mint-session-id",
+      "mint-sso-token",
+      "VFMobileSession",
+      "simplicity-draft",
+      "mint"
+    ]
+  },
+  "imageNames": {
+    "prepaid_zeroRating": "mein-callya-100mb-0-.jpg",
+    "prepaid_various_vovImage": "vov_pontis_prepay_informative-0-.jpg",
+    "prepaid_informative_vovImage": "vov_pontis_prepay_informative-0-.jpg",
+    "prepaid_topup_vovImage": "vov_pontis_prepay_Topup-0-.jpg",
+    "prepaid_changeTariff_vovImage": "vov_pontis_prepay_changetariff-0-.jpg",
+    "prepaid_bookOption_vovImage": "vov_pontis_prepay_bookoption-0-.jpg",
+    "prepaid_bookOptionList": "TailL_pontis-book-0-.jpg",
+    "prepaid_bookOptionDetail": "mein_callya_BookOption-0-.jpg",
+    "prepaid_changeTariffList": "TailL_pontis-change-0-.jpg",
+    "prepaid_changeTariffDetail": "mein_callya_ChangeTariff-0-.jpg",
+    "prepaid_topupList": "TailL_pontis-offer-0-.jpg",
+    "prepaid_topupDetail": "mein_callya_Topup-0-.jpg",
+    "prepaid_informativeList": "TailL_pontis-info-0-.jpg",
+    "prepaid_informativeDetail": "mein_callya_Informative-0-.jpg",
+    "prepaid_variousList": "banner_hardware-0-.jpg",
+    "prepaid_variousDetail": "banner_hardware-0-.jpg",
+    "app_background": "background-0-.jpg"
+  },
+  "thresholds": {
+    "vovRotationStepThreshold": 2,
+    "forecastGraphThreshold": 3,
+    "postpaid_redeemVoucherWaitingTime": 20,
+    "prepaid_transferStepValue3": 20,
+    "prepaid_transferStepValue2": 10,
+    "prepaid_transferStepValue1": 5,
+    "prepaid_transferStepCount": 3,
+    "postpaid_zeroRatingTimeSpan": 0,
+    "prepaid_zeroRatingTimeSpan": 0,
+    "prepaid_costDefaultMaxValue": 30,
+    "prepaid_bonusDefaultMaxValue": 5,
+    "bannerDelay": 3,
+    "chatRefreshTimeAgentAvailability": 20,
+    "fingerPrintAssociateRecurrence": 3,
+    "voteThreshold": 2,
+    "highSpeedThreshold": 20,
+	"vodafoneUnlimitedMB":10000,
+	"vodafoneUnlimitedRedPlusMB":9000
+  },
+  "features": {
+    "resetTargetCookie": {
+      "cms-guid": "322B249412A44561B3B3D66C6F866C0C",
+      "cms-id": 2674,
+      "eligibleCustomerTypes": {},
+      "enable": false
+    },
+    "networkExpert": {
+      "cms-guid": "AF37D2AFA34240E7820C510634A6AA1B",
+      "cms-id": 2004,
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "socForTypePreWhite": [],
+        "socForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "socForTypeIWhite": [],
+        "socForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "socForTypeSWhite": [],
+        "socForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "socForTypeBWhite": [],
+        "socForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "socForTypePUWhite": [],
+        "socForTypePUBlack": []
+      },
+      "enable": true
+    },
+    "forecastGraph": {
+      "cms-guid": "6182D813B95640949C25EB8EA5180082",
+      "cms-id": 1998,
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "socForTypePreWhite": [],
+        "socForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "socForTypeIWhite": [],
+        "socForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "socForTypeSWhite": [],
+        "socForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": ["RB5SN60"],
+        "vfplanForTypeBBlack": [],
+        "socForTypeBWhite": [],
+        "socForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "socForTypePUWhite": [],
+        "socForTypePUBlack": []
+      },
+      "enable": true
+    },
+    "quickCheckFlat": {
+      "cms-guid": "35B022D576F54E07812764DEBAFAE819",
+      "cms-id": 1995,
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "socForTypePreWhite": [],
+        "socForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "socForTypeIWhite": [],
+        "socForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "socForTypeSWhite": [],
+        "socForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "socForTypeBWhite": [],
+        "socForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "socForTypePUWhite": [],
+        "socForTypePUBlack": []
+      },
+      "enable": true
+    },
+    "targetCaching": {
+      "cms-guid": "9C9EC1EDB31A43709769CAA251E90B06",
+      "cms-id": 1927,
+      "eligibleCustomerTypes": {},
+      "enable": false
+    },
+    "onlineAufladenAsWebview": {
+      "cms-guid": "B3212FE72EE04E4A9E64566F5BEDCDCC",
+      "cms-id": 1916,
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "socForTypePreWhite": [],
+        "socForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "socForTypeIWhite": [],
+        "socForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "socForTypeSWhite": [],
+        "socForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "socForTypeBWhite": [],
+        "socForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "socForTypePUWhite": [],
+        "socForTypePUBlack": []
+      },
+      "enable": true
+    },
+    "homePlusButton": {
+      "cms-guid": "936DD0C5FE3646448415423497F9115F",
+      "cms-id": 1915,
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "socForTypePreWhite": [],
+        "socForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "socForTypeIWhite": [],
+        "socForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "socForTypeSWhite": [],
+        "socForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "socForTypeBWhite": [],
+        "socForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "socForTypePUWhite": [],
+        "socForTypePUBlack": []
+      },
+      "enable": true
+    },
+    "pu": {
+      "cms-guid": "A4A28ABB92E64086B5647AA6DC63AAFC",
+      "cms-id": 1839,
+      "eligibleCustomerTypes": {},
+      "enable": false
+    },
+    "zeroRatingPrepaid": {
+      "cms-guid": "1AFDC97F695E4526948882DC1D6654F4",
+      "cms-id": 1709,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    },
+    "zeroRatingPostpaid": {
+      "cms-guid": "3A1C74EAC4484F7CADAE3CA821B3B4CD",
+      "cms-id": 1708,
+      "eligibleCustomerTypes": {},
+      "enable": false
+    },
+    "redeemVoucher": {
+      "cms-guid": "226994979D154A51A88F16575857A464",
+      "cms-id": 1683,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    },
+    "vote": {
+      "cms-guid": "E4B86520BA8740A78871258A6A70778A",
+      "cms-id": 1682,
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "socForTypePreWhite": [],
+        "socForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "socForTypeIWhite": [],
+        "socForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "socForTypeSWhite": [],
+        "socForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "socForTypeBWhite": [],
+        "socForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "socForTypePUWhite": [],
+        "socForTypePUBlack": []
+      },
+      "enable": true
+    },
+    "transferCosts": {
+      "cms-guid": "29AD0B27743A4076B2F3B38DC07F590A",
+      "cms-id": 1432,
+      "eligibleCustomerTypes": {},
+      "enable": false
+    },
+    "zeroRating": {
+      "cms-guid": "3CA2E3F1BD1B4C8EA9D217DA209F45CC",
+      "cms-id": 1431,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    },
+    "zeroRatingpostpaidSuccess": {
+      "cms-guid": "E7EFA8700C1A4C1CA636B31AC22A730E",
+      "cms-id": 1430,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    },
+    "zeroRatingPostpaidRedPlus": {
+      "cms-guid": "130E4840E9A048D8B78D99C025AF3574",
+      "cms-id": 1429,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    },
+    "datenForTaten": {
+      "cms-guid": "E3352BB66B584AE888F52677B674F4A5",
+      "cms-id": 1427,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    },
+    "komfortRegistration": {
+      "cms-guid": "92F0C409C5DC4C678744E5CE3DE0251B",
+      "cms-id": 1426,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    },
+    "smsLogin": {
+      "cms-guid": "1009B64943E5434B987460CB742AA0D6",
+      "cms-id": 1424,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    },
+    "personalAgentName": {
+      "cms-guid": "0473C2C16FAA417D8CB6F0312BC4081E",
+      "cms-id": 1421,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    },
+    "personalAgent": {
+      "cms-guid": "327F84B31831455F9BAE7C30F261A5D3",
+      "cms-id": 1420,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    },
+    "appleWatchQuickcheck": {
+      "cms-guid": "CD32B17C612449C48D4F6578FC1EC475",
+      "cms-id": 1417,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    },
+    "appleWatchHighspeed": {
+      "cms-guid": "9169FD7195264FB9A11C581DDE9515EA",
+      "cms-id": 1338,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    },
+    "appleWatchShopfinder": {
+      "cms-guid": "CF4DA9A5702A4CD6BDC683B67F201640",
+      "cms-id": 1337,
+      "eligibleCustomerTypes": {},
+      "enable": true
+    }
+  }
+}

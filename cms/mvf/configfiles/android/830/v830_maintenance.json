@@ -1,0 +1,19 @@
+{
+  "cms-guid": "AF605BAD5DCC46F98E6E88CC09DE5E20",
+  "cms-id": 3201,
+  "cms-version": 1,
+  "items": [
+    {
+      "cms-guid": "B2397C97E60643088C77FCA90399F501",
+      "cms-id": 1686,
+      "cms-version": 42,
+      "title": "Hinweis",
+      "enable": false,
+      "text": "Wir arbeiten gerade an unseren Systemen. Dadurch kannst Du nicht alle Services nutzen. Das tut uns leid. Bald l&auml;uft alles wieder normal.",
+      "blocking": false,
+      "startTime": 1528538400,
+      "endTime": 1528646400,
+      "update" : false
+    }
+  ]
+}

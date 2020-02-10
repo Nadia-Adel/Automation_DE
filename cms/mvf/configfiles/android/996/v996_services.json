@@ -1,0 +1,81 @@
+{
+  "services": [
+    {
+      "id": "Nil_UserData_FixedNet",
+      "minutesValid": 1,
+      "enabled": true
+    },
+    {
+      "id": "Nil_Subscriptions_FixedNet",
+      "minutesValid": 2,
+      "enabled": false
+    },
+    {
+      "id": "Nil_TariffPlanGet_FixedNet",
+      "minutesValid": 2,
+      "enabled": true
+    },
+    {
+      "id": "Nil_SubscriberDetails_Mobile",
+      "minutesValid": 3,
+      "enabled": true
+    },
+    {
+      "id": "Nil_BilledUsage_FixedNet",
+      "minutesValid": 3,
+      "enabled": true
+    },
+    {
+      "id": "Dublin_Index_Mobile",
+      "minutesValid": 10,
+      "enabled": true
+    },
+    {
+      "id": "NIL_SharingGroupDataLimit_Post",
+      "minutesValid": 5,
+      "enabled": true
+    },
+    {
+      "id": "NIL_UnbilledUsage_Post",
+      "minutesValid": 5,
+      "enabled": true
+    },
+    {
+      "id": "Dublin_QuickCheck_Post",
+      "minutesValid": 5,
+      "enabled": true
+    },
+    {
+      "id": "Vlux_UnbilledUsage_Pre",
+      "minutesValid": 5,
+      "enabled": true
+    },
+    {
+      "id": "Vlux_TariffPlan_Pre",
+      "minutesValid": 5,
+      "enabled": true
+    },
+    {
+      "id": "Vlux_TariffExtras_Pre",
+      "minutesValid": 5,
+      "enabled": true
+    },
+    {
+      "id": "Cycc_SubscriberDo_Consumbtion_Pre",
+      "minutesValid": 5,
+      "enabled": true
+    },
+    {
+      "id": "Cycc_SubscriberDo_Pontis_Pre",
+      "minutesValid": 5,
+      "enabled": true
+    },
+    {
+      "id": "Cycc_SubscriberDo_Pac_Pre",
+      "minutesValid": 5,
+      "enabled": true
+    }
+  ],
+  "serviceCachingEnabled": true,
+  "diskCaching": true
+}

@@ -1,0 +1,241 @@
+{
+  "deeplinkScreens": [
+    {
+      "screenId": "home",
+      "type": "both",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/home",
+        "https://www.vodafone.de/meinvodafone/services/teilnehmer/quickcheck",
+        "mvf://home",
+        "mcy://home"
+      ]
+    },
+    {
+      "screenId": "inbox",
+      "type": "both",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/inbox",
+        "mvf://inbox",
+        "mcy://inbox"
+      ]
+    },
+    {
+      "screenId": "netzinfo",
+      "type": "both",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/netzinfo",
+        "mvf://netzinfo",
+        "mcy://netzinfo"
+      ]
+    },
+    {
+      "screenId": "faq",
+      "type": "both",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/faq",
+        "https://www.vodafone.de/privat/hilfe.html",
+        "mvf://faq",
+        "mcy://faq"
+      ]
+    },
+    {
+      "screenId": "forum",
+      "type": "both",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/forum",
+        "https://forum.vodafone.de",
+        "mvf://forum",
+        "mcy://forum"
+      ]
+    },
+    {
+      "screenId": "speedTest",
+      "type": "both",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/speedtest",
+        "mvf://speedtest",
+        "mcy://speedtest"
+      ]
+    },
+    {
+      "screenId": "shopfinder",
+      "type": "both",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/shopfinder",
+        "mvf://shopfinder",
+        "mcy://shopfinder"
+      ]
+    },
+    {
+      "screenId": "netzfeedback",
+      "type": "both",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/netzfeedback",
+        "mvf://netzfeedback",
+        "mcy://netzfeedback"
+      ]
+    },
+    {
+      "screenId": "netzabdeckung",
+      "type": "both",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/netzabdeckung",
+        "mvf://netzabdeckung",
+        "mcy://netzabdeckung"
+      ]
+    },
+    {
+      "screenId": "info",
+      "type": "both",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/info",
+        "mvf://info",
+        "mcy://info"
+      ]
+    },
+    {
+      "screenId": "offer",
+      "type": "both",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/offer",
+        "mvf://offer",
+        "mcy://offer"
+      ]
+    },
+    {
+      "screenId": "offerDetails",
+      "type": "both",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/offer/details"
+      ]
+    },
+    {
+      "screenId": "transfer_postpaid",
+      "type": "post",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/transfer",
+        "mvf://transfer_postpaid"
+      ]
+    },
+    {
+      "screenId": "data",
+      "type": "post",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/services/vertragsdaten",
+        "https://www.vodafone.de/meinvodafone/app/data",
+        "mvf://data"
+      ]
+    },
+    {
+      "screenId": "roaming",
+      "type": "post",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/roaming",
+        "https://www.vodafone.de/privat/service/fuer-vertragskunden-ausland.html",
+        "mvf://roaming"
+      ]
+    },
+    {
+      "screenId": "roamingRegulation",
+      "type": "post",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/roaming/regulations",
+        "mvf://roaming/regulations"
+      ]
+    },
+    {
+      "screenId": "overview",
+      "type": "post",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/overview",
+        "https://www.vodafone.de/meinvodafone/services/ihre-rechnungen",
+        "mvf://overview"
+      ]
+    },
+    {
+      "screenId": "archive",
+      "type": "post",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/archive",
+        "mvf://archive"
+      ]
+    },
+    {
+      "screenId": "tariff",
+      "type": "post",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariff",
+        "https://www.vodafone.de/meinvodafone/services/teilnehmer/mein-tarif"
+      ]
+    },
+    {
+      "screenId": "tariffDetails",
+      "type": "post",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariff/details"
+      ]
+    },
+    {
+      "screenId": "tariffoptions",
+      "type": "post",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariffoptions",
+        "mvf://tariffoptions"
+      ]
+    },
+    {
+      "screenId": "tariffoptionsDetails",
+      "type": "post",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariffoption/details"
+      ]
+    },
+    {
+      "screenId": "youngpeople",
+      "type": "post",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/youngpeople",
+        "mvf://youngpeople"
+      ]
+    },
+    {
+      "screenId": "speedGo",
+      "type": "post",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/speedgo",
+        "mvf://speedgo"
+      ]
+    },
+    {
+      "screenId": "vertrag",
+      "type": "pre",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariff",
+        "mcy://tariff"
+      ]
+    },
+    {
+      "screenId": "vertragDetails",
+      "type": "pre",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/tariff/details"
+      ]
+    },
+    {
+      "screenId": "recharge",
+      "type": "pre",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/recharge",
+        "mcy://recharge"
+      ]
+    },
+    {
+      "screenId": "transfer",
+      "type": "pre",
+      "mappedSchemes": [
+        "https://www.vodafone.de/meinvodafone/app/transfer",
+        "mcy://recharge"
+      ]
+    }
+  ]
+}

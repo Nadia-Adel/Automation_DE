@@ -1,0 +1,215 @@
+{
+  "cms-guid": "F4914A2C66334E7DBCCC86074FF15D53",
+  "cms-id": 1154,
+  "cms-version": 1,
+  "yoloShowTutorial": true,
+  "yoloTutorialYoutubeId": "csP9USlN0QY",
+  "yoloMapping": [
+    {
+      "cms-guid": "147514DD2FFE4938AC9BD0FE254691E5",
+      "cms-id": 1117,
+      "cms-version": 1,
+      "socCode": "YOUNGSDAT",
+      "voiceFlat": true,
+      "smsFlat": true
+    },
+    {
+      "cms-guid": "FA8A9DDB68F74DF9917B186A9A790425",
+      "cms-id": 1116,
+      "cms-version": 1,
+      "socCode": "YOUNFLATSMS",
+      "voiceFlat": true,
+      "smsFlat": true
+    },
+    {
+      "cms-guid": "B794544585F440E1BC8F204405EE4EDB",
+      "cms-id": 1115,
+      "cms-version": 1,
+      "socCode": "YOUNMINFLAT",
+      "voiceFlat": false,
+      "smsFlat": true
+    },
+    {
+      "cms-guid": "63DE7C52CBDE4110B88639861B86A409",
+      "cms-id": 1114,
+      "cms-version": 1,
+      "socCode": "YOUMINSMS",
+      "voiceFlat": false,
+      "smsFlat": false
+    }
+  ],
+  "yoloSocContents": [
+    {
+      "cms-guid": "2AD5D9B95A274119A2807ABCB7BDCABB",
+      "cms-id": 1121,
+      "cms-version": 2,
+      "socCode": "",
+      "title": "0,19&euro; pro SMS/MMS",
+      "description": "in alle deutschen Netze",
+      "benefitValue": 0.5,
+      "benefitUnit": "GB",
+      "isMin": false,
+      "flat": false
+    },
+    {
+      "cms-guid": "C37FB5644F5B483B881A6D2DF48E15EB",
+      "cms-id": 1120,
+      "cms-version": 1,
+      "socCode": "",
+      "title": "SMS/MMS Flat",
+      "description": "in alle deutschen Netze",
+      "benefitValue": 0.5,
+      "benefitUnit": "GB",
+      "isMin": true,
+      "flat": true
+    },
+    {
+      "cms-guid": "A64850D66FEB4E2780117E0744255B6B",
+      "cms-id": 1119,
+      "cms-version": 2,
+      "socCode": "",
+      "title": "200 Minuten",
+      "description": "in alle deutschen Netze",
+      "benefitValue": 0.5,
+      "benefitUnit": "GB",
+      "isMin": true,
+      "flat": true
+    },
+    {
+      "cms-guid": "5A1CF58D13034E078DBB96D0AAEB1CAE",
+      "cms-id": 1118,
+      "cms-version": 1,
+      "socCode": "",
+      "title": "Allnet Flat",
+      "description": "",
+      "benefitValue": 1,
+      "benefitUnit": "GB",
+      "isMin": false,
+      "flat": false
+    }
+  ],
+  "yoloDataSocs": [
+    {
+      "cms-guid": "09009CB00739448E8DF824C76FE9272C",
+      "cms-id": 1182,
+      "cms-version": 2,
+      "socCode": "YOU7_5GB",
+      "title": "7,5 GB Extra-Volumen",
+      "description": "",
+      "benefitValue": 7.5,
+      "benefitUnit": "GB"
+    },
+    {
+      "cms-guid": "4166E4357B954B46B8C2FEE93D86F978",
+      "cms-id": 1181,
+      "cms-version": 1,
+      "socCode": "YOU06GB",
+      "title": "6 GB Extra-Volumen",
+      "description": "",
+      "benefitValue": 6,
+      "benefitUnit": "GB"
+    },
+    {
+      "cms-guid": "ACB9027987204A3C9C8127D87E739999",
+      "cms-id": 1180,
+      "cms-version": 2,
+      "socCode": "YOU4_5GB",
+      "title": "4,5 GB Extra-Volumen",
+      "description": "",
+      "benefitValue": 4.5,
+      "benefitUnit": "GB"
+    },
+    {
+      "cms-guid": "B0CAD22CA6BB4E318EDBE97036A1F71B",
+      "cms-id": 1123,
+      "cms-version": 2,
+      "socCode": "YOU03GB",
+      "title": "3 GB Extra-Volumen",
+      "description": "",
+      "benefitValue": 3,
+      "benefitUnit": "GB"
+    },
+    {
+      "cms-guid": "E3A08FED67644E24A6E527B5AB5BDE3A",
+      "cms-id": 1122,
+      "cms-version": 3,
+      "socCode": "YOU1_5GB",
+      "title": "1,5 GB Extra-Volumen",
+      "description": "",
+      "benefitValue": 1.5,
+      "benefitUnit": "GB"
+    }
+  ],
+  "yoloTariff": [
+    {
+      "cms-guid": "D261D38176E24F25AE2B4C6F5F9BBD09",
+      "cms-id": 1125,
+      "cms-version": 2,
+      "vfplan": "YOLO2",
+      "yoloTitle": "",
+      "yoloBaseCosts": 39.99,
+      "yoloInclusiveData": 3,
+      "yoloInclusiveDataUnit": "GB"
+    },
+    {
+      "cms-guid": "8F99A2534A484B5888A52C2ABD605437",
+      "cms-id": 1124,
+      "cms-version": 2,
+      "vfplan": "YOLO1",
+      "yoloTitle": "Yolo 1",
+      "yoloBaseCosts": 29.99,
+      "yoloInclusiveData": 2,
+      "yoloInclusiveDataUnit": "GB"
+    },
+    {
+      "cms-guid": "8F99A2534A484B5888A52C2ABD605437",
+      "cms-id": 1124,
+      "cms-version": 2,
+      "vfplan": "YOUNGSOS",
+      "yoloTitle": "Yolo 3",
+      "yoloBaseCosts": 29.99,
+      "yoloInclusiveData": 2,
+      "yoloInclusiveDataUnit": "GB"
+    },
+	{
+      "cms-guid": "8F99A2534A484B5888A52C2ABD605437",
+      "cms-id": 1124,
+      "cms-version": 2,
+      "vfplan": "REDLH11",
+      "yoloTitle": "Yolo 3",
+      "yoloBaseCosts": 29.99,
+      "yoloInclusiveData": 2,
+      "yoloInclusiveDataUnit": "GB"
+    },
+	{
+      "cms-guid": "8F99A2534A484B5888A52C2ABD605437",
+      "cms-id": 1124,
+      "cms-version": 2,
+      "vfplan": "YOUNGXLOS",
+      "yoloTitle": "Yolo 3",
+      "yoloBaseCosts": 29.99,
+      "yoloInclusiveData": 2,
+      "yoloInclusiveDataUnit": "GB"
+    },
+	{
+      "cms-guid": "8F99A2534A484B5888A52C2ABD605437",
+      "cms-id": 1124,
+      "cms-version": 2,
+      "vfplan": "YOUNGMOS",
+      "yoloTitle": "Yolo 3",
+      "yoloBaseCosts": 29.99,
+      "yoloInclusiveData": 2,
+      "yoloInclusiveDataUnit": "GB"
+    },
+	{
+      "cms-guid": "8F99A2534A484B5888A52C2ABD605437",
+      "cms-id": 1124,
+      "cms-version": 2,
+      "vfplan": "YOUNGLOS",
+      "yoloTitle": "Yolo 3",
+      "yoloBaseCosts": 29.99,
+      "yoloInclusiveData": 2,
+      "yoloInclusiveDataUnit": "GB"
+    }
+  ]
+}

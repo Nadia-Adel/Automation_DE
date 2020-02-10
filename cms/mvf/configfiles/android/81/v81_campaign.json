@@ -1,0 +1,247 @@
+{
+  "targetCaching": {
+    "enable": true,
+    "version": 7,
+    "interval": 6,
+    "prepaidMboxCount": 20,
+    "postpaidMboxCount": 20,
+    "gigaLivePrepaidMboxCount": 15,
+    "gigaLivePostpaidMboxCount": 15
+    
+  },
+  "resetTarget": {
+    "enable": true,
+    "version": 1
+  },
+  "hero": {
+    "enable": true,
+    "version": 107,
+    "cachingtime": 0,
+    "showNextInterval": 0
+  },
+  "vov": {
+     "highPriorityCardTimeSpan":3,
+    "allCardTimeSpan":2,
+    "repeatCount":-1,
+    "prepaid": {
+      "items": [
+              {
+          "id": "Welcome",
+          "order": 0,
+          "priority": 8
+        },
+        {
+          "id": "Survey4G",
+          "order": 1,
+          "priority": 1
+        },
+        {
+          "id": "PAC",
+          "order": 2,
+          "priority": 2
+        },
+        {
+          "id": "Pontis",
+          "order": 3,
+          "priority": 3
+        },
+        {
+          "id": "Redeem_Voucher",
+          "order": 4,
+          "priority": 4,
+          "mboxName": "mbox_mcy_app_offer_vov_test2"
+        },
+        {
+          "id": "Target",
+          "order": 5,
+          "priority": 5,
+          "mboxName": "mbox_mv_app_offer_vov_2_test3"
+        },
+		
+		 {
+          "id": "Target",
+          "order": 8,
+          "priority": 0,
+          "mboxName": "mbox_mcy_app_offer_vov_test2_21"
+        },
+        {
+          "id": "Target",
+          "order": 6,
+          "priority": 6,
+          "mboxName": "mbox_mcy_app_offer_vov_test"
+        },
+		
+        {
+          "id": "Roaming",
+          "order": 7,
+          "priority": 7
+        }
+      ]
+    },
+    "postpaid": {
+      "items": [
+        {
+          "id": "Roaming",
+          "order": 1,
+          "priority": 1
+        },
+        {
+          "id": "Welcome",
+          "order": 0,
+          "priority": 10
+        },
+        {
+          "id": "Target",
+          "order": 2,
+          "priority": 2,
+          "mboxName": "mbox_mv_app_offer_vov_test"
+        },
+        {
+          "id": "Target",
+          "order": 3,
+          "priority": 3,
+          "mboxName": "mbox_mv_app_vvl_contract_test2"
+        },
+        {
+          "id": "Target",
+          "order": 4,
+          "priority": 4,
+          "mboxName": "mbox_mv_app_yolo_H_vov_test2"
+        },
+        {
+          "id": "Target",
+          "order": 10,
+          "priority": 0,
+          "mboxName": "mbox_mv_app_offer_vov_test2_19"
+        },
+        {
+          "id": "Target",
+          "order": 5,
+          "priority": 5,
+          "mboxName": "mbox_mv_app_offer_vov_5_test2"
+        },
+		 {
+          "id": "Target",
+          "order": 6,
+          "priority": 6,
+          "mboxName": "mbox_mv_app_offer_vov_2_test2"
+        },
+        {
+          "id": "Target",
+          "order": 7,
+          "priority": 7,
+          "mboxName": "mbox_mv_app_offer_mvf_test2_15"
+        },
+        {
+          "id": "Target",
+          "order": 8,
+          "priority": 8,
+          "mboxName": "mbox_mv_app_yolo_L_vov_test2"
+        },
+        {
+          "id": "VVL",
+          "order": 9,
+          "priority": 9,
+          "mboxName": ""
+        }
+      ]
+    }
+  },
+  "campaigns": {
+    "prepaid100MB": {
+      "id": "prepaid100MB",
+      "type": "angebote_campaign",
+      "banner_image_filename": "",
+      "tail_s_image_filename": "",
+      "tail_m_image_filename": "",
+      "tail_l_image_filename": "",
+      "object": {
+        "title": "Dein App Geschenk",
+        "subtitle_enable": true,
+        "subtitle": "Dein App Geschenk Dein App Geschenk Dein App Geschenk Dein App Geschenk",
+        "text": "",
+        "image_filename": "http://de236.macincloud.com/cms/mvf/media/superhero/Marketing_card_240dpi.png",
+        "btn1_enable": true,
+        "btn1_link": "https://www.vodafone.de/booking.xml",
+        "btn1_title": "Jetzt aktivieren",
+        "btn1_type": "api_post",
+        "btn1_parameter": [
+          {
+            "key": "socCode",
+            "value": "APPVOLDEB"
+          }
+        ],
+        "btn2_enable": false,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": "",
+        "btn2_parameter": [],
+        "btn3_enable": false,
+        "btn3_type": "",
+        "btn3_link": "",
+        "btn3_title": "",
+        "btn3_parameter": []
+      }
+    },
+    "redPlusTab": {
+      "id": "redPlusTab",
+      "type": "angebote_campaign",
+      "banner_image_filename": "",
+      "tail_s_image_filename": "",
+      "tail_m_image_filename": "",
+      "tail_l_image_filename": "",
+      "object": {
+        "title": "Red + Partnerkarte",
+        "subtitle_enable": true,
+        "subTitle": "Hol Dir jetzt den Red+ Mobilfunk-Tarif fÃƒÆ’Ã‚Â¼r Deinen Partner oder Deine Kinder.",
+        "text": "Dein Partner zahlt 3 Monate lang keinen Basispreis fÃƒÆ’Ã‚Â¼r die Red+ Partnerkarte. Und danach nur 15 Euro pro Monat.\nMit dem Red+ Tarif-Deal habt Ihr eine Telefon- und SMS-Flat in alle deutschen Netze. Ihr surft mit 4G|LTE Max und nutzt das Datenvolumen gemeinsam. Verteilt es einfach ÃƒÆ’Ã‚Â¼ber die App.\nDu mÃƒÆ’Ã‚Â¶chtest das Red+ Angebot buchen? Dann ruf uns an.",
+        "image_filename": "",
+        "btn1_enable": true,
+        "btn1_link": "08007242671",
+        "btn1_title": "Jetzt anrufen",
+        "btn1_type": "call",
+        "btn1_parameter": [],
+        "btn2_enable": false,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": "",
+        "btn2_parameter": [],
+        "btn3_enable": false,
+        "btn3_type": "",
+        "btn3_link": "",
+        "btn3_title": "",
+        "btn3_parameter": []
+      }
+    },
+    "redPlusAddMember": {
+      "id": "redPlusAddMember",
+      "type": "angebote_campaign",
+      "banner_image_filename": "",
+      "tail_s_image_filename": "",
+      "tail_m_image_filename": "",
+      "tail_l_image_filename": "",
+      "object": {
+        "title": "Red+ erweitern",
+        "subtitle_enable": true,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "btn1_enable": true,
+        "btn1_link": "https://www.vodafone.de",
+        "btn1_title": "Zum Online-Shop",
+        "btn1_type": "url_external",
+        "btn1_parameter": [],
+        "btn2_enable": true,
+        "btn2_type": "call",
+        "btn2_link": "123456789",
+        "btn2_title": "Bestellhotline anrufen",
+        "btn2_parameter": [],
+        "btn3_enable": true,
+        "btn3_type": "deeplink",
+        "btn3_link": "mva://shopfinder",
+        "btn3_title": "Zum Shopfinder",
+        "btn3_parameter": []
+      }
+    }
+  }
+}

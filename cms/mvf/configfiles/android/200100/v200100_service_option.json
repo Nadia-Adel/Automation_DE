@@ -1,0 +1,496 @@
+{
+    "items": [
+        {
+            "url": "https://offers.vodafone.com/de/offers?partner=smartcare&amp;channel=native_app&amp;s=myvfa-t1",
+            "icon": "https://media.vodafone.de/www/images/app/icons/mobile_shake_icon.png",
+            "label": "",
+            "eligibleCustomerTypes": {},
+            "enable": true,
+            "external": true,
+            "price": -1,
+            "subtitle": "",
+            "actionBtnTitle" : "Jetzt registrieren",
+            "duration" : " "
+        },
+        {
+            "url": "https://www.vodafone-versicherung.de/registrieren",
+            "icon": "https://media.vodafone.de/www/images/app/icons/mobile_shake_icon.png",
+            "label": "Versicherungsportal",
+            "eligibleCustomerTypes": {                 
+                    "showForTypePre": false,
+                    "vfplanForTypePreWhite": [
+                    ],
+                    "vfplanForTypePreBlack": [
+                    ],
+                    "socForTypePreWhite": [
+                    ],
+                    "socForTypePreBlack": [
+                    ],
+                    "showForTypeI": true,
+                    "vfplanForTypeIWhite": [
+                    ],
+                    "vfplanForTypeIBlack": [
+                    ],
+                    "socForTypeIWhite": [
+                    ],
+                    "socForTypeIBlack": [
+                    ],
+                    "showForTypeS": true,
+                    "vfplanForTypeSWhite": [
+                    ],
+                    "vfplanForTypeSBlack": [
+                    ],
+                    "socForTypeSWhite": [
+                    ],
+                    "socForTypeSBlack": [
+                    ],
+                    "showForTypeB": false,
+                    "vfplanForTypeBWhite": [
+                    ],
+                    "vfplanForTypeBBlack": [
+                    ],
+                    "socForTypeBWhite": [
+                    ],
+                    "socForTypeBBlack": [
+                    ],
+                    "showForTypePU": false,
+                    "vfplanForTypePUWhite": [
+                    ],
+                     "vfplanForTypePUBlack": [
+                    ],
+                    "socForTypePUWhite": [
+                    ],
+                    "socForTypePUBlack": [
+                    ]
+                    },
+            "enable": true,
+            "external": false,
+            "price": -1,
+            "subtitle": "",
+            "actionBtnTitle" : "Infos &amp; kaufen",
+            "duration" : "weekly"
+        },
+        {
+            "url": "https://offers.vodafone.com/de?s=MVAO",
+            "icon": "https://media.vodafone.de/www/images/app/icons/deezer.png",
+            "label": "Deezer Young Musik-Flat",
+            "eligibleCustomerTypes": {                 
+                    "showForTypePre": false,
+                    "vfplanForTypePreWhite": [
+                    ],
+                    "vfplanForTypePreBlack": [
+                    ],
+                    "socForTypePreWhite": [
+                    ],
+                    "socForTypePreBlack": [
+                    ],
+                    "showForTypeI": true,
+                    "vfplanForTypeIWhite": [
+                        "YOU2LOS",
+                        "YOU2LH05",
+                        "YOU2LH10",
+                        "YOU2LH15",
+                        "YOU2LH25",
+                        "YOU2LH30",
+                        "YOU2XLOS",
+                        "YOU2XLH05",
+                        "YOU2XLH10",
+                        "YOU2XLH15",
+                        "YOU2SOS",
+                        "YOU2XLH25",
+                        "YOU2XLH30",
+                        "YOU2SH05",
+                        "YOU2SH10",
+                        "YOU2SH15",
+                        "YOU2SH25",
+                        "YOU2SH30",
+                        "YOU2MOS",
+                        "YOU2MH05",
+                        "YOU2MH10",
+                        "YOU2MH15",
+                        "YOU2MH25",
+                        "YOU2MH30",
+                        "YOUNGSOS",
+                        "YOUNGSH05",
+                        "YOUNGSH10",
+                        "YOUNGSH15",
+                        "YOUNGSH25",
+                        "YOUNGMOS",
+                        "YOUNGMH05",
+                        "YOUNGMH10",
+                        "YOUNGMH15",
+                        "YOUNGMH25",
+                        "YOUNGLOS",
+                        "YOUNGLH05",
+                        "YOUNGLH10",
+                        "YOUNGLH15",
+                        "YOUNGLH25",
+                        "YOUNGXLOS",
+                        "YOUNGXL05",
+                        "YOUNGXL10",
+                        "YOUNGXL15",
+                        "YOUNGXL25"
+                    ],
+                    "vfplanForTypeIBlack": [
+                    ],
+                    "socForTypeIWhite": [
+                    ],
+                    "socForTypeIBlack": [
+                    ],
+                    "showForTypeS": true,
+                    "vfplanForTypeSWhite": [
+                        "YOU2LOS",
+                        "YOU2LH05",
+                        "YOU2LH10",
+                        "YOU2LH15",
+                        "YOU2LH25",
+                        "YOU2LH30",
+                        "YOU2XLOS",
+                        "YOU2XLH05",
+                        "YOU2XLH10",
+                        "YOU2XLH15",
+                        "YOU2SOS",
+                        "YOU2XLH25",
+                        "YOU2XLH30",
+                        "YOU2SH05",
+                        "YOU2SH10",
+                        "YOU2SH15",
+                        "YOU2SH25",
+                        "YOU2SH30",
+                        "YOU2MOS",
+                        "YOU2MH05",
+                        "YOU2MH10",
+                        "YOU2MH15",
+                        "YOU2MH25",
+                        "YOU2MH30",
+                        "YOUNGSOS",
+                        "YOUNGSH05",
+                        "YOUNGSH10",
+                        "YOUNGSH15",
+                        "YOUNGSH25",
+                        "YOUNGMOS",
+                        "YOUNGMH05",
+                        "YOUNGMH10",
+                        "YOUNGMH15",
+                        "YOUNGMH25",
+                        "YOUNGLOS",
+                        "YOUNGLH05",
+                        "YOUNGLH10",
+                        "YOUNGLH15",
+                        "YOUNGLH25",
+                        "YOUNGXLOS",
+                        "YOUNGXL05",
+                        "YOUNGXL10",
+                        "YOUNGXL15",
+                        "YOUNGXL25"
+                    ],
+                    "vfplanForTypeSBlack": [
+                    ],
+                    "socForTypeSWhite": [
+                    ],
+                    "socForTypeSBlack": [
+                    ],
+                    "showForTypeB": true,
+                    "vfplanForTypeBWhite": [
+                        "YOU2LOS",
+                        "YOU2LH05",
+                        "YOU2LH10",
+                        "YOU2LH15",
+                        "YOU2LH25",
+                        "YOU2LH30",
+                        "YOU2XLOS",
+                        "YOU2XLH05",
+                        "YOU2XLH10",
+                        "YOU2XLH15",
+                        "YOU2SOS",
+                        "YOU2XLH25",
+                        "YOU2XLH30",
+                        "YOU2SH05",
+                        "YOU2SH10",
+                        "YOU2SH15",
+                        "YOU2SH25",
+                        "YOU2SH30",
+                        "YOU2MOS",
+                        "YOU2MH05",
+                        "YOU2MH10",
+                        "YOU2MH15",
+                        "YOU2MH25",
+                        "YOU2MH30",
+                        "YOUNGSOS",
+                        "YOUNGSH05",
+                        "YOUNGSH10",
+                        "YOUNGSH15",
+                        "YOUNGSH25",
+                        "YOUNGMOS",
+                        "YOUNGMH05",
+                        "YOUNGMH10",
+                        "YOUNGMH15",
+                        "YOUNGMH25",
+                        "YOUNGLOS",
+                        "YOUNGLH05",
+                        "YOUNGLH10",
+                        "YOUNGLH15",
+                        "YOUNGLH25",
+                        "YOUNGXLOS",
+                        "YOUNGXL05",
+                        "YOUNGXL10",
+                        "YOUNGXL15",
+                        "YOUNGXL25"
+                    ],
+                    "vfplanForTypeBBlack": [
+                    ],
+                    "socForTypeBWhite": [
+                    ],
+                    "socForTypeBBlack": [
+                    ],
+                    "showForTypePU": false,
+                    "vfplanForTypePUWhite": [
+                    ],
+                     "vfplanForTypePUBlack": [
+                    ],
+                    "socForTypePUWhite": [
+                    ],
+                    "socForTypePUBlack": [
+                    ]
+                    },
+            "enable": true,
+            "external": false,
+            "price": -1,
+            "subtitle": "1. Monat gratis, dann mtl. 5,99 Euro",
+            "actionBtnTitle" : "Infos &amp; aktivieren",
+            "duration" : "monthly"
+        },
+        {
+            "url": "http://www.vodafone.de/gigatv-app",
+            "icon": "https://media.vodafone.de/www/images/app/icons/tv.png",
+            "label": "GigaTV",
+            "eligibleCustomerTypes": {                 
+                    "showForTypePre": false,
+                    "vfplanForTypePreWhite": [
+                    ],
+                    "vfplanForTypePreBlack": [
+                    ],
+                    "socForTypePreWhite": [
+                    ],
+                    "socForTypePreBlack": [
+                    ],
+                    "showForTypeI": true,
+                    "vfplanForTypeIWhite": [
+                    ],
+                    "vfplanForTypeIBlack": [
+                    ],
+                    "socForTypeIWhite": [
+                    ],
+                    "socForTypeIBlack": [
+                    ],
+                    "showForTypeS": true,
+                    "vfplanForTypeSWhite": [
+                    ],
+                    "vfplanForTypeSBlack": [
+                    ],
+                    "socForTypeSWhite": [
+                    ],
+                    "socForTypeSBlack": [
+                    ],
+                    "showForTypeB": false,
+                    "vfplanForTypeBWhite": [
+                    ],
+                    "vfplanForTypeBBlack": [
+                    ],
+                    "socForTypeBWhite": [
+                    ],
+                    "socForTypeBBlack": [
+                    ],
+                    "showForTypePU": false,
+                    "vfplanForTypePUWhite": [
+                    ],
+                     "vfplanForTypePUBlack": [
+                    ],
+                    "socForTypePUWhite": [
+                    ],
+                    "socForTypePUBlack": [
+                    ]
+                    },
+            "enable": true,
+            "external": false,
+            "price": -1,
+            "subtitle": "Ob in der U-Bahn, im Park oder im Wartezimmer - nehmen Sie Ihr TV-Programm jetzt &uuml;berall hin mit. Die Vodafone GigaTV-App macht's m&ouml;glich. Damit verpassen Sie auch unterwegs nie mehr Ihr Lieblingsprogramm. Egal ob Live-TV oder Highlights auf Abruf.",
+            "actionBtnTitle" : "Mehr Infos",
+            "duration" : "weekly"
+        },
+        {
+            "url": "http://start.vodafone.com/ssp/myvflink/DE",
+            "icon": "https://media.vodafone.de/www/images/app/icons/start.png",
+            "label": "Entdecke Vodafone Start",
+            "eligibleCustomerTypes": {                 
+                    "showForTypePre": false,
+                    "vfplanForTypePreWhite": [
+                    ],
+                    "vfplanForTypePreBlack": [
+                    ],
+                    "socForTypePreWhite": [
+                    ],
+                    "socForTypePreBlack": [
+                    ],
+                    "showForTypeI": true,
+                    "vfplanForTypeIWhite": [
+                    ],
+                    "vfplanForTypeIBlack": [
+                    ],
+                    "socForTypeIWhite": [
+                    ],
+                    "socForTypeIBlack": [
+                    ],
+                    "showForTypeS": true,
+                    "vfplanForTypeSWhite": [
+                    ],
+                    "vfplanForTypeSBlack": [
+                    ],
+                    "socForTypeSWhite": [
+                    ],
+                    "socForTypeSBlack": [
+                    ],
+                    "showForTypeB": false,
+                    "vfplanForTypeBWhite": [
+                    ],
+                    "vfplanForTypeBBlack": [
+                    ],
+                    "socForTypeBWhite": [
+                    ],
+                    "socForTypeBBlack": [
+                    ],
+                    "showForTypePU": false,
+                    "vfplanForTypePUWhite": [
+                    ],
+                     "vfplanForTypePUBlack": [
+                    ],
+                    "socForTypePUWhite": [
+                    ],
+                    "socForTypePUBlack": [
+                    ]
+                    },
+            "enable": true,
+            "external": true,
+            "price": -1,
+            "subtitle": "",
+            "actionBtnTitle" : "Mehr Infos",
+            "duration" : " "
+        },
+        {
+            "url": "https://offers.vodafone.com/de?s=MVAO",
+            "icon": "https://media.vodafone.de/www/images/app/icons/music.png",
+            "label": "Entertainment-Optionen",
+            "eligibleCustomerTypes": {                 
+                    "showForTypePre": false,
+                    "vfplanForTypePreWhite": [
+                    ],
+                    "vfplanForTypePreBlack": [
+                    ],
+                    "socForTypePreWhite": [
+                    ],
+                    "socForTypePreBlack": [
+                    ],
+                    "showForTypeI": true,
+                    "vfplanForTypeIWhite": [
+                    ],
+                    "vfplanForTypeIBlack": [
+                    ],
+                    "socForTypeIWhite": [
+                    ],
+                    "socForTypeIBlack": [
+                    ],
+                    "showForTypeS": true,
+                    "vfplanForTypeSWhite": [
+                    ],
+                    "vfplanForTypeSBlack": [
+                    ],
+                    "socForTypeSWhite": [
+                    ],
+                    "socForTypeSBlack": [
+                    ],
+                    "showForTypeB": false,
+                    "vfplanForTypeBWhite": [
+                    ],
+                    "vfplanForTypeBBlack": [
+                    ],
+                    "socForTypeBWhite": [
+                    ],
+                    "socForTypeBBlack": [
+                    ],
+                    "showForTypePU": false,
+                    "vfplanForTypePUWhite": [
+                    ],
+                     "vfplanForTypePUBlack": [
+                    ],
+                    "socForTypePUWhite": [
+                    ],
+                    "socForTypePUBlack": [
+                    ]
+                    },
+            "enable": true,
+            "external": false,
+            "price": -1,
+            "subtitle": "z. B. Spotify, Deezer und BILDplus",
+            "actionBtnTitle" : "Buchen und verwalten",
+            "duration" : " "
+        },
+        {
+            "url": "https://securenet.vodafone.de",
+            "icon": "https://media.vodafone.de/www/images/app/icons/secure.png",
+            "label": "Vodafone Secure Net",
+            "eligibleCustomerTypes": {                 
+                    "showForTypePre": false,
+                    "vfplanForTypePreWhite": [
+                    ],
+                    "vfplanForTypePreBlack": [
+                    ],
+                    "socForTypePreWhite": [
+                    ],
+                    "socForTypePreBlack": [
+                    ],
+                    "showForTypeI": true,
+                    "vfplanForTypeIWhite": [
+                    ],
+                    "vfplanForTypeIBlack": [
+                    ],
+                    "socForTypeIWhite": [
+                    ],
+                    "socForTypeIBlack": [
+                    ],
+                    "showForTypeS": true,
+                    "vfplanForTypeSWhite": [
+                    ],
+                    "vfplanForTypeSBlack": [
+                    ],
+                    "socForTypeSWhite": [
+                    ],
+                    "socForTypeSBlack": [
+                    ],
+                    "showForTypeB": false,
+                    "vfplanForTypeBWhite": [
+                    ],
+                    "vfplanForTypeBBlack": [
+                    ],
+                    "socForTypeBWhite": [
+                    ],
+                    "socForTypeBBlack": [
+                    ],
+                    "showForTypePU": false,
+                    "vfplanForTypePUWhite": [
+                    ],
+                     "vfplanForTypePUBlack": [
+                    ],
+                    "socForTypePUWhite": [
+                    ],
+                    "socForTypePUBlack": [
+                    ]
+                    },
+            "enable": true,
+            "external": false,
+            "price": -1,
+            "subtitle": "Sch&uuml;tzen Sie sich beim mobilen Surfen vor Viren und anderen Gefahren. Mit Secure Net f&uuml;rs Vodafone-Netz oder der Secure Net WiFi-App f&uuml;r &ouml;ffentliche Hotspots und WLANs.",
+            "actionBtnTitle" : "Mehr Infos",
+            "duration" : " "
+        }
+    ]
+}

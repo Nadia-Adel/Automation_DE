@@ -1,0 +1,205 @@
+{
+  "cms-guid": "814D1BA9AD524DCABFADCCB95C581B5B",
+  "cms-id": 1641,
+  "cms-version": 1,
+  "items": [
+    {
+      "cms-guid": "FBE971AB21964D16B8E5E38940B517C9",
+      "cms-id": 1640,
+      "cms-version": 1,
+      "sortorder": 0,
+      "id": 1007,
+      "priority": 3,
+      "url": "https://www.vodafone.de/hilfe/im-und-ins-ausland.html?forApp=true",
+      "label": "Ausland",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [],
+        "showForTypeI": false,
+        "vfplanForTypeI": [],
+        "showForTypeS": true,
+        "vfplanForTypeS": [],
+        "showForTypeB": false,
+        "vfplanForTypeB": [],
+        "showForTypePU": true,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "cms-guid": "B372743FE902431095A8D3993F45E8AF",
+      "cms-id": 1639,
+      "cms-version": 1,
+      "sortorder": 0,
+      "id": 1003,
+      "priority": 7,
+      "url": "https://www.vodafone.de/hilfe/erste-hilfe-und-sicherheit.html?forApp=true",
+      "label": "Erste Hilfe &amp; Sicherheit",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [],
+        "showForTypeI": true,
+        "vfplanForTypeI": [],
+        "showForTypeS": true,
+        "vfplanForTypeS": [],
+        "showForTypeB": true,
+        "vfplanForTypeB": [],
+        "showForTypePU": true,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "cms-guid": "AD35457DD7CA4972B24714A709D03218",
+      "cms-id": 1638,
+      "cms-version": 1,
+      "sortorder": 0,
+      "id": 1002,
+      "priority": 8,
+      "url": "https://www.vodafone.de/hilfe/geraete-hilfe.html?forApp=true",
+      "label": "Hilfe zu Ihrem Ger&auml;t",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [],
+        "showForTypeI": true,
+        "vfplanForTypeI": [],
+        "showForTypeS": true,
+        "vfplanForTypeS": [],
+        "showForTypeB": true,
+        "vfplanForTypeB": [],
+        "showForTypePU": true,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "cms-guid": "E0A09FC03AA146F5920559EFA142B1E2",
+      "cms-id": 1637,
+      "cms-version": 1,
+      "sortorder": 0,
+      "id": 1006,
+      "priority": 4,
+      "url": "https://www.vodafone.de/hilfe/vertrag.html?forApp=true",
+      "label": "Mein Vertrag",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [],
+        "showForTypeI": true,
+        "vfplanForTypeI": [],
+        "showForTypeS": true,
+        "vfplanForTypeS": [],
+        "showForTypeB": true,
+        "vfplanForTypeB": [],
+        "showForTypePU": false,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "cms-guid": "4C75285CE59C4AB1A10D46015AE8D56B",
+      "cms-id": 1636,
+      "cms-version": 1,
+      "sortorder": 0,
+      "id": 1009,
+      "priority": 1,
+      "url": "http://www.vodafone.de/hilfe/prepaid.html?forApp=true",
+      "label": "Prepaid (CallYa)",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [],
+        "showForTypeI": false,
+        "vfplanForTypeI": [],
+        "showForTypeS": false,
+        "vfplanForTypeS": [],
+        "showForTypeB": false,
+        "vfplanForTypeB": [],
+        "showForTypePU": true,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "cms-guid": "5D88F51794684C46BE78ECF0F654CE95",
+      "cms-id": 1635,
+      "cms-version": 1,
+      "sortorder": 0,
+      "id": 1005,
+      "priority": 5,
+      "url": "https://www.vodafone.de/hilfe/rechnung.html?forApp=true",
+      "label": "Rechnung",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [],
+        "showForTypeI": true,
+        "vfplanForTypeI": [],
+        "showForTypeS": true,
+        "vfplanForTypeS": [],
+        "showForTypeB": true,
+        "vfplanForTypeB": [],
+        "showForTypePU": false,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "cms-guid": "94F53F24601241C9AC462E02D0D9E376",
+      "cms-id": 1632,
+      "cms-version": 1,
+      "sortorder": 0,
+      "id": 1008,
+      "priority": 9,
+      "url": "https://www.vodafone.de/hilfe/tarife/red-plus.html",
+      "label": "Red+",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [],
+        "showForTypeI": true,
+        "vfplanForTypeI": [],
+        "showForTypeS": true,
+        "vfplanForTypeS": [],
+        "showForTypeB": true,
+        "vfplanForTypeB": [],
+        "showForTypePU": false,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "cms-guid": "921F9274BD634305AE125DE89FEF739D",
+      "cms-id": 1631,
+      "cms-version": 1,
+      "sortorder": 0,
+      "id": 1004,
+      "priority": 8,
+      "url": "https://www.vodafone.de/hilfe/starten.html",
+      "label": "Starten",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [],
+        "showForTypeI": false,
+        "vfplanForTypeI": [],
+        "showForTypeS": false,
+        "vfplanForTypeS": [],
+        "showForTypeB": false,
+        "vfplanForTypeB": [],
+        "showForTypePU": true,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "cms-guid": "C9468144D16C4CEBBAD634A3431E4B98",
+      "cms-id": 1630,
+      "cms-version": 1,
+      "sortorder": 0,
+      "id": 1001,
+      "priority": 2,
+      "url": "http://www.vodafone.de/privat/hilfe.html?forApp=true",
+      "label": "&Uuml;berblick &amp; Suche",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [],
+        "showForTypeI": true,
+        "vfplanForTypeI": [],
+        "showForTypeS": true,
+        "vfplanForTypeS": [],
+        "showForTypeB": true,
+        "vfplanForTypeB": [],
+        "showForTypePU": true,
+        "vfplanForTypePU": []
+      }
+    }
+  ]
+}

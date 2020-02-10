@@ -1,0 +1,3568 @@
+{
+  "phone": [
+    {
+      "id": "home",
+      "bottomNavigation": true,
+      "bottomNavigationLabel": "Home",
+      "enable": true,
+      "label": "Startseite",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "socListWhite": [],
+        "socListBlack": [],
+        "authorisationServicesListBlackList": [
+          "Wallet"
+        ],
+        "authorisationServicesListWhiteList": [
+          "EJM"
+        ]
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": true,
+            "showForTypeB": true,
+            "showForTypePU": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 1
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": true,
+            "showForTypeB": true,
+            "showForTypePU": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 1
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": true,
+            "showForTypeB": true,
+            "showForTypePU": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 1
+        },
+        "selectedTopicName": "Home_Teaser",
+        "waitingTime": 1
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native",
+      "icon": "vf_brand_logo_dark"
+    },
+    {
+      "id": "tariff_fixednet",
+      "enable": true,
+      "label": "Tarif",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "socListWhite": [],
+        "socListBlack": [],
+        "authorisationServicesListBlackList": [
+          "Wallet"
+        ],
+        "authorisationServicesListWhiteList": [
+          "EJM"
+        ]
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Vertrag_prepaid_Teaser",
+        "waitingTime": 10
+      },
+      "tabletEnabled": true,
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Tarif ",
+      "navigationAction": "native",
+      "icon": "document_glass_dark"
+    },
+    {
+      "id": "offer",
+      "enable": true,
+      "label": "Angebote",
+      "bottomNavigation": true,
+      "bottomNavigationLabel": "Angebote",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [],
+        "socListBlack": [],
+        "authorisationServicesListBlackList": [
+          "Wallet"
+        ],
+        "authorisationServicesListWhiteList": [
+          "EJM"
+        ]
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Angebote_Teaser",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native",
+      "icon": "topdeals_dark"
+    },
+    {
+      "id": "bill_fixednet",
+      "enable": true,
+      "label": "Rechnung",
+      "bottomNavigation": true,
+      "bottomNavigationLabel": "Rechnung",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "",
+        "waitingTime": 30
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native",
+      "icon": "document_dark "
+    },
+    {
+      "id": "orders_fixednet",
+      "enable": true,
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "orders",
+      "label": "Bestellstatus",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "selectedTopicName": "",
+        "waitingTime": 5
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native",
+      "icon": "box_dark"
+    },
+    {
+      "id": "data_fixednet",
+      "enable": true,
+      "label": "Meine Daten",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Daten",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false,
+            "showForTypeFixedNet": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false,
+            "showForTypeFixedNet": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false,
+            "showForTypeFixedNet": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Info_Teaser",
+        "waitingTime": 30
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native",
+      "icon": "admin_dark"
+    },
+    {
+      "id": "recharge",
+      "enable": true,
+      "label": "Aufladen",
+      "bottomNavigation": true,
+      "bottomNavigationLabel": "Aufladen",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [],
+        "socListBlack": [],
+        "authorisationServicesListBlackList": [
+          "Wallet"
+        ],
+        "authorisationServicesListWhiteList": [
+          "EJM"
+        ]
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native",
+      "icon": "top_up_dark"
+    },
+    {
+      "id": "transfer",
+      "enable": true,
+      "label": "Guthaben Transfer",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Guthaben",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [],
+        "socListBlack": [],
+        "authorisationServicesListBlackList": [
+          "Wallet"
+        ],
+        "authorisationServicesListWhiteList": [
+          "EJM"
+        ]
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Transfer_Teaser",
+        "waitingTime": 60
+      },
+      "tabletEnabled": false,
+      "navigationAction": "native",
+      "icon": "transfer_dark"
+    },
+    {
+      "id": "vertrag",
+      "enable": true,
+      "label": "Mein Tarif",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Tarif",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Vertrag_prepaid_Teaser",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native"
+    },
+    {
+      "id": "bill",
+      "enable": true,
+      "label": "Meine Rechnung",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Rechnung",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [
+        {
+          "id": "overview",
+          "enable": true,
+          "label": "Aktuelle Rechnung",
+          "bottomNavigation": true,
+          "bottomNavigationLabel": "Rechnung",
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": [],
+            "authorisationServicesListBlackList": [
+              "Wallet"
+            ],
+            "authorisationServicesListWhiteList": [
+              "EJM"
+            ]
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Rechnung_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": true,
+          "navigationAction": "native",
+          "icon": "bill_dark"
+        },
+        {
+          "id": "archive",
+          "enable": true,
+          "label": "Alle Rechnungen",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Rechnung",
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Rechnung_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": true,
+          "navigationAction": "native",
+          "icon": ""
+        }
+      ],
+      "chat": {
+        "chatVisibility": {},
+        "clickToCallVisibility": {},
+        "callBackVisibility": {},
+        "selectedTopicName": "",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true
+    },
+    {
+      "id": "data",
+      "enable": true,
+      "label": "Meine Daten",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Daten",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Kundendaten_Teaser",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native",
+      "icon": "admin_dark"
+    },
+    {
+      "id": "orders",
+      "enable": true,
+      "label": "Bestellstatus",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Bestellstatus",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "",
+        "waitingTime": 120
+      },
+      "tabletEnabled": false,
+      "navigationAction": "native",
+      "icon": "box_dark"
+    },
+    {
+      "id": "vertrag",
+      "enable": true,
+      "label": "Mein Vertrag",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Vertrag",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [
+        {
+          "id": "esim",
+          "enable": true,
+          "label": "SIM-Karte",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "SIM-Karte",
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": [],
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {},
+            "clickToCallVisibility": {},
+            "callBackVisibility": {},
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": false,
+          "navigationAction": "native"
+        },
+        {
+          "id": "tariff",
+          "enable": true,
+          "label": "Mein Tarif",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Tarif",
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [
+              "BLACK18OL",
+              "BLACK18NE"
+            ],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": true,
+          "navigationAction": "native"
+        },
+        {
+          "id": "tariffoptions",
+          "enable": true,
+          "label": "Optionen",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Optionen",
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [
+              "YOU2LOS",
+              "YOU2LH05",
+              "YOU2LH10",
+              "YOU2LH15",
+              "YOU2LH25",
+              "YOU2LH30",
+              "YOU2XLOS",
+              "YOU2XLH05",
+              "YOU2XLH10",
+              "YOU2XLH15",
+              "YOU2SOS",
+              "YOU2XLH25",
+              "YOU2XLH30",
+              "YOU2SH05",
+              "YOU2SH10",
+              "YOU2SH15",
+              "YOU2SH25",
+              "YOU2SH30",
+              "YOU2MOS",
+              "YOU2MH05",
+              "YOU2MH10",
+              "YOU2MH15",
+              "YOU2MH25",
+              "YOU2MH30",
+              "YOUNGSOS",
+              "YOUNGSH05",
+              "YOUNGSH10",
+              "YOUNGSH15",
+              "YOUNGSH25",
+              "YOUNGMOS",
+              "YOUNGMH05",
+              "YOUNGMH10",
+              "YOUNGMH15",
+              "YOUNGMH25",
+              "YOUNGLOS",
+              "YOUNGLH05",
+              "YOUNGLH10",
+              "YOUNGLH15",
+              "YOUNGLH25",
+              "YOUNGXLOS",
+              "YOUNGXL05",
+              "YOUNGXL10",
+              "YOUNGXL15",
+              "YOUNGXL25"
+            ],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [
+              "YOU2LOS",
+              "YOU2LH05",
+              "YOU2LH10",
+              "YOU2LH15",
+              "YOU2LH25",
+              "YOU2LH30",
+              "YOU2XLOS",
+              "YOU2XLH05",
+              "YOU2XLH10",
+              "YOU2XLH15",
+              "YOU2SOS",
+              "YOU2XLH25",
+              "YOU2XLH30",
+              "YOU2SH05",
+              "YOU2SH10",
+              "YOU2SH15",
+              "YOU2SH25",
+              "YOU2SH30",
+              "YOU2MOS",
+              "YOU2MH05",
+              "YOU2MH10",
+              "YOU2MH15",
+              "YOU2MH25",
+              "YOU2MH30",
+              "YOUNGSOS",
+              "YOUNGSH05",
+              "YOUNGSH10",
+              "YOUNGSH15",
+              "YOUNGSH25",
+              "YOUNGMOS",
+              "YOUNGMH05",
+              "YOUNGMH10",
+              "YOUNGMH15",
+              "YOUNGMH25",
+              "YOUNGLOS",
+              "YOUNGLH05",
+              "YOUNGLH10",
+              "YOUNGLH15",
+              "YOUNGLH25",
+              "YOUNGXLOS",
+              "YOUNGXL05",
+              "YOUNGXL10",
+              "YOUNGXL15",
+              "YOUNGXL25"
+            ],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": [],
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": true,
+          "navigationAction": "native"
+        },
+        {
+          "id": "tariffoptions",
+          "enable": true,
+          "label": "Tarif Anpassen",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Anpassen",
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [
+              "YOU2LOS",
+              "YOU2LH05",
+              "YOU2LH10",
+              "YOU2LH15",
+              "YOU2LH25",
+              "YOU2LH30",
+              "YOU2XLOS",
+              "YOU2XLH05",
+              "YOU2XLH10",
+              "YOU2XLH15",
+              "YOU2SOS",
+              "YOU2XLH25",
+              "YOU2XLH30",
+              "YOU2SH05",
+              "YOU2SH10",
+              "YOU2SH15",
+              "YOU2SH25",
+              "YOU2SH30",
+              "YOU2MOS",
+              "YOU2MH05",
+              "YOU2MH10",
+              "YOU2MH15",
+              "YOU2MH25",
+              "YOU2MH30",
+              "YOUNGSOS",
+              "YOUNGSH05",
+              "YOUNGSH10",
+              "YOUNGSH15",
+              "YOUNGSH25",
+              "YOUNGMOS",
+              "YOUNGMH05",
+              "YOUNGMH10",
+              "YOUNGMH15",
+              "YOUNGMH25",
+              "YOUNGLOS",
+              "YOUNGLH05",
+              "YOUNGLH10",
+              "YOUNGLH15",
+              "YOUNGLH25",
+              "YOUNGXLOS",
+              "YOUNGXL05",
+              "YOUNGXL10",
+              "YOUNGXL15",
+              "YOUNGXL25"
+            ],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [
+              "YOU2LOS",
+              "YOU2LH05",
+              "YOU2LH10",
+              "YOU2LH15",
+              "YOU2LH25",
+              "YOU2LH30",
+              "YOU2XLOS",
+              "YOU2XLH05",
+              "YOU2XLH10",
+              "YOU2XLH15",
+              "YOU2SOS",
+              "YOU2XLH25",
+              "YOU2XLH30",
+              "YOU2SH05",
+              "YOU2SH10",
+              "YOU2SH15",
+              "YOU2SH25",
+              "YOU2SH30",
+              "YOU2MOS",
+              "YOU2MH05",
+              "YOU2MH10",
+              "YOU2MH15",
+              "YOU2MH25",
+              "YOU2MH30",
+              "YOUNGSOS",
+              "YOUNGSH05",
+              "YOUNGSH10",
+              "YOUNGSH15",
+              "YOUNGSH25",
+              "YOUNGMOS",
+              "YOUNGMH05",
+              "YOUNGMH10",
+              "YOUNGMH15",
+              "YOUNGMH25",
+              "YOUNGLOS",
+              "YOUNGLH05",
+              "YOUNGLH10",
+              "YOUNGLH15",
+              "YOUNGLH25",
+              "YOUNGXLOS",
+              "YOUNGXL05",
+              "YOUNGXL10",
+              "YOUNGXL15",
+              "YOUNGXL25"
+            ],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [
+              "YOU2LOS",
+              "YOU2LH05",
+              "YOU2LH10",
+              "YOU2LH15",
+              "YOU2LH25",
+              "YOU2LH30",
+              "YOU2XLOS",
+              "YOU2XLH05",
+              "YOU2XLH10",
+              "YOU2XLH15",
+              "YOU2SOS",
+              "YOU2XLH25",
+              "YOU2XLH30",
+              "YOU2SH05",
+              "YOU2SH10",
+              "YOU2SH15",
+              "YOU2SH25",
+              "YOU2SH30",
+              "YOU2MOS",
+              "YOU2MH05",
+              "YOU2MH10",
+              "YOU2MH15",
+              "YOU2MH25",
+              "YOU2MH30",
+              "YOUNGSOS",
+              "YOUNGSH05",
+              "YOUNGSH10",
+              "YOUNGSH15",
+              "YOUNGSH25",
+              "YOUNGMOS",
+              "YOUNGMH05",
+              "YOUNGMH10",
+              "YOUNGMH15",
+              "YOUNGMH25",
+              "YOUNGLOS",
+              "YOUNGLH05",
+              "YOUNGLH10",
+              "YOUNGLH15",
+              "YOUNGLH25",
+              "YOUNGXLOS",
+              "YOUNGXL05",
+              "YOUNGXL10",
+              "YOUNGXL15",
+              "YOUNGXL25"
+            ],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": [],
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": true,
+          "navigationAction": "native"
+        },
+        {
+          "id": "youngpeople",
+          "enable": true,
+          "label": "Junge Leute",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Junge Leute",
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": [],
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": false
+        }
+      ],
+      "chat": {
+        "chatVisibility": {},
+        "clickToCallVisibility": {},
+        "callBackVisibility": {},
+        "selectedTopicName": "Vertrag_prepaid_Teaser",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true,
+      "icon": "sim_dark"
+    },
+    {
+      "id": "transfer_postpaid",
+      "enable": true,
+      "label": "Guthaben-Transfer",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Transfer",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Transfer_Teaser",
+        "waitingTime": 60
+      },
+      "tabletEnabled": false,
+      "navigationAction": "native",
+      "icon": "transfer_dark"
+    },
+    {
+      "id": "roaming",
+      "enable": true,
+      "label": "Im Ausland",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Ausland",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Ausland_Teaser",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native",
+      "icon": "nternet_globe_country_dark"
+    },
+    {
+      "id": "toppings",
+      "enable": false,
+      "label": "Toppings",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Toppings",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {},
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {},
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {},
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Toppings_Teaser",
+        "waitingTime": 60
+      },
+      "tabletEnabled": false
+    },
+    {
+      "id": "netzdaten",
+      "enable": true,
+      "label": "Alles zum Netz",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Netz",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [
+        {
+          "id": "netzfeedback",
+          "enable": true,
+          "label": "GigaGarantie",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "GigaGarantie",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [
+              "PREPAID_H"
+            ],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [
+              "GIGCUBMIN",
+              "GIGCUBWP",
+              "GIGCUBWOP",
+              "GIGCUBMAX",
+              "GIGCMINOS",
+              "GIGCWOPOS",
+              "GIGCMAXOS",
+              "GIGCMINH3",
+              "GIGCWOPH3",
+              "GIGCMAXH3"
+            ],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "selectedTopicName": "Netzfeedback_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": false,
+          "icon": ""
+        },
+        {
+          "id": "netzinfo",
+          "enable": true,
+          "label": "Netz okay?",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Netz",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [
+              "2588620",
+              "2588902",
+              "40013942",
+              "2588743",
+              "2588782",
+              "7279252",
+              "2587423",
+              "2588821",
+              "2588836"
+            ],
+            "vfplanForTypePUBlack": [],
+            "showForTypeFixedNet": true,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Netzinfo_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": false,
+          "icon": ""
+        },
+        {
+          "id": "netzabdeckung",
+          "enable": true,
+          "label": "Netzabdeckung",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Netzabdeckung",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [
+              "2588620",
+              "2588902",
+              "40013942",
+              "2588743",
+              "2588782",
+              "7279252",
+              "2587423",
+              "2588821",
+              "2588836"
+            ],
+            "vfplanForTypePUBlack": [],
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Netzinfo_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": false,
+          "icon": ""
+        },
+        {
+          "id": "speedtest",
+          "enable": true,
+          "label": "SpeedTest",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "SpeedTest",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [
+              "2588620",
+              "2588902",
+              "40013942",
+              "2588743",
+              "2588782",
+              "7279252",
+              "2587423",
+              "2588821",
+              "2588836"
+            ],
+            "vfplanForTypePUBlack": [],
+            "showForTypeFixedNet": true,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Netzinfo_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": true,
+          "icon": "speedtest_dark"
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {},
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {},
+          "refreshTimeAgentAvailability": 0
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {},
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 0
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native"
+    },
+    {
+      "id": "help",
+      "enable": true,
+      "label": "Hilfe",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Hilfe",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [],
+        "socListBlack": []
+      },
+      "subItems": [
+        {
+          "id": "faq",
+          "enable": true,
+          "label": "Fragen &amp; Antworten",
+          "bottomNavigation": true,
+          "bottomNavigationLabel": "Hilfe",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [
+              "2588620",
+              "2588902",
+              "40013942",
+              "2588743",
+              "2588782",
+              "7279252",
+              "2587423",
+              "2588821",
+              "2588836"
+            ],
+            "vfplanForTypePUBlack": [],
+            "showForTypeFixedNet": true,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Hilfe_Kontakt_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": true,
+          "navigationAction": "internalBrowser",
+          "deeplinkURL": "https://www.vodafone.de/privat/hilfe.html"
+        },
+        {
+          "id": "forum",
+          "enable": true,
+          "label": "Forum",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Forum",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [
+              "2588620",
+              "2588902",
+              "40013942",
+              "2588743",
+              "2588782",
+              "7279252",
+              "2587423",
+              "2588821",
+              "2588836"
+            ],
+            "vfplanForTypePUBlack": [],
+            "showForTypeFixedNet": true,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Hilfe_Kontakt_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": true,
+          "navigationAction": "internalBrowser",
+          "deeplinkURL": "https://forum.vodafone.de"
+        },
+        {
+          "id": "shopfinder",
+          "enable": true,
+          "label": "Shopfinder",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Shopfinder",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [
+              "2588620",
+              "2588902",
+              "40013942",
+              "2588743",
+              "2588782",
+              "7279252",
+              "2587423",
+              "2588821",
+              "2588836"
+            ],
+            "vfplanForTypePUBlack": [],
+            "showForTypeFixedNet": true,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": false,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": false,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": false,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Hilke_Kontakt_Teaser",
+            "waitingTime": 60
+          },
+          "tabletEnabled": true,
+          "navigationAction": "native"
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {},
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {},
+          "refreshTimeAgentAvailability": 0
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {},
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native",
+      "icon": "help_dark"
+    },
+    {
+      "id": "info",
+      "enable": true,
+      "label": "Einstellungen &amp; Infos",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Infos",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [],
+        "socListBlack": [],
+        "authorisationServicesListBlackList": [
+          "Wallet"
+        ],
+        "authorisationServicesListWhiteList": [
+          "EJM"
+        ]
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 1
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 1
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 1
+        },
+        "selectedTopicName": "Info_Teaser",
+        "waitingTime": 1
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native",
+      "icon": "settings_dark"
+    },
+    {
+      "id": "office_number",
+      "enable": true,
+      "label": "Office Number",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Office",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [
+          "dummy soc"
+        ],
+        "socListBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Info_Teaser",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native",
+      "icon": "outgoing_call_dark"
+    },
+    {
+      "id": "web_view",
+      "enable": true,
+      "label": "Internal webview",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "web",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [
+          "dummy soc"
+        ],
+        "socListBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Info_Teaser",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true,
+      "navigationAction": "internalBrowser",
+      "deeplinkURL": "https://vodafone.de",
+      "icon": "home"
+    },
+    {
+      "id": "passes_business",
+      "enable": true,
+      "label": "Passes",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Passes",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [
+          "dummy soc"
+        ],
+        "socListBlack": [],
+        "authorisationServicesListBlackList": [],
+        "authorisationServicesListWhiteList": [
+          "EJM",
+          "canDoEJM"
+        ]
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "pass",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true,
+      "navigationAction": "native",
+      "deeplinkURL": "",
+      "icon": "passes"
+    },
+    {
+      "id": "kabel_bill",
+      "enable": true,
+      "label": "Kabel Bill",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "bill",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [
+          "2588620",
+          "2588902",
+          "40013942",
+          "2588743",
+          "2588782",
+          "7279252",
+          "2587423",
+          "2588821",
+          "2588836"
+        ],
+        "vfplanForTypePUBlack": [],
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "socListWhite": [
+          "dummy soc"
+        ],
+        "socListBlack": [],
+        "authorisationServicesListBlackList": [],
+        "authorisationServicesListWhiteList": [
+          "EJM",
+          "canDoEJM"
+        ]
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": false,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "pass",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true,
+      "navigationAction": "internalBrowser",
+      "deeplinkURL": "https://kabel.vodafone.de/meinkabel/rechnungen/rechnung",
+      "icon": "passes"
+    }
+  ]
+}

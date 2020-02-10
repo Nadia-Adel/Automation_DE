@@ -1,0 +1,2359 @@
+{
+  "cms-guid": "7C7CB0DE88D24B36A7C19B4EC42CFBA7",
+  "cms-id": 1627,
+  "cms-version": 1,
+  "phone": [
+    {
+      "cms-guid": "FB1C09C612AA44ACA5A54265C19D2CF9",
+      "cms-id": 1491,
+      "cms-version": 1,
+      "id": "home",
+      "enable": true,
+      "label": "homeHH",
+      "bottomNavigation": true,
+      "bottomNavigationLabel": "Starts",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "selectedTopicName": "Home_Teaser",
+        "waitingTime": 5
+      },
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "BAD903CA8C734F25ABDE731466CE195B",
+      "cms-id": 1511,
+      "cms-version": 1,
+      "id": "recharge",
+      "enable": true,
+      "label": "Aufladenn",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Aufladen",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "E2C5FE30238D4462A5A638B5DB71A76F",
+      "cms-id": 1517,
+      "cms-version": 1,
+      "id": "transfer",
+      "enable": true,
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Transfer",
+      "label": "Guthaben Transfer",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": true,
+            "showForTypeB": true,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Transfer_Teaser",
+        "waitingTime": 3
+      },
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "56C8369DACA7406FA8B8D004019C0DA6",
+      "cms-id": 1522,
+      "cms-version": 1,
+      "id": "vertrag",
+      "enable": true,
+      "label": "Tarif",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Tarif",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Vertrag_prepaid_Teaser",
+        "waitingTime": 10
+      },
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "56C8369DACA7406FA8B8D004019C0DA6",
+      "cms-id": 1522,
+      "cms-version": 1,
+      "id": "tariff_fixednet",
+      "enable": true,
+      "label": "Tarif",
+      "bottomNavigation": true,
+      "bottomNavigationLabel": "TarifDSL",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Vertrag_prepaid_Teaser",
+        "waitingTime": 10
+      },
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "51EDB35E571642BCB83CFDDEBA6B3CFC",
+      "cms-id": 1529,
+      "cms-version": 1,
+      "id": "bill",
+      "enable": true,
+      "label": "Meine Rechnung",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [
+        {
+          "cms-guid": "3384DDA6914C43EDAF9B74AE7245BB7C",
+          "cms-id": 1535,
+          "cms-version": 1,
+          "id": "overview",
+          "enable": true,
+          "label": "Aktuelle Rechnung",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Rechnung",
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Rechnung_Teaser",
+            "waitingTime": 30
+          },
+          "tabletEnabled": false
+        },
+        {
+          "cms-guid": "4775243CA2A047669A644D62CA9C9565",
+          "cms-id": 1534,
+          "cms-version": 1,
+          "id": "archive",
+          "enable": true,
+          "label": "Alle Rechnungen",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Rechnung",
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Rechnung_Teaser",
+            "waitingTime": 30
+          },
+          "tabletEnabled": false
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "",
+        "waitingTime": 30
+      },
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "51EDB35E571642BCB83CFDDEBA6B3CFC",
+      "cms-id": 1530,
+      "cms-version": 1,
+      "id": "bill_fixednet",
+      "bottomNavigation": true,
+      "bottomNavigationLabel": "RechungeDSL",
+      "enable": true,
+      "label": "Rechnung",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "",
+        "waitingTime": 30
+      },
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "0FF7077B22924059986298ECBB1AA971",
+      "cms-id": 1542,
+      "cms-version": 1,
+      "id": "data",
+      "enable": true,
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "data",
+      "label": "Meine Daten",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [
+          "RB5MN60"
+        ],
+        "vfplanForTypeSBlack": [
+          "RB5MN60"
+        ],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Kundendaten_Teaser",
+        "waitingTime": 40
+      },
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "15748191F3D74AA9BF94EABFD7940C0E",
+      "cms-id": 1623,
+      "cms-version": 1,
+      "id": "orders",
+      "enable": true,
+      "label": "Bestellstatus",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "selectedTopicName": "",
+        "waitingTime": 5
+      },
+      "tabletEnabled": true,
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "orders"
+    },
+    {
+      "cms-guid": "15748191F3D74AA9BF94EABFD7940C0E",
+      "cms-id": 1623,
+      "cms-version": 1,
+      "id": "orders_fixednet",
+      "enable": true,
+      "label": "Bestellstatus",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "selectedTopicName": "",
+        "waitingTime": 5
+      },
+      "tabletEnabled": true,
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "orders"
+    },
+    {
+      "cms-guid": "09F5744F36344184AAAECE2550AD8B67",
+      "cms-id": 1546,
+      "cms-version": 1,
+      "id": "vertrag",
+      "enable": true,
+      "label": "Vertrag",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [
+        {
+          "cms-guid": "6241F3C804074750A2EBA7084E0CF3E8",
+          "cms-id": 1552,
+          "cms-version": 1,
+          "id": "tariff",
+          "bottomNavigation": true,
+          "bottomNavigationLabel": "tariff",
+          "enable": true,
+          "label": "Mein Tarif",
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 20
+          },
+          "tabletEnabled": true
+        },
+        {
+          "cms-guid": "6241F3C804074750A2EBA7084E0CF3E8",
+          "cms-id": 1552,
+          "cms-version": 1,
+          "id": "esim",
+          "enable": true,
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "esim",
+          "label": "Esim",
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 20
+          },
+          "tabletEnabled": false
+        },
+        {
+          "cms-guid": "4F9B4AB5761F4C4AAA59E22AAD885759",
+          "cms-id": 1551,
+          "cms-version": 1,
+          "id": "tariffoptions",
+          "enable": true,
+          "label": "Optionen",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "tarifoption",
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": false,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 0
+          },
+          "tabletEnabled": true
+        },
+        {
+          "cms-guid": "10B6150527CE4B8992A5A00BD77351EB",
+          "cms-id": 1550,
+          "cms-version": 1,
+          "id": "youngpeople",
+          "enable": true,
+          "label": "Junge Leute",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Junge",
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": false,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 30
+          },
+          "tabletEnabled": false
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Vertrag_prepaid_Teaser",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "853B8A2653E44FBBA4DE0D8BF7970A78",
+      "cms-id": 1562,
+      "cms-version": 1,
+      "id": "transfer_postpaid",
+      "enable": true,
+      "label": "Guthaben Transfer",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Transfer",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "vfplanForTypeSWhite": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAtAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Transfer_Teaser",
+        "waitingTime": 0
+      },
+      "tabletEnabled": false
+    },
+    {
+      "cms-guid": "8DC3D2FB3A95405DB063B011C2C2C040",
+      "cms-id": 1566,
+      "cms-version": 1,
+      "id": "offer",
+      "enable": true,
+      "label": "GigaLive&Angebote",
+      "bottomNavigation": true,
+      "bottomNavigationLabel": "Angebote",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": [],
+        "vfplanForTypeSWhitruee": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": true,
+            "showForTypeB": true,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": true,
+            "showForTypeB": true,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": true,
+            "showForTypeB": true,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Angebote_Teaser",
+        "waitingTime": 10
+      },
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "7A61BE47F9674502B385E05B822792CC",
+      "cms-id": 1571,
+      "cms-version": 1,
+      "id": "roaming",
+      "enable": true,
+      "label": "Im Ausland",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Roaming",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": true,
+            "showForTypeS": true,
+            "showForTypeB": true,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 5
+        },
+        "selectedTopicName": "Ausland_Teaser",
+        "waitingTime": 5
+      },
+      "tabletEnabled": false
+    },
+    {
+      "cms-guid": "3029D47304C746FD85B9AC959E4E3709",
+      "cms-id": 1575,
+      "cms-version": 1,
+      "id": "toppings",
+      "enable": true,
+      "label": "Toppingss",
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "toppings",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": false,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": true,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": true
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Toppings_Teaser",
+        "waitingTime": 90
+      },
+      "tabletEnabled": false
+    },
+    {
+      "cms-guid": "786C0315F8B74C288EB6A36E81BBCD87",
+      "cms-id": 1579,
+      "cms-version": 1,
+      "id": "netzdaten",
+      "enable": true,
+      "label": "Mein Netz",
+      "bottomNavigationLabel": "netz",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [
+        {
+          "cms-guid": "537043C414B74286A35B1EE94216DB5C",
+          "cms-id": 1586,
+          "cms-version": 1,
+          "id": "netzfeedback",
+          "enable": true,
+          "label": "GigaGarantie",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "GigaGarntie",
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": true,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "selectedTopicName": "Netzfeedback_Teaser",
+            "waitingTime": 90
+          },
+          "tabletEnabled": false,
+          "subItems": []
+        },
+        {
+          "cms-guid": "BB98B1D4B3394E79BC6A686D41A96C27",
+          "cms-id": 1585,
+          "cms-version": 1,
+          "id": "netzinfo",
+          "enable": true,
+          "label": "Netz Okay?",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "netz",
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": true,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": false,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "showForTypeI": true,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "showForTypeI": true,
+                "showForTypeS": true,
+                "showForTypeB": true,
+                "showForTypePU": true,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "showForTypeI": true,
+                "showForTypeS": true,
+                "showForTypeB": true,
+                "showForTypePU": true,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Netzinfo_Teaser",
+            "waitingTime": 5
+          },
+          "tabletEnabled": false,
+          "subItems": []
+        },
+        {
+          "cms-guid": "29FE78AD56C143E1B5D6B93079BDD318",
+          "cms-id": 1584,
+          "cms-version": 1,
+          "id": "netzabdeckung",
+          "enable": true,
+          "label": "Netzabdeckung",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Netzabdeckung",
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": false,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Netzinfo_Teaser",
+            "waitingTime": 30
+          },
+          "tabletEnabled": false,
+          "subItems": []
+        },
+        {
+          "cms-guid": "7E92A203997B4894A2B9AF4D6F26C0EE",
+          "cms-id": 1583,
+          "cms-version": 1,
+          "id": "speedtest",
+          "enable": true,
+          "label": "SpeedTest",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "Speedtest",
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": true,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": false,
+                "showForTypeI": false,
+                "showForTypeS": false,
+                "showForTypeB": false,
+                "showForTypePU": false,
+                "vfplanForTypePU": []
+              },
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Netzinfo_Teaser",
+            "waitingTime": 30
+          },
+          "tabletEnabled": true
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 0
+      },
+      "bottomNavigation": false,
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "65E23DAA5CAE4ABBBFD09DAAEA26B560",
+      "cms-id": 1599,
+      "cms-version": 1,
+      "id": "help",
+      "enable": true,
+      "bottomNavigationLabel": "hilfe",
+      "label": "Hilfe",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [
+        {
+          "cms-guid": "DCB2D397F5B1455BA169D7AFFA4A0A96",
+          "cms-id": 532,
+          "cms-version": 5,
+          "id": "faq",
+          "enable": true,
+          "label": "Fragen & Antworten",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "FAQ",
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": true,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "subItems": [],
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": true,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": true,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": true,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": true,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": true,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": true,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "selectedTopicName": "Hilfe_Kontakt_Teaser",
+            "waitingTime": 30
+          },
+          "tabletEnabled": true
+        },
+        {
+          "cms-guid": "DCB2D397F5B1455BA169D7AFFA4A0A96",
+          "cms-id": 532,
+          "cms-version": 5,
+          "id": "forum",
+          "enable": true,
+          "label": "Forum",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "fourm",
+          "subItems": [],
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": true,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": true,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": true,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": false,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": true,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": true,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": true,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": true,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "selectedTopicName": "Hilfe_Kontakt_Teaser",
+            "waitingTime": 10
+          },
+          "tabletEnabled": true
+        },
+        {
+          "cms-guid": "DCB2D397F5B1455BA169D7AFFA4A0A96",
+          "cms-id": 532,
+          "cms-version": 5,
+          "id": "shopfinder",
+          "enable": true,
+          "label": "Shopfinder",
+          "bottomNavigation": false,
+          "bottomNavigationLabel": "shopfinder",
+          "subItems": [],
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": true,
+            "vfplanForTypeFixedNetWhite": [],
+            "vfplanForTypeFixedNetBlack": [],
+            "showForTypePre": true,
+            "vfplanForTypePreWhite": [],
+            "vfplanForTypePreBlack": [],
+            "showForTypeI": true,
+            "vfplanForTypeIWhite": [],
+            "vfplanForTypeIBlack": [],
+            "showForTypeS": true,
+            "vfplanForTypeSWhite": [],
+            "vfplanForTypeSBlack": [],
+            "showForTypeB": true,
+            "vfplanForTypeBWhite": [],
+            "vfplanForTypeBBlack": [],
+            "showForTypePU": true,
+            "vfplanForTypePUWhite": [],
+            "vfplanForTypePUBlack": []
+          },
+          "chat": {
+            "chatVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": true,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": true,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "clickToCallVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": true,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": true,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "callBackVisibility": {
+              "eligibleCustomerTypes": {
+                "showForTypePre": true,
+                "vfplanForTypePreWhite": [],
+                "vfplanForTypePreBlack": [],
+                "showForTypeI": true,
+                "vfplanForTypeIWhite": [],
+                "vfplanForTypeIBlack": [],
+                "showForTypeS": true,
+                "vfplanForTypeSWhite": [],
+                "vfplanForTypeSBlack": [],
+                "showForTypeB": true,
+                "vfplanForTypeBWhite": [],
+                "vfplanForTypeBBlack": [],
+                "showForTypePU": true,
+                "vfplanForTypePUWhite": [],
+                "vfplanForTypePUBlack": []
+              },
+              "refreshTimeAgentAvailability": 0
+            },
+            "selectedTopicName": "Hilfe_Kontakt_Teaser",
+            "waitingTime": 30
+          },
+          "tabletEnabled": true
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 60
+      },
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "6F9DF957D7484010A3E5C186FED9581F",
+      "cms-id": 1603,
+      "cms-version": 1,
+      "id": "info",
+      "enable": true,
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "Einstellungen &amp; Infos",
+      "label": "Einstellungen &amp; Infos",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": true,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": true,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": true,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": true,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": true,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Info_Teaser",
+        "waitingTime": 30
+      },
+      "tabletEnabled": true
+    },
+    {
+      "cms-guid": "6F9DF957D7484010A3E5C186FED9581F",
+      "cms-id": 1523,
+      "cms-version": 1,
+      "id": "data_fixednet",
+      "enable": true,
+      "bottomNavigation": false,
+      "bottomNavigationLabel": "DatenDSL",
+      "label": "Mein Daten",
+      "eligibleCustomerTypes": {
+        "showForTypeFixedNet": true,
+        "vfplanForTypeFixedNetWhite": [],
+        "vfplanForTypeFixedNetBlack": [],
+        "showForTypePre": false,
+        "vfplanForTypePreWhite": [],
+        "vfplanForTypePreBlack": [],
+        "showForTypeI": false,
+        "vfplanForTypeIWhite": [],
+        "vfplanForTypeIBlack": [],
+        "showForTypeS": false,
+        "vfplanForTypeSWhite": [],
+        "vfplanForTypeSBlack": [],
+        "showForTypeB": false,
+        "vfplanForTypeBWhite": [],
+        "vfplanForTypeBBlack": [],
+        "showForTypePU": false,
+        "vfplanForTypePUWhite": [],
+        "vfplanForTypePUBlack": []
+      },
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "callBackVisibility": {
+          "eligibleCustomerTypes": {
+            "showForTypeFixedNet": false,
+            "showForTypePre": false,
+            "showForTypeI": false,
+            "showForTypeS": false,
+            "showForTypeB": false,
+            "showForTypePU": false
+          },
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Info_Teaser",
+        "waitingTime": 30
+      },
+      "tabletEnabled": true
+    }
+  ]
+}

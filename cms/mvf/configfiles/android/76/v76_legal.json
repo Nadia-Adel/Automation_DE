@@ -1,0 +1,545 @@
+{
+    "cms-guid": "814D1BA9AD524DCABFADCCB95C581B5B",
+    "cms-id": 1641,
+    "cms-version": 1,
+    "texts": [
+			  {"textKey" : "vf_performance_cookies_on",
+			  "textValue" : "this is the value for ON-state first switch text."
+			  },
+			  
+			  {"textKey" : "vf_preferences_omniture_send_user_data",
+			  "textValue" : "Nutzungsdaten senden"
+			  },
+			  
+			  {"textKey" : "vf_performance_cookies_off",
+			  "textValue" : "this is the value for OFF-state first switch text."
+			  },
+			  {"textKey" : "vf_performance_cookies",
+			  "textValue" : "performance switch title"
+			  },
+			  {"textKey" : "vf_online_marketing_cookies_on",
+			  "textValue" : "this is the value for ON-state second switch text."
+			  },
+			  {"textKey" : "vf_online_marketing_cookies_off",
+			  "textValue" : "this is the value for OFF-state second switch text."
+			  },
+			  {"textKey" : "vf_online_marketing_cookies",
+			  "textValue" : "online market switch title"
+			  },
+			  {"textKey" : "vf_angebote_on",
+			  "textValue" : "this is the value for ON-state third switch text."
+			  },
+			  {"textKey" : "vf_angebote_off",
+			  "textValue" : "this is the value for OFF-state third switch text."
+			  },
+			  {"textKey" : "vf_angebote",
+			  "textValue" : "angebote switch title"
+			  },
+			  {"textKey" : "vf_settings_page_save_button",
+			  "textValue" : "Speichern und weiter"
+			  },
+              {
+              "textKey" : "vf_data_protection_landing_title",
+              "textValue" : "Persönliche Angebote für Dich"
+              },
+               {
+              "textKey" : "vf_data_protection_landing_subtitle",
+              "textValue" : "Du bekommst von uns maßgeschneiderte Angebote im Web und in der App. Dazu nutzen wir Deine Rufnummer aus dem Vodafone-Netz. Durch Cookies geht das auch, wenn Du nicht eingeloggt bist oder WLAN nutzt. Zusätzlich setzen wir Cookies, um die Nutzung unserer Web-Seite und unserer Apps leichter zu machen. Und wir können Dir so Werbeinhalte anbieten, die zu Deinen Interessen passen. Du liest hier mehr dazu oder kannst jederzeit widersprechen. Unsere Datenschutzerklärung haben wir schon auf die neue Datenschutz-Grundverordnung angepasst. Sie gilt ab 25. Mai."
+              },
+              
+              {
+              "textKey" : "vf_new_wifi_logout_second_description_paragraph",
+              "textValue" : "Klicke bei einer bestehenden WLAN-Verbindung unten auf „Neuanmeldung“.\nDu kannst sich dann mit jeder beliebigen Rufnummer und dem entsprechenden Internet-Passwort neu einloggen."
+              },
+              
+              {
+              "textKey" : "vf_new_wifi_logout_description_paragraph_tablet",
+              "textValue" : "Du möchtest Dich ausloggen und die App mit einer anderen Rufnummer nutzen? Dazu brauchst Du nur einen WLAN-Zugriff."
+              },
+              {
+              "textKey" : "vf_new_wifi_logout_description_paragraph_2_tablet",
+              "textValue" : "Klick unten auf „OK“. Dann kannst Du Dich mit jeder beliebigen Rufnummer und dem entsprechenden Internet-Passwort neu einloggen."
+              },
+              
+              {
+              "textKey" : "vf_info_push_StepOneSubtitle",
+              "textValue" : "Rufe die Einstellungen Deines iPhones auf."
+              },
+              {
+              "textKey" : "vf_info_push_StepTwoSubtitle",
+              "textValue" : "Wähle „Mitteilungen”."
+              },
+              {
+              "textKey" : "vf_info_push_StepThreeSubtitle",
+              "textValue" : "Wähle in der Liste „MeinVodafone”."
+              },
+              {
+              "textKey" : "vf_info_push_StepOneSubtitle_Tablet",
+              "textValue" : "Rufe die Einstellungen Deines iPads auf."
+              },
+              {
+              "textKey" : "vf_daten_fur_taten",
+              "textValue" : "Daten für Taten"
+              },
+              {
+              "textKey" : "vf_data_for_tasks_sub_title",
+              "textValue" : "Section Sub Title one row"
+              },
+              {
+              "textKey" : "vf_data_for_tasks_description",
+              "textValue" : "Die Daten für Taten Funktion kannst Du hier an- bzw. abschalten."
+              },
+              {
+              "textKey": "vf_data_for_tasks_switch_label",
+              "textValue": "Daten für Taten"
+              },
+              {
+              "textKey" : "vf_info_bew_text",
+              "textValue" : "Mein aktueller Text zur Beratungseinwilligung"
+              },
+              {
+              "textKey" : "vf_push_subtitle",
+              "textValue" : "Ob neue Rechnung, persönliche Angebote oder Tipps: Du bekommst die Infos direkt auf Dein Smartphone."
+              },
+              {
+              "textKey": "vf_help_bew_permission_dev_description",
+              "textValue": "Sag uns, wie wir Dir Informationen, Angebote und Empfehlungen schicken sollen, die wir auf Dich zugeschnitten haben."
+              },
+              {
+              "textKey": "mvf_customerpassword_store_password_label",
+              "textValue": "Kundenkennwort speichern"
+              },
+              {
+              "textKey": "vf_info_remove_customer_passowrd_subtitle",
+              "textValue": "Kundenkennwort speichern – schneller zugreifen"
+              },
+              {
+              "textKey": "vf_info_remove_customer_passowrd_description",
+              "textValue": "Das Kennwort dient dem Schutz Deiner persönlichen Daten. Es ist nur Dir und uns bekannt. Nur mit dem Kennwort kannst Du hier in der App Deine persönlichen Daten wie z. B. Deine Adresse ändern, Optionen buchen oder Infos zu Deiner Rechnung abrufen. Speicherst Du Dein Kundenkennwort, hast Du schnellen Zugriff auf alle Funktionen. Du kannst die Einstellung jederzeit wieder ändern."
+              },
+              {
+              "textKey": "vf_info_remove_customer_passowrd_button",
+              "textValue": "Nicht mehr speichern"
+              },
+              {
+              "textKey": "mvf_info_remove_finger_print_subtitle",
+              "textValue": ""
+              },
+              {
+              "textKey": "mvf_info_remove_finger_print_description",
+              "textValue": "Du kannst dich je nach Gerät mit Face ID oder Deinem Fingerabdruck statt mit dem Kundenkennwort einloggen. Möchtest Du diese Funktion ausschalten und lieber das Kundenkennwort eingeben?"
+              },
+              {
+              "textKey": "mvf_info_remove_finger_print_button",
+              "textValue": "Nur mit Kundenkennwort einloggen"
+              },
+              {
+              "textKey": "mvf_fingerprint_store_password_label",
+              "textValue": "Mit Kundenkennwort einloggen"
+              },
+              {
+              "textKey": "vf_info_network_and_service_settings_personal_data_description",
+              "textValue": "Wir möchten unsere Produkte, Dienstleistungen und Empfehlungen für Dich noch besser machen. Dazu brauchen wir Deine Hilfe und einige Informationen über Dich und Dein Nutzungsverhalten, wie z.B. personalisierte Informationen zur Netzabdeckung, zur Qualität Deiner Gespräche und Datenverbindungen, sowie zu den von Dir genutzten Apps.\r\n<br/><br/>\r\nWir bekommen keine Informationen über Deine Gesprächs- oder Nachrichteninhalte. \r\n<br/><br/>\r\nDeine personalisierten Informationen nutzen wir z.B. um:<br/>\r\n• Dir mehr Transparenz über Deinen persönlichen Datenverbrauch zu geben.<br/>\r\n• Eventuelle Leistungseinschränkungen bei der Nutzung Deiner Apps oder Deines Smartphones zu entdecken und zu beheben.<br/>\r\n• Dir gezielt für Deinen Tarif Produkte & Services zu empfehlen.<br/><br/>"
+              },
+              {
+              "textKey": "vf_info_network_and_service_settings_non_personal_data_description",
+              "textValue": "Deine nicht-personalisierten Informationen nutzen wir z.B. um:<br/><br/>\r\n• Unsere Netzabdeckung und Verbindungsqualität zu verbessern.<br/>\r\n• Störungen zu vermeiden und schneller zu beheben.<br/><br/>"
+              },
+              {
+              "textKey": "vf_personal_data_opt_out_confirmation_dialogue_title",
+              "textValue": "Möchtest Du wirklich keinen maßgeschneiderten Support mehr? Und auch keine persönlichen Empfehlungen?"
+              },
+              {
+              "textKey": "vf_personal_data_opt_out_confirmation_dialogue_description",
+              "textValue": "Mit der Rücknahme Deiner Einwilligung kannst Du dann nicht mehr:<br/><br/>\r\n• Deine App-Nutzung überprüfen<br/>\r\n• Maßgeschneiderten Support bekommen<br/>\r\n• Persönliche Empfehlungen bekommen<br/><br/>\r\nDrücke auf Abbrechen. Dann behältst Du die Einwilligung. Mit OK ziehst Du Deine Einwilligung zurück.<br/><br/>"
+              },
+              {
+              "textKey": "vf_non_personal_data_opt_out_confirmation_dialogue_title",
+              "textValue": "Möchtest Du wirklich keine Infos mehr senden?"
+              },
+              {
+              "textKey": "vf_non_personal_data_opt_out_confirmation_dialogue_description",
+              "textValue": "Nimmst Du Deine Einwilligung zum Senden von Infos zurück, gilt das auch für’s Senden personalisierter Infos. So bekommen wir leider keine Daten mehr zur Verbesserung unseres Netzes & unserer Services. <br/><br/>Du kannst leider dann nicht mehr:<br/>\r\n• Deine Netzgeschwindigkeit testen<br/>\r\n• Deine App-Nutzung überprüfen<br/>\r\n• Maßgenschneiderten Support bekommen<br/>\r\n• Persönliche Empfehlungen bekommen<br/><br/>\r\nDrücke auf Abbrechen. Dann behältst Du Deine Einwilligung. Mit OK ziehst Du Deine Einwilligung zurück.<br/><br/>"
+              },
+              {
+              "textKey": "vf_info",
+              "textValue": "Info"
+              },
+              {
+              "textKey": "info_versioncode",
+              "textValue": "MeinVodafone-Version: %1$s"
+              },
+              {
+              "textKey": "vf_info_push_subtitle",
+              "textValue": "Immer informiert sein."
+              },
+              {
+              "textKey": "vf_push_description",
+              "textValue": "Nachrichten anzeigen"
+              },
+              {
+              "textKey": "vf_new_wifi_logout_description_paragraph",
+              "textValue": "Du möchtest dich ausloggen und die App mit einer anderen Rufnummer nutzen? Dazu brauchst Du nur eine WLAN-Verbindung. Dann klick unten auf „Neuanmeldung“. Du kannst Dich dann mit jeder beliebigen Rufnummer und dem entsprechenden Internet-Passwort neu einloggen."
+              },
+              {
+              "textKey": "vf_new_wifi_logout_button",
+              "textValue": "Neuanmeldung"
+              },
+              {
+              "textKey": "vf_info_landing_page_title",
+              "textValue": "Einstellungen & Infos"
+              },
+              {
+              "textKey": "vf_info_title",
+              "textValue": "Überblick"
+              },
+              {
+              "textKey": "vf_title_page_info",
+              "textValue": "Einstellungen & Infos"
+              },
+              {
+              "textKey": "vf_info_data_protection_settings_subtitle",
+              "textValue": "Verwalte hier Deine Einwilligungen und Widersprüche."
+              },
+              {
+              "textKey": "vf_info_data_protection_analytics_settings",
+              "textValue": "Nutzungsdaten"
+              },
+              {
+              "textKey": "vf_info_data_protection_network_and_service_settings",
+              "textValue": "Netz & Service verbessern"
+              },
+              {
+              "textKey": "vf_info_network_and_service_settings_personal_data_descr_subtitle",
+              "textValue": "Was hast Du davon?"
+              },
+              {
+              "textKey": "vf_info_network_and_service_settings_non_personal_data_descr_subtitle",
+              "textValue": "Was hast Du davon?"
+              },
+              {
+              "textKey": "vf_info_network_and_service_settings_data_protection_details_button",
+              "textValue": "Hier gibt‘s Details zur Datenschutz-Erklärung"
+              },
+              {
+              "textKey": "vf_Security_And_Privacy_Title_Label",
+              "textValue": "Sicherheit & Privatsphäre"
+              },
+              {
+              "textKey": "vf_preferences_omniture_subtitle",
+              "textValue": "Hilf uns, unsere App noch besser zu machen"
+              },
+              {
+              "textKey": "vf_Security_And_Privacy_Description_Label",
+              "textValue": "Möchtest Du Einstellungen zu PUK/SuperPIN, Datenschutz oder Beratungseinwilligung ändern? Änderungen kannst Du hier vornehmen."
+              },
+              {
+              "textKey": "vf_Security_And_Privacy_Action_Button_Title",
+              "textValue": "Einstellungen ändern"
+              },
+              {
+              "textKey": "vf_info_network_and_service_settings_personal_data_optin_switch_title",
+              "textValue": "Personalisierte Daten senden um Hilfe, Produkte, Services und Empfehlungen auf mich zu zuschneiden"
+              },
+              {
+              "textKey": "vf_info_network_and_service_settings_non_personal_data_optin_switch_title",
+              "textValue": "Nicht-personalisierte Daten senden & Netzwerk optimieren"
+              },
+              {
+              "textKey": "vf_help_app_usage_clickcell",
+              "textValue": "MeinVodafone-App-Nutzungsdaten"
+              },
+              {
+              "textKey": "vf_info_login_customer_password",
+              "textValue": "Mit Kundenkennwort einloggen"
+              },
+              {
+              "textKey": "vf_info_imprint",
+              "textValue": "Impressum"
+              },
+              {
+              "textKey": "vf_info_data_protection_settings",
+              "textValue": "Opt-in & Opt-out verwalten"
+              },
+              {
+              "textKey": "vf_info_terms_of_use",
+              "textValue": "Nutzungsbedingungen"
+              },
+              {
+              "textKey": "vf_info_data_protection_information",
+              "textValue": "Datenschutz-Erklärung"
+              },
+              {
+              "textKey": "vf_info_send_customer_data",
+              "textValue": "Nutzungsdaten senden"
+              },
+              {
+              "textKey": "vf_info_push",
+              "textValue": "Deine Nachrichten"
+              },
+              {
+              "textKey": "vf_info_logout",
+              "textValue": "Logout und Neuanmeldung"
+              },
+              {
+              "textKey": "vf_help_netperform_clickcell",
+              "textValue": "Netz & Service verbessern"
+              },
+              {
+              "textKey": "vf_help_bew_permission_clickcell",
+              "textValue": "Beratung & Angebote"
+              },
+              {
+              "textKey": "vf_info_approval_administration",
+              "textValue": "Zustimmung verwalten"
+              },
+              {
+              "textKey": "vf_info_approval_administration_intro",
+              "textValue": "Hier siehst Du:\nInteressen, die uns als Telekommunikations-Unternehmen per Gesetz zustehenÄnderungen, die Du in MeinVodafone gemacht oder per Telefon, E-Mail oder Brief angefragt hast\nIn der Datenschutz-Erklärung findest Du Infos zu den Begriffen Einwilligung, Widerruf und Widerspruch.\n"
+              },
+              {
+              "textKey": "vf_info_cpm_intro",
+              "textValue": "Hier bestimmst Du:\nob wir Deine Daten für gezielte Angebote und Beratung nutzen dürfenob und wie wir Dich für Angebote und zur Beratung kontaktieren dürfen\n \nZu den aktuellen Einstellungen kommt es so:\nDu hast uns Deine Beratungseinwilligung gegebenDu hast uns zugesichert, dass wir Dich per SMS, MMS, E-Mail und Post kontaktieren dürfen, und wir haben Deine Zusicherung nach § 95 Absatz 2 Satz 2 des Telekommunikationsgesetzes angewendetDu hast Änderungen vorgenommenen oder angefragt\n\nUnten findest Du Schalter, mit denen Du Deine Einwilligungen geben und widerrufen kannst.\nMehr Infos zu Einwilligung, Widerruf und Widerspruch in der MeinVodafone-App findest Du in der Datenschutz-Erklärung.\n"
+              },
+              {
+              "textKey": "vf_info_cpm_dev_headline",
+              "textValue": "Sag uns, welche Deiner Daten Vodafone für gezielte Angebote und Beratung verwenden darf."
+              },
+              {
+              "textKey": "vf_info_cpm_popup_headline",
+              "textValue": "Bist Du Dir sicher?"
+              },
+              {
+              "textKey": "vf_info_cpm_popup_text",
+              "textValue": "Wenn Du der Nutzung Deiner Bestandsdaten nicht mehr zustimmst, können wir Dir leider keine gezielten Informationen und Angebote mehr schicken."
+              },
+              {
+              "textKey": "vf_help_bew_permission_title",
+              "textValue": "Beratung & Angebote"
+              },
+              {
+              "textKey": "vf_help_bew_permission_description",
+              "textValue": "<font face=\"VodafoneRg-Regular\" size= \"3\"><h2>Hier bestimmst Du</h2><ul> <font color=\"666666\"><li>ob wir Deine Daten für gezielte Angebote und Beratung nutzen dürfen</li><li>ob und wie wir Dich für Angebote und zur Beratung kontaktieren dürfen </li></font></ul><h2></br>Zu den aktuellen Einstellungen kommt es so:</h2><ul><font color=\"666666\"><li>Du hast uns Deine Beratungseinwilligung gegeben</li><li>&nbsp;Du hast uns zugesichert, dass wir Dich per SMS, MMS, E-Mail und Post kontaktieren dürfen, und wir haben Deine Zusicherung nach § 95 Absatz 2 Satz 2 des Telekommunikationsgesetzes angewendet&nbsp;</li><li>Du hast Änderungen vorgenommenen oder angefragt </li></font></ul></br><p> <font color=\"666666\">Unten gibt es Schalter, mit denen Du Deine Beratungseinwilligung geben und widerrufen kannst.Du hast das Recht, der Anwendung des § 95 Absatz 2 Satz 2 des Telekommunikationsgesetzes – Kontaktierung zum Zweck der Werbung per SMS, MMS, E-Mail und Post – zu widersprechen.\nMit den Schaltern weiter unten kannst Du Dein Widerspruchsrecht nutzen. \nMehr Infos zu Einwilligung, Widerruf und Widerspruch in der MeinVodafone-App findest Du in der Datenschutz-Erklärung.</font></p></font>"
+              },
+              {
+              "textKey": "vf_help_bew_permission_adv_description",
+              "textValue": "Sag uns, welche Deiner Daten wir für gezielte Angebote und Beratung verwenden dürfen."
+              },
+              {
+              "textKey": "vf_help_bew_advice_consent_title",
+              "textValue": "Beratungseinwilligung"
+              },
+               {
+              "textKey": "vf_help_bew_advice_consent_subtitle",
+              "textValue": "mein aktueller Text"
+              },
+              {
+              "textKey": "vf_help_bew_advice_consent__bew1_description1",
+              "textValue": "1Ja, Vodafone darf meine Bestandsdaten zum Zwecke der Beratung, Marktforschung und Werbung für Vodafone-Angebote verarbeiten und nutzen und meine Verkehrsdaten (Zeitpunkt, Dauer und Zielgasse) zur bedarfsgerechten Gestaltung für längstens 6 Monate verwenden.\n \nJa, Vodafone darf mich telefonisch und per SMS/MMS kontaktieren und über Vodafone-Angebote beraten. Ich kann diese Einwilligung jederzeit ganz oder teilweise für die Zukunft widerrufen.\n \nHinweis: Ohne die vorstehende Einwilligung ist Vodafone im Rahmen der gesetzlichen Bestimmungen lediglich berechtigt, Ihnen Werbung für eigene Angebote per Text- oder Bildmitteilung an Ihr Telefon, per E-Mail und per Post an Ihre Anschrift zukommen zu lassen. Sie können der Nutzung Ihrer Telefonnummer und Adressen zu diesem Zwecke jederzeit"
+              },
+              {
+              "textKey": "vf_help_bew_advice_consent__bew1_description2",
+              "textValue": "2Ja, Vodafone darf mich telefonisch und per SMS/MMS kontaktieren und über Vodafone-Angebote beraten. Ich kann diese Einwilligung jederzeit ganz oder teilweise für die Zukunft widerrufen.\n \nHinweis: Ohne die vorstehende Einwilligung ist Vodafone im Rahmen der gesetzlichen Bestimmungen lediglich berechtigt, Ihnen Werbung für eigene Angebote per Text- oder Bildmitteilung an Ihr Telefon, per E-Mail und per Post an Ihre Anschrift zukommen zu lassen. Sie können der Nutzung Ihrer Telefonnummer und Adressen zu diesem Zwecke jederzeit schriftlich oder elektronisch widersprechen und Ihre Einwilligungen in der MeinVodafone App* oder unter www.vodafone.de/MeinVodafone verwalten."
+              },
+              {
+              "textKey": "vf_help_bew_advice_consent__bew3_description1",
+              "textValue": "3Ja, ich willige ein, dass die Vodafone GmbH* und die Vodafone Kabel Deutschland GmbH* meine Bestandsdaten untereinander austauschen, um mich individuell zu beraten, für ihre Angebote zu werben und Marktforschung zu betreiben.\n \nMeine Bestandsdaten sind Angaben rund um mein Vertragsverhältnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.\n \nJa, ich willige ein, dass meine Nutzungsdaten und meine Verkehrsdaten höchstens 6 Monate verwendet werden, um Telekommunikations- und Telemedien-Dienste bedarfsgerecht und individuell zu gestalten und zu vermarkten sowie Dienste mit Zusatznutzen für mich bereitzustellen.\nMeine Nutzungsdaten sind Informationen über Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren mich oder mein Gerät direkt und sind zum Teil in meinem Gerät gespeichert, z.B. als Cookies.\nMeine Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Geräte oder Anschlüsse sowie deren Standorte."
+              },
+              {
+              "textKey": "vf_help_bew_advice_consent__bew3_description2",
+              "textValue": "4Ja, ich willige ein, dass Vodafone und Vodafone Kabel Deutschland mich telefonisch, per E-Mail, Messenger, SMS und MMS über Angebote von Vodafone und Vodafone Kabel Deutschland informieren.\n \nIch kann meine Einwilligung jederzeit ganz oder teilweise mit Wirkung für die Zukunft widerrufen."
+              },
+              {
+              "textKey": "vf_help_bew_advice_consent__bew3_description3",
+              "textValue": "* 5Die Vodafone GmbH, Ferdinand-Braun-Platz 1, 40549 Düsseldorf (Vodafone) und die Vodafone Kabel Deutschland GmbH, Betastraße 6-8, 85774 Unterföhring (Vodafone Kabel Deutschland) sind wirtschaftlich ein Unternehmen und bieten Telekommunikationsdienstleistungen an, die sich ergänzen."
+              },
+              {
+              "textKey": "vf_help_netperform_security_title",
+              "textValue": "Informationen, die wir sammeln."
+              },
+              {
+              "textKey": "vf_help_netperform_security_description",
+              "textValue": "Folgende Informationen nutzen wir, um für Dich noch besser zu werden:"
+              },
+              {
+              "textKey": "vf_netperform_security_item1_title",
+              "textValue": "Netzabdeckung, Verbindung & Datennutzung"
+              },
+              {
+              "textKey": "vf_netperform_security_item1_description",
+              "textValue": "Wir erfassen wie Du Netzwerk-Verbindungen und -Qualität für Gespräche, Internet- und Daten-Services erlebst. Außerdem, wie häufig Du Internet-Services nutzt und wie viel Daten Du verbrauchst.<br/> \nWir speichern dazu:<br/>\n• Wie lange Du Dein Gerät eingeschaltet hast.<br/>\n• Wie stark das Signal ist, das Du empfängst.<br/>\n• Gebiete, wo nur Notrufe möglich sind oder Du kein Netz hast.<br/>\n• Welche Netze Du nutzen kannst: 2G, 3G oder 4G.<br/>\n• Wie lang Du telefonierst oder surfst, mit Datum und Uhrzeit.<br/>\n• Wie der Anruf oder die Verbindung beendet wurde.<br/>\n• Informationen aus einem stündlichen Verbindungstest zum Internet .<br/>\n• Die Download-, Upload- und die Antwort-Geschwindigkeit.<br/>\n• Wie lange es dauert, eine Internet-Verbindung aufzubauen.<br/>\n• Die Verbindungsqualität zum WLAN.<br/>\n• Die MAC-Adressen der WLAN-HotSpots, die Dein Gerät erkennt.<br/>\n• Die verbrauchte Datenmenge pro Stunde.<br/>\n• Die verbrauchte Datenmenge im Standby.<br/>\n• Den Anteil der Datenmenge im WLAN und im Mobilfunknetz.<br/><br/>\n"
+              },
+              {
+              "textKey": "vf_netperform_security_item2_title",
+              "textValue": "Nutzong von Apps"
+              },
+              {
+              "textKey": "vf_netperform_security_item2_description",
+              "textValue": "Mit Hilfe der Nutzung von Apps bestimmen wir Apps, die in Deiner Region viel Datenverkehr im Mobilfunknetz erzeugen. Das hilft uns dabei zu erkennen, wo wir unser Netz weiter ausbauen müssen.<br/>\nWir speichern dazu:<br/>\n• Die Apps auf Deinem Smartphone.<br/>\n• Die Apps, die Du pro Tag nutzt.<br/>\n• Wie lang Du Deine Apps nutzt.<br/>\n• Wie viel Datenmengen Du brauchst und wie schnell Deine Apps die Daten übertragen.<br/>\n• Den Typ und die Qualität des Netzwerks, z.B. für Mobilfunk oder WLAN und die Signalstärke.<br/><br/>"
+              },
+              {
+              "textKey": "vf_netperform_security_item3_title",
+              "textValue": "Geräte-Informationen"
+              },
+              {
+              "textKey": "vf_netperform_security_item3_description",
+              "textValue": "Wir bewerten die Leistung verschiedener Handys in unserem Mobilfunknetz. Wir möchten so Probleme mit unterschiedlichen Geräten erkennen und die Stabilität der Geräte analysieren und verbessern. <br/>\nWir speichern dazu:<br/>\n• Hersteller und Gerätemodell<br/>\n• MAC-Adresse<br/>\n• Version des Betriebssystems<br/>\n• Firmware-Version<br/>\n• Geräte-Eigenschaften<br/>\n• verwendete Sprache<br/>\n• Batteriezustand<br/>\n• Speicherverbrauch<br/>\n• Zeitdauer seit dem letzten Neustart<br/><br/>"
+              },
+              {
+              "textKey": "vf_netperform_security_item4_title",
+              "textValue": "Standort-Daten"
+              },
+              {
+              "textKey": "vf_netperform_security_item4_description",
+              "textValue": "Mit der Netz-Verfügbarkeit und Deiner Nutzung bestimmen wir die ungefähre Position Deines Handys. Wir bekommen dabei die Informationen, die auch Deine Apps von Deinem Betriebssystem erhalten. So erkennen wir, an welchen Orten wir unser Netz noch verbessern müssen und Du bekommst dadurch gleichzeitig bessere Hilfe bei Netzproblemen.<br/> \nWir speichern dazu:<br/>\n• Die Mobilfunk-Zelle, mit der Dein Gerät verbunden ist.<br/>\n• Die BSSID des aktiven WLANs.<br/>\n• Die GPS-Positionsdaten mit Geschwindigkeit und Richtungsinfos bei einem Speed-Test oder falls andere Apps, z.B. eine Navi-App die Daten anfordern.<br/><br/>"
+              },
+              {
+              "textKey": "vf_netperform_security_item5_title",
+              "textValue": "MeinVodafone App: Nutzung & Performance"
+              },
+              {
+              "textKey": "vf_netperform_security_item5_description",
+              "textValue": "Wir erhalten pseudonymisiert folgende Informationen über Deine Nutzung und über die Leistung der MeinVodafone-App:<br/>\n• Wie oft und wann Du die App genutzt hast.<br/>\n• Wie Du die App genutzt hast, z.B. so genannte Klick-Wege.<br/>\n• Welche Version Du nutzt.<br/>\n• Wann Du das letzte mal ein Update der App geladen hast.<br/>\n• Die Applikations – ID.<br/>\n• Hersteller und Modell Deines Geräts.<br/><br/>"
+              },
+              {
+              "textKey": "vf_netperform_security_item6_title",
+              "textValue": "Datenübermittlung & Speicherdauer"
+              },
+              {
+              "textKey": "mvf_netperform_security_item6_description",
+              "textValue": "Die oben genannten Informationen bekommen wir regelmäßig über die MeinVodafone-App. Es sei denn, Du hast das Senden der Daten ausgeschaltet. <br/>\nDie Daten werden verschlüsselt an uns übertragen.<br/>\nDie Informationen werden erhoben direkt nachdem Du zugestimmt hast. Widersprichst Du dem Senden der Daten, gilt das ab sofort. <br/><br/>\nAlle Detail-Informationen speichern wir bis zu 6 Monaten. Danach verwenden wir nur noch kumulierte Monats-Daten.<br/><br/>\n"
+              },
+              {
+              "textKey": "vf_netperform_security_item7_title",
+              "textValue": "Nicht erhobene Informationen"
+              },
+              {
+              "textKey": "mvf_netperform_security_item7_description",
+              "textValue": "<b>Wir bekommen und erheben keine Informationen über:</b><br/>\n• Die Rufnummern, die Du anrufst oder von denen Du angerufen wirst.<br/>\n• Die Sender oder Empfänger Deiner SMS-Nachrichten, E-Mails oder Internet-Chats.<br/>\n• Deine Gesprächs- oder Nachrichteninhalte oder Deinen Browser-Verlauf.<br/>\n• Die Inhalte, die Deine Apps senden, empfangen oder anderweitig konsumieren.<br/><br/>\n"
+              },
+              {
+              "textKey": "vf_netperform_security_item8_title",
+              "textValue": "Widerspruchsrecht & Gestaltungsmöglichkeiten"
+              },
+              {
+              "textKey": "vf_netperform_security_item8_description",
+              "textValue": "Du kannst in der MeinVodafone-App unter „Einstellungen & Info“ > „Opt-in / Opt-out verwalten“:\n• Deine Einwilligungen erteilen\n• Deine Einwilligungen widerrufen\n• Dein Widerspruchsrecht nutzen\nWillst Du dem Senden Deiner pseudonymisierten Daten über die Nutzung der MeinVodafone-App widersprechen?\nDann wähl einfach „MeinVodafone-App-Nutzungsdaten“ und stell den Schalter auf Aus.\nWillst Du dem Senden Deiner pseudonymisierten Daten zur Verbesserung unseres Netzes und unserer Services widersprechen?\nDann wähl einfach „Netz & Service verbessern“ und stell den Schalter „Nicht-personalisierte Daten senden & Netzwerk optimieren“ auf Aus.\nWillst Du Deine Einwilligung zum Senden Deiner personalisierten Daten zur Verbesserung unseres Netzes und unserer Services widerrufen?\nDann wähl einfach „Netz & Service verbessern“ und stell den Schalter „Personalisierte Daten senden & Hilfe, Produkte, Services und Empfehlungen auf mich zuschneiden“ auf Aus.\nWillst Du Deine Einwilligungen zur Nutzung Deiner Daten für gezielte Angebote und Beratung widerrufen?\nDann wähl einfach „Beratung & Angebote“ und stell den entsprechenden Schalter auf Aus.\nWillst Du Deine Einwilligung zur Kontaktierung widerrufen oder der Kontaktierung per SMS, MMS, E-Mail, Post nach § 95 Absatz 2 Satz 2 des Telekommunikationsgesetzes widersprechen?\nDann wähl einfach „Beratung & Angebote“ und stell den entsprechenden Schalter auf Aus.\nDeine pseudonymisierten Infos werden automatisch so verfremdet, dass Deine Privatsphäre geschützt bleibt.\nDein Widerruf oder Widerspruch wird gegebenenfalls erst nach ein paar Tagen wirksam."
+              },
+              {
+              "textKey": "vf_preferences_omniture_description",
+              "textValue": "Wir möchten unsere App für Dich immer weiter verbessern. Dazu werten wir dein Nutzungsverhalten aus. Die Daten dienen nur der Statistik und werden verfremdet. Deine Privatsphäre bleibt somit gewahrt.\nDu möchtest trotzdem Deine Nutzungsdaten nicht übermitteln? Dann schieb den Schalter einfach nach links."
+              },
+              {
+              "textKey": "vf_info_network_and_service_settings_title",
+              "textValue": "Netz & Service verbessern"
+              },
+              {
+              "textKey": "mvf_info_remove_finger_print_title",
+              "textValue": "Mit Kundenkennwort einloggen"
+              },
+              {
+              "textKey": "vf_info_usage_data",
+              "textValue": "MeinVodafone-App-Nutzungsdaten"
+              },
+              {
+              "textKey": "vf_info_omniture",
+              "textValue": "MeinVodafone-App-Nutzungsdaten"
+              },
+              {
+              "textKey" : "vf_netperform_terms_security_page_footer",
+              "textValue" : "Hier geht's zur allgemeinen Datenschutz-Erklärung von Vodafone: www.vodafone.de/datenschutz"
+              }
+              ],
+    "bewMappingVersions": [
+                           {
+                           "version": 1,
+                           "serviceIds": [
+                                          {
+                                          "serviceId": "PDEV",
+                                          "shortDescriptionDE": "Bestandsdaten",
+                                          "longDescriptionDE": "Deine Bestandsdaten sind Angaben rund um Dein VertragsverhÃ¤ltnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services. Wenn wir besser verstehen, wie Du unsere Produkte und Services nutzt,\nkÃ¶nnen wir Dir Angebote schicken, die besser zu Dir passen."
+                                          },
+                                          {
+                                          "serviceId": "CDEV",
+                                          "shortDescriptionDE": "Verkehrsdaten",
+                                          "longDescriptionDE": "Die Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, GerÃ¤te oder AnschlÃ¼sse.\nAuf Basis der Verkehrsdaten kÃ¶nnen wir die Leistung unseres Netzes verbessern, Deine Services verbessern und Dir Angebote und Empfehlungen schicken, von denen Du mehr hast.\nWelche Verkehrsdaten wir direkt von Deinem Smartphone verwenden, verwaltest Du in den Datenschutz-Einstellungen unter â€žNetz & Service verbessernâ€."
+                                          },
+                                          {
+                                          "serviceId": "SMMS",
+                                          "shortDescriptionDE": "SMS/MMS",
+                                          "longDescriptionDE": ""
+                                          },
+                                          {
+                                          "serviceId": "SMMS",
+                                          "shortDescriptionDE": "E-Mail",
+                                          "longDescriptionDE": ""
+                                          },
+                                          {
+                                          "serviceId": "POST",
+                                          "shortDescriptionDE": "Post",
+                                          "longDescriptionDE": ""
+                                          },
+                                          {
+                                          "serviceId": "TOUT",
+                                          "shortDescriptionDE": "Handy",
+                                          "longDescriptionDE": ""
+                                          },
+                                          {
+                                          "serviceId": "TWIB",
+                                          "shortDescriptionDE": "Handy, nur VertragsverlÃ¤ngerung",
+                                          "longDescriptionDE": ""
+                                          }
+                                          ]
+                           },
+                           {
+                           "version": 3,
+                           "serviceIds": [
+                                          {
+                                          "serviceId": "PDEV",
+                                          "shortDescriptionDE": "0Bestandsdaten",
+                                          "longDescriptionDE": "0Deine Bestandsdaten sind Angaben rund um Dein VertragsverhÃ¤ltnis,\nz.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.\nWenn wir besser verstehen, wie Du unsere Produkte und Services nutzt, kÃ¶nnen wir Dir Angebote schicken, die besser zu Dir passen."
+                                          },
+                                          {
+                                          "serviceId": "CDEV",
+                                          "shortDescriptionDE": "1Verkehrsdaten",
+                                          "longDescriptionDE": "1Die Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, GerÃ¤te oder AnschlÃ¼sse.\nAuf Basis der Verkehrsdaten kÃ¶nnen wir die Leistung unseres Netzes verbessern, Deine Services verbessern und Dir Angebote und Empfehlungen schicken, von denen Du mehr hast.\nWelche Verkehrsdaten wir direkt von Deinem Smartphone verwenden, verwaltest Du in den Datenschutz-Einstellungen unter â€žNetz & Service verbessernâ€."
+                                          },
+                                          {
+                                          "serviceId": "GEO",
+                                          "shortDescriptionDE": "2Standortdaten (zellbasiert)",
+                                          "longDescriptionDE": "2Ãœber die Mobilfunk-Zelle, die Du nutzt, kÃ¶nnen wir ungefÃ¤hr Deinen Standort bestimmen. So kÃ¶nnen wir Dir Angebote und Services empfehlen, die an Deinem Standort vielleicht interessant fÃ¼r Dich sind."
+                                          },
+                                          {
+                                          "serviceId": "WBT",
+                                          "shortDescriptionDE": "3Webtracking auf Vodafone- oder Kooperationspartner-Seiten",
+                                          "longDescriptionDE": "3Mit dieser Einwilligung steuerst Du, ob wir Deine Nutzungsdaten verwenden dÃ¼rfen. Die Nutzungsdaten sind Informationen Ã¼ber Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren Dich oder Dein GerÃ¤t direkt und sind zum Teil in Deinem GerÃ¤t gespeichert, z.B. als Cookies."
+                                          },
+                                          {
+                                          "serviceId": "SMMS",
+                                          "shortDescriptionDE": "4SMS/MMS",
+                                          "longDescriptionDE": "4"
+                                          },
+                                          {
+                                          "serviceId": "EMAL",
+                                          "shortDescriptionDE": "5E-Mail",
+                                          "longDescriptionDE": ""
+                                          },
+                                          {
+                                          "serviceId": "POST",
+                                          "shortDescriptionDE": "6Post",
+                                          "longDescriptionDE": ""
+                                          },
+                                          {
+                                          "serviceId": "TOUT",
+                                          "shortDescriptionDE": "7Handy",
+                                          "longDescriptionDE": "7"
+                                          },
+                                          {
+                                          "serviceId": "TWIB",
+                                          "shortDescriptionDE": "8Handy, nur VertragsverlÃ¤ngerung",
+                                          "longDescriptionDE": ""
+                                          }
+                                          ]
+                           }
+                           ]
+}

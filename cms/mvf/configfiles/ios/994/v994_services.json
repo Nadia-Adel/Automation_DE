@@ -1,0 +1,41 @@
+{
+  "services": [
+    {
+      "id": "Nil_UserData_FixedNet",
+      "minutesValid": 2,
+      "cachingEnabled": true
+    },
+    {
+      "id": "Nil_Subscriptions_FixedNet",
+      "minutesValid": 2,
+      "enabled": true
+    },
+    {
+      "id": "Nil_TariffPlanGet_FixedNet",
+      "minutesValid": 2,
+      "enabled": true
+    },
+    {
+      "id": "Nil_SubscriberDetails_Mobile",
+      "minutesValid": 3,
+      "enabled": true
+    },
+    {
+      "id": "Nil_BilledUsage_FixedNet",
+      "minutesValid": 2,
+      "enabled": true
+    },
+    {
+      "id": "Dublin_Index_Mobile",
+      "minutesValid": 10,
+      "enabled": true
+    },
+    {
+      "id": "NIL_TariffPlan_Mobile",
+      "minutesValid": 5,
+      "enabled": true
+    }
+  ],
+  "serviceCachingEnabled": true,
+  "diskCaching": true
+}

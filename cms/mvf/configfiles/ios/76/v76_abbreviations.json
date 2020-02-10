@@ -1,0 +1,320 @@
+{
+    "cms-guid": "6F09117608BE41AE84C40D0478157F72",
+    "cms-id": 599,
+    "cms-version": 7,
+    "items": [{
+"abbr": "DE & EU",
+"description": "Daten Highspeed-Volumen national"
+}, {
+"description": "Minuten ins deutsche Vodafone-Netz",
+"abbr": "VF DE"
+}, {
+
+"description": "Datenvolumen Ihrer Red+ Gruppe national und international"
+}, {
+"abbr": "national & EU _ test",
+"abbrPre": "test",
+"description": "Highspeed-Volumen national und international"
+}, {
+"abbr": "Europa",
+"description": "Daten Europa"
+}, {
+"abbr": "Daten Welt",
+"description": "Daten Ausland"
+}, {
+"abbr": "Ausland",
+"description": "Ausland"
+},
+{
+"abbr": "DE & EU ",
+"description": "Highspeed-Volumen national & in der EU"
+},
+{
+"abbr": "DE & EU ",
+"description": "Highspeed-Volumen national & in der EU"
+},
+ {
+"abbr": "Europa",
+"description": "Data Europa"
+}, {
+"abbr": "national",
+"description": "Daten"
+}, {
+"abbr": "national",
+"description": "Datensession"
+}, {
+"abbr": "Red+",
+"description": "Datenvolumen Ihrer Red+ Gruppe national"
+}, {
+"abbr": "national",
+"description": "Datenvolumen national"
+}, {
+"abbr": "Europa",
+"description": "Europa"
+},  {
+"abbr": "LTE",
+"description": "Highspeed-Volumen LTE"
+},{
+"description": "Highspeed-Volumen"
+}, {
+"abbr": "Zuhause",
+"description": "Highspeed-Volumen im Zuhausebereich"
+}, {
+"description": "Highspeed-Volumen national"
+}, {
+"abbr": "Basic",
+"description": "MobileInternet Basic"
+}, {
+"abbr": "Ausland",
+"description": "MobileInternet Basic (Ausland)"
+}, {
+"abbr": "Basic Flat",
+"description": "MobileInternet Basic Flat"
+}, {
+"abbr": "Plus",
+"description": "Plus"
+}, {
+"abbr": "Reise Flat",
+"description": "ReiseFlat Plus"
+}, {
+"abbr": "national",
+"description": "ReisePaket Data"
+}, {
+"abbr": "Europa",
+"description": "ReisePaket Data EU und Schweiz"
+}, {
+"abbr": "Plus",
+"description": "ReisePaket Plus"
+}, {
+"abbr": "Roaming",
+"description": "Roaming"
+}, {
+"abbr": "Zeit",
+"description": "Zeit"
+}, {
+"abbr": "national",
+"description": "Vodafone 25"
+}, {
+"abbr": "national",
+"description": "Vodafone 50"
+}, {
+"abbr": "national",
+"description": "Vodafone 100"
+}, {
+"abbr": "national",
+"description": "Vodafone 200"
+}, {
+"abbr": "national",
+"description": "Vodafone 500"
+}, {
+"abbr": "Fremdnetz",
+"description": "Vodafone 25 mit Fremdnetzen"
+}, {
+"abbr": "Fremdnetz",
+"description": "Vodafone 50 mit Fremdnetzen"
+}, {
+"abbr": "Fremdnetz",
+"description": "Vodafone 100 mit Fremdnetzen"
+}, {
+"abbr": "Fremdnetz",
+"description": "Vodafone 200 mit Fremdnetzen"
+}, {
+"abbr": "Fremdnetz",
+"description": "Vodafone 500 mit Fremdnetzen"
+}, {
+"abbr": "national",
+"description": "Vodafone Business 50"
+}, {
+"abbr": "national",
+"description": "Vodafone Business 100"
+}, {
+"abbr": "national",
+"description": "Vodafone Business 200"
+}, {
+"abbr": "national",
+"description": "Vodafone Business 500"
+}, {
+"abbr": "Fremdnetz",
+"description": "Vodafone Business 50 mit Fremdnetzen"
+}, {
+"abbr": "Fremdnetz",
+"description": "Vodafone Business 100 mit Fremdnetzen"
+}, {
+"abbr": "Fremdnetz",
+"description": "Vodafone Business 200 mit Fremdnetzen"
+}, {
+"abbr": "Fremdnetz",
+"description": "Vodafone Business 500 mit Fremdnetzen"
+}, {
+"abbr": "national",
+"description": "UMTS-MinutenPaket Plus 50"
+}, {
+"abbr": "national",
+"description": "UMTS-MinutenPaket Plus 100"
+}, {
+"abbr": "national",
+"description": "UMTS-MinutenPaket Plus 200"
+}, {
+"abbr": "national",
+"description": "UMTS-MinutenPaket Plus 500"
+}, {
+"abbr": "national",
+"description": "MinutenPaket 60 SIMOnly m. Mob."
+}, {
+"abbr": "national",
+"description": "MinutenPaket 120 SIMOnly m. Mob."
+}, {
+"abbr": "national",
+"description": "MinutenPaket 240 SIMOnly m. Mob."
+}, {
+"abbr": "national",
+"description": "MinutenPaket 480 SIMOnly m. Mob."
+}, {
+"abbr": "national",
+"description": "MinutenPaket 1200 SIMOnly m. Mob."
+}, {
+"abbr": "national",
+"description": "MinutenOption 60 Retention 3M"
+}, {
+"abbr": "national",
+"description": "MinutenOption 120 Retention 3M"
+}, {
+"abbr": "national",
+"description": "MinutenOption 240 Retention 3M"
+}, {
+"abbr": "national",
+"description": "MinutenOption 60 R Special"
+}, {
+"abbr": "national",
+"description": "Freiminuten 60"
+}, {
+"abbr": "national",
+"description": "Freiminuten 120"
+}, {
+"abbr": "national",
+"description": "60 Mobil-Minuten"
+}, {
+"abbr": "national",
+"description": "MinutenOption 30 gratis'"
+}, {
+"abbr": "Europa",
+"description": "VF MinutenPaket 60 Europe"
+}, {
+"abbr": "Europa",
+"description": "VF MinutenPaket 120 Europe"
+}, {
+"abbr": "Welt",
+"description": "VF MinutenPaket 60 World"
+}, {
+"abbr": "Welt",
+"description": "VF MinutenPaket 120 World"
+}, {
+"abbr": "Welt",
+"description": "VF MinutenPaket 240 World"
+}, {
+"abbr": "national",
+"description": "Minuten in alle deutschen Netze"
+}, {
+"abbr": "Welt",
+"description": "Minuten Vodafone MinutenPaket 240 World"
+}, {
+"abbr": "national",
+"description": "SMS in alle deutschen Netze"
+}, {
+"abbr": "national",
+"description": "MMS in alle deutschen Netze"
+}, {
+"abbr": "national",
+"description": "MinutenOption 60"
+}, {
+"abbr": "national",
+"description": "MinutenOption 120"
+}, {
+"abbr": "national",
+"description": "MinutenOption 240"
+}, {
+"abbr": "national",
+"description": "MinutenOption 30"
+}, {
+"abbr": "national",
+"description": "Package Vodafone MinutenOption 120 f&uuml;r Junge Leute"
+}, {
+"abbr": "national",
+"description": "Vodafone MinutenOption 60 f&uuml;r Junge Leute"
+}, {
+"abbr": "national",
+"description": "Vodafone SMS 50, VF D2 intern"
+}, {
+"abbr": "national",
+"description": "Vodafone SMS 150, VF D2 intern"
+}, {
+"abbr": "national",
+"description": "Vodafone SMS40 Paket"
+}, {
+"abbr": "national",
+"description": "Vodafone SMS150 Paket"
+}, {
+"abbr": "national",
+"description": "Vodafone SMS300 Paket"
+}, {
+"abbr": "national",
+"description": "SMS 40 Promotional SOC"
+}, {
+"abbr": "national",
+"description": "SMS 150 Promotional SOC"
+}, {
+"abbr": "national",
+"description": "SMS 300 Promotional SOC"
+}, {
+"abbr": "national",
+"description": "SMS100 Paket"
+}, {
+"abbr": "national",
+"description": "Vodafone SMS40 Paket"
+}, {
+"abbr": "national",
+"description": "Vodafone SMS150 Paket"
+}, {
+"abbr": "national",
+"description": "Vodafone SMS300 Paket"
+}, {
+"abbr": "national",
+"description": "Vodafone SMS Flat All-In"
+}, {
+"abbr": "national",
+"description": "Vodafone SMS Flat"
+}, {
+"abbr": "national",
+"description": "Vodafone SMS Flat Special"
+}, {
+"abbr": "national",
+"description": "VF SuperFlat WE&amp;SMS"
+}, {
+"abbr": "national",
+"description": "Vodafone Basic 50 Inklusiv SMS"
+}, {
+"abbr": "national",
+"description": "Vodafone Basic 100 Inklusiv SMS"
+}, {
+"abbr": "national",
+"description": "in alle deutschen Netze"
+}, {
+"abbr": "zu Vodafone De",
+"description": "Highspeed-Volumen national und international"
+},{
+"abbr": "national",
+"description": "Minuten oder SMS in alle deutschen Netze"
+}, {
+"abbr": "Ausland",
+"description": "Minuten im Ausland"
+}, {
+"abbr": "Ausland",
+"description": "MB im Ausland"
+}, {
+"abbr": "Ausland",
+"description": "SMS im Ausland"
+}, {
+"abbr": "VF DE",
+"description": "Minuten oder SMS ins deutsche Vodafone-Netz"
+}]
+}

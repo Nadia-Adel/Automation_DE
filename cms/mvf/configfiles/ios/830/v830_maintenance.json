@@ -1,0 +1,19 @@
+{
+ "cms-guid": "BE831FEADBDA44A3989919C694A4EF7E",
+ "cms-id": 2700,
+ "cms-version": 1,
+ "items": [
+   {
+     "cms-guid": "B2397C97E60643088C77FCA90399F501",
+     "cms-id": 1686,
+     "cms-version": 10,
+     "title": "Hinweis hadeer1 ",
+     "enable": true,
+     "text": "Test test Hinweis hadeer1",
+     "blocking": false,
+     "startTime": "" ,
+     "endTime": 0,
+     "update": false
+   }
+ ]
+}

@@ -1,0 +1,557 @@
+{
+"components": [
+{
+"id": "postpaidConsumption",
+"template": "postpaidConsumptionTemplate",
+"config": {
+"icon": "tile_dataUsage",
+"background": "white",
+"headline": "Consumption",
+"subline": "Consumption subline",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/quickcheck",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+},
+"customAttributes": [
+{
+"attributesKey": "iconMB",
+"attributeValue": "dataSharingDark"
+},
+{
+"attributesKey": "iconSMS",
+"attributeValue": "smsTextDark"
+},
+{
+"attributesKey": "iconVoice",
+"attributeValue": "landlineOrCallMinutesDark"
+},
+{
+"attributesKey": "iconMMS",
+"attributeValue": "smsTextDark"
+},
+{
+"attributesKey": "iconOther",
+"attributeValue": ""
+},
+{
+"attributesKey": "remaining",
+"attributeValue": "verblebendd von"
+},
+{
+"attributesKey": "daysRemainingSuffix",
+"attributeValue": "Tage verfügbar"
+},
+{
+"attributesKey": "dayRemainingSuffix",
+"attributeValue": "Tag"
+},
+{
+"attributesKey": "hourRemainingSuffix",
+"attributeValue": "Noch %d Stunde"
+},
+{
+"attributesKey": "hoursRemainingSuffix",
+"attributeValue": "Noch %d Stunden"
+},
+{
+"attributesKey": "flatPrefix",
+"attributeValue": "Flat"
+},
+{
+"attributesKey": "usedSuffix",
+"attributeValue": "verbraucht"
+},
+{
+"attributesKey": "callToActionGigaDepot",
+"attributeValue": "+GigaDepot"
+},
+{
+"attributesKey": "callToActionSpeedbucket",
+"attributeValue": "Speedbucket buchen"
+},
+{
+"attributesKey": "callToActionRequestMoreData",
+"attributeValue": "Datenvolumen anfragen"
+}
+]
+},
+{
+"id": "postpaidCurrentCosts",
+"template": "postpaidCurrentCostsTemplate",
+"config": {
+"icon": "tile_currentCosts",
+"background": "white",
+"headline": "Mobilfunkkosten",
+"subline": "Zusätzliche Verbindungskosten",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/currentcost",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "postpaidRedPlus",
+"template": "defaultTemplate",
+"config": {
+"icon": "tile_redPlus",
+"headline": "RedPlus",
+"background": "tile_background_red",
+"subline": "Alle ansehen",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/redplus",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "postpaidVodafonePass",
+"template": "postpaidVodafonePassTemplate",
+"config": {
+"icon": "tile_vodafonePass",
+"background": "white",
+"headline": "Vodafone Passes",
+"subline": "Vodafone Passes subline",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/tariffoptions",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "vertrag",
+"template": "defaultTemplate",
+"config": {
+"icon": "tile_paper",
+"background": "white",
+"headline": "Mein Tariff",
+"subline": "Details ansehen",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/tariff",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "overview",
+"template": "defaultTemplate",
+"config": {
+"icon": "tile_paper",
+"background": "white",
+"headline": "Aktuelle Rechnung",
+"subline": "Details ansehen",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/overview",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "noData",
+"template": "defaultTemplate",
+"config": {
+"icon": "tile_paper",
+"background": "white",
+"headline": "Keine Angaben möglich",
+"subline": "Keine Pakete verfügbar",
+"action": "deeplink",
+"url": "",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "bill_fixednet",
+"template": "dslLastBill",
+"config": {
+"icon": "tile_paper",
+"background": "white",
+"headline": "Letzte Rechnung",
+"subline": "Last bill subline",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/services/ihre-rechnungen",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+},
+"customAttributes": [
+{
+"attributesKey": "callToAction",
+"attributeValue": "+weitere"
+}
+]
+},
+{
+"id": "tariff_fixednet",
+"template": "dslLastBill",
+"config": {
+"icon": "tile_paper",
+"background": "white",
+"headline": "Tariff dsl",
+"subline": "Tariff dsl subline",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/overview",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "dslLandlineNumber",
+"template": "dslLandlineNumber",
+"config": {
+"icon": "tile_paper",
+"background": "white",
+"headline": "Rufnummern",
+"subline": "DSL landline subline",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/tariff",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "SpeedTest",
+"template": "defaultTemplate",
+"config": {
+"icon": "tile_paper",
+"background": "white",
+"headline": "Speedtest",
+"subline": "Geschwindigkeit prüfen",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/speedtest",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "prepaidConsumption",
+"template": "PrepaidConsumptionTemplate",
+"eligibility": {
+"type": null,
+"soc": null
+},
+"config": {
+"icon": "tile_dataUsage",
+"background": "white",
+"headline": "Prepaid Consumption",
+"subline": "Prepaid Consumption subline",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/quickcheck",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"customAttributes": [
+{
+"attributesKey": "flatPrefix",
+"attributeValue": "Flat"
+},
+{
+"attributesKey": "remaining",
+"attributeValue": "verblebendd von"
+},
+{
+"attributesKey": "daysRemainingSuffix",
+"attributeValue": "Tage verfügbar"
+},
+{
+"attributesKey": "dayRemainingSuffix",
+"attributeValue": "Tag"
+},
+{
+"attributesKey": "iconMB",
+"attributeValue": "dataSharingDark"
+},
+{
+"attributesKey": "iconOther",
+"attributeValue": "ic_mobile_24_px"
+},
+{
+"attributesKey": "tariffKey",
+"attributeValue": "Tarif"
+},
+{
+"attributesKey": "tariffOptionKey",
+"attributeValue": "Optionen"
+},
+{
+"attributesKey": "inActiveValue",
+"attributeValue": "Inaktiv"
+},
+{
+"attributesKey": "activeValue",
+"attributeValue": "Aktiv"
+},
+{
+"attributesKey": "nearlyInActiveValue",
+"attributeValue": "bald inaktiv"
+},
+{
+"attributesKey": "callToActionRequestMoreData",
+"attributeValue": "Datenvolumen anfragen"
+}
+]
+},
+{
+"id": "prepaidCredit",
+"template": "PrepaidCreditTemplate",
+"config": {
+"icon": "tile_credit",
+"headline": "Guthaben",
+"background": "white",
+"subline": "Prepaid Consumption subline",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/recharge",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+},
+"customAttributes": [
+{
+"attributesKey": "tariffKey",
+"attributeValue": "Tarif"
+},
+{
+"attributesKey": "tariffOptionKey",
+"attributeValue": "Optionen"
+},
+{
+"attributesKey": "inActiveValue",
+"attributeValue": "Inaktiv"
+},
+{
+"attributesKey": "activeValue",
+"attributeValue": "Aktiv"
+},
+{
+"attributesKey": "nearlyInActiveValue",
+"attributeValue": "bald inaktiv"
+}
+]
+},
+{
+"id": "tariffoptions",
+"template": "defaultTemplate",
+"config": {
+"icon": "tile_phone",
+"headline": "Optionen buchen",
+"background": "RedPhone",
+"subline": "Entdecken",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/tariff",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "data",
+"template": "defaultTemplate",
+"config": {
+"icon": "tile_paper",
+"headline": "MeinDaten",
+"background": "white",
+"subline": "MeinDaten subline",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/data",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "data_fixednet",
+"template": "defaultTemplate",
+"config": {
+"icon": "tile_paper",
+"headline": "MeinDaten",
+"background": "RedImageName",
+"subline": "Details ansehen",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/data",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "faq",
+"template": "defaultTemplate",
+"config": {
+"icon": "tile_sim",
+"headline": "FAQ",
+"background": "RedImageName",
+"subline": "Details FAQ",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/faq",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "ShopFinder",
+"template": "defaultTemplate",
+"config": {
+"icon": "tile_shopfinder",
+"headline": "Shopfinder",
+"background": "RedImageName",
+"subline": "shopfinder subline",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/shopfinder",
+"errorText": "Daten konnten nicht geladen werden"
+},
+"eligibility": {
+"type": null,
+"soc": null
+}
+},
+{
+"id": "bill",
+"template": "defaultTemplate",
+"eligibility": {
+"type": null,
+"soc": null
+},
+"config": {
+"icon": "tile_bill",
+"headline": "Letzte Rechnung",
+"background": "white",
+"subline": "Bill subline",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/overview",
+"errorText": "Daten konnten nicht geladen werden"
+}
+},
+{
+"id": "recharge",
+"template": "defaultTemplate",
+"eligibility": {
+"type": null,
+"soc": null
+},
+"config": {
+"icon": "tile_aufladen",
+"headline": "Aufladen",
+"background": "white",
+"subline": "Aufladen subline",
+"action": "deeplink",
+"url": "https://www.vodafone.de/meinvodafone/app/recharge",
+"errorText": "Daten konnten nicht geladen werden"
+}
+}
+],
+"area": {
+"postpaid": {
+"tiles": [
+[
+"postpaidConsumption",
+"faq"
+],
+[
+"postpaidCurrentCosts",
+"data",
+"faq"
+],
+[
+"postpaidRedPlus",
+"overview",
+"shopfinder"
+],
+[
+"postpaidVodafonePass",
+"vertrag",
+"data"
+]
+]
+},
+"prepaid": {
+"tiles": [
+[
+"prepaidConsumption",
+"faq"
+],
+[
+"shopfinder",
+"prepaidConsumption",
+"prepaidCredit",
+"recharge"
+],
+[
+"shopfinder",
+"prepaidConsumption",
+"prepaidBookOptions",
+"shopfinder"
+],
+[
+"prepaidOnlineTopup",
+"faq"
+]
+]
+},
+"dsl": {
+"tiles": [
+[
+"bill_fixednet",
+"overview",
+"faq",
+"welcomeMessage"
+],
+[
+"dslLandlineNumber",
+"faq",
+"bill_fixednet"
+],
+[
+"data_fixednet",
+"bill_fixednet"
+],
+[
+"speedtest",
+"bill_fixednet",
+"shopFinder"
+]
+]
+}
+}
+}

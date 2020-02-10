@@ -1,0 +1,107 @@
+{
+  "cms-guid": "030D4324276B4C4DA00B6F7D246D6803",
+  "cms-id": 1306,
+  "cms-version": 1,
+  "main-version": 0,
+  "items": [
+    {
+      "version": "0.1.1.113",
+      "cms-guid": "239AA7907E9848C49DD0DC32B18D155D",
+      "cms-id": 1318,
+      "id": "abbreviations",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_abbreviations.json"
+    },
+    {
+      "version": "0.1.2.124",
+      "cms-guid": "34D2131661994E099D9A11F0DFB3B1E4",
+      "cms-id": 1318,
+      "id": "config",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_config.json"
+    },
+    {
+      "version": "0.1.1.29",
+      "cms-guid": "1C3B2A39A36B4A7687CE2DE61664F9C8",
+      "cms-id": 1316,
+      "id": "help",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_help.json"
+    },
+    {
+      "version": "0.1.1.5",
+      "cms-guid": "ED397B80668949A78747B8F7D378FCB8",
+      "cms-id": 1315,
+      "id": "maintenance",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_maintenance.json"
+    },
+    {
+      "version": "0.1.2.2313]4",
+      "cms-guid": "4AA99CFADAF54E9EBDA05892D241DBCB",
+      "cms-id": 1314,
+      "id": "menu",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_menu.json"
+    },
+    {
+      "version": "0.1.2.70",
+      "cms-guid": "6C7CBE96A84D4ECDB8846A811048A719",
+      "cms-id": 1313,
+      "id": "netz_feedback",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_netzfeedback.json"
+    },
+    {
+      "version": "0.1.1.9",
+      "cms-guid": "FFD3331DF6654ECD83A8A1DBF9D0EC3F",
+      "cms-id": 1312,
+      "id": "prepaid_tariff",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_prepaid_tariff.json"
+    },
+    {
+      "version": "0.1.1.251",
+      "cms-guid": "B32028554EB5419AA40417FADACF3CAA",
+      "cms-id": 1311,
+      "id": "roaming",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_roaming.json"
+    },
+    {
+      "version": "0.1.1.188",
+      "cms-guid": "AA367FF056D745C7A40D09B4B3DA02D4",
+      "cms-id": 1310,
+      "id": "tariff",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_tariff.json"
+    },
+    {
+      "version": "0.1.1.196",
+      "cms-guid": "CCD259C840FC40429573432EE9388EC1",
+      "cms-id": 1309,
+      "id": "tariff_option",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_tariffoption.json"
+    },
+    {
+      "version": "0.1.1.85",
+      "cms-guid": "C34A1C0F115544FCAC5C115306C03BF1",
+      "cms-id": 1308,
+      "id": "yolo",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_yolo.json"
+    },
+    {
+      "version": "0.1.1.78857",
+      "cms-guid": "C34A1C0F115544FCAC5C115306C03BF1",
+      "cms-id": 1309,
+      "id": "service_option",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_service_option.json"
+    },
+    {
+      "version": "0.1.2.29",
+      "cms-guid": "C34A1C0F115544FCAC5C115306C03BF1",
+      "cms-id": 1308,
+      "id": "redplus",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_redplus.json"
+    },
+    {
+      "version": "0.1.3.44",
+      "cms-guid": "C34A1C0F115544FCAC5C115306C03BF1",
+      "cms-id": 1308,
+      "id": "campaign",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/android/72/v72_campaign.json"
+    }
+  ],
+  "release": "0.1.12.891"
+}

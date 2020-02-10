@@ -1,0 +1,36 @@
+{
+  "cms-guid": "F7E9201E395244FC9967F3A8AC701FA5",
+  "cms-id": 39,
+  "cms-version": 4,
+  "main-version": 0,
+  "items": [
+    {
+      "version": "0.4.2.115",
+      "cms-guid": "6C734455A36C4D16909ECE7658DD8C55",
+      "cms-id": 40,
+      "priceDescription": "preise fur 1 wochen",
+      "socCodes": [
+        "40100",
+		"40300",
+		"DKRB5LN60",
+        "DKRB5LN60"
+      ]
+    },
+    {
+      "version": "0.4.2.115",
+      "cms-guid": "6C734455A36C4D16909ECE7658DD8C55",
+      "cms-id": 40,
+      "priceDescription": "preise fur 1 wochen",
+      "socCodes": [
+               
+				"40300",
+       "DKRB5LN60",
+        "DKRB5LN60"				
+       
+      ]
+    }
+  ],
+  "chargingRate": "zerooo",
+  "release": "0.4.14.273"
+}
+

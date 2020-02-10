@@ -1,0 +1,759 @@
+{
+"items": [
+{
+"description": "test",
+"abbr": "test",
+"abbr_prepaid": ""
+},
+{
+"description": "5 Frei-GB national",
+"abbr": "DE",
+"abbr_prepaid": ""
+},
+{
+"description": "5 GB gratis im Inland wegen FestnetzstÃ¶rung",
+"abbr": "gratis DE",
+"abbr_prepaid": ""
+},
+{
+"description": "60 Mobil-Minuten",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "AlwaysOn-Volumen im Inland",
+"abbr": "AlwaysOn",
+"abbr_prepaid": ""
+},
+{
+"description": "Ausland",
+"abbr": "Im Ausland",
+"abbr_prepaid": ""
+},
+{
+"description": "Data Europa",
+"abbr": "Europa",
+"abbr_prepaid": ""
+},
+{
+"description": "Daten",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Daten Ausland",
+"abbr": "Welt",
+"abbr_prepaid": ""
+},
+{
+"description": "Daten Europa",
+"abbr": "Europa",
+"abbr_prepaid": ""
+},
+{
+"description": "Daten Highspeed-Volumen national",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Datengeschenk national",
+"abbr": "Geschenk",
+"abbr_prepaid": ""
+},
+{
+"description": "Datensession",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen",
+"abbr": "DE & EU",
+"abbr_prepaid": "DE & EU"
+},
+{
+"description": "Datenvolumen au&szlig;erhalb World-Flat-Zone",
+"abbr": "World",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen EU",
+"abbr": "EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Europa",
+"abbr": "Europa",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Ihrer Red+ Gruppe Inland",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Ihrer Red+ Gruppe Inland & EU",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Ihrer Red+ Gruppe national",
+"abbr": "Red+",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Ihrer Red+ Gruppe national & in der EU",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Ihrer Red+ Gruppe national & in der EU inkl. GigaDepot",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Ihrer Red+ Gruppe national & in der EU sowie TÃ¼rkei, Schweiz, USA und Kanada",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Ihrer Red+ Gruppe national & in der EU sowie TÃ¼rkei, Schweiz, USA und Kanada inkl. GigaDepot",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Ihrer Red+ Gruppe national inkl. GigaDepot",
+"abbr": "Red+",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Ihrer Red+ Gruppe national und international",
+"abbr": "Red+",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Ihrer Red+ Gruppe national und international inkl. GigaDepot",
+"abbr": "Red+",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen im Zuhause-Bereich",
+"abbr": "Zuhause",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Inland",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Inland & EU",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Inland & Europa",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "World",
+"abbr": "Datenvolumen Inland und Europa sowie bis zu 10 GB in der World Flat-Zone",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Inland und World-Flat-Zone",
+"abbr": "DE & World",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen Inland, USA, Kanada und TÃ¼rkei",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Datenvolumen weltweites Ausland",
+"abbr": "Welt",
+"abbr_prepaid": ""
+},
+{
+"description": "DayBoost DE",
+"abbr": "DayBoost Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Europa",
+"abbr": "EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Freiminuten 120",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Freiminuten 60",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "GigaBoost Daten national",
+"abbr": "GigaBoost",
+"abbr_prepaid": ""
+},
+{
+"description": "GigaBoost-Datenvolumen Inland",
+"abbr": "GigaBoost",
+"abbr_prepaid": ""
+},
+{
+"description": "GigaDepot Datenvolumen Ihrer Red+ Gruppe national & in der EU",
+"abbr": "GigaDepot",
+"abbr_prepaid": ""
+},
+{
+"description": "GigaDepot Highspeed-Volumen national, USA, Kanada und Türkei",
+"abbr": "GigaDepot",
+"abbr_prepaid": ""
+},
+{
+"description": "GigaDepot2 Datenvolumen Ihrer Red+ Gruppe national & in der EU",
+"abbr": "GigaDepot",
+"abbr_prepaid": ""
+},
+{
+"description": "GigaDepot2 Highspeed-Volumen national & in der EU",
+"abbr": "GigaDepot",
+"abbr_prepaid": ""
+},
+{
+"description": "GigaDepot-Datenvolumen Ihrer Red+ Gruppe Inland & EU",
+"abbr": "GigaDepot",
+"abbr_prepaid": ""
+},
+{
+"description": "GigaDepot-Datenvolumen Inland",
+"abbr": "Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "GigaDepot-Datenvolumen Inland & EU",
+"abbr": "GigaDepot",
+"abbr_prepaid": ""
+},
+{
+"description": "GigaGarantie",
+"abbr": "GigaGarantie",
+"abbr_prepaid": ""
+},
+{
+"description": "",
+"abbr": "SOC1234",
+"abbr_prepaid": ""
+},
+{
+"description": "Highspeed-Volumen im Inland",
+"abbr": "im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Highspeed-Volumen national & in der EU inkl. GigaDepot",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Highspeed-Volumen national & in der EU inkl. GIGA-Depot",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Highspeed-Volumen national & in der EU sowie TÃ¼rkei, Schweiz, USA und Kanada",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Highspeed-Volumen national & in der EU sowie TÃ¼rkei, Schweiz, USA und Kanada inkl. GigaDepot",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Highspeed-Volumen national inkl. GIGA-Depot",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Highspeed-Volumen national und international",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Highspeed-Volumen national und international inkl. GigaDepot",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "in alle deutschen Netze",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "LTE-Datenvolumen",
+"abbr": "LTE",
+"abbr_prepaid": ""
+},
+{
+"description": "Minuten in alle deutschen Netze",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Minuten ins deutsche Vodafone-Netz",
+"abbr": "VF DE",
+"abbr_prepaid": ""
+},
+{
+"description": "Minuten oder SMS ins deutsche Vodafone-Netz",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Minuten Vodafone MinutenPaket 240 World",
+"abbr": "Welt",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenOption 120",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenOption 120 Retention 3M",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenOption 240",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenOption 240 Retention 3M",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenOption 30",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenOption 30 gratis",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenOption 60",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenOption 60 R Special",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenOption 60 Retention 3M",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenPaket 120 SIMOnly m. Mob.",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenPaket 1200 SIMOnly m. Mob.",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenPaket 240 SIMOnly m. Mob.",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "",
+"abbr": "",
+"abbr_prepaid": ""
+},
+{
+"description": "MinutenPaket 60 SIMOnly m. Mob.",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "MMS in alle deutschen Netze",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "",
+"abbr": "",
+"abbr_prepaid": ""
+},
+{
+"description": "MobileInternet Basic (Ausland)",
+"abbr": "Ausland",
+"abbr_prepaid": ""
+},
+{
+"description": "MobileInternet Basic Flat",
+"abbr": "Basic Flat",
+"abbr_prepaid": ""
+},
+{
+"description": "National in alle deutschen Netze und im EU-Ausland",
+"abbr": "Inland & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Nationale Flat in alle deutschen Netze und im EU-Ausland",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Package Vodafone MinutenOption 120 fÃ¼r Junge Leute",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Plus",
+"abbr": "Plus",
+"abbr_prepaid": ""
+},
+{
+"description": "ReiseFlat Plus",
+"abbr": "Reise Flat",
+"abbr_prepaid": ""
+},
+{
+"description": "ReisePaket Data",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "ReisePaket Data EU und Schweiz",
+"abbr": "Europa",
+"abbr_prepaid": ""
+},
+{
+"description": "ReisePaket Plus",
+"abbr": "Plus",
+"abbr_prepaid": ""
+},
+{
+"description": "ReisePaket World",
+"abbr": "Welt",
+"abbr_prepaid": ""
+},
+{
+"description": "Roaming",
+"abbr": "Roaming",
+"abbr_prepaid": ""
+},
+{
+"description": "Roaming-Datenvolumen",
+"abbr": "Roaming",
+"abbr_prepaid": ""
+},
+{
+"description": "SMS 150 Promotional SOC",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "SMS 300 Promotional SOC",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "SMS 40 Promotional SOC",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "SMS in alle deutschen Netze",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "SMS100 Paket",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "UMTS-MinutenPaket Plus 100",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "UMTS-MinutenPaket Plus 200",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "UMTS-MinutenPaket Plus 50",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "UMTS-MinutenPaket Plus 500",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Unbegrenzt",
+"abbr": "unbegrenzt",
+"abbr_prepaid": ""
+},
+{
+"description": "Unlimited Highspeed-Volumen im Inland",
+"abbr": "Unlimited",
+"abbr_prepaid": ""
+},
+{
+"description": "VF D2 intern",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "VF MinutenPaket 120 Europe",
+"abbr": "Europa",
+"abbr_prepaid": ""
+},
+{
+"description": "VF MinutenPaket 120 World",
+"abbr": "Welt",
+"abbr_prepaid": ""
+},
+{
+"description": "VF MinutenPaket 240 World",
+"abbr": "Welt",
+"abbr_prepaid": ""
+},
+{
+"description": "VF MinutenPaket 60 Europe",
+"abbr": "Europa",
+"abbr_prepaid": ""
+},
+{
+"description": "VF MinutenPaket 60 World",
+"abbr": "Welt",
+"abbr_prepaid": ""
+},
+{
+"description": "VF SuperFlat WE&SMS",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone 100",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone 100 mit Fremdnetzen",
+"abbr": "Fremdnetz",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone 200",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone 200 mit Fremdnetzen",
+"abbr": "Fremdnetz",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone 25",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone 25 mit Fremdnetzen",
+"abbr": "Fremdnetz",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone 50",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone 50 mit Fremdnetzen",
+"abbr": "Fremdnetz",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone 500",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone 500 mit Fremdnetzen",
+"abbr": "Fremdnetz",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Basic 100 Inklusiv SMS",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Basic 50 Inklusiv SMS",
+"abbr": "im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Business 100",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Business 100 mit Fremdnetzen",
+"abbr": "Fremdnetz",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Business 200",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Business 200 mit Fremdnetzen",
+"abbr": "Fremdnetz",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Business 50",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Business 50 mit Fremdnetzen",
+"abbr": "Fremdnetz",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Business 500",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Business 500 mit Fremdnetzen",
+"abbr": "Fremdnetz",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone MinutenOption 60 fÃ¼r Junge Leute",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone MinutenPaket 240 World",
+"abbr": "Welt",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Minutenpakete International 100",
+"abbr": "Flex 100",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Minutenpakete International 500",
+"abbr": "Flex 500",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone PÃ¤sse",
+"abbr": "Vodafone PÃ¤sse",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Red 10 GB Datenoption",
+"abbr": "national",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Red L",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Red M",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Red S",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Red XL",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone Red XXL",
+"abbr": "DE & EU",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone SMS 150",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone SMS 50",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone SMS Flat",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone SMS Flat All-In",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone SMS Flat Special",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone SMS150 Paket",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone SMS300 Paket",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Vodafone SMS40 Paket",
+"abbr": "Im Inland",
+"abbr_prepaid": ""
+},
+{
+"description": "Willkommensgeschenk",
+"abbr": "DE",
+"abbr_prepaid": ""
+}
+]
+}

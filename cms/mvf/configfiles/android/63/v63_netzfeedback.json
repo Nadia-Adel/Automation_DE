@@ -1,0 +1,270 @@
+{
+    "prepaid": {
+        "question1": {
+            "id": 0,
+            "text": "Womit bist Du unzufrieden?",
+            "answer": [
+                {
+                    "id": 0,
+                    "text": "Sprache"
+                },
+                {
+                    "id": 1,
+                    "text": "Daten"
+                }
+            ]
+        },
+        "question2": [
+            {
+                "keyanswer1": 0,
+                "id": 0,
+                "text": "Lorem ipsum 0?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            },
+            {
+                "keyanswer1": 1,
+                "id": 1,
+                "text": "Lorem ipsum 1?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            }
+        ],
+        "question3": [
+            {
+                "keyanswer1": 0,
+                "keyanswer2": 0,
+                "id": 0,
+                "text": "Lorem ipsum 0 0?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            },
+            {
+                "keyanswer1": 0,
+                "keyanswer2": 1,
+                "id": 1,
+                "text": "Lorem ipsum 0 1?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            },
+            {
+                "keyanswer1": 0,
+                "keyanswer2": 2,
+                "id": 2,
+                "text": "Lorem ipsum 0 2?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            },
+            {
+                "keyanswer1": 1,
+                "keyanswer2": 0,
+                "id": 3,
+                "text": "Lorem ipsum 1 0?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            },
+            {
+                "keyanswer1": 1,
+                "keyanswer2": 1,
+                "id": 4,
+                "text": "Lorem ipsum 1 1?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            }
+        ]
+    },
+    "postpaid": {
+        "question1": {
+            "id": 0,
+            "text": "Womit bist Du unzufrieden?",
+            "answer": [
+                {
+                    "id": 0,
+                    "text": "Sprache"
+                },
+                {
+                    "id": 1,
+                    "text": "Daten"
+                }
+            ]
+        },
+        "question2": [
+            {
+                "keyanswer1": 0,
+                "id": 0,
+                "text": "Lorem ipsum 0?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            },
+            {
+                "keyanswer1": 1,
+                "id": 1,
+                "text": "Lorem ipsum 1?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            }
+        ],
+        "question3": [
+            {
+                "keyanswer1": 0,
+                "keyanswer2": 0,
+                "id": 0,
+                "text": "Lorem ipsum 0 0?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            },
+            {
+                "keyanswer1": 0,
+                "keyanswer2": 1,
+                "id": 1,
+                "text": "Lorem ipsum 0 1?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            },
+            {
+                "keyanswer1": 0,
+                "keyanswer2": 2,
+                "id": 2,
+                "text": "Lorem ipsum 0 2?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            },
+            {
+                "keyanswer1": 1,
+                "keyanswer2": 0,
+                "id": 3,
+                "text": "Lorem ipsum 1 0?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            },
+            {
+                "keyanswer1": 1,
+                "keyanswer2": 1,
+                "id": 4,
+                "text": "Lorem ipsum 1 1?",
+                "answer": [
+                    {
+                        "id": 0,
+                        "text": "Lorem ipsum"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Lorem ipsum"
+                    }
+                ]
+            }
+        ]
+    }
+}

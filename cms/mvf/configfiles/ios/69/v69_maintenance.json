@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "title": "Info \n hint",
+      "text": "UMlauts \n &auml;&uuml;&ouml;&szlig;&Auml;&Uuml;&Ouml; Breakline <br> \n Maintenance PopUp",
+      "enable": true,
+      "update": false ,
+      "blocking": false,
+      "startTime": 1488376049,
+      "endTime": 1488462449
+    }
+  ]
+}

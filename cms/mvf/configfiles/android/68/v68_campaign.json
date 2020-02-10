@@ -1,0 +1,221 @@
+{
+  "targetCaching": {
+    "enable": true,
+    "version": 2,
+    "interval": 6,
+    "prepaidMboxCount": 20,
+    "postpaidMboxCount": 20
+  },
+  "hero": {
+    "enable": true,
+    "version": 2,
+    "cachingtime": 10,
+    "showNextInterval": 1
+  },
+    "vov": {
+      "prepaid": {
+        "items": [
+          {
+            "id": "Welcome",
+            "order": 0,
+            "priority": 5
+          },
+          {
+            "id": "Survey4G",
+            "order": 1,
+            "priority": 0
+          },
+          {
+            "id": "PAC",
+            "order": 6,
+            "priority": 3
+          },          
+		  {
+            "id": "Pontis",
+            "order": 4,
+            "priority": 1
+          },
+          {
+            "id": "Target",
+            "order": 5,
+            "priority": 2,
+            "mboxName": "x"
+          },
+          {
+            "id": "Target",
+            "order": 3,
+            "priority": 4,
+            "mboxName": "mbox_mcy_app_offer_vov_test2"
+          },
+          {
+            "id": "Target",
+            "order": 3,
+            "priority": 6,
+            "mboxName": "mbox_mv_app_offer_superhero_tes"
+          }
+        ]
+      },
+      "postpaid": {
+        "items": [
+          {
+            "id": "Welcome",
+            "order": 0,
+            "priority": 5
+          },
+          {
+            "id": "Survey4G",
+            "order": 10,
+            "priority": 8
+          },
+          {
+            "id": "Roaming",
+            "order": 2,
+            "priority": 0
+          },
+          
+		  {
+            "id": "YOLO_low",
+            "order": 5,
+            "priority": 1
+          },
+		  {
+            "id": "YOLO_high",
+            "order": 5,
+            "priority": 1
+          },
+          {
+            "id": "VVL",
+            "order": 1,
+            "priority": 5
+          },
+          {
+            "id": "Redeem_Voucher",
+            "order": 7,
+            "priority": 6
+          },
+
+          {
+            "id": "Target",
+            "order": 8,
+            "priority": 3,
+		    "mboxName": ""            
+          },
+          {
+            "id": "Target",
+            "order": 9,
+            "priority": 4,
+            "mboxName": "mbox_mv_app_offer_vov_test2"
+          },
+		  {
+            "id": "Target",
+            "order": 3,
+            "priority": 7,
+            "mboxName": "mbox_mv_app_offer_vov_tes"            
+          },
+		  {
+            "id": "Target",
+            "order": 4,
+            "priority": 10,
+            "mboxName": "mbox_mv_app_offer_vov_test2"
+          }
+        ]
+      }
+    },
+  "campaigns": {
+    "prepaid100MB": {
+      "id": "prepaid100MB",
+      "type": "angebote_campaign",
+      "banner_image_filename": "",
+      "tail_s_image_filename": "",
+      "tail_m_image_filename": "",
+      "tail_l_image_filename": "",
+      "object": {
+        "title": "Dein App Geschenk",
+        "subtitle_enable": true,
+        "subtitle": "Dein App Geschenk Dein App Geschenk Dein App Geschenk Dein App Geschenk",
+        "text": "",
+        "image_filename": "http://de236.macincloud.com/cms/mvf/media/superhero/Marketing_card_240dpi.png",
+        "btn1_enable": true,
+        "btn1_link": "https://beta.vodafone.de/booking.xml",
+        "btn1_title": "Jetzt aktivieren",
+        "btn1_type": "api_post",
+        "btn1_parameter": [
+          {
+            "key": "socCode",
+            "value": "APPVOLDEB"
+          }
+        ],
+        "btn2_enable": false,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": "",
+        "btn2_parameter": [],
+        "btn3_enable": false,
+        "btn3_type": "",
+        "btn3_link": "",
+        "btn3_title": "",
+        "btn3_parameter": []
+      }
+    },
+    "redPlusTab": {
+      "id": "redPlusTab",
+      "type": "angebote_campaign",
+      "banner_image_filename": "",
+      "tail_s_image_filename": "",
+      "tail_m_image_filename": "",
+      "tail_l_image_filename": "",
+      "object": {
+        "title": "Red + Partnerkarte",
+        "subtitle_enable": true,
+        "subTitle": "Hol Dir jetzt den Red+ Mobilfunk-Tarif fÃ¼r Deinen Partner oder Deine Kinder.",
+        "text": "Dein Partner zahlt 3 Monate lang keinen Basispreis fÃ¼r die Red+ Partnerkarte. Und danach nur 15 Euro pro Monat.\nMit dem Red+ Tarif-Deal habt Ihr eine Telefon- und SMS-Flat in alle deutschen Netze. Ihr surft mit 4G|LTE Max und nutzt das Datenvolumen gemeinsam. Verteilt es einfach Ã¼ber die App.\nDu mÃ¶chtest das Red+ Angebot buchen? Dann ruf uns an.",
+        "image_filename": "",
+        "btn1_enable": true,
+        "btn1_link": "08007242671",
+        "btn1_title": "Jetzt anrufen",
+        "btn1_type": "call",
+        "btn1_parameter": [],
+        "btn2_enable": false,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": "",
+        "btn2_parameter": [],
+        "btn3_enable": false,
+        "btn3_type": "",
+        "btn3_link": "",
+        "btn3_title": "",
+        "btn3_parameter": []
+      }
+    },
+    "redPlusAddMember": {
+      "id": "redPlusAddMember",
+      "type": "angebote_campaign",
+      "banner_image_filename": "",
+      "tail_s_image_filename": "",
+      "tail_m_image_filename": "",
+      "tail_l_image_filename": "",
+      "object": {
+        "title": "Red+ erweitern",
+        "subtitle_enable": true,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "btn1_enable": true,
+        "btn1_link": "https://www.vodafone.de",
+        "btn1_title": "Zum Online-Shop",
+        "btn1_type": "url_external",
+        "btn1_parameter": [],
+        "btn2_enable": true,
+        "btn2_type": "call",
+        "btn2_link": "123456789",
+        "btn2_title": "Bestellhotline anrufen",
+        "btn2_parameter": [],
+        "btn3_enable": true,
+        "btn3_type": "deeplink",
+        "btn3_link": "mva://shopfinder",
+        "btn3_title": "Zum Shopfinder",
+        "btn3_parameter": []
+      }
+    }
+  }
+}

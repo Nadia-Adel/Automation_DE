@@ -1,0 +1,398 @@
+{
+    "cms-guid": "6828073E703C43F181D1D2259A25D046",
+    "cms-id": 547,
+    "cms-version": 3,
+    "locationSimulation": {
+        "date": "20-08-2017",
+        "latitude": 51.165691,
+        "longitude": 10.451526
+	
+    },
+    "countries": [
+        {
+            "cms-guid": "08027F6D9C6A4C81A31F8B957700981E",
+            "cms-id": 168,
+            "name": "Afghanistan",
+            "code": "AF",
+            "alternateCode": "AFG"
+        },
+        {
+            "cms-guid": "8DF2B13C3A9D44DF98A55580CE398CAB",
+            "cms-id": 167,
+            "name": "&Auml;gypten",
+            "code": "EG",
+            "alternateCode": "EGY"
+        },
+        {
+            "cms-guid": "B1704CAAFF554EDEA0EB9CC47253AB00",
+            "cms-id": 170,
+            "name": "Albanien",
+            "code": "AL",
+            "alternateCode": "ALB"
+        },
+        {
+            "cms-guid": "A6E868D987B64FBA87A95C9ABAFBC653",
+            "cms-id": 171,
+            "name": "Algerien",
+            "code": "AG",
+            "alternateCode": "DZA"
+        },
+        {
+            "cms-guid": "3653835E59F442D4BA47127962F5F4F3",
+            "cms-id": 172,
+            "name": "Andorra",
+            "code": "AN",
+            "alternateCode": "AND"
+        },
+        {
+            "cms-guid": "C8A2E13D7FFB4EC8B6E1A60839B5C6ED",
+            "cms-id": 208,
+            "name": "Angola",
+            "code": "AO",
+            "alternateCode": "AGO"
+        },
+        {
+            "cms-guid": "C3852EAB5FC04AF7AE478A5E6F4FA91D",
+            "cms-id": 173,
+            "name": "Antigua &amp; Barbuda",
+            "code": "AC",
+            "alternateCode": "ATG"
+        },
+        {
+            "cms-guid": "65962ECC6DF346A7982502E9C22F4777",
+            "cms-id": 174,
+            "name": "&Auml;quatorialguinea",
+            "code": "EK",
+            "alternateCode": "GNQ"
+        },
+        {
+            "cms-guid": "80859D3BB393429ABC90698FB26E96EF",
+            "cms-id": 175,
+            "name": "Argentinien",
+            "code": "AR",
+            "alternateCode": "ARG"
+        },
+        {
+            "cms-guid": "3B5A00445E554BD8B6906FEA17C4DC57",
+            "cms-id": 176,
+            "name": "Armenien",
+            "code": "AM",
+            "alternateCode": "ARM"
+        },
+        {
+            "cms-guid": "3495482CB9D447E7821CE85F8208D88A",
+            "cms-id": 177,
+            "name": "Aruba",
+            "code": "AA",
+            "alternateCode": "ABW"
+        },
+        {
+            "cms-guid": "3F3CC41EA8904DBC8F73B3C889AC4868",
+            "cms-id": 209,
+            "name": "Aserbaidschan",
+            "code": "AZ",
+            "alternateCode": "AZE"
+        },
+        {
+            "cms-guid": "E3EE7AD232AD48F0A6ADF1475AB70FB6",
+            "cms-id": 178,
+            "name": "&Auml;thiopien",
+            "code": "ET",
+            "alternateCode": "ETH"
+        },
+        {
+            "cms-guid": "B8D6870FC9C8494A86AD90C30B7535C6",
+            "cms-id": 210,
+            "name": "Australien",
+            "code": "AU",
+            "alternateCode": "AUS"
+        },
+        {
+            "cms-guid": "52DA6C400FAE477785BF90A70536D8A1",
+            "cms-id": 179,
+            "name": "Bahamas",
+            "code": "BF",
+            "alternateCode": "BHS"
+        },
+        {
+            "cms-guid": "82E0E8F070EE4F70B80CCDB387554263",
+            "cms-id": 180,
+            "name": "Bahrain",
+            "code": "BA",
+            "alternateCode": "BHR"
+        },
+        {
+            "cms-guid": "4CA4A6DEC8334283BF4B05EA8592A049",
+            "cms-id": 181,
+            "name": "Bangladesch",
+            "code": "BG",
+            "alternateCode": "BGD"
+        },
+        {
+            "cms-guid": "DD0176F39912425794A6FC877E37A936",
+            "cms-id": 182,
+            "name": "Barbados",
+            "code": "BB",
+            "alternateCode": "BRB"
+        },
+        {
+            "cms-guid": "8CFA399BBC0B4563BBAA00707329FDE5",
+            "cms-id": 183,
+            "name": "Belgien",
+            "code": "BE",
+            "alternateCode": "BEL"
+        },
+        {
+            "cms-guid": "03FAA7924E8B4015B9B07E095E495C35",
+            "cms-id": 211,
+            "name": "Belize",
+            "code": "BZ",
+            "alternateCode": "BLZ"
+        },
+        {
+            "cms-guid": "9C712C23AE1347B08B03456A208C24C0",
+            "cms-id": 212,
+            "name": "Benin",
+            "code": "BJ",
+            "alternateCode": "BEN"
+        },
+        {
+            "cms-guid": "9C35F464C588419CA1921AC1340D0ED4",
+            "cms-id": 184,
+            "name": "Bermuda",
+            "code": "BD",
+            "alternateCode": "BMU"
+        },
+        {
+            "cms-guid": "00AE558148D14B0988DB43A211374FA3",
+            "cms-id": 185,
+            "name": "Bhutan",
+            "code": "BT",
+            "alternateCode": "BTN"
+        },
+        {
+            "cms-guid": "51F4E8402AD24EFFAB04C57961E54883",
+            "cms-id": 213,
+            "name": "Bolivien",
+            "code": "BO ",
+            "alternateCode": "BOL"
+        },
+        {
+            "cms-guid": "C2F8DEDEC4E241C3BFEB54B56B9B6B2F",
+            "cms-id": 186,
+            "name": "Bosnien-Herzegowina",
+            "code": "BK",
+            "alternateCode": "BIH"
+        },
+        {
+            "cms-guid": "E75C3D12BA9440E087918F3C183F0D9F",
+            "cms-id": 187,
+            "name": "Botswana",
+            "code": "BC",
+            "alternateCode": "BWA"
+        },
+        {
+            "cms-guid": "02A2B779D3D84BFDAACA78D91E237068",
+            "cms-id": 214,
+            "name": "Brasilien",
+            "code": "BR",
+            "alternateCode": "BRA"
+        },
+        {
+            "cms-guid": "F6357DE564524A7289FD73D57A8C48B8",
+            "cms-id": 188,
+            "name": "Britische Jungferninseln",
+            "code": "VS",
+            "alternateCode": "VGB"
+        },
+        {
+            "cms-guid": "1A959846C10B4F74A533330281BE96EC",
+            "cms-id": 215,
+            "name": "Brunei",
+            "code": "BN",
+            "alternateCode": "BRN"
+        },
+        {
+            "cms-guid": "119DEAE412B04A8F8406DA6856754D69",
+            "cms-id": 189,
+            "name": "Bulgarien",
+            "code": "BU",
+            "alternateCode": "BGR"
+        },
+        {
+            "cms-guid": "1D32FCE117684777BEA61E5D063FC3F3",
+            "cms-id": 216,
+            "name": "Burkina Faso",
+            "code": "BF",
+            "alternateCode": "BFA"
+        },
+        {
+            "cms-guid": "270F5D7ABF01480F9D1535D83FFE7143",
+            "cms-id": 190,
+            "name": "Burundi",
+            "code": "BY",
+            "alternateCode": "BDL"
+        },
+        {
+            "cms-guid": "1A09D0DEC1D54DDC92CA3E097FE99F18",
+            "cms-id": 191,
+            "name": "Chile",
+            "code": "CI",
+            "alternateCode": "CHL"
+        },
+        {
+            "cms-guid": "2A6FAC5E291E4E2EAE74A09FB3AC0853",
+            "cms-id": 192,
+            "name": "China",
+            "code": "CH",
+            "alternateCode": "CHN"
+        },
+        {
+            "cms-guid": "8588775C62CA4243819E1FDC3CDA36D8",
+            "cms-id": 193,
+            "name": "Costa Rica",
+            "code": "CS",
+            "alternateCode": "CRI"
+        },
+        {
+            "cms-guid": "79F6742C5C0243B681F9160A5FE9B65C",
+            "cms-id": 194,
+            "name": "Curacao (Niederl&auml;ndische Antillen)",
+            "code": "NA",
+            "alternateCode": "ANT"
+        },
+        {
+            "cms-guid": "5F818B607270412FAEC8FE215010943B",
+            "cms-id": 195,
+            "name": "Dominikanische Republik",
+            "code": "DR",
+            "alternateCode": "DOM"
+        },
+        {
+            "cms-guid": "D51F8A3619D24C77AC7C021B18F7B885",
+            "cms-id": 196,
+            "name": "Dschibuti",
+            "code": "DJ",
+            "alternateCode": "DJI"
+        },
+        {
+            "cms-guid": "71C53EF513164FFB84B1CF3D3B82ACCD",
+            "cms-id": 198,
+            "name": "El Salvador",
+            "code": "ES",
+            "alternateCode": "SLV"
+        },
+        {
+            "cms-guid": "1A6A9D9DBF9F40AF97AA643E21327510",
+            "cms-id": 197,
+            "name": "Elfenbeink&uuml;ste",
+            "code": "IV",
+            "alternateCode": "CIV"
+        },
+        {
+            "cms-guid": "46C157EBF2D148188EC172AE3118CA89",
+            "cms-id": 199,
+            "name": "Finnland",
+            "code": "FI",
+            "alternateCode": "FIN"
+        },
+        {
+            "cms-guid": "026A6766F0ED4C9BAFF992B764267C69",
+            "cms-id": 200,
+            "name": "Frankreich",
+            "code": "FR",
+            "alternateCode": "FRA"
+        },
+        {
+            "cms-guid": "87CCE0E8991248D197AC3EE127F7899F",
+            "cms-id": 202,
+            "name": "Franz&ouml;sisch Westindische Inseln",
+            "code": "FS",
+            "alternateCode": "ATF"
+        },
+        {
+            "cms-guid": "3EC639A60B634BE6816C70622B1C5F10",
+            "cms-id": 201,
+            "name": "Franz&ouml;sisch-Polynesien",
+            "code": "FP",
+            "alternateCode": "PYF"
+        },
+        {
+            "cms-guid": "A8BB9707885349239DE12954F1EE7F36",
+            "cms-id": 203,
+            "name": "Gabun",
+            "code": "GB",
+            "alternateCode": "GAB"
+        },
+        {
+            "cms-guid": "75AE84CA8E77485390E786138202D274",
+            "cms-id": 204,
+            "name": "Gambia",
+            "code": "GA",
+            "alternateCode": "GMB"
+        },
+        {
+            "cms-guid": "4BE06A7978A14D9AB834166C90B593B9",
+            "cms-id": 205,
+            "name": "Ghana",
+            "code": "GH",
+            "alternateCode": "GHA"
+        },
+        {
+            "cms-guid": "17B41329C8484BCEA2877388C032C5E1",
+            "cms-id": 206,
+            "name": "Gibraltar",
+            "code": "GI",
+            "alternateCode": "GIB"
+        },
+        {
+            "cms-guid": "F629F3B9802E4DD7ADDA389322D64CE3",
+            "cms-id": 207,
+            "name": "Guatemala",
+            "code": "GT",
+            "alternateCode": "GTM"
+        }
+    ],
+    "categories": [ 
+        {
+            "cms-guid": "DB77C457313540A49CEFA8A0969BF846",
+            "cms-id": 224,
+            "priority": 1,
+            "label": "EU, Schweiz &amp; T&uuml;rkei",
+            "socCodes": [
+                "RFLATMON2",
+                "RFLATDAY",
+                "RFLATMONT",
+                "DASDAY30",
+                "DASDAY"]
+        }, 
+        {
+            "cms-guid": "1D7167B2F6A24D7DB46CC358735D1AB5",
+            "cms-id": 218,
+            "priority": 2,
+            "label": "USA &amp; Kanada",
+            "socCodes": [
+                "RFLATMON2",
+                "RFLATDAY",
+                "RFLATMONT",
+                "DASDAY30",
+                "DASDAY"]
+        }, 
+        {
+            "cms-guid": "58454E0C5DE143B79CEB491F95566E57",
+            "cms-id": 217,
+            "priority": 3,
+            "label": "Rest der Welt",
+            "socCodes": []
+        }
+    ],
+    "alwaysHide": [
+                    "WORLD"],
+    "notCancelable": [
+                    "RFLATMONT",
+                    "RFLATMON2",
+                    "RFLATUS1W",
+                    "RFLATUS4W"]		
+}
+
+

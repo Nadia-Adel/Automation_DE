@@ -1,0 +1,974 @@
+{
+  "cms-guid": "16A38026EE384BC29641B2980817ED12",
+  "cms-id": 1159,
+  "cms-version": 1,
+  "phone": [
+    {
+      "cms-guid": "316ADD2AF83443258AA52C429C260DC5",
+      "cms-id": 257,
+      "cms-version": 3,
+      "id": "home",
+      "enable": true,
+      "label": "Startseite",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Home_Teaser",
+        "waitingTime": 90
+      }
+    },
+    {
+      "cms-guid": "443975B8A1ED4F0C92CB0EB1A361D23E",
+      "cms-id": 258,
+      "cms-version": 2,
+      "id": "recharge",
+      "enable": true,
+      "label": "Aufladen",
+      "showForTypePre": true,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 60
+      }
+    },
+    {
+      "cms-guid": "7E304360436E445E8442B2586F2DB3A9",
+      "cms-id": 260,
+      "cms-version": 3,
+      "id": "transfer",
+      "enable": true,
+      "label": "Guthaben Transfer",
+      "showForTypePre": true,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Transfer_Teaser",
+        "waitingTime": 90
+      }
+    },
+    {
+      "cms-guid": "A3E923A9411942F8BF5BD758AE3E820E",
+      "cms-id": 641,
+      "cms-version": 3,
+      "id": "vertrag",
+      "enable": true,
+      "label": "Tarif",
+      "showForTypePre": true,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Vertrag_prepaid_Teaser",
+        "waitingTime": 60
+      }
+    },
+    {
+      "cms-guid": "D0EC68AF5D8343129D58DC9FFBD21E8B",
+      "cms-id": 262,
+      "cms-version": 3,
+      "id": "bill",
+      "enable": true,
+      "label": "Meine Rechnung",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "cms-guid": "D3806C3FB6414C71A811AB98C3C78DF5",
+          "cms-id": 263,
+          "cms-version": 4,
+          "id": "overview",
+          "enable": true,
+          "label": "&Uuml;bersicht",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 20,
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Rechnung_Teaser",
+            "waitingTime": 90
+          }
+        },
+        {
+          "cms-guid": "4D25EAA7141E40CBA6E6106FF0A243D6",
+          "cms-id": 264,
+          "cms-version": 3,
+          "id": "archive",
+          "enable": true,
+          "label": "Archiv",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 20,
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Rechnung_Teaser",
+            "waitingTime": 90
+          }
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 60
+      }
+    },
+    {
+      "cms-guid": "CCD12CDFA2EA4A4896B0A6AA5ED0DA78",
+      "cms-id": 265,
+      "cms-version": 4,
+      "id": "data",
+      "enable": true,
+      "label": "Meine Daten",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Kundendaten_Teaser",
+        "waitingTime": 90
+      }
+    },
+    {
+      "cms-guid": "F3100415CA4940329CF5B3A7DBC74CE2",
+      "cms-id": 266,
+      "cms-version": 6,
+      "id": "vertrag",
+      "enable": true,
+      "label": "Vertrag",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "cms-guid": "E1CDD5ABEAAD43DAAA97A713503B4F41",
+          "cms-id": 268,
+          "cms-version": 5,
+          "id": "tariff",
+          "enable": true,
+          "label": "Mein Tarif",
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20,
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": false,
+              "showForTypeS": false,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": true,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 60
+          }
+        },
+        {
+          "cms-guid": "4D093A0D1821471F96435C2265633C61",
+          "cms-id": 269,
+          "cms-version": 4,
+          "id": "tariffoptions",
+          "enable": true,
+          "label": "Optionen",
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 20,
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": false,
+              "showForTypeS": false,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": true,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 60
+          }
+        },
+        {
+          "cms-guid": "60FBE9F5BAFE4F6FB368F74811EDD1A6",
+          "cms-id": 270,
+          "cms-version": 3,
+          "id": "youngpeople",
+          "enable": true,
+          "label": "Junge Leute",
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 20,
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": false,
+              "showForTypeS": false,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": true,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 60
+          }
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Vertrag_prepaid_Teaser",
+        "waitingTime": 60
+      }
+    },
+    {
+      "cms-guid": "7A042CF7C4C54BBDB0DADF416334CD7D",
+      "cms-id": 646,
+      "cms-version": 4,
+      "id": "transfer_postpaid",
+      "enable": true,
+      "label": "Guthaben Transfer",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Transfer_Teaser",
+        "waitingTime": 90
+      }
+    },
+    {
+      "cms-guid": "28B704360A904180A7D9C0A2BA622B9C",
+      "cms-id": 282,
+      "cms-version": 2,
+      "id": "offer",
+      "enable": true,
+      "label": "Angebote",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Angebote_Teaser",
+        "waitingTime": 60
+      }
+    },
+    {
+      "cms-guid": "D47DF0655C4A493CB2FB06318040C946",
+      "cms-id": 273,
+      "cms-version": 3,
+      "id": "roaming",
+      "enable": true,
+      "label": "Im Ausland",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Ausland_Teaser",
+        "waitingTime": 90
+      }
+    },
+    {
+      "cms-guid": "DFB2C9B574644E3E8D9B1A2CDD721AD5",
+      "cms-id": 261,
+      "cms-version": 3,
+      "id": "toppings",
+      "enable": true,
+      "label": "Toppings",
+      "showForTypePre": false,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Toppings_Teaser",
+        "waitingTime": 90
+      }
+    },
+    {
+      "cms-guid": "9B33B40AA356446789EA1F6090CE0BA5",
+      "cms-id": 863,
+      "cms-version": 1,
+      "id": "netzdaten",
+      "enable": true,
+      "label": "Mein Netz",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [
+        {
+          "cms-guid": "DC3120EB93E04D8683BCB296DA844132",
+          "cms-id": 876,
+          "cms-version": 4,
+          "id": "netzfeedback",
+          "enable": true,
+          "label": "GigaGarantie",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 20,
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": false,
+              "showForTypeS": false,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": false,
+              "showForTypeS": false,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Netzfeedback_Teaser",
+            "waitingTime": 90
+          }
+        },
+        {
+          "cms-guid": "C29DDBA54ADA4F12A5E02FE008E88BBB",
+          "cms-id": 864,
+          "cms-version": 1,
+          "id": "netzinfo",
+          "enable": true,
+          "label": "Netz Okay?",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 0,
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Netzinfo_Teaser",
+            "waitingTime": 90
+          }
+        },
+        {
+          "cms-guid": "C70697ACB1E643D3913D4C8A2A457EED",
+          "cms-id": 865,
+          "cms-version": 1,
+          "id": "netzabdeckung",
+          "enable": true,
+          "label": "Netzabdeckung",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 0,
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Netzinfo_Teaser",
+            "waitingTime": 90
+          }
+        },
+        {
+          "cms-guid": "1A7754CFB80647649A37FC510299C929",
+          "cms-id": 866,
+          "cms-version": 1,
+          "id": "speedtest",
+          "enable": true,
+          "label": "SpeedTest",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 0,
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Netzinfo_Teaser",
+            "waitingTime": 90
+          }
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 0
+      }
+    },
+    {
+      "cms-guid": "7B03B26F24AB4B618FF3EEE366943705",
+      "cms-id": 277,
+      "cms-version": 5,
+      "id": "help",
+      "enable": true,
+      "label": "Hilfe",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [
+        {
+          "cms-guid": "DCB2D397F5B1455BA169D7AFFA4A0A96",
+          "cms-id": 532,
+          "cms-version": 4,
+          "id": "faq",
+          "enable": true,
+          "label": "Fragen &amp; Antworten",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 20,
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": true,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Hilfe_Kontakt_Teaser",
+            "waitingTime": 60
+          }
+        },
+        {
+          "cms-guid": "08C2ADCAD1074A40A05233E744DA7457",
+          "cms-id": 531,
+          "cms-version": 3,
+          "id": "forum",
+          "enable": true,
+          "label": "Forum",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 20,
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": true,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Hilfe_Kontakt_Teaser",
+            "waitingTime": 60
+          }
+        },
+        {
+          "cms-guid": "6CCDE710CFFB429B856EF673A99AC07D",
+          "cms-id": 530,
+          "cms-version": 3,
+          "id": "shopfinder",
+          "enable": true,
+          "label": "Shopfinder",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": false,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 20,
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": true,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Hilfe_Kontakt_Teaser",
+            "waitingTime": 60
+          }
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 60
+      }
+    },
+    {
+      "cms-guid": "EE8617BA48464AF7A13E4E3D0B4B9E37",
+      "cms-id": 283,
+      "cms-version": 3,
+      "id": "info",
+      "enable": true,
+      "label": "Einstellungen &amp; Infos",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Info_Teaser",
+        "waitingTime": 90
+      }
+    }
+  ],
+  "tablet": [
+    {
+      "cms-guid": "9C123CF725954C2B862C28B94EE906A1",
+      "cms-id": 630,
+      "cms-version": 1,
+      "id": "home",
+      "enable": true,
+      "label": "Home",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 0
+      }
+    },
+    {
+      "cms-guid": "18E66C5530A4410C9151AA9FA4EA0E15",
+      "cms-id": 633,
+      "cms-version": 1,
+      "id": "bill",
+      "enable": true,
+      "label": "Rechnung",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 0
+      }
+    },
+    {
+      "cms-guid": "E0A0F1412C014709BD503548DBAC22F8",
+      "cms-id": 634,
+      "cms-version": 1,
+      "id": "data",
+      "enable": true,
+      "label": "Kundendaten",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 0
+      }
+    },
+    {
+      "cms-guid": "96C4674CC07B4FD88B2240F935C6F378",
+      "cms-id": 635,
+      "cms-version": 1,
+      "id": "vertrag",
+      "enable": true,
+      "label": "Tarif",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 0
+      }
+    },
+    {
+      "cms-guid": "2AC4D8D07E914A699FA7DA7D854C01AF",
+      "cms-id": 636,
+      "cms-version": 1,
+      "id": "help",
+      "enable": true,
+      "label": "Hilfe &amp; Support",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 0
+        },
+        "selectedTopicName": "",
+        "waitingTime": 0
+      }
+    }
+  ]
+}

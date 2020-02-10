@@ -1,0 +1,278 @@
+﻿{
+  "comingSoonHotline": "0800505442",
+  "homeNudge": {
+    "enable": true,
+    "cachingTime": 2160,
+    "offerMboxs": [
+      {
+        "priority": 1,
+        "mboxName": "mbox_mv_app_updateEmailAddress_test2"
+      },
+      {
+        "priority": 2,
+        "mboxName": "mbox_mv_app_updateBEW_test2"
+      }
+    ]
+  },
+  "permanentRedPlusTab": {
+    "btn1_enable": true,
+    "btn1_link": "https://www.vodafone.de/privat/redplus/smartphones-tarife.html?simOnly=1&c_id=app_cadd_fq0_c_redplustab&j_id=AppConPerA01V%7CNonNon000&b_id=1653&void=33333887&forApp=true",
+    "btn1_title": "Online bestellen",
+    "btn2_enable": true,
+    "btn2_link": "08006649395",
+    "btn2_title": "Kostenlos anrufen",
+    "image_filename": "http://media.vodafone.de/www/images/app/mein-callya-100mb/Detail_mein-callya-100mb-0-.jpg"
+  },
+  "targetCaching": {
+    "enable": true,
+    "version": 3,
+    "interval": 6,
+    "prepaidMboxCount": 5,
+    "postpaidMboxCount": 5,
+    "gigaLivePrepaidMboxCount": 10,
+    "gigaLivePostpaidMboxCount": 10,
+    "prepaidDefaultMboxCount": 4,
+    "postpaidDefaultMboxCount": 4,
+    "fixedNetMboxCount": 5,
+    "gigaLiveFixedNetMboxCount": 10,
+    "fixedNetDefaultMboxCount": 4
+  },
+  "hero": {
+    "enable": true,
+    "version": 1,
+    "cachingtime": 24,
+    "showNextInterval": 72
+  },
+  "vov": {
+    "highPriorityCardTimeSpan": 6,
+    "allCardTimeSpan": 2,
+    "repeatCount": 2,
+    "prepaid": {
+      "numberOfVov": 8,
+      "items": [
+   
+        {
+          "id": "Target",
+          "order": 6,
+          "priority": 6,
+          "mboxName": "mbox_mcy_app_offer_vov_2"
+        },
+        {
+          "id": "Target",
+          "order": 5,
+          "priority": 5,
+          "mboxName": "mbox_mcy_app_offer_vov_1"
+        },
+        {
+          "id": "Target",
+          "order": 4,
+          "priority": 3,
+          "mboxName": "mbox_mcy_app_offer_vov"
+        },
+      
+        
+        {
+          "id": "Welcome",
+          "order": 0,
+          "priority": 4,
+          "mboxName": ""
+        }
+      ]
+    },
+    "postpaid": {
+      "numberOfVov": 10,
+      "items": [
+        {
+          "id": "100MB",
+          "order": 9,
+          "priority": 3,
+          "mboxName": ""
+        },
+        {
+          "id": "GigaBoost",
+          "order": 2,
+          "priority": 1,
+          "mboxName": ""
+        },
+        {
+          "id": "Target",
+          "order": 20,
+          "priority": 20,
+          "mboxName": ""
+        },
+        {
+          "id": "Welcome",
+          "order": 0,
+          "priority": 9,
+          "mboxName": ""
+        },
+        {
+          "id": "Survey4G",
+          "order": 1,
+          "priority": 8,
+          "mboxName": "t"
+        },
+        {
+          "id": "Roaming",
+          "order": 2,
+          "priority": 7,
+          "mboxName": ""
+        },
+        {
+          "id": "Redeem_Voucher",
+          "order": 3,
+          "priority": 6,
+          "mboxName": ""
+        },
+        {
+          "id": "YOLO_high",
+          "order": 4,
+          "priority": 5,
+          "mboxName": ""
+        },
+        {
+          "id": "VVL",
+          "order": 8,
+          "priority": 1,
+          "mboxName": ""
+        },
+        {
+          "id": "Target",
+          "order": 5,
+          "priority": 4,
+          "mboxName": ""
+        },
+        {
+          "id": "Target",
+          "order": 6,
+          "priority": 3,
+          "mboxName": "mbox_mv_app_offer_vov_5_test2"
+        },
+        {
+          "id": "Target",
+          "order": 7,
+          "priority": 2,
+          "mboxName": "mbox_mv_app_offer_vov_test2_19"
+        },
+        {
+          "id": "YOLO_low",
+          "order": 9,
+          "priority": 0,
+          "mboxName": ""
+        }
+      ]
+    },
+    "fixednet": {
+      "items": [
+        {
+          "id": "Welcome",
+          "order": 0,
+          "priority": 10
+        },
+        {
+          "id": "100MB",
+          "order": 0,
+          "priority": 10
+        },
+        {
+          "id": "Target",
+          "order": 1,
+          "priority": 9,
+          "mboxName": "mbox_fixednet_app_offer_vov_1"
+        },
+        {
+          "id": "Target",
+          "order": 2,
+          "priority": 8,
+          "mboxName": "mbox_fixednet_app_offer_vov_2"
+        },
+        {
+          "id": "Target",
+          "order": 3,
+          "priority": 7,
+          "mboxName": "mbox_fixednet_app_offer_vov_3"
+        },
+        {
+          "id": "Target",
+          "order": 4,
+          "priority": 6,
+          "mboxName": "mbox_fixednet_app_offer_vov_4"
+        }
+      ]
+    }
+  },
+  "campaigns": {
+    "prepaid100MB": {
+      "id": "prepaid100MB",
+      "type": "angebote_campaign",
+      "banner_image_filename": "http://media.vodafone.de/www/images/app/mein-callya-100mb/VoV_mein-callya-100mb-0-.jpg",
+      "new_banner_image_filename": "http://media.vodafone.de/www/images/app/mein-callya-100mb/VoVBadge_mein-callya-100mb-0-.jpg",
+      "new_banner_headline": "",
+      "new_banner_subheadline": "",
+      "tail_s_image_filename": "http://media.vodafone.de/www/images/app/mein-callya-100mb/TailS_mein-callya-100mb-0-.jpg",
+      "tail_m_image_filename": "http://media.vodafone.de/www/images/app/mein-callya-100mb/TailM_mein-callya-100mb-0-.jpg",
+      "tail_l_image_filename": "http://media.vodafone.de/www/images/app/mein-callya-100mb/TailL_mein-callya-100mb-0-.jpg",
+      "object": {
+        "title": "Dein App-Geschenk",
+        "subtitle_enable": true,
+        "subTitle": "Sch&ouml;n, dass Du die MeinCallYa-App nutzt. Als Dankesch&ouml;n bekommst Du 100 Highspeed - MB kostenlos- f&uuml;r die n&auml;chsten 28 Tage. Nutze die App am besten regelm&auml;&szlig;ig.Denn: Wir beschenken Dich immer wieder neu.",
+        "text": "",
+        "image_filename": "http://media.vodafone.de/www/images/app/mein-callya-100mb/Detail_mein-callya-100mb-0-.jpg",
+        "btn1_enable": true,
+        "btn1_link": "https://beta.vodafone.de/booking.xml",
+        "btn1_title": "Jetzt aktivieren",
+        "btn1_type": "api_post",
+        "btn1_parameter": [
+          {
+            "param_key": "socCode",
+            "param_value": "APPVOLDEB",
+            "mandatory": true
+          }
+        ],
+        "btn2_enable": false,
+        "btn2_link": "",
+        "btn2_title": "",
+        "btn2_type": "",
+        "btn2_parameter": [],
+        "btn3_enable": false,
+        "btn3_link": "",
+        "btn3_title": "",
+        "btn3_type": "",
+        "btn3_parameter": []
+      }
+    },
+    "redPlusAddMember": {
+      "id": "redPlusAddMember",
+      "type": "angebote_campaign",
+      "banner_image_filename": "http://media.vodafone.de/www/images/app//VoV_-0-.",
+      "new_banner_image_filename": "http://media.vodafone.de/www/images/app//VoVBadge_-0-.",
+      "new_banner_headline": "",
+      "new_banner_subheadline": "",
+      "tail_s_image_filename": "http://media.vodafone.de/www/images/app//TailS_-0-.",
+      "tail_m_image_filename": "http://media.vodafone.de/www/images/app//TailM_-0-.",
+      "tail_l_image_filename": "http://media.vodafone.de/www/images/app//TailL_-0-.",
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "http://media.vodafone.de/www/images/app//Detail_-0-.",
+        "btn1_enable": true,
+        "btn1_link": "https://www.vodafone.de/privat/redplus/smartphones-tarife.html?simOnly=1&c_id=app_cadd_fq0_c_redplustab&j_id=AppConPerA01V%7CNonNon000&b_id=1653&void=33333887&forApp=true",
+        "btn1_title": "Zum Online-Shop",
+        "btn1_type": "browser_url_internal",
+        "btn1_parameter": [],
+        "btn2_enable": true,
+        "btn2_link": "08006649125",
+        "btn2_title": "Bestellhotline anrufen",
+        "btn2_type": "call",
+        "btn2_parameter": [],
+        "btn3_enable": true,
+        "btn3_link": "mva://shopfinder",
+        "btn3_title": "Zum Shopfinder",
+        "btn3_type": "deeplink",
+        "btn3_parameter": []
+      }
+    }
+  }
+}

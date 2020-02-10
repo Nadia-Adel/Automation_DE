@@ -1,0 +1,852 @@
+{
+  "phone": [
+    {
+      "id": "home",
+      "enable": "true",
+      "label": "Homeee",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 5
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 5
+        },
+        "selectedTopicName": "Home_Teaser",
+        "waitingTime": 30
+      }
+    },
+    {
+      "id": "recharge",
+      "enable": "true",
+      "label": "Aufladen",
+      "showForTypePre": true,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Aufladung_Teaser",
+        "waitingTime": 90
+      }
+    },
+    {
+      "id": "transfer",
+      "enable": "true",
+      "label": "Transfer",
+      "showForTypePre": true,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Transfer_Teaser",
+        "waitingTime": 90
+      }
+    },
+    {
+      "id": "vertrag",
+      "enable": "true",
+      "label": "Tarif",
+      "showForTypePre": true,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Vertrag_prepaid_Teaser",
+        "waitingTime": 10
+      }
+    },
+    {
+      "id": "bill",
+      "enable": "true",
+      "label": "Rechnung",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "id": "overview",
+          "enable": "true",
+          "label": "Rechnungs&uuml;bersicht",
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "subItems": [
+            {
+              "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+              "note": "This item is only for identify the container within the content management system! Please ignore!"
+            }
+          ],
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Rechnung_Teaser",
+            "waitingTime": 90
+          }
+        },
+        {
+          "id": "archive",
+          "enable": "true",
+          "label": "Rechnungsarchiv",
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "subItems": [
+            {
+              "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+              "note": "This item is only for identify the container within the content management system! Please ignore!"
+            }
+          ],
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Rechnung_Teaser",
+            "waitingTime": 90
+          }
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "enable": "true",
+      "label": "Kundendaten",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": false,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Kundendaten_Teaser",
+        "waitingTime": 90
+      }
+    },
+    {
+      "id": "vertrag",
+      "enable": "true",
+      "label": "Vertrag",
+      "showForPre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "id": "tariff",
+          "enable": "true",
+          "label": "Tarif",
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "subItems": [
+            {
+              "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+              "note": "This item is only for identify the container within the content management system! Please ignore!"
+            }
+          ],
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": false,
+              "showForTypeS": false,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": true,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 10
+          }
+        },
+        {
+          "id": "tariffoptions",
+          "enable": "true",
+          "label": "Tarifoptionen",
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "subItems": [
+            {
+              "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+              "note": "This item is only for identify the container within the content management system! Please ignore!"
+            }
+          ],
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": false,
+              "showForTypeS": false,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": true,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 10
+          }
+        },
+        {
+          "id": "youngpeople",
+          "enable": "true",
+          "label": "Junge Leute",
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "subItems": [
+            {
+              "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+              "note": "This item is only for identify the container within the content management system! Please ignore!"
+            }
+          ],
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": false,
+              "showForTypeS": false,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": true,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Vertrag_Teaser",
+            "waitingTime": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "offer",
+      "enable": "true",
+      "label": "Angebote",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Angebote_Teaser",
+        "waitingTime": 60
+      }
+    },
+    {
+      "id": "roaming",
+      "showForYolo": false,
+      "enable": "true",
+      "label": "Ausland",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Ausland_Teaser",
+        "waitingTime": 90
+      }
+    },
+    {
+      "id": "transfer_postpaid",
+      "enable": "true",
+      "label": "Transfer",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Transfer_Postpaid",
+        "waitingTime": 90
+      }
+    },
+    {
+      "id": "toppings",
+      "enable": "true",
+      "label": "Toppings",
+      "showForTypePre": false,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Toppings_Teaser",
+        "waitingTime": 90
+      }
+    },
+    {
+      "id": "netzdaten",
+      "enable": "true",
+      "label": "Netz & Daten",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "id": "netzinfo",
+          "enable": "true",
+          "label": "Netzinfo",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "subItems": [
+            {
+              "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+              "note": "This item is only for identify the container within the content management system! Please ignore!"
+            }
+          ],
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Netzinfo_Teaser",
+            "waitingTime": 90
+          }
+        },
+        {
+          "id": "netzabdeckung",
+          "enable": "true",
+          "label": "Netzabdeckung",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "subItems": [
+            {
+              "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+              "note": "This item is only for identify the container within the content management system! Please ignore!"
+            }
+          ],
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Netzinfo_Teaser",
+            "waitingTime": 90
+          }
+        },
+        {
+          "id": "speedtest",
+          "enable": "true",
+          "label": "Speed Test",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "subItems": [
+            {
+              "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+              "note": "This item is only for identify the container within the content management system! Please ignore!"
+            }
+          ],
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Speedtest_Teaser",
+            "waitingTime": 90
+          }
+        },
+        {
+          "id": "netzfeedback",
+          "enable": "true",
+          "label": "Netz Feedback",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "subItems": [
+            {
+              "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+              "note": "This item is only for identify the container within the content management system! Please ignore!"
+            }
+          ],
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Speedtest_Teaser",
+            "waitingTime": 90
+          }
+        }
+      ]
+    },
+    {
+      "id": "help",
+      "enable": "true",
+      "label": "Hilfe & Support",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [
+        {
+          "id": "faq",
+          "enable": "true",
+          "label": "FAQs",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "subItems": [
+            {
+              "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+              "note": "This item is only for identify the container within the content management system! Please ignore!"
+            }
+          ],
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": true,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Hilfe&Kontakt_Teaser",
+            "waitingTime": 20
+          }
+        },
+        {
+          "id": "forum",
+          "enable": "true",
+          "label": "Forum",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "subItems": [
+            {
+              "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+              "note": "This item is only for identify the container within the content management system! Please ignore!"
+            }
+          ],
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": true,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Hilfe&Kontakt_Teaser",
+            "waitingTime": 20
+          }
+        },
+        {
+          "id": "shopfinder",
+          "enable": "true",
+          "label": "Shopfinder",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "subItems": [
+            {
+              "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+              "note": "This item is only for identify the container within the content management system! Please ignore!"
+            }
+          ],
+          "chat": {
+            "chatVisibility": {
+              "showForTypePre": false,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "clickToCallVisibility": {
+              "showForTypePre": true,
+              "showForTypeI": true,
+              "showForTypeS": true,
+              "showForTypeB": false,
+              "refreshTimeAgentAvailability": 20
+            },
+            "selectedTopicName": "Hilfe&Kontakt_Teaser",
+            "waitingTime": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "info",
+      "enable": "true",
+      "label": "Einstellungen & Info",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ],
+      "chat": {
+        "chatVisibility": {
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true,
+          "refreshTimeAgentAvailability": 20
+        },
+        "clickToCallVisibility": {
+          "showForTypePre": true,
+          "showForTypeI": false,
+          "showForTypeS": true,
+          "showForTypeB": false,
+          "refreshTimeAgentAvailability": 20
+        },
+        "selectedTopicName": "Info_Teaser",
+        "waitingTime": 90
+      }
+    }
+  ],
+  "tablet": [
+    {
+      "id": "home",
+      "enable": "true",
+      "label": "Home",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ]
+    },
+    {
+      "id": "bill",
+      "enable": "true",
+      "label": "Rechnung",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": false,
+      "showForTypeB": true,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "enable": "true",
+      "label": "Kundendaten",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": false,
+      "showForTypeB": true,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ]
+    },
+    {
+      "id": "vertrag",
+      "enable": "true",
+      "label": "Tarif",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ]
+    },
+    {
+      "id": "help",
+      "enable": "true",
+      "label": "Hilfe & Support",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [
+        {
+          "cms-guid": "ae8f1970-44e7-43b3-9923-d4e52a9bb062",
+          "note": "This item is only for identify the container within the content management system! Please ignore!"
+        }
+      ]
+    }
+  ]
+}

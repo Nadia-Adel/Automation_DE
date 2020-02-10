@@ -1,0 +1,77 @@
+{
+  "vfplanForBusiness": [ "RBMN60"],
+  "redPlusSchoolWhiteList": [ "PR_SN01", "RB5SY60", "01REDPL2G" , "01REDPL1G" , "DEEZMARK" , "JOYN_OPEN"],
+  "redPlusPushTasks": [{
+    "taskID": 1,
+    "taskTitle": "W&auml;sche",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_1_flat.png"
+  }, {
+    "taskID": 2,
+    "taskTitle": "Pflanzen",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_2_flat.png"
+  }, {
+    "taskID": 3,
+    "taskTitle": "F&uuml;ttern",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_3_flat.png"
+  }, {
+    "taskID": 4,
+    "taskTitle": "Instrument",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_4_flat.png"
+  }, {
+    "taskID": 5,
+    "taskTitle": "Gassi",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_5_flat.png"
+  }, {
+    "taskID": 6,
+    "taskTitle": "Sp&uuml;lmaschine",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_6_flat.png"
+  }, {
+    "taskID": 7,
+    "taskTitle": "Hausaufgaben",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_7_flat.png"
+  }, {
+    "taskID": 8,
+    "taskTitle": "Z&auml;hne putzen",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_8_flat.png"
+  }, {
+    "taskID": 9,
+    "taskTitle": "Kochen",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_9_flat.png"
+  }, {
+    "taskID": 10,
+    "taskTitle": "M&uuml;ll",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_10_flat.png"
+  }, {
+    "taskID": 11,
+    "taskTitle": "Einkaufen",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_11_flat.png"
+  }, {
+    "taskID": 12,
+    "taskTitle": "Lesen",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_12_flat.png"
+  }, {
+    "taskID": 13,
+    "taskTitle": "Staubsaugen",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_13_flat.png"
+  }, {
+    "taskID": 14,
+    "taskTitle": "Sport",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_14_flat.png"
+  }, {
+    "taskID": 15,
+    "taskTitle": "Bett machen",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_15_flat.png"
+  }, {
+    "taskID": 16,
+    "taskTitle": "Malen",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_16_flat.png"
+  }, {
+    "taskID": 17,
+    "taskTitle": "Gute Noten",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_17_flat.png"
+  }, {
+    "taskID": 18,
+    "taskTitle": "Aufr&auml;umen",
+    "taskImage": "http://media.vodafone.de/www/images/app/dft_18_flat.png"
+  }]
+}

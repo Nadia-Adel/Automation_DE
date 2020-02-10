@@ -1,0 +1,571 @@
+﻿{
+  "components": [
+    {
+      "id": "postpaidConsumption",
+      "template": "postpaidConsumptionTemplate",
+      "config": {
+        "icon": "data_sharing_dark_24",
+        "background": "white",
+        "headline": "Consumption",
+        "subline": "Consumption subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/quickcheck",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "customAttributes": [
+        {
+          "attributesKey": "iconMB",
+          "attributeValue": "data_sharing_dark_24"
+        },
+        {
+          "attributesKey": "iconSMS",
+          "attributeValue": "sms_text_dark_24"
+        },
+        {
+          "attributesKey": "iconVoice",
+          "attributeValue": "landline_or_call_minutes_dark_24"
+        },
+        {
+          "attributesKey": "iconMMS",
+          "attributeValue": "sms_text_dark_24"
+        },
+        {
+          "attributesKey": "iconOther",
+          "attributeValue": "mobile_dark_24"
+        },
+        {
+          "attributesKey": "remaining",
+          "attributeValue": "verbleibend von"
+        },
+        {
+          "attributesKey": "daysRemainingSuffix",
+          "attributeValue": "Tage verfÃ¼gbar"
+        },
+        {
+          "attributesKey": "dayRemainingSuffix",
+          "attributeValue": "Tag"
+        },
+        {
+          "attributesKey": "hourRemainingSuffix",
+          "attributeValue": "Noch %d Stunde"
+        },
+        {
+          "attributesKey": "hoursRemainingSuffix",
+          "attributeValue": "Noch %d Stunden"
+        },
+        {
+          "attributesKey": "flatPrefix",
+          "attributeValue": "Flat"
+        },
+        {
+          "attributesKey": "usedSuffix",
+          "attributeValue": "verbraucht"
+        },
+        {
+          "attributesKey": "callToActionGigaDepot",
+          "attributeValue": "+GigaDepot"
+        },
+        {
+          "attributesKey": "callToActionSpeedbucket",
+          "attributeValue": "Speedbucket buchen"
+        },
+        {
+          "attributesKey": "callToActionRequestMoreData",
+          "attributeValue": "Datenvolumen anfragen"
+        },
+        {
+          "attributesKey": "daysRemainingOneDay",
+          "attributeValue": "1 Tag sara"
+        }
+      ]
+    },
+    {
+      "id": "postpaidCurrentCosts",
+      "template": "postpaidCurrentCostsTemplate",
+      "config": {
+        "icon": "balance_dark_24",
+        "background": "white",
+        "headline": "Mobilfunkkosten",
+        "subline": "ZusÃ¤tzliche Verbindungskosten",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/currentcost",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "postpaidRedPlus",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "admin_plus_white_24",
+        "headline": "RedPlus",
+        "background": "bg_image_card_red",
+        "subline": "Alle ansehen",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/redplus",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "postpaidVodafonePass",
+      "template": "postpaidVodafonePassTemplate",
+      "config": {
+        "icon": "passes_dark_24",
+        "background": "bg_image_card_red",
+        "headline": "Vodafone Passes",
+        "subline": "Vodafone Passes subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/tariffoptions",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "vertrag",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "add_dark_24",
+        "background": "bg_image_card_red",
+        "headline": "Mein Tariff",
+        "subline": "Details ansehen",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/tariff",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "overview",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "bill_report_dark_24",
+        "background": "white",
+        "headline": "Aktuelle Rechnung",
+        "subline": "Details ansehen",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/overview",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "noData",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "info_circle_24",
+        "background": "white",
+        "headline": "Keine Angaben mÃ¶glich",
+        "subline": "Keine Pakete verfÃ¼gbar",
+        "action": "deeplink",
+        "url": "",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "bill_fixednet",
+      "template": "dslLastBill",
+      "config": {
+        "icon": "bill_report_dark_24",
+        "background": "white",
+        "headline": "Letzte Rechnung",
+        "subline": "Last bill subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/overview",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "customAttributes": [
+        {
+          "attributesKey": "callToAction",
+          "attributeValue": "+weitere"
+        }
+      ]
+    },
+    {
+      "id": "tariff_fixednet",
+      "template": "dslLastBill",
+      "config": {
+        "icon": "admin_white_24",
+        "background": "white",
+        "headline": "Tariff dsl",
+        "subline": "Tariff dsl subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/overview",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "dslLandlineNumber",
+      "template": "dslLandlineNumber",
+      "config": {
+        "icon": "landline_or_call_minutes_dark_24",
+        "background": "white",
+        "headline": "Rufnummern",
+        "subline": "DSL landline subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/tariff",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "speedTest",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "acceleration_dark_24",
+        "background": "white",
+        "headline": "Speedtest",
+        "subline": "Geschwindigkeit prÃ¼fen",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/speedtest",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "prepaidConsumption",
+      "template": "PrepaidConsumptionTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "data_sharing_dark_24",
+        "background": "white",
+        "headline": "Prepaid Consumption",
+        "subline": "Prepaid Consumption subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/quickcheck",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "customAttributes": [
+        {
+          "attributesKey": "flatPrefix",
+          "attributeValue": "Flat"
+        },
+        {
+          "attributesKey": "remaining",
+          "attributeValue": "verblebendd von"
+        },
+        {
+          "attributesKey": "daysRemainingSuffix",
+          "attributeValue": "Tage verfÃ¼gbar"
+        },
+        {
+          "attributesKey": "dayRemainingSuffix",
+          "attributeValue": "Tag"
+        },
+        {
+          "attributesKey": "iconMB",
+          "attributeValue": "data_sharing_dark_24"
+        },
+        {
+          "attributesKey": "iconOther",
+          "attributeValue": "mobile_dark_24"
+        },
+        {
+          "attributesKey": "tariffKey",
+          "attributeValue": "Tarif"
+        },
+        {
+          "attributesKey": "tariffOptionKey",
+          "attributeValue": "Optionen"
+        },
+        {
+          "attributesKey": "inActiveValue",
+          "attributeValue": "Inaktiv"
+        },
+        {
+          "attributesKey": "activeValue",
+          "attributeValue": "Aktiv"
+        },
+        {
+          "attributesKey": "nearlyInActiveValue",
+          "attributeValue": "bald inaktiv"
+        },
+        {
+          "attributesKey": "callToActionRequestMoreData",
+          "attributeValue": "Datenoption buchen"
+        }
+      ]
+    },
+    {
+      "id": "prepaidCredit",
+      "template": "PrepaidCreditTemplate",
+      "config": {
+        "icon": "balance_dark_24",
+        "headline": "Guthaben",
+        "background": "white",
+        "subline": "Prepaid Consumption subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/recharge",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "customAttributes": [
+        {
+          "attributesKey": "tariffKey",
+          "attributeValue": "Tarif"
+        },
+        {
+          "attributesKey": "tariffOptionKey",
+          "attributeValue": "Optionen"
+        },
+        {
+          "attributesKey": "inActiveValue",
+          "attributeValue": "Inaktiv"
+        },
+        {
+          "attributesKey": "activeValue",
+          "attributeValue": "Aktiv"
+        },
+        {
+          "attributesKey": "nearlyInActiveValue",
+          "attributeValue": "bald inaktiv"
+        }
+      ]
+    },
+    {
+      "id": "tariffoptions",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "add_dark_24",
+        "headline": "Optionen buchen",
+        "background": "white",
+        "subline": "Entdecken",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/tariffoptions",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "data",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "admin_white_24",
+        "headline": "MeinDaten",
+        "background": "white",
+        "subline": "MeinDaten subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/data",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "data_fixednet",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "admin_white_24",
+        "headline": "MeinDaten",
+        "background": "white",
+        "subline": "Details ansehen",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/data",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "faq",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "help_dark_24",
+        "headline": "FAQ",
+        "background": "white",
+        "subline": "Details FAQ",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/faq",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "ShopFinder",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "location_dark_24",
+        "headline": "Shopfinder",
+        "background": "white",
+        "subline": "shopfinder subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/shopfinder",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "bill",
+      "template": "defaultTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "bill_report_dark_24",
+        "headline": "Letzte Rechnung",
+        "background": "white",
+        "subline": "Bill subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/overview",
+        "errorText": "Daten konnten nicht geladen werden"
+      }
+    },
+    {
+      "id": "recharge",
+      "template": "defaultTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "top_up_dark_24",
+        "headline": "Aufladen",
+        "background": "white",
+        "subline": "Aufladen subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/recharge",
+        "errorText": "Daten konnten nicht geladen werden"
+      }
+    },
+    {
+      "id": "offer",
+      "template": "defaultTemplate",
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "config": {
+        "icon": "top_deals_dark_24",
+        "headline": "Offer",
+        "background": "white",
+        "subline": "Offer subline",
+        "action": "deeplink",
+        "url": "https://www.vodafone.de/meinvodafone/app/offer",
+        "errorText": "Daten konnten nicht geladen werden"
+      }
+    }
+  ],
+  "area": {
+    "postpaid": {
+      "tiles": [
+        [
+          "postpaidConsumption",
+          "noData"
+        ],
+        [
+          "postpaidCurrentCosts",
+          "data",
+          "offer",
+          "faq"
+        ],
+        [
+          "postpaidRedPlus",
+          "overview",
+          "shopfinder"
+        ],
+        [
+          "postpaidVodafonePass",
+          "tariffoptions",
+          "speedTest"
+        ]
+      ]
+    },
+    "prepaid": {
+      "tiles": [
+        [
+          "prepaidConsumption",
+          "noData"
+        ],
+        [
+          "prepaidCredit",
+          "recharge"
+        ],
+        [
+          "vertrag",
+          "shopfinder"
+        ],
+        [
+          "recharge",
+          "offer"
+        ]
+      ]
+    },
+    "dsl": {
+      "tiles": [
+        [
+          "bill_fixednet",
+          "faq"
+        ],
+        [
+          "dslLandlineNumber",
+          "offer"
+        ],
+        [
+          "tariff_fixednet",
+          "shopfinder"
+        ],
+        [
+          "speedtest",
+          "shopFinder"
+        ]
+      ]
+    }
+  }
+}
