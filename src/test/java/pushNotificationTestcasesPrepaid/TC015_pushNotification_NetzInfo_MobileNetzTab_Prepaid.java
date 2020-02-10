@@ -5,9 +5,9 @@ import java.io.IOException;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
 
-import externalDataFilesHandeller.GetUserFromJson;
-import externalDataFilesHandeller.UrbanAirshipAPIConfigHandeller;
-import externalDataFilesHandeller.UrbanAirshipAPI_NotificationBody_Handeller;
+import dataFilesHandeller.GetUserFromJson;
+import dataFilesHandeller.UrbanAirshipAPIConfigHandeller;
+import dataFilesHandeller.UrbanAirshipAPI_NotificationBody_Handeller;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
 import ios_pages.DeeplinkPagesValidator_Mobile;
