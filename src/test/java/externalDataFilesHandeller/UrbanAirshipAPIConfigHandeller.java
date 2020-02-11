@@ -6,7 +6,6 @@ public class UrbanAirshipAPIConfigHandeller extends  PropertiesFileReader {
 	
 	public static String getPlatformName_IOS(){
 
-		
 		PropertiesFileReader.readProbFile("Configuration/urbanAirShipAPIConfig.properties");
 		return prop.getProperty("PLATFORM_NAME_IOS");
 

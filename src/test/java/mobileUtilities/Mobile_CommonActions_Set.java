@@ -37,16 +37,23 @@ public class Mobile_CommonActions_Set {
 
 
 		} catch (NoSuchElementException e) {
-			
+			// if the element isn't presented on the screen, we need to make the flag 'check' with value false 
 			//System.err.println("I'm on Catch Block");
 			check = false;
 			return check;
 		}
 	}
+
 	public static void setExplicitWait(WebElement element, int timeoutInSeconds) {
 
-		(new WebDriverWait(GlobalDriver.appium, timeoutInSeconds)).until(ExpectedConditions.elementToBeClickable(element));
-
+		try {
+			(new WebDriverWait(GlobalDriver.appium, timeoutInSeconds)).until(ExpectedConditions.visibilityOf(element));
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+			(new WebDriverWait(GlobalDriver.appium, timeoutInSeconds)).until(ExpectedConditions.elementToBeClickable(element));	
+		}
+		
 	}
 
 	public static boolean checkIfElementISDisplayed(WebElement element) {
@@ -55,12 +62,12 @@ public class Mobile_CommonActions_Set {
 
 	}
 
-	public static void waitPrsenceOfElement(By element, int timeOutInSeconds) {
+	/*public static void waitPrsenceOfElement(By element, int timeOutInSeconds) {
 
 		WebDriverWait wait = new WebDriverWait(GlobalDriver.appium, timeOutInSeconds);
 		wait.until(ExpectedConditions.presenceOfElementLocated(element));
 
-	}
+	}*/
 	public static void Click(WebElement element)
 	{
 		element.click();
@@ -74,6 +81,7 @@ public class Mobile_CommonActions_Set {
 
 	public static void setAppIntoTheBackground() {
 
+		//we use -1 value to put and keep the app in background as any other value will lead to launch the app again from the BG
 		GlobalDriver.appium.runAppInBackground(Duration.ofSeconds(-1));
 	}
 
@@ -202,7 +210,7 @@ public class Mobile_CommonActions_Set {
 				//System.out.println("pressX "+ pressX); 
 				//System.out.println("topY "+ topY); 
 				//System.out.println("bottomY "+ bottomY);
-			//	System.out.println("isDisplayed "+ isDisplayed); 
+				//	System.out.println("isDisplayed "+ isDisplayed); 
 				if (!isDisplayed) {
 					throw new NoSuchElementException("Element Not Displayed");
 				}

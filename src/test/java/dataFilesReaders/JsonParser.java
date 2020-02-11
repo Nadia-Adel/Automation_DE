@@ -13,7 +13,7 @@ public class JsonParser {
 
 
 		JSONParser jsonParser = new JSONParser();
-		FileReader reader = null;
+		FileReader reader = null;   // Takes the path of the file we need to parse
 		try {
 			reader = new FileReader(jsonPath);
 		} catch (FileNotFoundException e) {
@@ -23,7 +23,7 @@ public class JsonParser {
 		//Read JSON file
 		Object obj = null;
 		try {
-			obj = jsonParser.parse(reader);
+			obj = jsonParser.parse(reader); // here we have the file on json object format
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

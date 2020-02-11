@@ -10,6 +10,7 @@ import externalDataFilesHandeller.SandboxConfigReader_NewSolution;
 
 public class TextFileReader {
 	
+	//convert text file to string
 	public static String ReadFiletxt(String FilePath) throws IOException {
 		  File file = new File(FilePath); 
 		  

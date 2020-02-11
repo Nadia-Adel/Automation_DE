@@ -1,7 +1,8 @@
 automationName=XCUITest
-deviceName=iPhone 222
-udid=67c7642bb33f866e19a9b5485294889499f66f21
+deviceName=AutomationiPhone
+udid=00008020-001C65101468002E
 bundleId=com.tsse.meinvodafone
-platformName=iOS
+platformName=ios
+platformVersion=12.0
 usePrebuiltWDA=true
 noReset=true

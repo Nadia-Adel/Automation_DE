@@ -9,10 +9,13 @@ import testBase.GlobalDriver;
 public class Helper_Class {
 
 	
+	
+	// is a class to implement a method which is not Set or Get method 
+	
 	public static void validateDeeplinkAction_mobile(WebElement pageTitle, WebElement pageSubtitle) {
 		Mobile_CommonActions_Set.setExplicitWait(pageTitle, 30);
 
-		System.out.println("Info page Title is :  " + Mobile_CommonActions_Get.getText(pageTitle));
+		System.out.println("page Title is :  " + Mobile_CommonActions_Get.getText(pageTitle));
 
 		Mobile_CommonActions_Set.setExplicitWait(pageSubtitle, 30);
 
@@ -23,7 +26,7 @@ public class Helper_Class {
 	public static void validateDeeplinkAction_dsl(WebElement pageTitle, WebElement pageSubtitle) {
 		Mobile_CommonActions_Set.setExplicitWait(pageTitle, 30);
 
-		System.out.println("Info page Title is :  " + Mobile_CommonActions_Get.getText(pageTitle));
+		System.out.println("page Title is :  " + Mobile_CommonActions_Get.getText(pageTitle));
 
 		Mobile_CommonActions_Set.setExplicitWait(pageSubtitle, 30);
 

@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
     <classes>
-      <class name="servicesAndAPIs.TariffPlan_Get"/>
+      <class name="pushNotificationTestcasesPostpaid.TC001_pushNotification_Forums_Postpaid"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="pushNotificationTestcasesPostpaid.TC001_pushNotification_Forums_Postpaid">
+        <methods>
+          <include name="setUp"/>
+          <include name="Step4_HandlePushNotification_FromBackground"/>
+          <include name="initializeTestRun"/>
+          <include name="Step7_ValidateTheForumsPage_AfterKillingTheApp"/>
+          <include name="Step8_MobileLogout"/>
+          <include name="Step2_HandlePushNotificationFromFrontgound"/>
+          <include name="Step1_mobileLogin"/>
+          <include name="Step3_ValidateTheForumsPage_FrontGround"/>
+          <include name="Step6_HandlePushNotificationFromFrontgound_AfterKillingTheApp"/>
+          <include name="Step5_ValidateTheForumsPage_Backround"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- pushNotificationTestcasesPostpaid.TC001_pushNotification_Forums_Postpaid -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

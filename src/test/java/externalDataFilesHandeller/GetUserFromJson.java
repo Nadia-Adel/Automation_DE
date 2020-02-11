@@ -11,6 +11,7 @@ public class GetUserFromJson {
 
 	public static String getUsername(String userType) throws IOException, ParseException {
 
+		// we do parsing from object notation to json object
 		JSONObject userObj = (JSONObject) JsonParser.parseJson("users/users.json");
 		JSONObject username =   (JSONObject) userObj.get(userType);
 

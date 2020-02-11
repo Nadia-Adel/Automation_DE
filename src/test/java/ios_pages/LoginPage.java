@@ -168,6 +168,8 @@ public class LoginPage {
 
 		try {
 			Thread.sleep(3000);
+			Mobile_CommonActions_Set.setExplicitWait(halloOnboarding, 20);
+			System.err.println("Found");
 			Mobile_CommonActions_Set.scrollDownTo(acceptGDBR, 10000, "native-ios");
 
 			Mobile_CommonActions_Set.Click(acceptGDBR);

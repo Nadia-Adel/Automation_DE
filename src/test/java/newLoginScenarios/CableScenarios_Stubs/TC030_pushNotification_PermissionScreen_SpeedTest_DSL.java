@@ -30,7 +30,7 @@ public class TC030_pushNotification_PermissionScreen_SpeedTest_DSL extends Mobil
 	    loginPageObject = new LoginPage(GlobalDriver.appium);
 	    loginPageObject.EnterUserCredentials_DSL(GetUserFromJson.getUsername("DSLUser_Stubs"), GetUserFromJson.getpassword("DSLUser_Stubs"));
 		Mobile_CommonActions_Set.Click(loginPageObject.dslLoginBtn);
-		Mobile_CommonActions_Set.waitPrsenceOfElement(By.id("Hallo,"), 5);
+		Mobile_CommonActions_Set.setExplicitWait(loginPageObject.halloOnboarding, 20);
 	
 	}
 	
@@ -46,7 +46,7 @@ public class TC030_pushNotification_PermissionScreen_SpeedTest_DSL extends Mobil
 
 		homepage = new HomePage(GlobalDriver.appium);
 		homepage.handlePushNotificationFromForground(userUDID,platformName,deepLink,notifcationMessage);	
-		Mobile_CommonActions_Set.waitPrsenceOfElement(By.id("Hallo,"), 5);
+		Mobile_CommonActions_Set.setExplicitWait(loginPageObject.halloOnboarding, 20);
 		
 
 	}
@@ -83,7 +83,7 @@ public class TC030_pushNotification_PermissionScreen_SpeedTest_DSL extends Mobil
 	    loginPageObject = new LoginPage(GlobalDriver.appium);
 	    loginPageObject.EnterUserCredentials_DSL(GetUserFromJson.getUsername("DSLUser_Stubs"), GetUserFromJson.getpassword("DSLUser_Stubs"));
 		Mobile_CommonActions_Set.Click(loginPageObject.dslLoginBtn);
-		Mobile_CommonActions_Set.waitPrsenceOfElement(By.id("Hallo,"), 5);
+		Mobile_CommonActions_Set.setExplicitWait(loginPageObject.halloOnboarding, 20);
 	
 	}
 

@@ -37,7 +37,7 @@ public class TC019_Stubs_Cable_Fail_Info_Get_Post_With500And504And510And405 exte
 		loginPageObject = new LoginPage(GlobalDriver.appium);
 		loginPageObject.EnterUserCredentials_DSL(GetUserFromJson.getUsername("CableUser_Stubs"), GetUserFromJson.getpassword("CableUser_Stubs"));
 		Mobile_CommonActions_Set.Click(loginPageObject.dslLoginBtn);
-		Mobile_CommonActions_Set.waitPrsenceOfElement(By.id("Hallo,"), 5);
+		Mobile_CommonActions_Set.setExplicitWait(loginPageObject.halloOnboarding, 20);
 		
 	}
 
