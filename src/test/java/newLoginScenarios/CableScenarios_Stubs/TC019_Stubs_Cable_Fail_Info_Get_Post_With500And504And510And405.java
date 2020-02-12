@@ -7,8 +7,8 @@ import org.json.simple.parser.ParseException;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import externalDataFilesHandeller.GetUserFromJson;
-import externalDataFilesHandeller.SandboxConfigReader;
+import dataFilesHandeller.GetUserFromJson;
+import dataFilesHandeller.SandboxConfigReader;
 import ios_pages.LoginPage;
 import mobileUtilities.Mobile_CommonActions_Set;
 import testBase.GlobalDriver;

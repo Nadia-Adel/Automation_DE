@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
 
-import externalDataFilesHandeller.GetUserFromJson;
+import dataFilesHandeller.GetUserFromJson;
 import ios_pages.LoginPage;
 import testBase.GlobalDriver;
 import testBase.MobileTestBase;

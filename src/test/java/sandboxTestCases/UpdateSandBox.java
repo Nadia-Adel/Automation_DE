@@ -8,7 +8,7 @@ import org.apache.commons.io.FileUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import externalDataFilesHandeller.SandboxConfigReader;
+import dataFilesHandeller.SandboxConfigReader;
 import testBase.GlobalDriver;
 import testBase.webTestBase;
 import webPages.DashBoardPage;

@@ -5,13 +5,14 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-import externalDataFilesHandeller.SandboxConfigReader_NewSolution;
+import dataFilesHandeller.SandboxConfigReader_NewSolution;
 
 
 public class TextFileReader {
 	
 	//convert text file to string
-	public static String ReadFiletxt(String FilePath) throws IOException {
+
+	public static String readTextFilAsString(String FilePath) throws IOException {
 		  File file = new File(FilePath); 
 		  
 		  BufferedReader br = new BufferedReader(new FileReader(file)); 
@@ -28,10 +29,10 @@ public class TextFileReader {
 		    return fileAsString;
 	}
 	
-	public static void main(String [] args) throws IOException {
-		
-		
-		System.out.println("file is  :  "+ ReadFiletxt(SandboxConfigReader_NewSolution.getProberty("startSession_401")));
-	}
-	
+//	public static void main(String [] args) throws IOException {
+//		
+//		
+//		System.out.println("file is  :  "+ readTextFilAsString(SandboxConfigReader_NewSolution.getProberty("startSession_401")));
+//	}
+//	
 }

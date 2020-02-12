@@ -8,7 +8,7 @@ import java.sql.Timestamp;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
 
-import externalDataFilesHandeller.GetUserFromJson;
+import dataFilesHandeller.GetUserFromJson;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;

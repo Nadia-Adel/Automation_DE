@@ -4,8 +4,9 @@ import static org.testng.Assert.assertFalse;
 import java.io.IOException;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
-import externalDataFilesHandeller.CMSConfigFilesReader;
-import externalDataFilesHandeller.GetUserFromJson;
+
+import dataFilesHandeller.CMSConfigFilesReader;
+import dataFilesHandeller.GetUserFromJson;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
 import mobileUtilities.Mobile_CommonActions_Set;

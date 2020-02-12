@@ -25,10 +25,10 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-import externalDataFilesHandeller.CapabilitiesFileReader;
-import externalDataFilesHandeller.ConfigurationFileHandeller;
-import externalDataFilesHandeller.GetUserFromJson;
-import externalDataFilesHandeller.SandboxConfigReader;
+import dataFilesHandeller.CapabilitiesFileReader;
+import dataFilesHandeller.ConfigurationFileHandeller;
+import dataFilesHandeller.GetUserFromJson;
+import dataFilesHandeller.SandboxConfigReader;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;

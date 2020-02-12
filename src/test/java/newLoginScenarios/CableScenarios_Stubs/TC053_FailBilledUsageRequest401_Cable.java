@@ -5,8 +5,8 @@ import java.io.IOException;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
 
-import externalDataFilesHandeller.GetUserFromJson;
-import externalDataFilesHandeller.SandboxConfigReader;
+import dataFilesHandeller.GetUserFromJson;
+import dataFilesHandeller.SandboxConfigReader;
 import ios_pages.HomePage;
 import ios_pages.LoginPage;
 import mobileUtilities.Mobile_CommonActions_Set;

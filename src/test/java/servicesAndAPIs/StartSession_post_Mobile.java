@@ -6,7 +6,7 @@ import java.io.IOException;
 
 import org.json.simple.parser.ParseException;
 
-import externalDataFilesHandeller.GetUserFromJson;
+import dataFilesHandeller.GetUserFromJson;
 import io.restassured.RestAssured;
 import io.restassured.http.Cookies;
 import io.restassured.path.json.JsonPath;

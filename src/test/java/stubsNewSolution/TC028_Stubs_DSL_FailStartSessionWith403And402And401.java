@@ -4,9 +4,9 @@ import java.io.IOException;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
 
+import dataFilesHandeller.GetUserFromJson;
+import dataFilesHandeller.SandboxConfigReader_NewSolution;
 import dataFilesReaders.TextFileReader;
-import externalDataFilesHandeller.GetUserFromJson;
-import externalDataFilesHandeller.SandboxConfigReader_NewSolution;
 import ios_pages.*;
 import mobileUtilities.Mobile_CommonActions_Set;
 import sandboxNewSolution.SandBoxes;
@@ -31,7 +31,7 @@ public class TC028_Stubs_DSL_FailStartSessionWith403And402And401 extends MobileT
 		System.out.println("Step2");
 		
 		SandBoxes SB ;
-		SandBoxes.UpdateSandBox("Start Session" ,TextFileReader.ReadFiletxt(SandboxConfigReader_NewSolution.getProberty("startSession_401")));
+		SandBoxes.UpdateSandBox("Start Session" ,TextFileReader.readTextFilAsString(SandboxConfigReader_NewSolution.getProberty("startSession_401")));
 		
 		
 		loginPageObject = new LoginPage(GlobalDriver.appium);
