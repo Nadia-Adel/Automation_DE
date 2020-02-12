@@ -1,4 +1,4 @@
-package externalDataFilesHandeller;
+package dataFilesHandeller;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

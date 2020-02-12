@@ -1,4 +1,4 @@
-package externalDataFilesHandeller;
+package dataFilesHandeller;
 
 import dataFilesReaders.PropertiesFileReader;
 
