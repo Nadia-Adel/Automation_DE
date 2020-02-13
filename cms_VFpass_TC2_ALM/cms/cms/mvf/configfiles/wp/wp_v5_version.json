@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": "config",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/wp_v5_config.json",
+      "version": 6
+    },
+    {
+      "id": "tariff",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/wp_v5_tariff.json",
+      "version": 4
+    },
+    {
+      "id": "tariffoption",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/wp_v5_tariffoption.json",
+      "version": 4
+    },
+    {
+      "id": "help",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/wp_v5_help.json",
+      "version": 3
+    },
+    {
+      "id": "maintenance",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/wp_v5_maintenance.json",
+      "version": 3
+    },
+    {
+      "id": "menu",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/wp_v5_menu.json",
+      "version": 18
+    },
+    {
+      "id": "roaming",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/wp_v5_roaming.json",
+      "version": 4
+    }
+  ]
+}

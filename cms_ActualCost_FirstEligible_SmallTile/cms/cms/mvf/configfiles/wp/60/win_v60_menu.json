@@ -1,0 +1,624 @@
+{
+  "phone": [
+    {
+      "id": "quickcheck",
+      "enable": "true",
+      "label": "QuickCheck",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": true,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "recharge",
+      "enable": "true",
+      "label": "Aufladen",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": false,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": false,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": true,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "transfer",
+      "enable": "true",
+      "label": "Transfer",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": false,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": false,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "tariff",
+      "enable": "true",
+      "label": "Tarif",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "data",
+      "enable": "true",
+      "label": "Kundendaten",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": true,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "bill",
+      "enable": "true",
+      "label": "Rechnung",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "roaming",
+      "enable": "true",
+      "label": "Im Ausland",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": false,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": true,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "netzinfo",
+      "enable": "true",
+      "label": "Mein Netz",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [],
+        "showForTypeI": true,
+        "vfplanForTypeI": [],
+        "showForTypeS": true,
+        "vfplanForTypeS": [],
+        "showForTypeB": true,
+        "vfplanForTypeB": [],
+        "showForTypePU": false,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "id": "help",
+      "enable": "true",
+      "label": "Hilfe & Support",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [],
+        "showForTypeI": true,
+        "vfplanForTypeI": [],
+        "showForTypeS": true,
+        "vfplanForTypeS": [],
+        "showForTypeB": true,
+        "vfplanForTypeB": [],
+        "showForTypePU": false,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "id": "forum",
+      "enable": "true",
+      "label": "Forum",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [],
+        "showForTypeI": true,
+        "vfplanForTypeI": [],
+        "showForTypeS": true,
+        "vfplanForTypeS": [],
+        "showForTypeB": true,
+        "vfplanForTypeB": [],
+        "showForTypePU": false,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "id": "shopfinder",
+      "enable": "true",
+      "label": "Shopfinder",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [],
+        "showForTypeI": true,
+        "vfplanForTypeI": [],
+        "showForTypeS": true,
+        "vfplanForTypeS": [],
+        "showForTypeB": true,
+        "vfplanForTypeB": [],
+        "showForTypePU": false,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "id": "offer",
+      "enable": "true",
+      "label": "Angebote",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [],
+        "showForTypeI": false,
+        "vfplanForTypeI": [],
+        "showForTypeS": false,
+        "vfplanForTypeS": [],
+        "showForTypeB": false,
+        "vfplanForTypeB": [],
+        "showForTypePU": false,
+        "vfplanForTypePU": []
+      }
+    },
+    {
+      "id": "info",
+      "enable": "true",
+      "label": "Info",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [],
+        "showForTypeI": true,
+        "vfplanForTypeI": [],
+        "showForTypeS": true,
+        "vfplanForTypeS": [],
+        "showForTypeB": true,
+        "vfplanForTypeB": [],
+        "showForTypePU": false,
+        "vfplanForTypePU": []
+      }
+    }
+  ],
+  "tablet": [
+    {
+      "id": "home",
+      "enable": "true",
+      "label": "Home",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": true,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "quickcheck",
+      "enable": "true",
+      "label": "QuickCheck",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": false,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": false,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "recharge",
+      "enable": "true",
+      "label": "Aufladen",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": false,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": false,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "transfer",
+      "enable": "true",
+      "label": "Transfer",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": true,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "bill",
+      "enable": "true",
+      "label": "Rechnung",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "data",
+      "enable": "true",
+      "label": "Kundendaten",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": true,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "vertrag",
+      "enable": "true",
+      "label": "Vertrag",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      },
+      "subItems": [
+        {
+          "id": "tariff",
+          "enable": "true",
+          "label": "Tarif",
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePre": [ ],
+            "showForTypeI": true,
+            "vfplanForTypeI": [ ],
+            "showForTypeS": true,
+            "vfplanForTypeS": [ ],
+            "showForTypeB": false,
+            "vfplanForTypeB": [ ],
+            "showForTypePU": false,
+            "vfplanForTypePU": [ ]
+          }
+        },
+        {
+          "id": "tariffoptions",
+          "enable": "true",
+          "label": "Tarifoptionen",
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePre": [ ],
+            "showForTypeI": true,
+            "vfplanForTypeI": [ ],
+            "showForTypeS": true,
+            "vfplanForTypeS": [ ],
+            "showForTypeB": false,
+            "vfplanForTypeB": [ ],
+            "showForTypePU": false,
+            "vfplanForTypePU": [ ]
+          }
+        },
+        {
+          "id": "youngpeople",
+          "enable": "false",
+          "label": "Junge Leute",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePre": [ ],
+            "showForTypeI": true,
+            "vfplanForTypeI": [ ],
+            "showForTypeS": true,
+            "vfplanForTypeS": [ ],
+            "showForTypeB": true,
+            "vfplanForTypeB": [ ],
+            "showForTypePU": false,
+            "vfplanForTypePU": [ ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "roaming",
+      "enable": "true",
+      "label": "Ausland",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "netzinfo",
+      "enable": "true",
+      "label": "Netzinfo",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": true,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      },
+      "subItems": [
+        {
+          "id": "gigagarantie",
+          "enable": "true",
+          "label": "GigaGarantie",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePre": [ ],
+            "showForTypeI": true,
+            "vfplanForTypeI": [ ],
+            "showForTypeS": true,
+            "vfplanForTypeS": [ ],
+            "showForTypeB": true,
+            "vfplanForTypeB": [ ],
+            "showForTypePU": false,
+            "vfplanForTypePU": [ ]
+          }
+        },
+        {
+          "id": "speedtest",
+          "enable": "false",
+          "label": "SpeedTest",
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePre": [ ],
+            "showForTypeI": false,
+            "vfplanForTypeI": [ ],
+            "showForTypeS": false,
+            "vfplanForTypeS": [ ],
+            "showForTypeB": false,
+            "vfplanForTypeB": [ ],
+            "showForTypePU": false,
+            "vfplanForTypePU": [ ]
+          }
+        },
+        {
+          "id": "netzabdeckung",
+          "enable": "true",
+          "label": "Netzabdeckung",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePre": [ ],
+            "showForTypeI": true,
+            "vfplanForTypeI": [ ],
+            "showForTypeS": true,
+            "vfplanForTypeS": [ ],
+            "showForTypeB": true,
+            "vfplanForTypeB": [ ],
+            "showForTypePU": false,
+            "vfplanForTypePU": [ ]
+          }
+        },
+        {
+          "id": "netzokay",
+          "enable": "true",
+          "label": "Netz Okay?",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePre": [ ],
+            "showForTypeI": true,
+            "vfplanForTypeI": [ ],
+            "showForTypeS": true,
+            "vfplanForTypeS": [ ],
+            "showForTypeB": true,
+            "vfplanForTypeB": [ ],
+            "showForTypePU": false,
+            "vfplanForTypePU": [ ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tariff",
+      "enable": "true",
+      "label": "Tarif",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": false,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": false,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "help",
+      "enable": "true",
+      "label": "Hilfe & Support",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": true,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      },
+      "subItems": [
+        {
+          "id": "faq",
+          "enable": "true",
+          "label": "FAQs",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePre": [ ],
+            "showForTypeI": true,
+            "vfplanForTypeI": [ ],
+            "showForTypeS": true,
+            "vfplanForTypeS": [ ],
+            "showForTypeB": true,
+            "vfplanForTypeB": [ ],
+            "showForTypePU": false,
+            "vfplanForTypePU": [ ]
+          }
+        },
+        {
+          "id": "forum",
+          "enable": "false",
+          "label": "Forum",
+          "eligibleCustomerTypes": {
+            "showForTypePre": false,
+            "vfplanForTypePre": [ ],
+            "showForTypeI": false,
+            "vfplanForTypeI": [ ],
+            "showForTypeS": false,
+            "vfplanForTypeS": [ ],
+            "showForTypeB": false,
+            "vfplanForTypeB": [ ],
+            "showForTypePU": false,
+            "vfplanForTypePU": [ ]
+          }
+        },
+        {
+          "id": "shopfinder",
+          "enable": "true",
+          "label": "Shopfinder",
+          "eligibleCustomerTypes": {
+            "showForTypePre": true,
+            "vfplanForTypePre": [ ],
+            "showForTypeI": true,
+            "vfplanForTypeI": [ ],
+            "showForTypeS": true,
+            "vfplanForTypeS": [ ],
+            "showForTypeB": true,
+            "vfplanForTypeB": [ ],
+            "showForTypePU": false,
+            "vfplanForTypePU": [ ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "offer",
+      "enable": "false",
+      "label": "Angebote",
+      "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": false,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": false,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    },
+    {
+      "id": "info",
+      "enable": "true",
+      "label": "Einstellungen & Info",
+      "eligibleCustomerTypes": {
+        "showForTypePre": true,
+        "vfplanForTypePre": [ ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [ ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [ ],
+        "showForTypeB": true,
+        "vfplanForTypeB": [ ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [ ]
+      }
+    }
+  ]
+}

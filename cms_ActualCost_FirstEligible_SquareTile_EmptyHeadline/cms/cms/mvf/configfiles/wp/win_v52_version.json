@@ -1,0 +1,55 @@
+{ 
+    "items":[
+        {
+            "id": "abbreviations",
+            "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/win_v52_abbreviations.json",
+			"version": "4.2.2.30"
+        },
+        {
+            "id": "config",
+            "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/win_v52_config.json",
+			"version": "4.2.2.81"
+        },
+        {
+            "id": "help",
+            "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/win_v52_help.json",
+			"version": "4.2.2.4"
+        },
+        {
+            "id": "maintenance",
+            "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/win_v52_maintenance.json",
+			"version": "4.2.2.0"
+        },
+        {
+            "id": "menu",
+            "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/win_v52_menu.json",
+			"version": "4.2.2.30"
+        },
+        {
+            "id": "netz_feedback",
+            "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/win_v52_netzfeedback.json",
+			"version": "4.2.2.4"
+        },
+        {
+            "id": "prepaid_tariff",
+            "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/win_v52_prepaid_tariff.json",
+			"version": "4.2.2.1"
+        },
+        {
+            "id": "roaming",
+            "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/win_v52_roaming.json",
+			"version": "4.2.2.4"
+        },
+        {
+            "id": "tariff",
+            "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/win_v52_tariff.json",
+			"version": "4.2.2.0"
+        },
+        {
+            "id": "tariff_option",
+            "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/win_v52_tariffoption.json",
+			"version": "4.2.2.3"
+        }
+    ],
+    "release": "4.2.21.443"
+}

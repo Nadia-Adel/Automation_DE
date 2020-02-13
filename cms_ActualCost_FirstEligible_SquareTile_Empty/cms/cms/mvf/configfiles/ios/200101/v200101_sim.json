@@ -1,0 +1,30 @@
+{
+  "simSwapReasons": {
+    "reason3": {
+      "sim": {
+        "cost": 9.9,
+        "cardSize": "TC",
+        "cardType": "090"
+      }
+    },
+    "reason2": {
+      "sim": {
+        "cost": 9.9,
+        "cardSize": "TC",
+        "cardType": "090"
+      }
+    },
+    "reason1": {
+      "esim": {
+        "cost": 9.9,
+        "cardSize": "EC",
+        "cardType": "085"
+      },
+      "sim": {
+        "cost": 9.9,
+        "cardSize": "TC",
+        "cardType": "090"
+      }
+    }
+  }
+}

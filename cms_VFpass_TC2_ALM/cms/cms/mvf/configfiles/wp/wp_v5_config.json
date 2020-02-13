@@ -1,0 +1,541 @@
+{
+  "nba": {
+    "vvl": {
+      "campCodeArray": [
+        "MCC_1962",
+        "MCC_1960"
+      ],
+      "nbaOnlineShopUrl": "http://www.vodafone.de/mobil/privat/index.html",
+      "nbaHotlineNumber": "08008001070"
+    }
+  },
+  "chat": {
+    "genesys": {
+      "showChatInBillForPhone": true,
+      "showChatInBillForTablet": true,
+      "showChatInHelpForPhone": true,
+      "showChatInHelpForTablet": true,
+      "showChatInTarifForPhone": true,
+      "showChatInTeaserForPhone": true,
+      "showCallInBillForPhone": true,
+      "showCallInHelpForPhone": false,
+      "showCallInNetzInfoForPhone": true,
+      "showCallInTarifForPhone": true,
+      "showCallInTeaserForPhone": true,
+      "refreshTimeAgentAvailabilityChat": 20,
+      "refreshTimeAgentAvailabilityCall": 20
+    }
+  },
+  "urls": {
+    "baseImageURL": "http://media.vodafone.de/www/images/app/",
+    "onlineShopURL": "http://www.vodafone.de/partnercontent/app-vvl-redirect.html",
+    "netCoverargeURL": "http://www.vodafone.de/privat/hilfe-support/netzabdeckung.html",
+    "mailBoxAnsageURL": "https://mailboxansagepro.vodafone.de",
+    "saveAndSecureURL": "https://securenet.vodafone.de"
+  },
+  "stringIdentifier": {
+    "quickCheckHighSpeed": [
+      "Highspeed-Volumen national",
+      "Red+"
+    ],
+    "redPlus": "Red+"
+  },
+  "thresholds": {
+    "dataThreshold": 1024,
+    "highSpeedThreshold": 10,
+    "redBtnThreshold": 120,
+    "voteThreshold": 10
+  },
+  "callNumbers": {
+    "fixedDivert": "08005054570"
+  },
+  "features": {
+    "chat_genesys": {
+      "showforTypeB": true,
+      "showForTypeS": true,
+      "showForTypeI": true,
+      "showForTypePre": true,
+      "enable": true
+    },
+    "fixDivert": {
+      "showforTypeB": true,
+      "showForTypeS": true,
+      "showForTypeI": true,
+      "showForTypePre": true,
+      "enable": true
+    },
+    "netVoverage": {
+      "showforTypeB": true,
+      "showForTypeS": true,
+      "showForTypeI": true,
+      "showForTypePre": true,
+      "enable": true
+    },
+    "autoBooking": {
+      "showforTypeB": true,
+      "showForTypeS": true,
+      "showForTypeI": true,
+      "showForTypePre": true,
+      "enable": true
+    },
+    "dataThreshold": {
+      "showforTypeB": true,
+      "showForTypeS": true,
+      "showForTypeI": true,
+      "showForTypePre": true,
+      "enable": true
+    },
+    "mailboxAnsage": {
+      "showforTypeB": false,
+      "showForTypeS": true,
+      "showForTypeI": true,
+      "showForTypePre": false,
+      "enable": true
+    },
+    "saveAndSecure": {
+      "showforTypeB": false,
+      "showForTypeS": false,
+      "showForTypeI": true,
+      "showForTypePre": false,
+      "enable": true
+    },
+    "vote": {
+      "showforTypeB": true,
+      "showForTypeS": true,
+      "showForTypeI": true,
+      "showForTypePre": true,
+      "enable": true
+    },
+    "prepaid": {
+      "bonusDefaultMaxValue": 5,
+      "costDefaultMaxValue": 30,
+      "costSettings": [{
+        "tarifSocs": [
+          "CY_SF25"
+        ],
+        "costMaxValue": 50
+      }],
+      "offers": {
+        "BookOption": {
+          "resource": "mein_callya_BookOption-0-.jpg"
+        },
+        "ChangeTariff": {
+          "resource": "mein_callya_ChangeTariff-0-.jpg"
+        },
+        "Topup": {
+          "resource": "mein_callya_Topup-0-.jpg"
+        },
+        "Informative": {
+          "resource": "mein_callya_Informative-0-.jpg"
+        },
+        "Various": {
+          "resource": "banner_hardware-0-.jpg"
+        }
+      },
+      "komfortRegistration": {
+        "enabled": true,
+        "success": "success.do",
+        "failure": "cancel.do"
+      },
+      "showAngebot": true,
+      "showToppings": true,
+      "campaign": {
+        "enabled": true,
+        "version": 1,
+        "resource": "Detail_VVL_iPhone6s-Red1.5-0-.jpg",
+        "title": "CallYa schickt Dich um die Welt",
+        "subtitle": "Jetzt Prepaid-Guthaben aufladen und mit etwas Gl&uuml;ck eine Weltreise gewinnen.\n\nSofort Gewinne sind garantiert. Jetzt schnell in der App aufladen!"
+      },
+      "toppings_redeem_success_msg": "Die Registrierung f&uuml;r CallYa Toppings war erfolgreich."
+    }
+  },
+  "tariff": {
+    "additionalBookableSubheadline": "Erg&auml;nzen Sie jetzt Ihren Tarif",
+    "additionalBookedSubheadline": "Diese Tarifoptionen erg&auml;nzen bereits Ihren Tarif",
+    "additionalCategoryName": "Zusatzoptionen",
+    "entertainmentBookableClickcell": "Entertainment Optionen verwalten",
+    "entertainmentBookableSubheadline": "Entertainment in perfekter Kombination",
+    "entertainmentBookedClickcell": "Entertainment Optionen verwalten",
+    "entertainmentBookedSubheadline": "Pr&uuml;fen Sie hier, welches Paket Sie derzeit nutzen.",
+    "entertainmentCategoryName": "Entertainment-Pakete",
+    "highspeedBookableSubheadline": "Buchen Sie hier einfach zus&auml;tzliche Highspeed-GB f&uuml;r ein noch l&auml;ngeres Surf-Vergn&uuml;gen.",
+    "highspeedBookedSubheadline": "So viele Highspeed-GB haben Sie zus&auml;tzlich pro Monat gebucht:",
+    "highspeedCategoryName": "Highspeed-Volumen",
+    "highspeedTermsSubtext": "Die Option ist monatlich k&uuml;ndbar\\nWir behalten uns vor, die Verbindung nach je 24 Stunden automatisch zu trennen.\\nAm Ende jeder Verbindung, mindestens aber nach 24 Stunden, runden wir auf den n&auml;chsten 100-KB-Block auf.",
+    "highspeedTermsText": "Bei Buchung der Tarifoption erh&ouml;ht sich ihr gesamtes Highspeed-Datenvolumen mit maximal verf&uuml;gbarer Bandbreite bis zu 100 Mbit/s um das ausgew&auml;hlte Volumen.\\nNach Verbrauch des Highspeed-Datenvolumens stehen max. 32 kBit/s zur Verf&uuml;gung.\\n\\nMindestlaufzeit: 1 Monat",
+    "mailboxProductName": "Vodafone MailboxAnsage Pro",
+    "mailboxSubheadline": "Ihr mobiler Anrufbeantworter",
+    "saveAndSecureProductName": "Vodafone Secure Net",
+    "saveAndSecureSectionHeadline": "Ihr Rundum-Schutz im Netz",
+    "saveAndSecureSectionSubheadline": "Secure Net sch&uuml;tzt vor Viren und Angriffen aus dem mobilen Internet",
+    "saveAndSecureSubheadline": "Sicher sorglos surfen",
+    "redTariffText": "Flat telefonieren und SMSen"
+  },
+  "nextphone": {
+    "s2": {
+      "detailSubtitle": "Suchen Sie sich in unseren Shops ein neues Smartphone aus.",
+      "cellText": "Vertragsverl&auml;ngerung",
+      "detailTitle": "W&auml;hlen Sie jetzt Ihr neues Smartphone aus",
+      "buttonTitle": "Shop finden",
+      "detailText": "Das geht ab dem 13. Monat bis sp&auml;testens zum 23. Monat der Vertragslaufzeit. Ihr Vertrag verl&auml;ngert sich dann wieder auf 24 Monate Mindesvertragslaufzeit.\n\nFinden Sie jetzt einn Vodafone-Shop in ihrer N&auml;he. Und sichern Sich Ihr neues Smartphone.",
+      "buttonAction": "onlineshop",
+      "detailImage": "nextphone.jpg"
+    },
+    "s3": {
+      "detailSubtitle": "Gehen Sie dazu in unseren Shop und suchen sich ihr neues Smartphone oder Tablet aus.",
+      "cellText": "Jetzt ein neues Ger&auml;t",
+      "detailTitle": "W&auml;hlen Sie sich schon jetzt Ihr neues Ger&auml;t aus mit Vodafone EarlyBird.",
+      "buttonTitle": "Shop finden",
+      "detailText": "Suchen Sie sich in unseren Shops ein neues Smartphone oder Tablet vor Ende der Mindestlaufzeit mit Zuzahlung f&uuml;r die vorzeitige Vertragsverl&auml;ngerung aus.\n\nIhr neuer Vertrag hat dann eine Mindestlaufzeit von 24 Monaten.\n\nFinden Sie jetzt einen Vodafone-Shop in Ihrer N&auml;he und sichern Sie sich Ihr neues Ger&auml;t.",
+      "buttonAction": "onlineShop",
+      "detailImage": "nextphone.jpg"
+    }
+  },
+  "redPlus": {
+    "hotline_button_action": "08006649125",
+    "shopfinder_button_text": "Zum Shopfinder",
+    "onlineshop_button_action": "https://www.vodafone.de/shop/authentifizierung.html",
+    "onlineshop_button_text": "Zum Online-Shop",
+    "hotline_button_text": "Bestell-Hotline anrufen"
+  },
+  "zeroRating": {
+    "postpaid": {
+      "redPlusEnable": true,
+      "timeSpan": 120,
+      "showSuccess": true,
+      "enable": true,
+      "socCode": "APPVOLCRE"
+    },
+    "prepaid": {
+      "enabled": true,
+      "timeSpan": 1440,
+      "resource": "mein-callya-100mb-0-.jpg",
+      "title": "Dein App-Geschenk",
+      "subtitle": "Sch&ouml;n, dass Du die MeinCallYa-App nutzt. Als Dankesch&ouml;n bekommst Du 100 Highspeed - MB kostenlos- f&uuml;r die n&auml;chsten 28 Tage. Nutze die App am besten regelm&auml;&szlig;ig.Denn: Wir beschenken Dich immer wieder neu.",
+      "buttonText": "Dein kostenloses 100MB Geschenk",
+      "socCode": "APPVOLDEB"
+    }
+  },
+  "abbreviations": [{
+    "description": "60 Mobil-Minuten",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Ausland",
+    "abbr": "Im Ausland"
+  }, {
+    "description": "comfortRegistrationFailure",
+    "abbr": "cancel.do"
+  }, {
+    "description": "comfortRegistrationSuccess",
+    "abbr": "success.do"
+  }, {
+    "description": "Data Europa",
+    "abbr": "Europa"
+  }, {
+    "description": "Daten",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Daten Ausland",
+    "abbr": "Welt"
+  }, {
+    "description": "Daten Europa",
+    "abbr": "EU"
+  }, {
+    "description": "Daten Highspeed-Volumen national",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Datensession",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Datenvolumen Ihrer Red+ Gruppe national",
+    "abbr": "Red+"
+  }, {
+    "description": "Datenvolumen Ihrer Red+ Gruppe national und international",
+    "abbr": "Red+"
+  }, {
+    "description": "Datenvolumen national",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Europa",
+    "abbr": "EU"
+  }, {
+    "description": "Freiminuten 120",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Freiminuten 60",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Highspeed-Volumen",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Highspeed-Volumen im Zuhausebereich",
+    "abbr": "Zuhause"
+  }, {
+    "description": "Vodafone Red S",
+    "abbr": "DE & EU"
+  }, {
+    "description": "Vodafone Red M",
+    "abbr": "DE & EU"
+  }, {
+    "description": "Vodafone Red L",
+    "abbr": "DE & EU"
+  }, {
+    "description": "Vodafone Red XL",
+    "abbr": "DE & EU"
+  }, {
+    "description": "Vodafone Red XXL",
+    "abbr": "DE & EU"
+  }, {
+    "description": "Highspeed-Volumen LTE",
+    "abbr": "LTE"
+  }, {
+    "description": "Highspeed-Volumen national",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Highspeed-Volumen national und international",
+    "abbr": "DE & EU"
+  }, {
+    "description": "in alle deutschen Netze",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Minuten in alle deutschen Netze",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Minuten ins deutsche Vodafone-Netz",
+    "abbr": "VF DE"
+  }, {
+    "description": "Minuten oder SMS ins deutsche Vodafone-Netz",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Minuten Vodafone MinutenPaket 240 World",
+    "abbr": "Welt"
+  }, {
+    "description": "MinutenOption 120",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenOption 120 Retention 3M",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenOption 240",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenOption 240 Retention 3M",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenOption 30",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenOption 30 gratis",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenOption 60",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenOption 60 R Special",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenOption 60 Retention 3M",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenPaket 120 SIMOnly m. Mob.",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenPaket 1200 SIMOnly m. Mob.",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenPaket 240 SIMOnly m. Mob.",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenPaket 480 SIMOnly m. Mob.",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MinutenPaket 60 SIMOnly m. Mob.",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MMS in alle deutschen Netze",
+    "abbr": "Im Inland"
+  }, {
+    "description": "MobileInternet Basic",
+    "abbr": "Basic"
+  }, {
+    "description": "MobileInternet Basic (Ausland)",
+    "abbr": "Ausland"
+  }, {
+    "description": "MobileInternet Basic Flat",
+    "abbr": "Basic Flat"
+  }, {
+    "description": "Package Vodafone MinutenOption 120 fÃ¼r Junge Leute",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Plus",
+    "abbr": "Plus"
+  }, {
+    "description": "prepaid_zeroratingSocCode",
+    "abbr": "APPVOLDEB"
+  }, {
+    "description": "ReiseFlat Plus",
+    "abbr": "Reise Flat"
+  }, {
+    "description": "ReisePaket Data",
+    "abbr": "Im Inland"
+  }, {
+    "description": "ReisePaket Data EU und Schweiz",
+    "abbr": "Europa"
+  }, {
+    "description": "ReisePaket Plus",
+    "abbr": "Plus"
+  }, {
+    "description": "ReisePaket World",
+    "abbr": "World"
+  }, {
+    "description": "Roaming",
+    "abbr": "Roaming"
+  }, {
+    "description": "SMS 150 Promotional SOC",
+    "abbr": "Im Inland"
+  }, {
+    "description": "SMS 300 Promotional SOC",
+    "abbr": "Im Inland"
+  }, {
+    "description": "SMS 40 Promotional SOC",
+    "abbr": "Im Inland"
+  }, {
+    "description": "SMS in alle deutschen Netze",
+    "abbr": "Im Inland"
+  }, {
+    "description": "SMS100 Paket",
+    "abbr": "Im Inland"
+  }, {
+    "description": "UMTS-MinutenPaket Plus 100",
+    "abbr": "Im Inland"
+  }, {
+    "description": "UMTS-MinutenPaket Plus 200",
+    "abbr": "Im Inland"
+  }, {
+    "description": "UMTS-MinutenPaket Plus 50",
+    "abbr": "Im Inland"
+  }, {
+    "description": "UMTS-MinutenPaket Plus 500",
+    "abbr": "Im Inland"
+  }, {
+    "description": "VF MinutenPaket 120 Europe",
+    "abbr": "Europa"
+  }, {
+    "description": "VF MinutenPaket 120 World",
+    "abbr": "Welt"
+  }, {
+    "description": "VF MinutenPaket 240 World",
+    "abbr": "Welt"
+  }, {
+    "description": "VF MinutenPaket 60 Europe",
+    "abbr": "Europa"
+  }, {
+    "description": "VF MinutenPaket 60 World",
+    "abbr": "Welt"
+  }, {
+    "description": "VF SuperFlat WE&SMS",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone 100",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone 100 mit Fremdnetzen",
+    "abbr": "Fremdnetz"
+  }, {
+    "description": "Vodafone 200",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone 200 mit Fremdnetzen",
+    "abbr": "Fremdnetz"
+  }, {
+    "description": "Vodafone 25",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone 25 mit Fremdnetzen",
+    "abbr": "Fremdnetz"
+  }, {
+    "description": "Vodafone 50",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone 50 mit Fremdnetzen",
+    "abbr": "Fremdnetz"
+  }, {
+    "description": "Vodafone 500",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone 500 mit Fremdnetzen",
+    "abbr": "Fremdnetz"
+  }, {
+    "description": "Vodafone Basic 100 Inklusiv SMS",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone Basic 50 Inklusiv SMS",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone Business 100",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone Business 100 mit Fremdnetzen",
+    "abbr": "Fremdnetz"
+  }, {
+    "description": "Vodafone Business 200",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone Business 200 mit Fremdnetzen",
+    "abbr": "Fremdnetz"
+  }, {
+    "description": "Vodafone Business 50",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone Business 50 mit Fremdnetzen",
+    "abbr": "Fremdnetz"
+  }, {
+    "description": "Vodafone Business 500",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone Business 500 mit Fremdnetzen",
+    "abbr": "Fremdnetz"
+  }, {
+    "description": "Vodafone MinutenOption 60 fÃ¼r Junge Leute",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone SMS 150",
+    "abbr": "Im Inland"
+  }, {
+    "description": "VF D2 intern",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone SMS 50",
+    "abbr": "Im Inland"
+  }, {
+    "description": "VF D2 intern",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone SMS Flat",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone SMS Flat All-In",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone SMS Flat Special",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone SMS150 Paket",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone SMS150 Paket",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone SMS300 Paket",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone SMS300 Paket",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone SMS40 Paket",
+    "abbr": "Im Inland"
+  }, {
+    "description": "Vodafone SMS40 Paket",
+    "abbr": "Im Inland"
+  }]
+}

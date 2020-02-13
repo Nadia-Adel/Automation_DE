@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": "abbreviations",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_abbreviations.json",
+      "version": "6.0.0.0"
+    },
+    {
+      "id": "config",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_config.json",
+      "version": "6.0.0.1"
+    },
+    {
+      "id": "help",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_help.json",
+      "version": "6.0.0.6"
+    },
+    {
+      "id": "maintenance",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_maintenance.json",
+      "version": "6.0.0.0"
+    },
+    {
+      "id": "menu",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_menu.json",
+      "version": "6.0.1.1"
+    },
+    {
+      "id": "netz_feedback",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_netzfeedback.json",
+      "version": "6.0.0.0"
+    },
+    {
+      "id": "prepaid_tariff",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_prepaid_tariff.json",
+      "version": "6.0.0.0"
+    },
+    {
+      "id": "roaming",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_roaming.json",
+      "version": "6.0.0.0"
+    },
+    {
+      "id": "tariff",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_tariff.json",
+      "version": "6.4.0.11"
+    },
+    {
+      "id": "tariff_option",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_tariffoption.json",
+      "version": "6.0.0.2"
+    },
+    {
+      "id": "services",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_services.json",
+      "version": "6.1.3.8"
+    },
+    {
+      "id": "nba",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_nba.json",
+      "version": "6.0.0.0"
+    },
+    {
+      "id": "campaign",
+      "resource": "http://de236.macincloud.com/cms/mvf/configfiles/wp/60/win_v60_campaign.json",
+      "version": "6.0.5.11"
+    }
+  ],
+  "release": "4.2.21.443"
+}

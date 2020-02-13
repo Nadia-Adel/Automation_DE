@@ -1,0 +1,34 @@
+{
+  "nba": {
+    "campCodeArray": [
+      "MCC_1962",
+      "MCC_1960"
+    ],
+    "nbaHotlineNumber": "08008001070",
+    "nbaOnlineShopUrl": "http://www.vodafone.de/mobil/privat/index.html",
+    "focus": "device",
+    "type": "sales",
+    "target": "",
+    "numbersOfDevices": 3
+  },
+  "nextphone": {
+    "s2": {
+      "detailSubtitle": "Suchen Sie sich in unseren Shops ein neues Smartphone aus.",
+      "cellText": "Vertragsverl&auml;ngerung",
+      "detailTitle": "W&auml;hlen Sie jetzt Ihr neues Smartphone aus",
+      "buttonTitle": "Shop finden",
+      "detailText": "Das geht ab dem 13. Monat bis sp&auml;testens zum 23. Monat der Vertragslaufzeit. Ihr Vertrag verl&auml;ngert sich dann wieder auf 24 Monate Mindesvertragslaufzeit.\n\nFinden Sie jetzt einn Vodafone-Shop in ihrer N&auml;he. Und sichern Sich Ihr neues Smartphone.",
+      "buttonAction": "onlineshop",
+      "detailImage": "nextphone.jpg"
+    },
+    "s3": {
+      "detailSubtitle": "Gehen Sie dazu in unseren Shop und suchen sich ihr neues Smartphone oder Tablet aus.",
+      "cellText": "Jetzt ein neues Ger&auml;t",
+      "detailTitle": "W&auml;hlen Sie sich schon jetzt Ihr neues Ger&auml;t aus mit Vodafone EarlyBird.",
+      "buttonTitle": "Shop finden",
+      "detailText": "Suchen Sie sich in unseren Shops ein neues Smartphone oder Tablet vor Ende der Mindestlaufzeit mit Zuzahlung f&uuml;r die vorzeitige Vertragsverl&auml;ngerung aus.\n\nIhr neuer Vertrag hat dann eine Mindestlaufzeit von 24 Monaten.\n\nFinden Sie jetzt einen Vodafone-Shop in Ihrer N&auml;he und sichern Sie sich Ihr neues Ger&auml;t.",
+      "buttonAction": "onlineShop",
+      "detailImage": "nextphone.jpg"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "cms-guid": "FA22DA24610946EB875D10A89A7679F8",
+    "cms-id": 756,
+    "cms-version": 2,
+    "items": [
+        {
+            "cms-guid": "04909618D953401482CB8809972C66EC",
+            "cms-id": 877,
+            "cms-version": 2,
+            "title": "Update",
+            "enable": false,
+            "text": "Es ist ein Update verf&uuml;gbar!",	
+            "blocking": false,
+            "startTime": 1262307661,
+            "endTime": 1480554061,
+            "update" : true
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+	"cms-guid": "CF774122A49F47DB8353685A6F82017A",
+	"cms-id": 502,
+	"cms -version": 1,
+	"item": 
+	[{
+		"cms - guid": "54EE04503848409BBDCF9F2B44BAED07",
+		"cms-id": 477,
+		"cms-version": 3,
+		"title": "Hinweis",
+		"enable": false,
+		"text": "Hinweis Text",
+		"blocking": false,
+		"startTime": 1468281600,
+		"endTime": 1468281600
+	}]
+}

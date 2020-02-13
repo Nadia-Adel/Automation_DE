@@ -1,0 +1,197 @@
+{
+	"phoneNumbers": {
+		"redPlusHotlineButton": "08006649125"
+	},
+	"urls": {
+		"baseImageUrl": "http://media.vodafone.de/www/images/app/",
+		"onlineShopUrl": "https://www.vodafone.de/privat/handys-tablets-tarife/vertragsverlaengerung.html?tarifSKU=%@&propositionPROD=%@&b_id=1653&c_id=app_cic_fq0_A01:fq0_c_ge_sta_meinvf&j_id=AppConPerA01C:NonCpm000:fq0gensta",
+		"mailboxUrl": "https://mailboxansagepro.vodafone.de",
+		"safeSecureUrl": "https://securenet.vodafone.de",
+		"redPlusOnlineshopButton": "https://www.vodafone.de/shop/authentifizierung.html"
+	},
+	"packageDescriptions": {
+		"highspeedData": "Highspeed-Volumen national",
+		"redPlus": "Red+",
+		"unlimited4G": "GigaGarantie"
+	},
+	"packageSocs": {
+		"prepaid_unlimited4GSoc": "SAT4GDEB",
+		"postpaid_unlimited4GSoc": "APP4GSAT",
+		"prepaid_zeroRatingSoc": "APPVOLDEB",
+		"postpaid_zeroRatingSoc": "APPVOLCRE"
+	},
+	"MiscIdentifiers": {
+		"prepaid_komfortRegistrationSuccess": "success.do",
+		"prepaid_komfortRegistrationFailure": "cancel.do",
+		"prepaid_toppingsRedeemSuccessMsg": "Die Registrierung f&uuml;r CallYa Toppings war erfolgreich."
+	},
+	"imageNames": {
+		"app_background": "background-0-.jpg",
+		"prepaid_variousDetail": "banner_hardware-0-.jpg",
+		"prepaid_variousList": "banner_hardware-0-.jpg",
+		"prepaid_informativeDetail": "mein_callya_Informative-0-.jpg",
+		"prepaid_informativeList": "TailL_pontis-info-0-.jpg",
+		"prepaid_topupDetail": "mein_callya_Topup-0-.jpg",
+		"prepaid_topupList": "TailL_pontis-offer-0-.jpg",
+		"prepaid_changeTariffDetail": "mein_callya_ChangeTariff-0-.jpg",
+		"prepaid_changeTariffList": "TailL_pontis-change-0-.jpg",
+		"prepaid_bookOptionDetail": "mein_callya_BookOption-0-.jpg",
+		"prepaid_bookOptionList": "TailL_pontis-book-0-.jpg",
+		"prepaid_bookOption_vovImage": "vov_pontis_prepay_bookoption-0-.jpg",
+		"prepaid_changeTariff_vovImage": "vov_pontis_prepay_changetariff-0-.jpg",
+		"prepaid_topup_vovImage": "vov_pontis_prepay_Topup-0-.jpg",
+		"prepaid_informative_vovImage": "vov_pontis_prepay_informative-0-.jpg",
+		"prepaid_various_vovImage": "vov_pontis_prepay_informative-0-.jpg",
+		"prepaid_zeroRating": "mein-callya-100mb-0-.jpg"
+	},
+	"thresholds": {
+		"dataThreshold": 1024,
+		"highSpeedThreshold": 10,
+		"voteThreshold": 5,
+		"fingerPrintAssociateRecurrence": 3,
+		"ChatRefreshTimeAgentAvailability": 20,
+		"bannerDelay": 3,
+		"prepaid_bonusDefaultMaxValue": 5,
+		"prepaid_costDefaultMaxValue": 30,
+		"prepaid_zeroRatingTimeSpan": 1440,
+		"postpaid_zeroRatingTimeSpan": 120,
+		"prepaid_transferStepCount": 3,
+		"prepaid_transferStepValue1": 10,
+		"prepaid_transferStepValue2": 20,
+		"prepaid_transferStepValue3": 40
+	},
+	"features": {
+		"appleWatchShopfinder": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": false,
+			"showForTypePre": false,
+            "showForTypePU": false,
+			"enable": true
+		},
+		"appleWatchHighspeed": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": false,
+			"showForTypePre": false,
+            "showForTypePU": false,
+			"enable": true
+		},
+		"appleWatchQuickcheckr": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": false,
+			"showForTypePre": false,
+            "showForTypePU": false,
+			"enable": true
+		},
+		"personalAgent": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": false,
+			"showForTypePre": false,
+            "showForTypePU": false,
+			"enable": true
+		},
+		"personalAgentName": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": false,
+			"showForTypePre": false,
+            "showForTypePU": false,
+			"enable": true
+		},
+		"mailboxAnsage": {
+			"showforTypeB": false,
+			"showForTypeS": true,
+			"showForTypeI": true,
+			"showForTypePre": false,
+            "showForTypePU": false,
+			"enable": true
+		},
+		"saveAndSecure": {
+			"showforTypeB": false,
+			"showForTypeS": true,
+			"showForTypeI": true,
+			"showForTypePre": false,
+            "showForTypePU": false,
+			"enable": true
+		},
+		"vote": {
+			"showforTypeB": true,
+			"showForTypeS": true,
+			"showForTypeI": true,
+			"showForTypePre": true,
+            "showForTypePU": false,
+			"enable": true
+		},
+		"smsLogin": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": false,
+			"showForTypePre": false,
+			"enable": true
+		},
+		"targetCaching": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": false,
+			"showForTypePre": false,
+            "showForTypePU": false,
+			"enable": true
+		},
+		"komfortRegistration": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": false,
+			"showForTypePre": false,
+			"enable": true
+		},
+		"datenForTaten": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": true,
+			"showForTypePre": false,
+			"enable": true
+		},
+		"zeroRatingPostpaid": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": true,
+			"showForTypePre": false,
+			"enable": true
+		},
+		"zeroRatingPostpaidRedPlus": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": false,
+			"showForTypePre": false,
+            "showForTypePU": false,
+			"enable": true
+		},
+		"zeroRatingpostpaidSuccess": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": true,
+			"showForTypePre": false,
+            "showForTypePU": false,
+			"enable": true
+		},
+		"zeroRatingPrepaid": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": false,
+			"showForTypePre": true,
+            "showForTypePU": false,
+			"enable": true
+		},
+		"TransferCosts": {
+			"showforTypeB": false,
+			"showForTypeS": false,
+			"showForTypeI": true,
+			"showForTypePre": true,
+            "showForTypePU": false,
+			"enable": true
+		}
+	}
+}

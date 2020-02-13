@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "url": "https://www.vodafone.de/hilfe/im-und-ins-ausland.html?forApp=true",
+      "icon": "https://www.vodafone.de/icon.jpg",
+      "title": "Save and Secure bsss",
+      "subTitle": "Save and Secure00",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "showForTypePU": true,
+      "enable": false,
+      "external": false
+    },
+    {
+      "url": "https://www.vodafone.de/hilfe/im-und-ins-ausland.html?forApp=true",
+      "icon": "https://www.vodafone.de/icon.jpg",
+      "title": "Save and Secure 2",
+      "subTitle": "Save and Secure description 2",
+      "showForTypePre": true,
+      "showForTypeI": false,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "showForTypePU": true,
+      "enable": true,
+      "external": true
+    },
+	{
+      "url": "www.google.com",
+      "icon": "https://www.vodafone.de/icon.jpg",
+      "title": "Test",
+      "subTitle": "2",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "showForTypePU": true,
+      "enable": true,
+      "external": true
+    },
+    {
+      "url": "https://www.vodafone.de/hilfe/im-und-ins-ausland.html?forApp=true",
+      "icon": "https://www.vodafone.de/icon.jpg",
+      "title": "Save and Secure 3",
+      "subTitle": "Save and Secure description 3",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "showForTypePU": true,
+      "enable": false,
+      "external": true
+    }
+  ]
+}

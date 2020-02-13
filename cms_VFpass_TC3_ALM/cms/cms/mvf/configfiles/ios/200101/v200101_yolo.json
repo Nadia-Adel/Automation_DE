@@ -1,0 +1,737 @@
+{  
+   "yoloShowTutorial":true,
+   "yoloMapping":[  
+      {  
+         "socCode":"YO2MINSMS",
+         "voiceFlat":false,
+         "smsFlat":false,
+         "isLegacy":false
+      },
+      {  
+         "socCode":"YO2FLASMS",
+         "voiceFlat":true,
+         "smsFlat":false,
+         "isLegacy":false
+      },
+      {  
+         "socCode":"YO2MINFLA",
+         "voiceFlat":false,
+         "smsFlat":true,
+         "isLegacy":false
+      },
+      {  
+         "socCode":"YO2FLAT",
+         "voiceFlat":true,
+         "smsFlat":true,
+         "isLegacy":false
+      },
+      {  
+         "socCode":"YOUMINSMS",
+         "voiceFlat":false,
+         "smsFlat":false,
+         "isLegacy":true
+      },
+      {  
+         "socCode":"YOUFLASMS",
+         "voiceFlat":true,
+         "smsFlat":false,
+         "isLegacy":true
+      },
+      {  
+         "socCode":"YOUMINFLA",
+         "voiceFlat":false,
+         "smsFlat":true,
+         "isLegacy":true
+      },
+      {  
+         "socCode":"YOUNGFLAT",
+         "voiceFlat":true,
+         "smsFlat":true,
+         "isLegacy":true
+      }
+   ],
+   "yoloSocContents":[  
+      {  
+         "socCode":"",
+         "title":"200 Minuten",
+         "description":"in alle deutschen Netze",
+         "benefitValue":1024,
+         "benefitUnit":"MB",
+         "isMin":true,
+         "flat":false,
+         "isLegacy":false
+      },
+      {  
+         "socCode":"",
+         "title":"Allnet Flat",
+         "description":"",
+         "benefitValue":0,
+         "benefitUnit":"GB",
+         "isMin":true,
+         "flat":true,
+         "isLegacy":false
+      },
+      {  
+         "socCode":"",
+         "title":"0,19&euro; pro SMS/MMS",
+         "description":"in alle deutschen Netze",
+         "benefitValue":1024,
+         "benefitUnit":"MB",
+         "isMin":false,
+         "flat":false,
+         "isLegacy":false
+      },
+      {  
+         "socCode":"",
+         "title":"SMS/MMS Flat",
+         "description":"in alle deutschen Netze",
+         "benefitValue":0,
+         "benefitUnit":"GB",
+         "isMin":false,
+         "flat":true,
+         "isLegacy":false
+      },
+      {  
+         "socCode":"",
+         "title":"SMS/MMS Flat",
+         "description":"in alle deutschen Netze",
+         "benefitValue":0,
+         "benefitUnit":"GB",
+         "isMin":false,
+         "flat":true,
+         "isLegacy":true
+      },
+      {  
+         "socCode":"",
+         "title":"0,19&euro; pro SMS/MMS",
+         "description":"in alle deutschen Netze",
+         "benefitValue":500,
+         "benefitUnit":"MB",
+         "isMin":false,
+         "flat":false,
+         "isLegacy":true
+      },
+      {  
+         "socCode":"",
+         "title":"Allnet Flat",
+         "description":"",
+         "benefitValue":0,
+         "benefitUnit":"GB",
+         "isMin":true,
+         "flat":true,
+         "isLegacy":true
+      },
+      {  
+         "socCode":"",
+         "title":"200 Minuten",
+         "description":"in alle deutschen Netze",
+         "benefitValue":500,
+         "benefitUnit":"MB",
+         "isMin":true,
+         "flat":false,
+         "isLegacy":true
+      }
+   ],
+   "yoloDataSocs":[  
+      {  
+         "socCode":"YOU1_5GB",
+         "title":"1,5 GB Extra-Volumen",
+         "description":"",
+         "value":1.5,
+         "unit":"GB",
+         "benefitValue":10,
+         "benefitUnit":"EURO"
+      },
+      {  
+         "socCode":"YOU03GB",
+         "title":"3 GB Extra-Volumen",
+         "description":"",
+         "value":3,
+         "unit":"GB",
+         "benefitValue":20,
+         "benefitUnit":"EURO"
+      },
+      {  
+         "socCode":"YOU4_5GB",
+         "title":"4,5 GB Extra-Volumen",
+         "description":"",
+         "value":4.5,
+         "unit":"GB",
+         "benefitValue":30,
+         "benefitUnit":"EURO"
+      },
+      {  
+         "socCode":"YOU06GB",
+         "title":"6 GB Extra-Volumen",
+         "description":"",
+         "value":6,
+         "unit":"GB",
+         "benefitValue":40,
+         "benefitUnit":"EURO"
+      },
+      {  
+         "socCode":"YOU7_5GB",
+         "title":"7,5 GB Extra-Volumen",
+         "description":"",
+         "value":7.5,
+         "unit":"GB",
+         "benefitValue":50,
+         "benefitUnit":"EURO"
+      }
+   ],
+   "yoloTariff":[  
+      {  
+         "vfplan":"YOU3XSOS",
+         "yoloTitle":"Vodafone Young S ohne Smartphone ",
+         "yoloBaseCosts":19.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3XSH25",
+         "yoloTitle":"Vodafone Young S mit Premium Smartphone",
+         "yoloBaseCosts":44.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3XSH15",
+         "yoloTitle":"Vodafone Young S mit Smartphone",
+         "yoloBaseCosts":34.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3XSH10",
+         "yoloTitle":"Vodafone Young S mit Basic Smartphone",
+         "yoloBaseCosts":29.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3XSH05",
+         "yoloTitle":"Vodafone Young S mit Basic Phone",
+         "yoloBaseCosts":24.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3XLOS",
+         "yoloTitle":"Vodafone Young XL ohne Smartphone",
+         "yoloBaseCosts":64.99,
+         "yoloInclusiveData":49,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3XLH25",
+         "yoloTitle":"Vodafone Young XL mit Premium Smartphone",
+         "yoloBaseCosts":89.99,
+         "yoloInclusiveData":49,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3XLH15",
+         "yoloTitle":"Vodafone Young XL mit Smartphone",
+         "yoloBaseCosts":79.99,
+         "yoloInclusiveData":49,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3XLH10",
+         "yoloTitle":"Vodafone Young XL mit Basic Smartphone",
+         "yoloBaseCosts":74.99,
+         "yoloInclusiveData":49,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3XLH05",
+         "yoloTitle":"Vodafone Young XL mit Basic Phone",
+         "yoloBaseCosts":69.99,
+         "yoloInclusiveData":49,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3SOS",
+         "yoloTitle":"Vodafone Young S ohne Smartphone",
+         "yoloBaseCosts":24.99,
+         "yoloInclusiveData":4,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3SH25",
+         "yoloTitle":"Vodafone Young S mit Premium Smartphone",
+         "yoloBaseCosts":49.99,
+         "yoloInclusiveData":4,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3SH15",
+         "yoloTitle":"Vodafone Young S mit Smartphone",
+         "yoloBaseCosts":39.99,
+         "yoloInclusiveData":4,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3SH10",
+         "yoloTitle":"Vodafone Young S mit Basic Smartphone",
+         "yoloBaseCosts":34.99,
+         "yoloInclusiveData":4,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3SH05",
+         "yoloTitle":"Vodafone Young S mit Basic Phone",
+         "yoloBaseCosts":29.99,
+         "yoloInclusiveData":4,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3MOS",
+         "yoloTitle":"Vodafone Young M ohne Smartphone",
+         "yoloBaseCosts":34.99,
+         "yoloInclusiveData":14,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3MH25",
+         "yoloTitle":"Vodafone Young M mit Premium Smartphone",
+         "yoloBaseCosts":59.99,
+         "yoloInclusiveData":14,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3MH15",
+         "yoloTitle":"Vodafone Young M mit Smartphone",
+         "yoloBaseCosts":44.99,
+         "yoloInclusiveData":14,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3MH10",
+         "yoloTitle":"Vodafone Young M mit Basic Smartphone",
+         "yoloBaseCosts":44.99,
+         "yoloInclusiveData":14,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3MH05",
+         "yoloTitle":"Vodafone Young M mit Basic Phone",
+         "yoloBaseCosts":39.99,
+         "yoloInclusiveData":14,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3LOS",
+         "yoloTitle":"Vodafone Young L ohne Smartphone",
+         "yoloBaseCosts":44.99,
+         "yoloInclusiveData":24,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3LH25",
+         "yoloTitle":"Vodafone Young L mit Premium Smartphone",
+         "yoloBaseCosts":69.99,
+         "yoloInclusiveData":24,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3LH15",
+         "yoloTitle":"Vodafone Young L mit Smartphone",
+         "yoloBaseCosts":59.99,
+         "yoloInclusiveData":24,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3LH10",
+         "yoloTitle":"Vodafone Young L mit Basic Smartphone",
+         "yoloBaseCosts":54.99,
+         "yoloInclusiveData":24,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU3LH05",
+         "yoloTitle":"Vodafone Young L mit Basic Phone",
+         "yoloBaseCosts":49.99,
+         "yoloInclusiveData":24,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2MH30",
+         "yoloTitle":"Vodafone Young M mit Premium Smartphone Special",
+         "yoloBaseCosts":57.99,
+         "yoloInclusiveData":4,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2MH25",
+         "yoloTitle":"Vodafone Young M mit Premium Smartphone",
+         "yoloBaseCosts":52.99,
+         "yoloInclusiveData":4,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2MH15",
+         "yoloTitle":"Vodafone Young M mit Smartphone",
+         "yoloBaseCosts":42.99,
+         "yoloInclusiveData":4,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2MH10",
+         "yoloTitle":"Vodafone Young M mit Basic Smartphone",
+         "yoloBaseCosts":37.99,
+         "yoloInclusiveData":4,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2MH05",
+         "yoloTitle":"Vodafone Young M mit Basic Phone",
+         "yoloBaseCosts":32.99,
+         "yoloInclusiveData":4,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2MOS",
+         "yoloTitle":"Vodafone Young M ohne Smartphone",
+         "yoloBaseCosts":27.99,
+         "yoloInclusiveData":4,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2SH30",
+         "yoloTitle":"Vodafone Young S mit Premium Smartphone Special",
+         "yoloBaseCosts":52.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2SH25",
+         "yoloTitle":"Vodafone Young S mit Premium Smartphone",
+         "yoloBaseCosts":47.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2SH15",
+         "yoloTitle":"Vodafone Young S mit  Smartphone",
+         "yoloBaseCosts":37.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2SH10",
+         "yoloTitle":"Vodafone Young S mit Basic Smartphone",
+         "yoloBaseCosts":32.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2SH05",
+         "yoloTitle":"Vodafone Young S mit Basic Phone",
+         "yoloBaseCosts":27.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2XLH30",
+         "yoloTitle":"Vodafone Young XL mit Premium Smartphone Special",
+         "yoloBaseCosts":77.99,
+         "yoloInclusiveData":14,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2XLH25",
+         "yoloTitle":"Vodafone Young XL mit Premium Smartphone",
+         "yoloBaseCosts":72.99,
+         "yoloInclusiveData":14,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2SOS",
+         "yoloTitle":"Vodafone Young S ohne Smartphone",
+         "yoloBaseCosts":22.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2XLH15",
+         "yoloTitle":"Vodafone Young XL mit Smartphone",
+         "yoloBaseCosts":62.99,
+         "yoloInclusiveData":14,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2XLH10",
+         "yoloTitle":"Vodafone Young XL mit Basic Smartphone",
+         "yoloBaseCosts":57.99,
+         "yoloInclusiveData":14,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2XLH05",
+         "yoloTitle":"Vodafone Young XL mit Basic Phone",
+         "yoloBaseCosts":52.99,
+         "yoloInclusiveData":14,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2XLOS",
+         "yoloTitle":"Vodafone Young XL ohne Smartphone",
+         "yoloBaseCosts":47.99,
+         "yoloInclusiveData":14,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2LH30",
+         "yoloTitle":"Vodafone Young L mit Premium Smartphone Special",
+         "yoloBaseCosts":67.99,
+         "yoloInclusiveData":8,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2LH25",
+         "yoloTitle":"Vodafone Young L mit Premium Smartphone",
+         "yoloBaseCosts":62.99,
+         "yoloInclusiveData":8,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2LH15",
+         "yoloTitle":"Vodafone Young L mit Smartphone",
+         "yoloBaseCosts":52.99,
+         "yoloInclusiveData":8,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2LH10",
+         "yoloTitle":"Vodafone Young L mit Basic Smartphone",
+         "yoloBaseCosts":47.99,
+         "yoloInclusiveData":8,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2LH05",
+         "yoloTitle":"Vodafone Young L mit Basic Phone",
+         "yoloBaseCosts":42.99,
+         "yoloInclusiveData":8,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOU2LOS",
+         "yoloTitle":"Vodafone Young L ohne Smartphone",
+         "yoloBaseCosts":37.99,
+         "yoloInclusiveData":8,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":false
+      },
+      {  
+         "vfplan":"YOUNGXL25",
+         "yoloTitle":"Vodafone Young 2016 XL mit Premium Smartphone",
+         "yoloBaseCosts":69.99,
+         "yoloInclusiveData":10,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGXL15",
+         "yoloTitle":"Vodafone Young 2016  XL mit Smartphone",
+         "yoloBaseCosts":59.99,
+         "yoloInclusiveData":10,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGXL10",
+         "yoloTitle":"Vodafone Young 2016 XL mit Basic Smartphone",
+         "yoloBaseCosts":49.99,
+         "yoloInclusiveData":10,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGXL05",
+         "yoloTitle":"Vodafone Young 2016  XL mit Basic Phone",
+         "yoloBaseCosts":49.99,
+         "yoloInclusiveData":10,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGXLOS",
+         "yoloTitle":"Vodafone Young 2016 XL ohne Smartphone",
+         "yoloBaseCosts":44.99,
+         "yoloInclusiveData":10,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGLH25",
+         "yoloTitle":"Vodafone Young 2016 L mit Premium Smartphone",
+         "yoloBaseCosts":59.99,
+         "yoloInclusiveData":6,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGLH15",
+         "yoloTitle":"Vodafone Young 2016 L mit Smartphone",
+         "yoloBaseCosts":49.99,
+         "yoloInclusiveData":6,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGLH10",
+         "yoloTitle":"Vodafone Young 2016 L mit Basic Smartphone",
+         "yoloBaseCosts":44.99,
+         "yoloInclusiveData":6,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGLH05",
+         "yoloTitle":"Vodafone Young 2016  mit Basic Phone",
+         "yoloBaseCosts":39.99,
+         "yoloInclusiveData":6,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGLOS",
+         "yoloTitle":"Vodafone Young  2016  ohne Smartphone",
+         "yoloBaseCosts":34.99,
+         "yoloInclusiveData":6,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGMH25",
+         "yoloTitle":"Vodafone Young 2016 mit Premium Smartphone",
+         "yoloBaseCosts":49.99,
+         "yoloInclusiveData":3,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGMH15",
+         "yoloTitle":"Vodafone Young 2016 mit Smartphone",
+         "yoloBaseCosts":39.99,
+         "yoloInclusiveData":3,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGMH10",
+         "yoloTitle":"Vodafone Young 2016 M mit Basic Smartphone",
+         "yoloBaseCosts":34.99,
+         "yoloInclusiveData":3,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGMH05",
+         "yoloTitle":"Vodafone Young 2016 M mit Basic Phone",
+         "yoloBaseCosts":29.99,
+         "yoloInclusiveData":3,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGMOS",
+         "yoloTitle":"Vodafone Young 2016 M ohne Smartphone",
+         "yoloBaseCosts":24.99,
+         "yoloInclusiveData":3,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGSH25",
+         "yoloTitle":"Vodafone Young 2016 S mit Premium Smartphone",
+         "yoloBaseCosts":44.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGSH15",
+         "yoloTitle":"Vodafone Young 2016 S mit Smartphone",
+         "yoloBaseCosts":34.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGSH10",
+         "yoloTitle":"Vodafone Young 2016 S mit Basic Smartphone",
+         "yoloBaseCosts":29.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGSH05",
+         "yoloTitle":"Vodafone Young 2016 S mit Basic Phone",
+         "yoloBaseCosts":24.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      },
+      {  
+         "vfplan":"YOUNGSOS",
+         "yoloTitle":"Vodafone Young 2016 S ohne Smartphone",
+         "yoloBaseCosts":19.99,
+         "yoloInclusiveData":1,
+         "yoloInclusiveDataUnit":"GB",
+         "isLegacy":true
+      }
+   ],
+   "yoloTutorialYoutubeId":"3LytQRRBM6M "
+}

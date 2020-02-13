@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "priceDescription": "Preis f&uuml;r 1 Woche",
+      "socCodes": [
+        "CY_SMSFL7",
+        "CY_SMF_7M",
+        "CY_SF25_7",
+        "CY_SMT_7L",
+        "CY_SMF_7L",
+        "CY_SMT_7S",
+        "CY_SMT_7S"
+      ]
+    },
+    {
+      "priceDescription": "Preis f&uuml;r 4 Wochen",
+      "socCodes": [
+        "CY_SPEC_S",
+        "CY_SF25XL",
+        "CY_SF25",
+        "CY_SMT28L",
+        "CY_SMF28L",
+        "CY_SF15",
+        "CY_SMT10",
+        "CY_SMSFLT",
+        "CY_SF10",
+        "CY_STRT28",
+        "CY_SMT28S"
+      ]
+    }
+  ],
+  "chargingRate": "9 ct. Pro Min / SMS"
+}

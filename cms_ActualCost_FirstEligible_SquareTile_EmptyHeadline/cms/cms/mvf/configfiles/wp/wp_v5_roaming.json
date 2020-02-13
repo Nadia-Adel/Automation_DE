@@ -1,0 +1,142 @@
+{
+	"statusMessageTitle": "Sie nutzen in diesem Land den Standard-Tarif Vodafone World",
+	"countriesList": [{
+		"countryName": "&#196;gypten",
+		"countryCode": "EG",
+		"alternateCountryCode": "EGY"
+	}, {
+		"countryName": "Belgien",
+		"countryCode": "BE",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Bulgarien",
+		"countryCode": "BG",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "China",
+		"countryCode": "CN",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "D&#228;nemark",
+		"countryCode": "DK",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Frankreich (inkl. Monaco)",
+		"countryCode": "FR",
+		"alternateCountryCode": "FRA"
+	}, {
+		"countryName": "Griechenland",
+		"countryCode": "GR",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Gro&szlig;britannien",
+		"countryCode": "GB",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Irland",
+		"countryCode": "IE",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Italien",
+		"countryCode": "IT",
+		"alternateCountryCode": "ITA"
+	}, {
+		"countryName": "Kanada",
+		"countryCode": "CA",
+		"alternateCountryCode": "CAN"
+	}, {
+		"countryName": "Kroatien",
+		"countryCode": "HR",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Luxemburg",
+		"countryCode": "LU",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Niederlande",
+		"countryCode": "NL",
+		"alternateCountryCode": "NLD"
+	}, {
+		"countryName": "Norwegen",
+		"countryCode": "NO",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "&Ouml;sterreich",
+		"countryCode": "AT",
+		"alternateCountryCode": "AUT"
+	}, {
+		"countryName": "Polen",
+		"countryCode": "PL",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Portugal",
+		"countryCode": "PT",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Russland",
+		"countryCode": "RU",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Schweden",
+		"countryCode": "SE",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Schweiz",
+		"countryCode": "CH",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Spanien",
+		"countryCode": "ES",
+		"alternateCountryCode": "ESP"
+	}, {
+		"countryName": "Thailand",
+		"countryCode": "TH",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Tschechien",
+		"countryCode": "CZ",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "Tunesien",
+		"countryCode": "TN",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "T&uuml;rkei",
+		"countryCode": "TR",
+		"alternateCountryCode": "TUR"
+	}, {
+		"countryName": "Ungarn",
+		"countryCode": "HU",
+		"alternateCountryCode": ""
+	}, {
+		"countryName": "USA",
+		"countryCode": "US",
+		"alternateCountryCode": "USA"
+	}, {
+		"countryName": "Verein. Arab. Emirate",
+		"countryCode": "AE",
+		"alternateCountryCode": ""
+	}],
+	"roamingAssistent": {
+		"categories": [{
+			"prio": 1,
+			"label": "EU",
+			"regionIDs": ["RFLATCOCO", "VF_RCOCO", "RFLATEUUS", "RFLATMON3", "RFLATMON2", "RFLATDAY", "RFLATMONT", "DASDAY30", "DASDAY"]
+		}, {
+			"prio": 2,
+			"label": "Schweiz, T&uuml;rkei, USA, Kanada",
+			"regionIDs": ["RFLATEUUS", "RFALTCOCO", "VF_RCOCO", "DASNOEU30", "DASNOEU", "RFLATUS1W", "RFLATNOEU", "RFLATMON2", "RFLATDAY", "RFLATMONT", "DASDAY30", "DASDAY"]
+		}, {
+			"prio": 3,
+			"label": "Rest der Welt",
+			"regionIDs": ["RFLATCOCO", "VF_RCOCO", "VF_DASRP", "DASROW1W", "DASROW1D", "VF_RCROW"]
+		}]
+	},
+	"alwaysHide": ["WORLD"],
+	"notCancelable": ["RFLATUS4W", "RFLATUS1W", "RFLATMON2", "RFLATMONT"],
+	"locationSimulation": {
+		"longitude": 4.469936,
+		"latitude": 50.503887,
+		"date": "23/03/2016"
+	}
+}

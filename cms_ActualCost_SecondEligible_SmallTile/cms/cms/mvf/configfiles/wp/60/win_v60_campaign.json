@@ -1,0 +1,132 @@
+{
+  "targetCaching": {
+    "enable": true,
+    "version": 2,
+    "interval": 6,
+    "prepaidMboxCount": 20,
+    "postpaidMboxCount": 20
+  },
+  "hero": {
+    "enable": false,
+    "version": 1,
+    "cachingtime": 10,
+    "showNextInterval": 1
+  },
+  "vov": {
+    "prepaid": {
+      "numberOfVov": 5,
+      "items": [
+        {
+          "id": "wellcome",
+          "order": 1,
+          "prio": 1
+        }
+      ]
+    },
+    "postpaid": {
+      "numberOfVov": 5,
+      "items": [
+        {
+          "id": "wellcome",
+          "order": 1,
+          "prio": 1
+        }
+      ]
+    }
+  },
+  "campaign": {
+		"prepaid100MB": {
+			"id": "prepaid100MB",
+			"type": "angebote_campaign",
+			"banner_image_filename": "",
+			"tail_s_image_filename": "",
+			"tail_m_image_filename": "",
+			"tail_l_image_filename": "",
+			"object": {
+				"title": "Dein App Geschenk",
+				"subtitle_enable": true,
+				"subTitle": "Sch&ouml;n, dass Du die MeinCallYa-App nutzt. Als Dankesch&ouml;n bekommst Du 100 Highspeed - MB kostenlos- f&uuml;r die n&auml;chsten 28 Tage. Nutze die App am besten regelm&auml;&szlig;ig.Denn: Wir beschenken Dich immer wieder neu.",
+				"text": "lorem ipsum",
+				"image_filename": "mein-callya-100mb-0-.jpg",
+				"btn1_enable": true,
+				"btn1_link": "https://beta.vodafone.de/booking.xml",
+				"btn1_title": "Jetzt aktivieren",
+				"btn1_type": "api_post",
+				"btn1_parameter": [{
+					"key": "socCode",
+					"value": "APPVOLDEB"
+				}],
+				"btn2_enable": false,
+				"btn2_type": "",
+				"btn2_link": "",
+				"btn2_title": "",
+				"btn2_parameter": [],
+				"btn3_enable": false,
+				"btn3_type": "",
+				"btn3_link": "",
+				"btn3_title": "",
+				"btn3_parameter": []
+			}
+		},
+		"redPlusTab": {
+			"id": "redPlusTab",
+			"type": "angebote_campaign",
+			"banner_image_filename": "",
+			"tail_s_image_filename": "",
+			"tail_m_image_filename": "",
+			"tail_l_image_filename": "",
+			"object": {
+				"title": "Red + Partnerkarte",
+				"subtitle_enable": true,
+				"subTitle": "Hol Dir jetzt den Red+ Mobilfunk-Tarif für Deinen Partner oder Deine Kinder.",
+				"text": "Dein Partner zahlt 3 Monate lang keinen Basispreis für die Red+ Partnerkarte. Und danach nur 15 Euro pro Monat.\nMit dem Red+ Tarif-Deal habt Ihr eine Telefon- und SMS-Flat in alle deutschen Netze. Ihr surft mit 4G|LTE Max und nutzt das Datenvolumen gemeinsam. Verteilt es einfach über die App.\nDu möchtest das Red+ Angebot buchen? Dann ruf uns an.",
+				"image_filename": "",
+				"btn1_enable": true,
+				"btn1_link": "08007242671",
+				"btn1_title": "Jetzt anrufen",
+				"btn1_type": "call",
+				"btn1_parameter": [],
+				"btn2_enable": false,
+				"btn2_type": "",
+				"btn2_link": "",
+				"btn2_title": "",
+				"btn2_parameter": [],
+				"btn3_enable": false,
+				"btn3_type": "",
+				"btn3_link": "",
+				"btn3_title": "",
+				"btn3_parameter": []
+			}
+		},
+		"redPlusAddMember": {
+			"id": "redPlusAddMember",
+			"type": "angebote_campaign",
+			"banner_image_filename": "",
+			"tail_s_image_filename": "",
+			"tail_m_image_filename": "",
+			"tail_l_image_filename": "",
+			"object": {
+				"title": "Red+ erweiternnnn",
+				"subtitle_enable": true,
+				"subTitle": "lorem ipsum",
+				"text": "lorem ipsum",
+				"image_filename": "",
+				"btn1_enable": true,
+				"btn1_link": "http://www.google.com",
+				"btn1_title": "Zum Online-Shop test",
+				"btn1_type": "url_enternal",
+				"btn1_parameter": [],
+				"btn2_enable": false,
+				"btn2_type": "call",
+				"btn2_link": "166666",
+				"btn2_title": "Bestellhotline anrufen",
+				"btn2_parameter": [],
+				"btn3_enable": true,
+				"btn3_type": "deeplink",
+				"btn3_link": "mvf://shopfinder",
+				"btn3_title": "Zum Shopfinder test",
+				"btn3_parameter": []
+			}
+		}
+	}
+}

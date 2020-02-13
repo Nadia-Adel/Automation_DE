@@ -1,0 +1,291 @@
+{
+  "items": [{
+    "id": "1009",
+    "priority": 1,
+    "url": "http://www.vodafone.de/hilfe/prepaid.html?forApp=true",
+    "label": "Prepaid (CallYa)",
+   "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ]
+      }
+  }, {
+    "id": "1001",
+    "priority": 2,
+    "url": "http://www.vodafone.de/privat/hilfe.html?forApp=true",
+    "label": "&#220;berblick und Suche",
+    "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ]
+      }
+  }, {
+    "id": "1002",
+    "priority": 8,
+    "url": "https://www.vodafone.de/hilfe/geraete-hilfe.html?forApp=true",
+    "label": "Hilfe zu Ihrem Ger&#228;t",
+    "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ]
+      }
+  }, {
+    "id": "1003",
+    "priority": 7,
+    "url": "https://www.vodafone.de/hilfe/erste-hilfe-und-sicherheit.html?forApp=true",
+    "label": "Erste Hilfe & Sicherheit",
+    "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ]
+      }
+  }, {
+    "id": "1004",
+    "priority": 6,
+    "url": "https://www.vodafone.de/hilfe/neu-bei-vodafone.html?forApp=true",
+    "label": "Neu bei Vodafone",
+    "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ]
+      }
+  }, {
+    "id": "1005",
+    "priority": 5,
+    "url": "https://www.vodafone.de/hilfe/rechnung.html?forApp=true",
+    "label": "Rechnung",
+    "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ]
+      }
+  }, {
+    "id": "1006",
+    "priority": 4,
+    "url": "https://www.vodafone.de/hilfe/mein-vertrag.html?forApp=true",
+    "label": "Mein Vertrag",
+    "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ]
+      }
+  }, {
+    "id": "1007",
+    "priority": 3,
+    "url": "https://www.vodafone.de/hilfe/im-und-ins-ausland.html?forApp=true",
+    "label": "Im- und ins Ausland",
+    "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ]
+      }
+  }, {
+    "id": "1008",
+    "priority": 9,
+    "url": "https://www.vodafone.de/hilfe/mein-vertrag/red-plus.html?forApp=true",
+    "label": "Red+",
+   "eligibleCustomerTypes": {
+        "showForTypePre": false,
+        "vfplanForTypePre": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeI": true,
+        "vfplanForTypeI": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeS": true,
+        "vfplanForTypeS": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypeB": false,
+        "vfplanForTypeB": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ],
+        "showForTypePU": false,
+        "vfplanForTypePU": [
+          "VFPLAN1",
+          "VFPLAN2"
+        ]
+      }
+  }]
+}

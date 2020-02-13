@@ -1,0 +1,336 @@
+{
+  "phone": [
+    {
+      "id": "quickcheck",
+      "enable": "true",
+      "label": "QuickCheck",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true
+    },
+    {
+      "id": "recharge",
+      "enable": "true",
+      "label": "Aufladen",
+      "showForTypePre": true,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": true
+    },
+    {
+      "id": "transfer",
+      "enable": "true",
+      "label": "Transfer",
+      "showForTypePre": true,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false
+    },
+    {
+      "id": "tariff",
+      "enable": "true",
+      "label": "Tarif",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false
+    },
+    {
+      "id": "data",
+      "enable": "true",
+      "label": "Kundendaten",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true
+    },
+    {
+      "id": "bill",
+      "enable": "true",
+      "label": "Rechnung",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false
+    },
+    {
+      "id": "roaming",
+      "enable": "true",
+      "label": "Im Ausland",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": false,
+      "showForTypeB": true
+    },
+    {
+      "id": "netzinfo",
+      "enable": "true",
+      "label": "Mein Netz",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true
+    },
+    {
+      "id": "help",
+      "enable": "true",
+      "label": "Hilfe & Support",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true
+    },
+    {
+      "id": "forum",
+      "enable": "true",
+      "label": "Forum",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true
+    },
+    {
+      "id": "shopfinder",
+      "enable": "true",
+      "label": "Shopfinder",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true
+    },
+    {
+      "id": "offer",
+      "enable": "true",
+      "label": "Angebote",
+      "showForTypePre": false,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false
+    },
+    {
+      "id": "info",
+      "enable": "true",
+      "label": "Info",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true
+    }
+  ],
+  "win10": [
+    {
+      "id": "home",
+      "enable": "true",
+      "label": "Home",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true
+    },
+    {
+      "id": "quickcheck",
+      "enable": "true",
+      "label": "QuickCheck",
+      "showForTypePre": false,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false
+    },
+    {
+      "id": "recharge",
+      "enable": "true",
+      "label": "Aufladen",
+      "showForTypePre": true,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false
+    },
+    {
+      "id": "transfer",
+      "enable": "true",
+      "label": "Transfer",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true
+    },
+    {
+      "id": "bill",
+      "enable": "true",
+      "label": "Rechnung",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false
+    },
+    {
+      "id": "data",
+      "enable": "true",
+      "label": "Kundendaten",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true
+    },
+    {
+      "id": "vertrag",
+      "enable": "true",
+      "label": "Vertrag",
+      "showForPre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false,
+      "subItems": [
+        {
+          "id": "tariff",
+          "enable": "true",
+          "label": "Tarif",
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false
+        },
+        {
+          "id": "tariffoptions",
+          "enable": "true",
+          "label": "Tarifoptionen",
+          "showForTypePre": false,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": false
+        },
+        {
+          "id": "youngpeople",
+          "enable": "false",
+          "label": "Junge Leute",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true
+        }
+      ]
+    },
+    {
+      "id": "roaming",
+      "enable": "true",
+      "label": "Ausland",
+      "showForTypePre": false,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": false
+    },
+    {
+      "id": "netzinfo",
+      "enable": "true",
+      "label": "Netzinfo",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+	  "subItems": [
+        {
+          "id": "gigagarantie",
+          "enable": "true",
+          "label": "GigaGarantie",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true
+        },
+        {
+          "id": "speedtest",
+          "enable": "false",
+          "label": "SpeedTest",
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false
+        },
+        {
+          "id": "netzabdeckung",
+          "enable": "true",
+          "label": "Netzabdeckung",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true
+        },
+		{
+          "id": "netzokay",
+          "enable": "true",
+          "label": "Netz Okay?",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true
+        }
+      ]
+    },
+    {
+      "id": "tariff",
+      "enable": "true",
+      "label": "Tarif",
+      "showForTypePre": true,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false
+    },
+    {
+      "id": "help",
+      "enable": "true",
+      "label": "Hilfe & Support",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true,
+      "subItems": [
+        {
+          "id": "faq",
+          "enable": "true",
+          "label": "FAQs",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true
+        },
+        {
+          "id": "forum",
+          "enable": "false",
+          "label": "Forum",
+          "showForTypePre": false,
+          "showForTypeI": false,
+          "showForTypeS": false,
+          "showForTypeB": false
+        },
+        {
+          "id": "shopfinder",
+          "enable": "true",
+          "label": "Shopfinder",
+          "showForTypePre": true,
+          "showForTypeI": true,
+          "showForTypeS": true,
+          "showForTypeB": true
+        }
+      ]
+    },
+    {
+      "id": "offer",
+      "enable": "false",
+      "label": "Angebote",
+      "showForTypePre": false,
+      "showForTypeI": false,
+      "showForTypeS": false,
+      "showForTypeB": false
+    },
+    {
+      "id": "info",
+      "enable": "true",
+      "label": "Einstellungen & Info",
+      "showForTypePre": true,
+      "showForTypeI": true,
+      "showForTypeS": true,
+      "showForTypeB": true
+    }
+  ]
+}
